@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="ko" data-theme="dark">
+<html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>생활정보 | 월급·대출·부동산·세금·육아 기준 쉽게 정리 - 얼마지?</title>
-<meta name="description" content="월급·수당, 대출·적금, 부동산, 세금, 육아·복지까지 생활 속에서 헷갈리는 기준 20가지를 공식자료로 확인해 쉽게 정리하고, 관련 계산기로 바로 연결해드려요.">
-<link rel="canonical" href="https://ulmaji.kr/guide">
+<title>DSR 계산기 | 연소득 대비 대출 원리금 비율 계산 - 얼마지?</title>
+<meta name="description" content="연소득과 기존 대출, 새로 받을 대출 조건을 입력하면 연간 원리금 상환액으로 예상 DSR을 계산해요. 대출 종류별 반영 방식과 기준 비율 대비 여유도 확인할 수 있어요. 실제 심사와 다를 수 있어요.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://ulmaji.kr/calculators/dsr">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="얼마지?">
-<meta property="og:title" content="생활정보 | 얼마지?">
-<meta property="og:description" content="월급·수당, 대출·적금, 부동산, 세금, 육아·복지까지 생활 속에서 헷갈리는 기준 20가지를 공식자료로 확인해 쉽게 정리하고, 관련 계산기로 바로 연결해드려요.">
-<meta property="og:url" content="https://ulmaji.kr/guide">
+<meta property="og:title" content="DSR 계산기 | 연소득 대비 대출 원리금 비율 계산 - 얼마지?">
+<meta property="og:description" content="연소득과 기존 대출, 새로 받을 대출 조건을 입력하면 연간 원리금 상환액으로 예상 DSR을 계산해요. 대출 종류별 반영 방식과 기준 비율 대비 여유도 확인할 수 있어요. 실제 심사와 다를 수 있어요.">
+<meta property="og:url" content="https://ulmaji.kr/calculators/dsr">
+<meta property="og:locale" content="ko_KR">
 <meta name="theme-color" content="#3366FF">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233366FF'/%3E%3Ctext x='32' y='46' font-family='Arial,sans-serif' font-size='40' font-weight='800' text-anchor='middle' fill='white'%3E%3F%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "얼마지", "item": "https://ulmaji.kr/"}, {"@type": "ListItem", "position": 2, "name": "생활정보", "item": "https://ulmaji.kr/guide"}]}, {"@type": "ItemList", "name": "얼마지 생활정보", "numberOfItems": 20, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://ulmaji.kr/guide/weekly-holiday-pay-15-hours", "name": "주 15시간 일하면 주휴수당은 얼마일까?"}, {"@type": "ListItem", "position": 2, "url": "https://ulmaji.kr/guide/minimum-wage-2027-monthly", "name": "2027 최저임금으로 월급을 계산하면?"}, {"@type": "ListItem", "position": 3, "url": "https://ulmaji.kr/guide/severance-pay-eligibility", "name": "퇴직금은 언제부터 받을 수 있을까?"}, {"@type": "ListItem", "position": 4, "url": "https://ulmaji.kr/guide/night-pay-hours", "name": "야간수당은 몇 시부터 적용될까?"}, {"@type": "ListItem", "position": 5, "url": "https://ulmaji.kr/guide/loan-100m-monthly-interest", "name": "대출 1억 받으면 한 달 이자는 얼마일까?"}, {"@type": "ListItem", "position": 6, "url": "https://ulmaji.kr/guide/loan-repayment-methods", "name": "원리금균등·원금균등, 매달 얼마씩 갚을까?"}, {"@type": "ListItem", "position": 7, "url": "https://ulmaji.kr/guide/monthly-savings-500k", "name": "적금 월 50만원씩 넣으면 만기 얼마일까?"}, {"@type": "ListItem", "position": 8, "url": "https://ulmaji.kr/guide/simple-vs-compound-interest", "name": "단리와 복리, 실제 이자는 얼마나 차이 날까?"}, {"@type": "ListItem", "position": 9, "url": "https://ulmaji.kr/guide/jeonse-to-monthly-rent", "name": "전세를 월세로 바꾸면 얼마가 적당할까?"}, {"@type": "ListItem", "position": 10, "url": "https://ulmaji.kr/guide/real-estate-brokerage-fee", "name": "부동산 중개수수료는 얼마까지 내야 할까?"}, {"@type": "ListItem", "position": 11, "url": "https://ulmaji.kr/guide/84sqm-to-pyeong", "name": "아파트 84㎡는 몇 평일까?"}, {"@type": "ListItem", "position": 12, "url": "https://ulmaji.kr/guide/housing-subscription-score", "name": "내 청약가점은 몇 점일까?"}, {"@type": "ListItem", "position": 13, "url": "https://ulmaji.kr/guide/freelancer-3-3-withholding", "name": "프리랜서 3.3% 떼면 실제 얼마 받을까?"}, {"@type": "ListItem", "position": 14, "url": "https://ulmaji.kr/guide/vat-included-excluded", "name": "부가세 포함·별도 금액은 어떻게 계산할까?"}, {"@type": "ListItem", "position": 15, "url": "https://ulmaji.kr/guide/home-acquisition-tax", "name": "집을 사면 취득세는 얼마나 나올까?"}, {"@type": "ListItem", "position": 16, "url": "https://ulmaji.kr/guide/gift-tax-from-parents", "name": "부모님께 돈을 받으면 증여세는 얼마나 나올까?"}, {"@type": "ListItem", "position": 17, "url": "https://ulmaji.kr/guide/parental-leave-benefit", "name": "육아휴직하면 매달 얼마 받을 수 있을까?"}, {"@type": "ListItem", "position": 18, "url": "https://ulmaji.kr/guide/maternity-leave-benefit", "name": "출산전후휴가 기간에는 얼마를 받을까?"}, {"@type": "ListItem", "position": 19, "url": "https://ulmaji.kr/guide/parent-benefit", "name": "부모급여는 몇 살까지 얼마 받을까?"}, {"@type": "ListItem", "position": 20, "url": "https://ulmaji.kr/guide/unemployment-benefit-duration", "name": "실업급여는 몇 개월 동안 얼마 받을 수 있을까?"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "@id": "https://ulmaji.kr/calculators/dsr#app", "name": "DSR 계산기", "url": "https://ulmaji.kr/calculators/dsr", "description": "연소득과 기존 대출, 새로 받을 대출 조건을 입력하면 연간 원리금 상환액으로 예상 DSR을 계산해요. 대출 종류별 반영 방식과 기준 비율 대비 여유도 확인할 수 있어요. 실제 심사와 다를 수 있어요.", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "inLanguage": "ko-KR", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "KRW"}, "dateModified": "2026-09-24", "publisher": {"@type": "Organization", "name": "얼마지?", "alternateName": "ULMAJI", "url": "https://ulmaji.kr/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "홈", "item": "https://ulmaji.kr/"}, {"@type": "ListItem", "position": 2, "name": "계산기", "item": "https://ulmaji.kr/calculators"}, {"@type": "ListItem", "position": 3, "name": "부동산", "item": "https://ulmaji.kr/calculators#cat-realestate"}, {"@type": "ListItem", "position": 4, "name": "DSR 계산기", "item": "https://ulmaji.kr/calculators/dsr"}]}]}</script>
 <style>
 /* =========================================================
    Design tokens
@@ -1571,81 +1573,6 @@ a.guide-calc:hover { border-color: var(--primary); }
 .dt-sub { display: block; font-size: 12.5px; color: var(--muted); font-weight: 500; margin-top: 2px; }
 .eq-item small { display: block; font-size: 12.5px; color: var(--muted); }
 
-/* Pyeong additions */
-.py-card { max-width: 720px; margin: 0 auto; background: var(--card); border-radius: 20px; padding: 24px 20px; box-shadow: 0 1px 2px rgba(23,35,60,.04); border: 1px solid var(--line, #E5EAF2); }
-.py-narrow { max-width: 760px; }
-.py-row { display: flex; gap: 12px; align-items: flex-end; margin-top: 18px; }
-.py-input { flex: 1; margin: 0; }
-.input-wrap.xl input { font-size: 30px; font-weight: 800; min-height: 64px; font-variant-numeric: tabular-nums; }
-.py-swap { flex: 0 0 52px; height: 52px; margin-bottom: 6px; border-radius: 14px; border: 1px solid var(--line, #E5EAF2); background: var(--secondary); color: var(--primary); font-size: 22px; font-weight: 800; cursor: pointer; }
-.py-swap:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
-.py-result { margin: 18px 0 14px; padding: 18px; border-radius: 16px; background: var(--secondary); position: relative; min-height: 96px; }
-.py-from { font-size: 15px; color: var(--muted); font-weight: 600; font-variant-numeric: tabular-nums; }
-.py-to { font-size: 40px; font-weight: 800; color: var(--primary); line-height: 1.2; margin-top: 4px; font-variant-numeric: tabular-nums; word-break: break-all; padding-right: 88px; }
-.py-to.is-neutral { color: var(--text); }
-.py-copy { position: absolute; right: 14px; bottom: 14px; min-height: 44px; }
-.section-title { font-size: 22px; font-weight: 800; line-height: 1.35; margin-bottom: 10px; }
-.area-stack { list-style: none; display: grid; gap: 8px; margin-top: 16px; }
-.area-stack li { display: grid; gap: 2px; padding: 14px 16px; border-radius: 14px; background: var(--card); border: 1px solid var(--line, #E5EAF2); }
-.area-stack li strong { font-size: 16px; }
-.area-stack li span { font-size: 14px; color: var(--muted); }
-.py-table { width: 100%; border-collapse: collapse; margin-top: 12px; font-variant-numeric: tabular-nums; }
-.py-table th, .py-table td { text-align: right; padding: 12px 14px; border-bottom: 1px solid var(--line, #E5EAF2); }
-.py-table th { font-size: 14px; color: var(--muted); }
-@media (max-width: 480px) { .py-to { font-size: 32px; } }
-
-/* Work hours additions */
-.mode-seg.wide { max-width: 520px; margin: 0 auto 16px; }
-.py-copy-inline { min-height: 40px; padding: 6px 12px; }
-.day-card { padding-bottom: 10px; }
-.day-list { list-style: none; display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; margin: 12px 0; }
-.day-list li { display: grid; gap: 2px; text-align: center; padding: 8px 4px; border-radius: 12px; background: var(--secondary); font-size: 13px; font-variant-numeric: tabular-nums; }
-.day-list li strong { font-size: 13px; }
-@media (max-width: 520px) { .day-list { grid-template-columns: repeat(4, 1fr); } }
-
-/* Loan repayment additions */
-.ex-badge { display: inline-block; margin-bottom: 12px; }
-.lr-table td, .lr-table th { white-space: nowrap; font-size: 14px; }
-.lr-table tr.is-current th, .lr-table tr.is-current td { background: var(--secondary); font-weight: 700; }
-.lr-legend { display: flex; gap: 14px; font-size: 13px; color: var(--muted); margin: 10px 0 6px; }
-.lr-legend .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
-.sw.p, .lr-p { background: var(--primary); }
-.sw.i, .lr-i { background: repeating-linear-gradient(45deg, var(--secondary), var(--secondary) 3px, #A9BEFF 3px, #A9BEFF 6px); }
-.lr-bars { list-style: none; display: grid; gap: 4px; margin-bottom: 12px; }
-.lr-bars li { display: grid; grid-template-columns: 44px 1fr; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.lr-track { display: flex; height: 12px; border-radius: 6px; overflow: hidden; background: var(--bg); }
-.lr-p, .lr-i { height: 100%; }
-
-/* Unemployment additions */
-details.fam-card summary { cursor: pointer; font-weight: 700; min-height: 44px; display: flex; align-items: center; }
-.sum-item small { display: block; margin-top: 4px; font-size: 12.5px; color: var(--muted); }
-
-/* Child allowance additions */
-.res-state { font-size: 24px; font-weight: 800; margin: 2px 0 14px; }
-.sum-grid.three { grid-template-columns: repeat(3, 1fr); }
-@media (max-width: 480px) { .sum-grid.three { grid-template-columns: 1fr 1fr; } }
-.child-row { display: flex; gap: 8px; align-items: center; }
-.child-row .input-wrap { flex: 1; }
-.child-card { border-top: 1px solid var(--line, #E5EAF2); padding-top: 18px; margin-top: 18px; }
-.al-timeline { list-style: none; display: grid; gap: 0; margin: 8px 0; }
-.al-timeline li { position: relative; padding: 8px 0 14px 22px; display: grid; gap: 2px; font-variant-numeric: tabular-nums; }
-.al-timeline li::before { content: ""; position: absolute; left: 5px; top: 13px; width: 10px; height: 10px; border-radius: 50%; background: var(--card); border: 2px solid var(--primary); }
-.al-timeline li:not(:last-child)::after { content: ""; position: absolute; left: 10px; top: 25px; bottom: -8px; width: 2px; background: var(--secondary); }
-.al-timeline li.is-final::before { background: var(--primary); }
-.al-timeline li span { font-size: 14px; color: var(--muted); }
-
-/* Freelancer additions */
-.eyebrow { font-size: 14px; font-weight: 700; color: var(--primary); margin: 8px 0 -4px; }
-.res-unit { font-size: 18px; color: var(--text); font-weight: 700; }
-.tax-amt { font-size: 20px; }
-.split-bar { display: flex; height: 14px; border-radius: 7px; overflow: hidden; margin: 12px 0 6px; background: var(--bg); }
-.sb-net { background: var(--primary); }
-.sb-tax { background: repeating-linear-gradient(45deg, var(--secondary), var(--secondary) 3px, #A9BEFF 3px, #A9BEFF 6px); }
-.split-legend { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.multi-row { display: grid; grid-template-columns: 1fr 1.4fr auto; gap: 8px; align-items: center; margin-top: 8px; }
-.mini-input { min-height: 44px; border: 1px solid var(--line, #E5EAF2); border-radius: 12px; padding: 0 12px; font: inherit; }
-.mini-input:focus-visible { outline: 3px solid var(--primary); outline-offset: 1px; }
-
 /* 좁은 화면에서 입력 폼이 화면 밖으로 밀려나지 않게 (grid 자식 최소 너비 보정) */
 @media (max-width: 1023px) { .calc-shell { grid-template-columns: minmax(0, 1fr); } }
 .calc-shell > *, .calc-form, .result-col, .method-cards > *, .seg > *, .step-nav > * { min-width: 0; }
@@ -1661,72 +1588,6 @@ details.fam-card summary { cursor: pointer; font-weight: 700; min-height: 44px; 
 .rc-row, .pb-rows > div { gap: 8px; }
 .rc-row dd, .pb-rows dd { min-width: 0; overflow-wrap: anywhere; text-align: right; }
 .btn-secondary { max-width: 100%; white-space: normal; height: auto; min-height: 44px; }
-
-/* Guide / content pages */
-.article-wrap { max-width: 780px; }
-.guide-lead { margin-top: 14px; font-size: 18px; line-height: 1.75; font-weight: 500; }
-.guide-body { margin-top: 8px; }
-.guide-body h2 { font-size: 21px; font-weight: 800; letter-spacing: -.02em; margin: 36px 0 10px; }
-.guide-body p { font-size: 16.5px; line-height: 1.8; color: var(--text); margin-top: 10px; }
-.example-box { margin-top: 32px; padding: 20px; border-radius: var(--r-md, 16px); background: var(--secondary); }
-.example-box h2 { margin: 0 0 6px; font-size: 18px; }
-.example-box .ex-lead { font-size: 15px; color: var(--muted); }
-.example-box dl { margin: 12px 0 0; }
-.example-box .ex-row { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); font-size: 15px; font-variant-numeric: tabular-nums; }
-.example-box .ex-row dt { color: var(--muted); flex: none; max-width: 45%; }
-.example-box .ex-row dd { margin: 0; font-weight: 700; text-align: right; overflow-wrap: anywhere; }
-.example-box .ex-note { margin-top: 10px; font-size: 13.5px; color: var(--muted); }
-.note-list { margin-top: 10px; padding-left: 20px; }
-.note-list li { font-size: 16px; line-height: 1.75; margin-top: 6px; }
-.guide-cta { margin-top: 36px; padding: 22px; border-radius: var(--r-md, 16px); border: 1px solid var(--line); background: var(--card); }
-.guide-cta h2 { margin: 0; font-size: 19px; }
-.guide-cta p { margin-top: 4px; font-size: 15px; color: var(--muted); }
-.guide-cta .btn { margin-top: 14px; }
-.guide-cta ul { list-style: none; margin-top: 12px; display: grid; gap: 8px; }
-.guide-cta .more-calc { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 48px; padding: 0 14px; border-radius: 12px; background: var(--bg); text-decoration: none; font-weight: 600; font-size: 15px; }
-.guide-cta .more-calc svg { color: var(--brand-text); flex: none; }
-.guide-meta { margin-top: 28px; font-size: 14px; color: var(--muted); }
-.cat-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 24px; list-style: none; padding: 0; }
-.cat-tabs a { display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--line); text-decoration: none; font-weight: 600; font-size: 15px; color: var(--muted); }
-.cat-tabs a[aria-current="page"] { background: var(--primary); border-color: var(--primary); color: #fff; }
-.about-body h2 { font-size: 20px; font-weight: 800; margin: 32px 0 8px; }
-.about-body p { font-size: 16.5px; line-height: 1.8; margin-top: 8px; }
-.nf { text-align: center; padding: 72px 0 96px; }
-.nf .big { font-size: 64px; font-weight: 800; color: var(--brand-text); line-height: 1; }
-.nf h1 { margin-top: 16px; font-size: 26px; }
-.nf p { margin-top: 8px; color: var(--muted); }
-.nf-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 24px; }
-.btn-ghost { display: inline-flex; align-items: center; justify-content: center; height: 52px; padding: 0 22px; border-radius: 12px; border: 1px solid var(--line-strong, var(--line)); text-decoration: none; font-weight: 700; color: var(--text); }
-
-/* Guide article v2 (생활정보 20개) */
-.guide-cat { text-decoration: none; }
-.page-head h1 { overflow-wrap: anywhere; word-break: keep-all; }
-.guide-dates { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 10px; font-size: 14px; color: var(--muted); }
-.answer-box { margin-top: 4px; padding: 18px 20px; border-radius: var(--r-md, 16px); background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--primary); }
-.answer-box .guide-lead { margin: 0; font-size: 17.5px; }
-.guide-body { word-break: keep-all; overflow-wrap: anywhere; }
-.key-list { margin-top: 10px; padding-left: 20px; }
-.key-list li { font-size: 16.5px; line-height: 1.75; margin-top: 8px; }
-.key-list li::marker { color: var(--brand-text); }
-.ex-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
-.ex-tag { background: var(--card); color: var(--muted); }
-.example-box .ex-row dt { flex: 0 1 45%; max-width: none; min-width: 0; }
-.example-box .ex-row dd { flex: 1 1 55%; min-width: 0; }
-.faq-item h3 { margin-top: 18px; font-size: 17px; font-weight: 700; }
-.faq-item p { margin-top: 6px; }
-.cta-eyebrow { margin: 0 0 6px !important; font-size: 14px !important; font-weight: 700; color: var(--brand-text) !important; }
-.src-box { margin-top: 32px; }
-.src-lead { margin-top: 8px; font-size: 14px; color: var(--muted); line-height: 1.6; }
-.src-box .source-list { margin-top: 12px; list-style: none; padding: 0; }
-.src-box .basis-head { flex-wrap: wrap; }
-.src-box .basis-head strong { white-space: nowrap; }
-.src-text { display: block; min-width: 0; }
-.src-url { display: block; margin-top: 2px; font-size: 12.5px; color: var(--subtle); overflow-wrap: anywhere; }
-.source-link { min-width: 0; }
-.guide-meta { line-height: 1.7; }
-.guide-cta .btn { max-width: 100%; white-space: normal; height: auto; min-height: 52px; padding-top: 12px; padding-bottom: 12px; text-align: center; line-height: 1.4; }
-.cat-tabs .cnt { margin-left: 6px; font-size: 13px; font-weight: 700; opacity: .8; font-variant-numeric: tabular-nums; }
-@media (max-width: 480px) { .example-box .ex-row { flex-direction: column; gap: 2px; } .example-box .ex-row dt, .example-box .ex-row dd { flex: none; text-align: left; } }
 
 /* MEGA_MENU:BEGIN — 헤더 메가메뉴 (기존 토큰만 사용) */
 .header-inner { position: relative; }
@@ -1781,16 +1642,261 @@ details.fam-card summary { cursor: pointer; font-weight: 700; min-height: 44px; 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3938535658741734" crossorigin="anonymous"></script>
 </head>
 <body>
-<div id="root"><!--prerender:start--><a class="skip-link" href="#main">본문 바로가기</a><header class="site-header"><div class="container header-inner"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><nav class="nav-desktop" aria-label="주요 메뉴"><ul><li class="nav-item nav-item-calc"><button type="button" class="nav-link nav-trigger" aria-expanded="false" aria-controls="mega-calc">계산기<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-calc" class="mega mega-calc" hidden=""><div class="mega-grid"><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-work">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="근로·급여 계산기"><li><a href="/calculators/net-salary" class="mega-link">월급 실수령액</a></li><li><a href="/calculators/weekly-holiday-pay" class="mega-link">주휴수당</a></li><li><a href="/calculators/severance-pay" class="mega-link">퇴직금</a></li><li><a href="/calculators/annual-leave" class="mega-link">연차·연차수당</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-finance">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="금융·생활 계산기"><li><a href="/calculators/loan-interest" class="mega-link">대출이자</a></li><li><a href="/calculators/percentage" class="mega-link">퍼센트</a></li><li><a href="/calculators/compound-interest" class="mega-link">단리·복리 이자</a></li><li><a href="/calculators/deposit-interest" class="mega-link">예금이자</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-realestate">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="부동산 계산기"><li><a href="/calculators/dsr" class="mega-link">DSR</a></li><li><a href="/calculators/brokerage-fee" class="mega-link">중개보수</a></li><li><a href="/calculators/housing-subscription-score" class="mega-link">청약가점</a></li><li><a href="/calculators/rent-conversion" class="mega-link">전월세 환산</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-tax">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="세금 계산기"><li><a href="/calculators/freelancer-withholding" class="mega-link">프리랜서 3.3%</a></li><li><a href="/calculators/vat" class="mega-link">VAT</a></li><li><a href="/calculators/year-end-tax" class="mega-link">연말정산</a></li><li><a href="/calculators/comprehensive-income-tax" class="mega-link">종합소득세</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-parenting">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="육아·복지 계산기"><li><a href="/calculators/unemployment-benefit" class="mega-link">실업급여</a></li><li><a href="/calculators/parental-leave" class="mega-link">육아휴직급여</a></li><li><a href="/calculators/maternity-leave-pay" class="mega-link">출산전후휴가 급여</a></li><li><a href="/calculators/parent-benefit" class="mega-link">부모급여</a></li></ul></div></div><div class="mega-foot"><a href="/calculators" class="mega-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li class="nav-item nav-item-guide"><button type="button" class="nav-link nav-trigger is-current" aria-expanded="false" aria-controls="mega-guide">생활정보<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-guide" class="mega mega-guide" hidden=""><ul class="mega-guide-list"><li><a href="/guide?category=work" class="mega-guide-cat">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/weekly-holiday-pay-15-hours" class="mega-guide-pick">주 15시간 일하면 주휴수당은 얼마일까?</a></li><li><a href="/guide?category=finance" class="mega-guide-cat">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/loan-100m-monthly-interest" class="mega-guide-pick">대출 1억 받으면 한 달 이자는 얼마일까?</a></li><li><a href="/guide?category=realestate" class="mega-guide-cat">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/84sqm-to-pyeong" class="mega-guide-pick">아파트 84㎡는 몇 평일까?</a></li><li><a href="/guide?category=tax" class="mega-guide-cat">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/freelancer-3-3-withholding" class="mega-guide-pick">프리랜서 3.3% 떼면 실제 얼마 받을까?</a></li><li><a href="/guide?category=parenting" class="mega-guide-cat">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/parental-leave-benefit" class="mega-guide-pick">육아휴직하면 매달 얼마 받을 수 있을까?</a></li></ul><div class="mega-foot"><a href="/guide" class="mega-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li><a href="/about" class="nav-link">얼마지 소개</a></li></ul></nav><div class="header-actions"><button type="button" class="icon-btn" aria-label="계산기 검색"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7.5"></circle><path d="m20.5 20.5-4.2-4.2"></path></svg></button><a href="/calculators" class="btn btn-primary btn-sm hide-mobile">전체 계산기</a><button type="button" class="icon-btn show-mobile" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button></div></div><div id="mobile-menu" class="mobile-menu" hidden=""><nav aria-label="모바일 메뉴"><ul><li class="m-group"><button type="button" class="m-link m-trigger" aria-expanded="false" aria-controls="m-sub-calc">계산기<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-calc" class="m-sub" hidden="" aria-label="계산기 카테고리"><li><a href="/calculators#cat-work" class="m-sub-link">근로·급여</a></li><li><a href="/calculators#cat-finance" class="m-sub-link">금융·생활</a></li><li><a href="/calculators#cat-realestate" class="m-sub-link">부동산</a></li><li><a href="/calculators#cat-tax" class="m-sub-link">세금</a></li><li><a href="/calculators#cat-parenting" class="m-sub-link">육아·복지</a></li><li><a href="/calculators" class="m-sub-link is-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li class="m-group"><button type="button" class="m-link m-trigger is-current" aria-expanded="false" aria-controls="m-sub-guide">생활정보<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-guide" class="m-sub" hidden="" aria-label="생활정보 카테고리"><li><a href="/guide?category=work" class="m-sub-link">근로·급여</a></li><li><a href="/guide?category=finance" class="m-sub-link">금융·생활</a></li><li><a href="/guide?category=realestate" class="m-sub-link">부동산</a></li><li><a href="/guide?category=tax" class="m-sub-link">세금</a></li><li><a href="/guide?category=parenting" class="m-sub-link">육아·복지</a></li><li><a href="/guide" class="m-sub-link is-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li><a href="/about" class="m-link">얼마지 소개<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></li></ul></nav><a href="/calculators" class="btn btn-primary btn-block">전체 계산기</a></div></header><main id="main"><nav class="container breadcrumb" aria-label="현재 위치"><ol><li><a href="/">얼마지</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><span aria-current="page">생활정보</span></li></ol></nav><div class="container page-head"><h1>생활정보</h1><p class="page-desc">월급, 세금, 대출, 부동산, 육아·복지까지<br>생활 속에서 헷갈리는 기준을 쉽게 정리했어요.</p></div><section class="container" aria-label="생활정보 목록"><ul class="cat-tabs" aria-label="카테고리"><li><a href="/guide" aria-current="page">전체<span class="cnt">20</span></a></li><li><a href="/guide?category=work">근로·급여<span class="cnt">4</span></a></li><li><a href="/guide?category=finance">금융·생활<span class="cnt">4</span></a></li><li><a href="/guide?category=realestate">부동산<span class="cnt">4</span></a></li><li><a href="/guide?category=tax">세금<span class="cnt">4</span></a></li><li><a href="/guide?category=parenting">육아·복지<span class="cnt">4</span></a></li></ul><ul class="article-grid" style="margin-top: 0px;"><li><a href="/guide/weekly-holiday-pay-15-hours" class="article-card"><span class="article-cat">근로·급여</span><h3>주 15시간 일하면 주휴수당은 얼마일까?</h3><p>주휴수당이 생기는 15시간 기준을 어떻게 보는지, 금액은 어떻게 계산하는지 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/minimum-wage-2027-monthly" class="article-card"><span class="article-cat">근로·급여</span><h3>2027 최저임금으로 월급을 계산하면?</h3><p>2027년 최저임금 시급 10,700원을 일급·월급으로 바꾸면 얼마인지, 실수령액과는 무엇이 다른지 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/severance-pay-eligibility" class="article-card"><span class="article-cat">근로·급여</span><h3>퇴직금은 언제부터 받을 수 있을까?</h3><p>1년 이상 근무, 주 15시간 이상 등 퇴직금을 받기 위한 기본 조건과 계산 방법을 쉽게 풀었어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/night-pay-hours" class="article-card"><span class="article-cat">근로·급여</span><h3>야간수당은 몇 시부터 적용될까?</h3><p>밤 10시부터 오전 6시까지 일하면 붙는 50% 가산과, 연장근로와 겹칠 때의 계산을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/loan-100m-monthly-interest" class="article-card"><span class="article-cat">금융·생활</span><h3>대출 1억 받으면 한 달 이자는 얼마일까?</h3><p>1억원을 빌리면 첫 달 이자는 금리 ÷ 12로 어림할 수 있어요. 금리별 월 이자를 비교해봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/loan-repayment-methods" class="article-card"><span class="article-cat">금융·생활</span><h3>원리금균등·원금균등, 매달 얼마씩 갚을까?</h3><p>같은 대출이라도 상환방식에 따라 매달 내는 돈과 총이자가 달라요. 1억원 예시로 비교했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/monthly-savings-500k" class="article-card"><span class="article-cat">금융·생활</span><h3>적금 월 50만원씩 넣으면 만기 얼마일까?</h3><p>월 50만원 1년 적금의 이자와 세금을 계산했어요. 광고 금리보다 이자가 적은 이유도 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/simple-vs-compound-interest" class="article-card"><span class="article-cat">금융·생활</span><h3>단리와 복리, 실제 이자는 얼마나 차이 날까?</h3><p>단리와 복리는 1년까지는 같고 기간이 길수록 차이가 커져요. 1,000만원 예시로 비교했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/jeonse-to-monthly-rent" class="article-card"><span class="article-cat">부동산</span><h3>전세를 월세로 바꾸면 얼마가 적당할까?</h3><p>보증금을 월세로 바꿀 때 법으로 정한 전환율 상한과, 월세 금액을 계산하는 방법을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/real-estate-brokerage-fee" class="article-card"><span class="article-cat">부동산</span><h3>부동산 중개수수료는 얼마까지 내야 할까?</h3><p>매매·전세·월세별 중개보수 상한요율과 한도, 월세 거래금액 계산법을 예시와 함께 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/84sqm-to-pyeong" class="article-card"><span class="article-cat">부동산</span><h3>아파트 84㎡는 몇 평일까?</h3><p>전용 84㎡는 25.41평이에요. 그런데 흔히 34평이라고 부르는 이유와 ㎡·평 환산법을 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/housing-subscription-score" class="article-card"><span class="article-cat">부동산</span><h3>내 청약가점은 몇 점일까?</h3><p>무주택기간·부양가족·청약통장 기간으로 84점 만점 청약가점을 계산하는 방법을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/freelancer-3-3-withholding" class="article-card"><span class="article-cat">세금</span><h3>프리랜서 3.3% 떼면 실제 얼마 받을까?</h3><p>프리랜서 수입에서 3.3%를 떼면 실제로 얼마를 받는지, 떼인 세금은 어떻게 정산되는지 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/vat-included-excluded" class="article-card"><span class="article-cat">세금</span><h3>부가세 포함·별도 금액은 어떻게 계산할까?</h3><p>견적서의 ‘부가세 별도’와 영수증의 ‘부가세 포함’ 금액을 계산하는 방법을 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/home-acquisition-tax" class="article-card"><span class="article-cat">세금</span><h3>집을 사면 취득세는 얼마나 나올까?</h3><p>집값 구간별 취득세율과 지방교육세·농어촌특별세, 생애최초 감면까지 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/gift-tax-from-parents" class="article-card"><span class="article-cat">세금</span><h3>부모님께 돈을 받으면 증여세는 얼마나 나올까?</h3><p>부모님께 받은 돈의 증여세 공제 한도와 세율, 금액별 예상 세금을 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/parental-leave-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>육아휴직하면 매달 얼마 받을 수 있을까?</h3><p>2026년 육아휴직급여를 기간별 지급률과 상한액으로 계산하고, 1년 총액 예시를 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/maternity-leave-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>출산전후휴가 기간에는 얼마를 받을까?</h3><p>출산전후휴가 90일 동안 회사와 고용보험이 각각 얼마를 주는지, 2026년 상한액으로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/parent-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>부모급여는 몇 살까지 얼마 받을까?</h3><p>부모급여는 생후 23개월까지 받아요. 2026년 월 지급액과 어린이집을 다닐 때 받는 금액을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/unemployment-benefit-duration" class="article-card"><span class="article-cat">육아·복지</span><h3>실업급여는 몇 개월 동안 얼마 받을 수 있을까?</h3><p>실업급여를 받는 기간(120~270일)과 2026년 하루 상·하한액으로 받을 금액을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li></ul><p class="guide-meta">글마다 참고한 공식자료와 확인 날짜를 적고, 관련 계산기로 바로 이어지게 했어요.</p></section><div style="height: 64px;"></div></main><footer class="site-footer"><div class="container"><div class="footer-top"><div class="footer-brand"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><span class="en">ULMAJI</span></div><nav class="footer-nav" aria-label="하단 메뉴"><ul><li><a href="/calculators">계산기</a></li><li><a href="/guide">생활정보</a></li><li><a href="/about">얼마지 소개</a></li><li><a href="/terms">이용약관</a></li><li><a href="/privacy">개인정보처리방침</a></li><li><a href="mailto:heosoyoone@gmail.com">문의</a></li></ul></nav></div><p class="footer-disclaimer">계산 결과는 입력한 정보와 적용 기준에 따른 참고용 정보입니다. 실제 지급액 및 적용 여부는 개인의 조건에 따라 달라질 수 있습니다.</p><p class="footer-copy">© 2026 ULMAJI. ulmaji.kr</p></div></footer><div class="toast" role="status" aria-live="polite"></div><!--prerender:end--></div>
+<div id="root"><!--prerender:start--><a class="skip-link" href="#calculator">계산기로 바로가기</a><header class="site-header"><div class="container header-inner"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><nav class="nav-desktop" aria-label="주요 메뉴"><ul><li class="nav-item nav-item-calc"><button type="button" class="nav-link nav-trigger is-current" aria-expanded="false" aria-controls="mega-calc">계산기<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-calc" class="mega mega-calc" hidden=""><div class="mega-grid"><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-work">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="근로·급여 계산기"><li><a href="/calculators/net-salary" class="mega-link">월급 실수령액</a></li><li><a href="/calculators/weekly-holiday-pay" class="mega-link">주휴수당</a></li><li><a href="/calculators/severance-pay" class="mega-link">퇴직금</a></li><li><a href="/calculators/annual-leave" class="mega-link">연차·연차수당</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-finance">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="금융·생활 계산기"><li><a href="/calculators/loan-interest" class="mega-link">대출이자</a></li><li><a href="/calculators/percentage" class="mega-link">퍼센트</a></li><li><a href="/calculators/compound-interest" class="mega-link">단리·복리 이자</a></li><li><a href="/calculators/deposit-interest" class="mega-link">예금이자</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-realestate">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="부동산 계산기"><li><a href="/calculators/dsr" class="mega-link">DSR</a></li><li><a href="/calculators/brokerage-fee" class="mega-link">중개보수</a></li><li><a href="/calculators/housing-subscription-score" class="mega-link">청약가점</a></li><li><a href="/calculators/rent-conversion" class="mega-link">전월세 환산</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-tax">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="세금 계산기"><li><a href="/calculators/freelancer-withholding" class="mega-link">프리랜서 3.3%</a></li><li><a href="/calculators/vat" class="mega-link">VAT</a></li><li><a href="/calculators/year-end-tax" class="mega-link">연말정산</a></li><li><a href="/calculators/comprehensive-income-tax" class="mega-link">종합소득세</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-parenting">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="육아·복지 계산기"><li><a href="/calculators/unemployment-benefit" class="mega-link">실업급여</a></li><li><a href="/calculators/parental-leave" class="mega-link">육아휴직급여</a></li><li><a href="/calculators/maternity-leave-pay" class="mega-link">출산전후휴가 급여</a></li><li><a href="/calculators/parent-benefit" class="mega-link">부모급여</a></li></ul></div></div><div class="mega-foot"><a href="/calculators" class="mega-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li class="nav-item nav-item-guide"><button type="button" class="nav-link nav-trigger" aria-expanded="false" aria-controls="mega-guide">생활정보<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-guide" class="mega mega-guide" hidden=""><ul class="mega-guide-list"><li><a href="/guide?category=work" class="mega-guide-cat">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/weekly-holiday-pay-15-hours" class="mega-guide-pick">주 15시간 일하면 주휴수당은 얼마일까?</a></li><li><a href="/guide?category=finance" class="mega-guide-cat">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/loan-100m-monthly-interest" class="mega-guide-pick">대출 1억 받으면 한 달 이자는 얼마일까?</a></li><li><a href="/guide?category=realestate" class="mega-guide-cat">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/84sqm-to-pyeong" class="mega-guide-pick">아파트 84㎡는 몇 평일까?</a></li><li><a href="/guide?category=tax" class="mega-guide-cat">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/freelancer-3-3-withholding" class="mega-guide-pick">프리랜서 3.3% 떼면 실제 얼마 받을까?</a></li><li><a href="/guide?category=parenting" class="mega-guide-cat">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/parental-leave-benefit" class="mega-guide-pick">육아휴직하면 매달 얼마 받을 수 있을까?</a></li></ul><div class="mega-foot"><a href="/guide" class="mega-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li><a href="/about" class="nav-link">얼마지 소개</a></li></ul></nav><div class="header-actions"><button type="button" class="icon-btn" aria-label="계산기 검색"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7.5"></circle><path d="m20.5 20.5-4.2-4.2"></path></svg></button><a href="/calculators" class="btn btn-primary btn-sm hide-mobile">전체 계산기</a><button type="button" class="icon-btn show-mobile" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button></div></div><div id="mobile-menu" class="mobile-menu" hidden=""><nav aria-label="모바일 메뉴"><ul><li class="m-group"><button type="button" class="m-link m-trigger is-current" aria-expanded="false" aria-controls="m-sub-calc">계산기<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-calc" class="m-sub" hidden="" aria-label="계산기 카테고리"><li><a href="/calculators#cat-work" class="m-sub-link">근로·급여</a></li><li><a href="/calculators#cat-finance" class="m-sub-link">금융·생활</a></li><li><a href="/calculators#cat-realestate" class="m-sub-link">부동산</a></li><li><a href="/calculators#cat-tax" class="m-sub-link">세금</a></li><li><a href="/calculators#cat-parenting" class="m-sub-link">육아·복지</a></li><li><a href="/calculators" class="m-sub-link is-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li class="m-group"><button type="button" class="m-link m-trigger" aria-expanded="false" aria-controls="m-sub-guide">생활정보<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-guide" class="m-sub" hidden="" aria-label="생활정보 카테고리"><li><a href="/guide?category=work" class="m-sub-link">근로·급여</a></li><li><a href="/guide?category=finance" class="m-sub-link">금융·생활</a></li><li><a href="/guide?category=realestate" class="m-sub-link">부동산</a></li><li><a href="/guide?category=tax" class="m-sub-link">세금</a></li><li><a href="/guide?category=parenting" class="m-sub-link">육아·복지</a></li><li><a href="/guide" class="m-sub-link is-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li><a href="/about" class="m-link">얼마지 소개<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></li></ul></nav><a href="/calculators" class="btn btn-primary btn-block">전체 계산기</a></div></header><main id="main"><nav class="container breadcrumb" aria-label="현재 위치"><ol><li><a href="/">홈</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><a href="/calculators">계산기</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><a href="/calculators#cat-realestate">부동산</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><span aria-current="page">DSR 계산기</span></li></ol></nav><div class="container page-head"><span class="badge badge-brand">부동산</span><h1>DSR 계산기</h1><p class="page-desc">연소득과 대출정보를 입력하면<br>연간 원리금 부담과 예상 DSR을 계산해드려요.</p><p class="page-meta"><span>실제 금융기관 심사 결과와 대출한도는 다를 수 있어요</span><span class="meta-sep" aria-hidden="true"></span><a href="#basis">마지막 확인 2026.09.24<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5.5M12 7.8h.01"></path></svg><span class="sr-only">, 계산 기준 보기</span></a></p></div><section class="calc-section" id="calculator" aria-label="DSR 계산기"><div class="container"><div class="calc-shell"><form class="calc-form" novalidate="" aria-labelledby="form-title"><fieldset class="field"><legend class="sr-only" id="form-title">계산 방식</legend><div class="method-cards three"><label class="method-card"><input type="radio" name="dmode"><span><strong>현재 DSR</strong><small>지금 가지고 있는 대출의 DSR을 확인해요.</small></span></label><label class="method-card"><input type="radio" name="dmode" checked=""><span><strong>새 대출 포함</strong><small>새 대출까지 받으면 DSR이 얼마나 되는지 계산해요.</small></span></label><label class="method-card"><input type="radio" name="dmode"><span><strong>대출 가능금액</strong><small>목표 DSR을 기준으로 추가 대출 여력을 추정해요.</small></span></label></div></fieldset><h2 class="form-title step-title"><span class="step-count">STEP 1</span>연소득은 얼마인가요?</h2><div class="field"><label class="field-label" for="income">세전 연소득 (금융기관 인정소득)</label><div class="input-wrap"><input id="income" type="text" inputmode="numeric" autocomplete="off" placeholder="0" aria-invalid="false" aria-describedby="income-help" value=""><span class="input-suffix" aria-hidden="true">원</span></div><p id="income-help" class="field-help">금융기관이 DSR 심사에서 인정하는 연소득 금액을 알고 있다면 그 금액을 입력해주세요.</p></div><h2 class="form-title step-title"><span class="step-count">STEP 2</span>현재 갚고 있는 대출이 있나요?</h2><div class="method-cards"><label class="method-card"><input type="radio" name="hasEx"><span><strong>있어요</strong></span></label><label class="method-card"><input type="radio" name="hasEx" checked=""><span><strong>없어요</strong></span></label></div><h2 class="form-title step-title"><span class="step-count">STEP 3</span>새로 받을 대출을 입력해주세요</h2><div class="fam-card"><label class="mini-label" for="new-type">대출 종류</label><select id="new-type" class="select"><option value="mortgage">주택담보대출</option><option value="credit">신용대출·마이너스통장</option></select><div class="field sub-field"><label class="mini-label" for="new-bal">대출금액</label><div class="input-wrap sm"><input id="new-bal" type="text" inputmode="numeric" autocomplete="off" placeholder="0" aria-invalid="false" aria-describedby="new-bal-help" value="200,000,000"><span class="input-suffix" aria-hidden="true">원</span></div><p id="new-bal-help" class="field-help"><b class="korean-amount">2억원</b></p></div><div class="field sub-field"><label class="mini-label" for="new-rate">예상 금리</label><div class="input-wrap sm"><input id="new-rate" type="text" inputmode="decimal" aria-invalid="false" value="4.0"><span class="input-suffix" aria-hidden="true">%</span></div></div><div class="field sub-field"><label class="mini-label" for="new-years">대출기간</label><div class="input-wrap sm"><input id="new-years" type="text" inputmode="numeric" aria-invalid="false" value="30"><span class="input-suffix" aria-hidden="true">년</span></div></div><label class="mini-label" for="new-method">상환방식</label><select id="new-method" class="select"><option value="equalPayment">원리금균등</option><option value="equalPrincipal">원금균등</option><option value="bullet">만기일시</option></select><label class="mini-label" for="new-rt">금리 유형</label><select id="new-rt" class="select"><option value="variable">변동금리</option><option value="mixed">혼합형 (일정기간 고정 후 변동)</option><option value="periodic">주기형 (일정 주기로 금리 변경)</option><option value="fixed">만기까지 고정금리</option></select><p class="field-help">금리 유형에 따라 스트레스 금리 적용비율이 달라져요. 잘 모르겠다면 변동금리로 계산해요.</p></div><fieldset class="field"><legend class="field-label">주택은 어디에 있나요?</legend><div class="method-cards"><label class="method-card"><input type="radio" name="region" checked=""><span><strong>수도권·규제지역</strong></span></label><label class="method-card"><input type="radio" name="region"><span><strong>그 외 지방</strong></span></label></div><p class="field-help">지역에 따라 스트레스 금리가 달라요. 스트레스 금리는 직접 입력하지 않아도 돼요.</p></fieldset><button type="submit" class="btn btn-primary submit-btn">DSR 계산하기</button></form><div class="result-col"><div class="result-panel"><p class="sr-only" aria-live="polite"></p><div class="result-empty"><span class="big-q" aria-hidden="true">?</span><h2 class="sr-only">계산 결과</h2><p>연소득과 대출정보를 입력하면<br>예상 DSR을 알려드릴게요.</p></div></div></div></div></div></section><section class="section tight-top" aria-labelledby="related-title"><div class="container"><div class="section-head"><div><h2 id="related-title">집을 살 계획이라면 같이 계산해보세요</h2></div><a href="/calculators" class="more-link">전체 계산기 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div><ul class="calc-grid"><li><a href="/calculators/loan-interest" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18.5 5.5 5.5 18.5"></path><circle cx="7" cy="7" r="2.5"></circle><circle cx="17" cy="17" r="2.5"></circle></svg></span><div class="calc-text"><h3>대출이자 계산기</h3><p>대출금액과 금리별 월 상환액과 총 이자를 확인해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li><li><a href="/calculators/acquisition-tax" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 3h12v18l-2-1.4-2 1.4-2-1.4-2 1.4-2-1.4L6 21z"></path><path d="M9 8h6M9 12h6M9 16h3"></path></svg></span><div class="calc-text"><h3>취득세 계산기</h3><p>집을 살 때 발생하는 예상 취득 관련 세금을 확인해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li><li><a href="/calculators/brokerage-fee" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"></svg></span><div class="calc-text"><h3>중개보수 계산기</h3><p>계약할 때 예상 중개보수 상한액을 확인해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li><li><a href="/calculators/ltv" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"></svg></span><div class="calc-text"><h3>LTV 계산기</h3><p>집값을 기준으로 LTV와 예상 대출금액을 확인해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li><li><a href="/calculators/housing-subscription-score" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"></svg></span><div class="calc-text"><h3>청약가점 계산기</h3><p>청약을 준비 중이라면 내 예상 가점도 확인해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li></ul></div></section><section class="section band" id="guide" aria-label="DSR 안내"><div class="container"><div class="content-block"><h2>DSR이란 무엇인가요?</h2><div class="prose"><p>총부채원리금상환비율이에요. 1년 동안 갚아야 하는 모든 대출의 원리금이 연소득에서 차지하는 비율이에요.</p></div></div><div class="content-block"><h2>DSR은 어떻게 계산하나요?</h2><div class="prose"><p>연간 대출 원리금 상환액 ÷ 연소득 × 100이에요. 대출잔액 ÷ 연소득이 아니고, 원리금은 대출 종류별 산정방식으로 계산해요.</p></div></div><div class="content-block"><h2>DSR에서 말하는 연소득은 무엇인가요?</h2><div class="prose"><p>금융기관이 증빙으로 인정하는 세전 소득이에요. 근로·사업·연금 등 소득 종류와 증빙 방식에 따라 인정 금액이 달라질 수 있어요.</p></div></div><div class="content-block"><h2>주택담보대출과 신용대출은 어떻게 반영되나요?</h2><div class="prose"><p>분할상환 주담대는 실제 원리금을, 만기일시 주담대는 원금을 약정만기(최대 10년)로 나눈 금액과 이자를 반영해요. 신용대출·마이너스통장은 원금을 5년에 나눠 갚는다고 보고 이자를 더해요.</p></div></div><div class="content-block"><h2>실제 월 상환액과 DSR 원리금이 왜 다른가요?</h2><div class="prose"><p>신용대출은 실제로는 이자만 내더라도 DSR에서는 원금을 5년에 나눠 갚는 것으로 봐요. 새 대출에는 스트레스 금리도 더해요. 그래서 실제 부담과 심사용 금액이 달라요.</p></div></div><div class="content-block"><h2>스트레스 DSR이란 무엇인가요?</h2><div class="prose"><p>대출금리가 앞으로 오를 가능성을 반영해 심사할 때 가산금리를 더하는 제도예요. 2026년 하반기에는 수도권·규제지역 주담대: 스트레스 금리 3.0% × 100%, 그 외 지방 주담대: 스트레스 금리 1.5% × 50%, 신용대출: 신용대출 총잔액 1억원 초과 시 스트레스 금리 1.5% × 100%가 적용돼요. 실제로 내는 금리는 아니에요.</p></div></div><div class="content-block"><h2>DSR 40%는 무슨 뜻인가요?</h2><div class="prose"><p>연소득의 40%까지를 1년 원리금으로 쓸 수 있다는 기준이에요. 연봉 5천만원이면 연 2,000만원이에요. DSR이 낮다고 대출이 무조건 되는 건 아니고, LTV 등 다른 기준도 함께 봐요.</p></div></div><div class="content-block"><h2>전세대출과 정책대출도 DSR에 포함되나요?</h2><div class="prose"><p>전세자금대출, 중도금·이주비, 서민정책금융 상품 등은 DSR 산정에서 제외되는 대출이에요. 다만 상품과 금융기관 기준을 함께 확인해주세요.</p></div></div></div></section><section class="section" id="faq" aria-labelledby="faq-title"><div class="container"><div class="section-head"><div><h2 id="faq-title">자주 묻는 질문</h2></div></div><ul class="faq-list"><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f1" class="faq-toggle" aria-expanded="true" aria-controls="faq-panel-f1">연봉 5천만원이면 DSR 40%는 얼마인가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f1" role="region" aria-labelledby="faq-btn-f1" class="faq-a"><p>1년에 갚는 DSR 반영 원리금이 2,000만원(월평균 약 167만원)까지라는 뜻이에요. 이 금액이 곧 대출 가능금액은 아니에요. 금리와 기간에 따라 빌릴 수 있는 원금이 달라져요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f2" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f2">연봉 1억원이면 대출 얼마까지 받을 수 있나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f2" role="region" aria-labelledby="faq-btn-f2" class="faq-a" hidden=""><p>DSR만으로 확정할 수 없어요. 기존 부채, 금리, 기간, 상환방식, 스트레스 금리에 따라 달라지고, 주택담보대출은 LTV 등 다른 기준도 함께 봐요. '대출 가능금액' 모드에서 조건을 넣어 추정해보세요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f3" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f3">신용대출도 DSR에 포함되나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f3" role="region" aria-labelledby="faq-btn-f3" class="faq-a" hidden=""><p>네. 원금을 5년에 나눠 갚는다고 보고 연 이자를 더해 반영해요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f4" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f4">자동차대출도 포함되나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f4" role="region" aria-labelledby="faq-btn-f4" class="faq-a" hidden=""><p>할부·리스 등 상품과 금융기관에 따라 반영방식이 달라 이 계산기는 '반영방식 확인 필요'로 표시하고 실제 상환액을 참고값으로 넣어요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f5" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f5">전세대출도 DSR에 포함되나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f5" role="region" aria-labelledby="faq-btn-f5" class="faq-a" hidden=""><p>전세자금대출은 DSR 산정에서 제외되는 대출로 계산해요. 금융기관이나 상품에 따라 별도 기준이 있을 수 있어요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f6" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f6">학자금대출은 어떻게 계산되나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f6" role="region" aria-labelledby="faq-btn-f6" class="faq-a" hidden=""><p>정확한 반영방식을 아직 지원하지 않아 '확인 필요'로 표시하고, 입력한 실제 월 상환액을 참고값으로 사용해요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f7" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f7">마이너스통장은 어떻게 계산하나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f7" role="region" aria-labelledby="faq-btn-f7" class="faq-a" hidden=""><p>실제 사용액이 아니라 한도 금액을 기준으로 원금 ÷ 5년 + 이자로 반영하는 게 일반적이에요. 잔액 칸에 한도를 입력해주세요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f8" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f8">스트레스 DSR은 무엇인가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f8" role="region" aria-labelledby="faq-btn-f8" class="faq-a" hidden=""><p>대출 기간 중 금리가 오를 가능성을 반영해 심사할 때 실제 금리에 가상의 가산금리를 더해 계산하는 제도예요. 2026년 하반기에는 수도권·규제지역 주담대 3.0%, 지방 주담대 0.75%, 신용대출(총잔액 1억원 초과) 1.5%가 적용돼요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f9" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f9">스트레스 금리를 실제로 내야 하나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f9" role="region" aria-labelledby="faq-btn-f9" class="faq-a" hidden=""><p>아니요. 스트레스 금리는 DSR 심사 계산에만 쓰이고 실제로 내는 금리는 올라가지 않아요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f10" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f10">DSR이 40%를 넘으면 대출을 받을 수 없나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f10" role="region" aria-labelledby="faq-btn-f10" class="faq-a" hidden=""><p>일률적으로 단정할 수 없어요. 적용 대상 차주인지, 금융권역, 예외 대출 여부 등에 따라 달라져요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f11" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f11">DSR 계산 결과와 은행 결과가 왜 다른가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f11" role="region" aria-labelledby="faq-btn-f11" class="faq-a" hidden=""><p>소득 인정 방식, 기존 대출 정보, 산정 만기, 스트레스 DSR 적용비율, 상품과 금융기관 심사 기준이 다를 수 있어요.</p></div></li></ul></div></section><section class="section band" id="basis" aria-labelledby="basis-title"><div class="container"><div class="trust-grid"><div><h2 id="basis-title">어떤 기준으로 계산하나요?</h2><p class="section-desc">연소득과 대출정보만 받고, 계산은 이 화면 안에서만 이뤄져요. 이름·계좌번호·신용점수는 받지 않아요.</p><div class="notice-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5.5M12 7.8h.01"></path></svg><div><strong>참고용으로 확인해주세요</strong><p>이 계산기는 입력한 소득과 대출정보를 바탕으로 예상 DSR과 DSR 기준 대출여력을 계산하는 참고 도구입니다. 실제 금융기관의 DSR 산정 결과와 대출 가능금액은 인정소득, 기존부채, 대출종류, 금리유형, 스트레스 DSR, 금융기관 및 상품별 심사기준 등에 따라 달라질 수 있습니다. 계산 결과는 대출 승인이나 실제 대출한도를 보장하지 않습니다.</p></div></div></div><div class="basis-card"><div class="basis-head"><strong>DSR 계산 기준</strong><span class="badge badge-brand">2026.07.01~2026.12.31</span></div><dl><div class="basis-row"><dt>계산 기준일</dt><dd>2026.09.27</dd></div><div class="basis-row"><dt>DSR 계산</dt><dd>대출 종류별 DSR 반영 연간 원리금 합계 ÷ 연소득</dd></div><div class="basis-row"><dt>주택담보대출</dt><dd>분할상환: 실제 첫 1년 원리금 / 만기일시: 원금 ÷ 약정만기(최대 10년) + 이자</dd></div><div class="basis-row"><dt>신용대출</dt><dd>원금 ÷ 5년 + 연 이자</dd></div><div class="basis-row"><dt>제외 대출</dt><dd>전세자금대출, 중도금·이주비, 서민정책금융</dd></div><div class="basis-row"><dt>확인 필요</dt><dd>자동차·학자금 등 기타대출 (실제 상환액을 참고값으로 사용)</dd></div><div class="basis-row"><dt>스트레스 DSR</dt><dd>신규로 받는 대출 심사에 적용 · 수도권·규제지역 주담대: 스트레스 금리 3.0% × 100% · 그 외 지방 주담대: 스트레스 금리 1.5% × 50% · 신용대출: 신용대출 총잔액 1억원 초과 시 스트레스 금리 1.5% × 100%</dd></div><div class="basis-row"><dt>참고 기준</dt><dd>총 대출액이 1억원을 넘는 차주에게 은행 40%, 2금융권 50% 기준이 적용되는 게 일반적이에요. 적용 여부는 차주와 상품에 따라 달라요.</dd></div><div class="basis-row"><dt>공식 출처</dt><dd><ul class="source-list"><li><a class="source-link" href="https://www.fsc.go.kr/no010101/84617" target="_blank" rel="noopener noreferrer"><span><span class="src-name">금융위원회</span><span class="src-desc">3단계 스트레스 DSR 시행방안 (보도자료)</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-8.5 8.5"></path><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"></path></svg><span class="sr-only">(새 탭에서 열림)</span></a></li><li><a class="source-link" href="https://www.fsc.go.kr" target="_blank" rel="noopener noreferrer"><span><span class="src-name">금융위원회</span><span class="src-desc">가계부채 관리방안 및 DSR 제도 안내</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-8.5 8.5"></path><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"></path></svg><span class="sr-only">(새 탭에서 열림)</span></a></li><li><a class="source-link" href="https://www.fss.or.kr" target="_blank" rel="noopener noreferrer"><span><span class="src-name">금융감독원</span><span class="src-desc">DSR 규제 안내</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-8.5 8.5"></path><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"></path></svg><span class="sr-only">(새 탭에서 열림)</span></a></li></ul></dd></div><div class="basis-row"><dt>마지막 확인</dt><dd><time datetime="2026-09-24">2026.09.24</time></dd></div></dl></div></div></div></section><section class="section" aria-labelledby="articles-title"><div class="container"><div class="section-head"><div><h2 id="articles-title">같이 보면 좋은 생활정보</h2></div><a href="/guide" class="more-link">생활정보 전체보기 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div><ul class="article-grid"><li><a href="/guide/loan-100m-monthly-interest" class="article-card"><span class="article-cat">금융·생활</span><h3>대출 1억 받으면 한 달 이자는 얼마일까?</h3><p>1억원을 빌리면 첫 달 이자는 금리 ÷ 12로 어림할 수 있어요. 금리별 월 이자를 비교해봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/loan-repayment-methods" class="article-card"><span class="article-cat">금융·생활</span><h3>원리금균등·원금균등, 매달 얼마씩 갚을까?</h3><p>같은 대출이라도 상환방식에 따라 매달 내는 돈과 총이자가 달라요. 1억원 예시로 비교했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li></ul></div></section></main><footer class="site-footer"><div class="container"><div class="footer-top"><div class="footer-brand"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><span class="en">ULMAJI</span></div><nav class="footer-nav" aria-label="하단 메뉴"><ul><li><a href="/calculators">계산기</a></li><li><a href="/guide">생활정보</a></li><li><a href="/about">얼마지 소개</a></li><li><a href="/terms">이용약관</a></li><li><a href="/privacy">개인정보처리방침</a></li><li><a href="mailto:heosoyoone@gmail.com">문의</a></li></ul></nav></div><p class="footer-disclaimer">계산 결과는 입력한 정보와 적용 기준에 따른 참고용 정보입니다. 실제 지급액 및 적용 여부는 개인의 조건에 따라 달라질 수 있습니다.</p><p class="footer-copy">© 2026 ULMAJI. ulmaji.kr</p></div></footer><div class="toast" role="status" aria-live="polite"></div><!--prerender:end--></div>
 <noscript><p style="max-width:720px;margin:16px auto;padding:0 20px;font-family:sans-serif;font-size:15px">계산 기능을 쓰려면 브라우저에서 JavaScript를 켜주세요.</p></noscript>
 <script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.24.7/babel.min.js"></script>
 <script type="text/babel" data-presets="react">
 const { useState, useRef, useEffect, useMemo } = React;
+
+/* =========================================================
+   1. Site / Page config
+   ========================================================= */
 const SITE = { name: "얼마지?", en: "ULMAJI", origin: "https://ulmaji.kr" };
+const PAGE = { path: "/calculators/dsr", title: "DSR 계산기", category: { name: "부동산", href: "/calculators#cat-realestate" }, updatedAt: "2026.09.24" };
 const SHOW_AD_PLACEHOLDERS = new URLSearchParams(window.location.search).get("ads") === "preview";
-const NAV = [ { label: "계산기", href: "/#popular" }, { label: "생활정보", href: "/guide" }, { label: "얼마지 소개", href: "/about" } ];
+
+/* =========================================================
+   2. DSR_CONFIG
+   ========================================================= */
+const DSR_CONFIG = [
+  {
+    id: "2026H2", effectiveFrom: "2026-07-01", effectiveTo: "2026-12-31", checkedAt: "2026.09.24",
+    dsrThresholdRules: { bank: 0.40, nonBank: 0.50, appliesAboveTotalLoan: 100000000,
+      note: "총 대출액이 1억원을 넘는 차주에게 은행 40%, 2금융권 50% 기준이 적용되는 게 일반적이에요. 적용 여부는 차주와 상품에 따라 달라요." },
+    loanTypeRules: {
+      mortgage: { label: "주택담보대출", engine: "mortgage", supported: true },
+      credit: { label: "신용대출·마이너스통장", engine: "credit", supported: true },
+      jeonse: { label: "전세자금대출", engine: "excluded", supported: true },
+      interim: { label: "중도금·이주비 대출", engine: "excluded", supported: true },
+      policy: { label: "서민정책금융 상품", engine: "excluded", supported: true },
+      other: { label: "자동차·학자금 등 기타대출", engine: "other", supported: false },
+    },
+    // 주담대: 분할상환은 실제 원리금, 만기일시는 원금 ÷ 약정만기(최대 10년) + 이자
+    mortgageRules: { bulletMaxYears: 10 },
+    // 신용대출·마이너스통장: 원금 ÷ 5년 + 이자 (마이너스통장은 한도 기준)
+    creditLoanRules: { assumedMaturityYears: 5 },
+    excludedLoanRules: "전세자금대출, 중도금·이주비, 서민정책금융 상품 등은 DSR 산정에서 제외되는 대출이에요.",
+    // 스트레스 DSR (2026.7.1~12.31 운영방안)
+    stressDSRRules: {
+      mortgage: {
+        capital: { stressRate: 0.03, baseRatio: 1.0, label: "수도권·규제지역 주담대: 스트레스 금리 3.0% × 100%" },
+        local: { stressRate: 0.015, baseRatio: 0.5, label: "그 외 지방 주담대: 스트레스 금리 1.5% × 50%" },
+        // 대출유형별 적용비율 (금리 유형)
+        // TODO: 공식 기준 검증 필요 (주기형·혼합형 적용비율과 지방 2단계 비율)
+        rateTypeRatio: { variable: 1.0, mixed: 0.8, periodic: 0.4, fixed: 0 },
+      },
+      credit: { stressRate: 0.015, baseRatio: 1.0, onlyIfTotalCreditAbove: 100000000, rateTypeRatio: { variable: 1.0, mixed: 1.0, periodic: 1.0, fixed: 0 }, label: "신용대출: 신용대출 총잔액 1억원 초과 시 스트레스 금리 1.5% × 100%" },
+      appliesTo: "신규로 받는 대출 심사",
+    },
+    rateTypes: { variable: "변동금리", mixed: "혼합형 (일정기간 고정 후 변동)", periodic: "주기형 (일정 주기로 금리 변경)", fixed: "만기까지 고정금리" },
+    repaymentMethodRules: { equalPayment: "원리금균등", equalPrincipal: "원금균등", bullet: "만기일시" },
+    roundingRules: { money: "round", percent: 1 },
+    officialSources: [
+      { name: "금융위원회", desc: "3단계 스트레스 DSR 시행방안 (보도자료)", url: "https://www.fsc.go.kr/no010101/84617" },
+      { name: "금융위원회", desc: "가계부채 관리방안 및 DSR 제도 안내", url: "https://www.fsc.go.kr" },
+      { name: "금융감독원", desc: "DSR 규제 안내", url: "https://www.fss.or.kr" },
+    ],
+    updatedAt: "2026.09.24",
+  },
+];
+const TODAY = new Date(Date.now() + 9 * 3600000).toISOString().slice(0, 10);
+function resolveDSRConfig(referenceDate = TODAY) {
+  return DSR_CONFIG.find((c) => c.effectiveFrom <= referenceDate && (!c.effectiveTo || referenceDate <= c.effectiveTo)) || DSR_CONFIG[DSR_CONFIG.length - 1];
+}
+
+/* =========================================================
+   3. Formatters
+   ========================================================= */
+function parseCurrencyInput(v) { const d = String(v ?? "").replace(/[^\d]/g, ""); return d ? Number(d) : NaN; }
+function formatMoneyInput(v) { const d = String(v).replace(/[^\d]/g, "").replace(/^0+(?=\d)/, "").slice(0, 13); return d ? Number(d).toLocaleString("ko-KR") : ""; }
+function parsePercentInput(v) { const s = String(v ?? "").replace(/[^\d.]/g, ""); if (!s || s === ".") return NaN; return Number(s) / 100; }
+function sanitizePercent(v) { let s = String(v).replace(/[^\d.]/g, ""); const i = s.indexOf("."); if (i !== -1) s = s.slice(0, i + 1) + s.slice(i + 1).replace(/\./g, ""); const [a, b] = s.split("."); return b !== undefined ? a.slice(0, 3) + "." + b.slice(0, 2) : a.slice(0, 3); }
+const safe = (n) => (Number.isFinite(n) ? n : 0);
+const won = (n) => { const r = Math.round(safe(n)); return `${(Object.is(r, -0) ? 0 : r).toLocaleString("ko-KR")}원`; };
+function formatKoreanCurrency(n) {
+  n = Math.round(Math.abs(safe(n))); if (!n) return "0원";
+  const units = [{ v: 1e12, l: "조" }, { v: 1e8, l: "억" }, { v: 1e4, l: "만" }]; let rest = n; const parts = [];
+  units.forEach((u) => { const q = Math.floor(rest / u.v); if (q > 0) { parts.push(`${q.toLocaleString("ko-KR")}${u.l}`); rest -= q * u.v; } });
+  if (rest > 0) parts.push(rest.toLocaleString("ko-KR")); return parts.join(" ") + "원";
+}
+const man = (n) => `${Math.round(safe(n) / 10000).toLocaleString("ko-KR")}만원`;
+const pct1 = (r) => `${(Math.round(safe(r) * 1000) / 10).toFixed(1)}%`;
+const pct2 = (r) => `${Number((safe(r) * 100).toFixed(2))}%`;
+
+/* =========================================================
+   4. Loan payment engine (실제 상환액)
+   ========================================================= */
+function calculateLoanPaymentSchedule({ principal, rate, years, method }) {
+  const n = Math.max(1, Math.round(years * 12)), i = rate / 12;
+  if (method === "bullet") return { firstMonth: principal * i, firstYear: principal * rate };
+  if (method === "equalPrincipal") {
+    const p = principal / n; let bal = principal, first = 0;
+    for (let k = 0; k < Math.min(12, n); k++) { first += p + bal * i; bal -= p; }
+    return { firstMonth: p + principal * i, firstYear: first };
+  }
+  const m = i === 0 ? principal / n : (principal * i) / (1 - Math.pow(1 + i, -n));
+  return { firstMonth: m, firstYear: m * Math.min(12, n) };
+}
+
+/* =========================================================
+   5. Loan type rules / stress / contributions
+   ========================================================= */
+const resolveLoanTypeRule = (type, cfg) => cfg.loanTypeRules[type];
+function evaluateDSRLoanException(loan, cfg) {
+  const r = resolveLoanTypeRule(loan.type, cfg);
+  if (r.engine === "excluded") return { excluded: true, text: `${r.label}은 DSR 산정에서 제외되는 대출로 계산했어요.` };
+  return { excluded: false };
+}
+function resolveStressRateAdjustment(loan, cfg, ctx) {
+  if (!loan.isNew) return { add: 0, label: "기존 대출은 실제 금리로 반영했어요." };
+  const s = cfg.stressDSRRules;
+  if (loan.type === "mortgage") {
+    const reg = s.mortgage[ctx.region === "capital" ? "capital" : "local"];
+    const ratio = s.mortgage.rateTypeRatio[loan.rateType] ?? 1;
+    return { add: reg.stressRate * reg.baseRatio * ratio, label: `${reg.label} × 금리유형 ${Math.round(ratio * 100)}%` };
+  }
+  if (loan.type === "credit") {
+    if (ctx.totalCredit <= s.credit.onlyIfTotalCreditAbove) return { add: 0, label: "신용대출 총잔액이 1억원 이하라 스트레스 금리를 적용하지 않아요." };
+    const ratio = s.credit.rateTypeRatio[loan.rateType] ?? 1;
+    return { add: s.credit.stressRate * s.credit.baseRatio * ratio, label: s.credit.label };
+  }
+  return { add: 0, label: "" };
+}
+function calculateMortgageDSRContribution(loan, cfg, rate) {
+  if (loan.method === "bullet") {
+    const yrs = Math.min(loan.years, cfg.mortgageRules.bulletMaxYears);
+    return { principal: loan.balance / yrs, interest: loan.balance * rate, how: `만기일시: 원금 ÷ ${yrs}년 + 연 이자` };
+  }
+  const s = calculateLoanPaymentSchedule({ principal: loan.balance, rate, years: loan.years, method: loan.method });
+  return { total: s.firstYear, how: `${cfg.repaymentMethodRules[loan.method]} ${loan.years}년: 실제 첫 1년 원리금` };
+}
+function calculateCreditLoanDSRContribution(loan, cfg, rate) {
+  const y = cfg.creditLoanRules.assumedMaturityYears;
+  return { principal: loan.balance / y, interest: loan.balance * rate, how: `원금 ÷ ${y}년 + 연 이자 (마이너스통장은 한도 기준)` };
+}
+function calculateOtherLoanDSRContribution(loan) {
+  const annual = safe(loan.actualMonthly) * 12;
+  return { principal: 0, interest: 0, total: annual, how: "반영방식 확인 필요: 입력한 실제 월 상환액 × 12를 참고값으로 넣었어요.", confidence: "check" };
+}
+function calculateLoanDSRContribution(loan, cfg, ctx) {
+  const ex = evaluateDSRLoanException(loan, cfg);
+  const stress = resolveStressRateAdjustment(loan, cfg, ctx);
+  const dsrRate = loan.rate + stress.add;
+  const rule = resolveLoanTypeRule(loan.type, cfg);
+  if (ex.excluded) return { loan, label: rule.label, annual: 0, excluded: true, how: ex.text, stress, dsrRate, confidence: "ok", actualMonthly: loan.type === "jeonse" ? loan.balance * loan.rate / 12 : null };
+  let c;
+  if (rule.engine === "mortgage") c = calculateMortgageDSRContribution(loan, cfg, dsrRate);
+  else if (rule.engine === "credit") c = calculateCreditLoanDSRContribution(loan, cfg, dsrRate);
+  else c = calculateOtherLoanDSRContribution(loan);
+  const annual = c.total ?? c.principal + c.interest;
+  const actual = rule.engine === "other" ? safe(loan.actualMonthly) : rule.engine === "credit" ? loan.balance * loan.rate / 12 : calculateLoanPaymentSchedule({ principal: loan.balance, rate: loan.rate, years: loan.years, method: loan.method }).firstMonth;
+  return { loan, label: rule.label, annual, how: c.how, stress, dsrRate, confidence: c.confidence || "ok", actualMonthly: actual };
+}
+function calculateTotalAnnualDebtService(loans, cfg, ctx) {
+  const items = loans.map((l) => calculateLoanDSRContribution(l, cfg, ctx));
+  return { items, total: items.reduce((s, x) => s + x.annual, 0) };
+}
+const calculateTotalDSR = (annual, income) => (income > 0 ? annual / income : 0);
+
+/* =========================================================
+   6. Main / capacity / reverse
+   ========================================================= */
+function buildContext(v, loans) {
+  return { region: v.region, totalCredit: loans.filter((l) => l.type === "credit").reduce((s, l) => s + l.balance, 0) };
+}
+function calculateDSR(v, overrideNew) {
+  const cfg = resolveDSRConfig();
+  const existing = v.hasExisting ? v.loans.map((l) => ({ ...l, isNew: false })) : [];
+  const newLoan = v.mode === "withNew" ? { ...v.newLoan, ...(overrideNew || {}), isNew: true } : null;
+  const all = newLoan ? [...existing, newLoan] : existing;
+  const ctx = buildContext(v, all);
+  const before = calculateTotalAnnualDebtService(existing, cfg, buildContext(v, existing));
+  const after = calculateTotalAnnualDebtService(all, cfg, ctx);
+  const newItem = newLoan ? after.items[after.items.length - 1] : null;
+  return { cfg, input: v, income: v.income, before: { ...before, dsr: calculateTotalDSR(before.total, v.income) }, after: { ...after, dsr: calculateTotalDSR(after.total, v.income) }, newItem,
+    newActualMonthly: newLoan ? calculateLoanPaymentSchedule({ principal: newLoan.balance, rate: newLoan.rate, years: newLoan.years, method: newLoan.method }).firstMonth : 0,
+    uncertain: after.items.some((x) => x.confidence === "check") };
+}
+function calculateRemainingDebtServiceCapacity(income, targetDSR, existingAnnual) { return income * targetDSR - existingAnnual; }
+function estimateLoanPrincipalFromDSRCapacity(v) {
+  const cfg = resolveDSRConfig();
+  const base = calculateDSR({ ...v, mode: "current" });
+  const capacity = calculateRemainingDebtServiceCapacity(v.income, v.targetDSR, base.before.total);
+  if (capacity <= 0) return { cfg, input: v, base, capacity, principal: 0, noCapacity: true };
+  const annualFor = (p) => calculateDSR({ ...v, mode: "withNew", newLoan: { ...v.newLoan, balance: p } }).after.total - base.before.total;
+  let lo = 0, hi = 1e7;
+  while (annualFor(hi) < capacity && hi < 1e13) hi *= 2;
+  for (let k = 0; k < 80; k++) { const mid = (lo + hi) / 2; if (annualFor(mid) <= capacity) lo = mid; else hi = mid; }
+  const principal = Math.floor(lo / 10000) * 10000; // 만원 단위 내림
+  const check = calculateDSR({ ...v, mode: "withNew", newLoan: { ...v.newLoan, balance: principal } });
+  return { cfg, input: v, base, capacity, principal, check, noCapacity: false,
+    monthly: calculateLoanPaymentSchedule({ principal, rate: v.newLoan.rate, years: v.newLoan.years, method: v.newLoan.method }).firstMonth };
+}
+
+/* =========================================================
+   7. Scenarios
+   ========================================================= */
+function runInterestRateScenario(v) {
+  const set = [...new Set([0.03, 0.04, 0.05, 0.06, v.newLoan.rate].map((x) => Math.round(x * 10000) / 10000))].sort((a, b) => a - b);
+  return set.map((rate) => ({ rate, current: Math.abs(rate - v.newLoan.rate) < 1e-9, dsr: calculateDSR(v, { rate }).after.dsr }));
+}
+function runLoanAmountScenario(v) {
+  const set = [...new Set([100000000, 200000000, 300000000, 400000000, v.newLoan.balance])].sort((a, b) => a - b);
+  return set.map((balance) => ({ balance, current: balance === v.newLoan.balance, dsr: calculateDSR(v, { balance }).after.dsr }));
+}
+function runTermScenario(v) {
+  return [20, 30, 40].map((years) => ({ years, current: years === v.newLoan.years, dsr: calculateDSR(v, { years }).after.dsr }));
+}
+
+/* =========================================================
+   8. Validation
+   ========================================================= */
+function validateLoan(l, prefix, e, needYears) {
+  if (!Number.isFinite(l.balance) || l.balance <= 0) e[`${prefix}-balance`] = "대출잔액(금액)을 입력해주세요.";
+  if (l.type !== "other") {
+    if (!Number.isFinite(l.rate) || l.rate < 0) e[`${prefix}-rate`] = "0% 이상의 금리를 입력해주세요.";
+    else if (l.rate > 0.3) e[`${prefix}-rate`] = "금리를 다시 확인해주세요.";
+  }
+  if (needYears && (l.type === "mortgage") && (!Number.isFinite(l.years) || l.years < 1 || l.years > 50)) e[`${prefix}-years`] = "기간을 1~50년으로 입력해주세요.";
+  if (l.type === "other" && !(safe(l.actualMonthly) > 0)) e[`${prefix}-actual`] = "기타대출은 실제 월 상환액을 입력해주세요.";
+}
+function validateInputs(v) {
+  const e = {};
+  if (!Number.isFinite(v.income) || v.income <= 0) e.income = "0원보다 큰 연소득을 입력해주세요.";
+  else if (v.income > 1e12) e.income = "연소득을 다시 확인해주세요.";
+  if (v.hasExisting) { if (!v.loans.length) e.loans = "대출을 추가하거나 '없어요'를 선택해주세요."; v.loans.forEach((l) => validateLoan(l, `l${l.id}`, e, true)); }
+  if (v.mode !== "current") validateLoan(v.mode === "capacity" ? { ...v.newLoan, balance: 1 } : v.newLoan, "new", e, true);
+  if (v.mode === "capacity" && (!Number.isFinite(v.targetDSR) || v.targetDSR <= 0 || v.targetDSR > 1)) e.target = "목표 DSR을 1~100% 사이로 입력해주세요.";
+  if (v.mode === "current" && !v.hasExisting) e.loans = "현재 DSR을 보려면 기존 대출을 입력해주세요.";
+  return e;
+}
+
+/* =========================================================
+   9. Content
+   ========================================================= */
+const CFG = resolveDSRConfig();
+const FAQ = [
+  { id: "f1", q: "연봉 5천만원이면 DSR 40%는 얼마인가요?", a: "1년에 갚는 DSR 반영 원리금이 2,000만원(월평균 약 167만원)까지라는 뜻이에요. 이 금액이 곧 대출 가능금액은 아니에요. 금리와 기간에 따라 빌릴 수 있는 원금이 달라져요." },
+  { id: "f2", q: "연봉 1억원이면 대출 얼마까지 받을 수 있나요?", a: "DSR만으로 확정할 수 없어요. 기존 부채, 금리, 기간, 상환방식, 스트레스 금리에 따라 달라지고, 주택담보대출은 LTV 등 다른 기준도 함께 봐요. '대출 가능금액' 모드에서 조건을 넣어 추정해보세요." },
+  { id: "f3", q: "신용대출도 DSR에 포함되나요?", a: `네. 원금을 ${CFG.creditLoanRules.assumedMaturityYears}년에 나눠 갚는다고 보고 연 이자를 더해 반영해요.` },
+  { id: "f4", q: "자동차대출도 포함되나요?", a: "할부·리스 등 상품과 금융기관에 따라 반영방식이 달라 이 계산기는 '반영방식 확인 필요'로 표시하고 실제 상환액을 참고값으로 넣어요." },
+  { id: "f5", q: "전세대출도 DSR에 포함되나요?", a: "전세자금대출은 DSR 산정에서 제외되는 대출로 계산해요. 금융기관이나 상품에 따라 별도 기준이 있을 수 있어요." },
+  { id: "f6", q: "학자금대출은 어떻게 계산되나요?", a: "정확한 반영방식을 아직 지원하지 않아 '확인 필요'로 표시하고, 입력한 실제 월 상환액을 참고값으로 사용해요." },
+  { id: "f7", q: "마이너스통장은 어떻게 계산하나요?", a: "실제 사용액이 아니라 한도 금액을 기준으로 원금 ÷ 5년 + 이자로 반영하는 게 일반적이에요. 잔액 칸에 한도를 입력해주세요." },
+  { id: "f8", q: "스트레스 DSR은 무엇인가요?", a: "대출 기간 중 금리가 오를 가능성을 반영해 심사할 때 실제 금리에 가상의 가산금리를 더해 계산하는 제도예요. 2026년 하반기에는 수도권·규제지역 주담대 3.0%, 지방 주담대 0.75%, 신용대출(총잔액 1억원 초과) 1.5%가 적용돼요." },
+  { id: "f9", q: "스트레스 금리를 실제로 내야 하나요?", a: "아니요. 스트레스 금리는 DSR 심사 계산에만 쓰이고 실제로 내는 금리는 올라가지 않아요." },
+  { id: "f10", q: "DSR이 40%를 넘으면 대출을 받을 수 없나요?", a: "일률적으로 단정할 수 없어요. 적용 대상 차주인지, 금융권역, 예외 대출 여부 등에 따라 달라져요." },
+  { id: "f11", q: "DSR 계산 결과와 은행 결과가 왜 다른가요?", a: "소득 인정 방식, 기존 대출 정보, 산정 만기, 스트레스 DSR 적용비율, 상품과 금융기관 심사 기준이 다를 수 있어요." },
+];
+const RELATED = [
+  { id: "loan-interest", name: "대출이자 계산기", desc: "대출금액과 금리별 월 상환액과 총 이자를 확인해보세요.", icon: "percent", href: "/calculators/loan-interest" },
+  { id: "acquisition-tax", name: "취득세 계산기", desc: "집을 살 때 발생하는 예상 취득 관련 세금을 확인해보세요.", icon: "receipt", href: "/calculators/acquisition-tax" },
+  { id: "brokerage-fee", name: "중개보수 계산기", desc: "계약할 때 예상 중개보수 상한액을 확인해보세요.", icon: "home", href: "/calculators/brokerage-fee" },
+  { id: "ltv", name: "LTV 계산기", desc: "집값을 기준으로 LTV와 예상 대출금액을 확인해보세요.", icon: "home", href: "/calculators/ltv" },
+  { id: "subscription-score", name: "청약가점 계산기", desc: "청약을 준비 중이라면 내 예상 가점도 확인해보세요.", icon: "home", href: "/calculators/housing-subscription-score" },
+];
 /* =========================================================
    GUIDES — 생활정보 레지스트리 (모든 페이지 공통, 한 곳에서만 수정)
    publishedAt / updatedAt: 실제 작성·수정한 날짜만 적어요.
@@ -1910,7 +2016,7 @@ const NAV_CALCULATORS = [
 ];
 const NAV_FEATURED_IDS = ["freelancer-withholding", "unemployment-benefit", "net-salary", "weekly-holiday-pay", "severance-pay", "loan-interest", "dsr", "annual-leave"];
 const navFeaturedIds = () => NAV_FEATURED_IDS;
-const NAV_SECTION = "guide"; // 헤더에서 현재 위치로 표시할 메뉴
+const NAV_SECTION = "calc"; // 헤더에서 현재 위치로 표시할 메뉴
 const NAV_MENU_OF = { "계산기": "calc", "생활정보": "guide" }; // 헤더에서 메가메뉴를 여는 항목
 const NAV_PER_CATEGORY = 4; // 카테고리마다 메뉴에 보여줄 계산기 수
 const NAV_CALC_INDEX_HREF = "/calculators"; // 전체 계산기 목록 페이지
@@ -1929,8 +2035,9 @@ function navGuidePick(catId) {
   return list.find((g) => FEATURED_GUIDE_IDS.includes(g.id)) || list[0] || null;
 }
 /* NAV_MENU:END */
-
-const PAGE = { path: "/guide", title: "생활정보", category: { name: "생활정보", href: "/guide" }, updatedAt: "2026.09.25" };
+const RELATED_ARTICLES = guidesForCalculator("/calculators/dsr");
+const NAV = [ { label: "계산기", href: "/#popular" }, { label: "생활정보", href: "/guide" }, { label: "얼마지 소개", href: "/about" } ];
+const BREADCRUMB = [ { name: "홈", href: "/" }, { name: "계산기", href: "/calculators" }, { name: PAGE.category.name, href: PAGE.category.href }, { name: PAGE.title, href: PAGE.path } ];
 /* =========================================================
    Routing
    - 실서비스(ulmaji.kr): 실제 경로로 이동
@@ -2361,38 +2468,297 @@ function Toast() {
 
 
 
-ICONS.copy = '<rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/>';
-
-function Crumbs({ items }) {
-  return (<nav className="container breadcrumb" aria-label="현재 위치"><ol>{items.map((b, i) => { const last = i === items.length - 1; return (
-    <li key={b.name}>{i > 0 && <Icon name="chevron-right" size={14} />}{last || !b.href ? <span aria-current={last ? "page" : undefined}>{b.name}</span> : <AppLink href={b.href}>{b.name}</AppLink>}</li>); })}</ol></nav>);
+/* =========================================================
+   20. Page pieces
+   ========================================================= */
+function Breadcrumb() {
+  return (<nav className="container breadcrumb" aria-label="현재 위치"><ol>{BREADCRUMB.map((b, i) => { const last = i === BREADCRUMB.length - 1; return (
+    <li key={b.href}>{i > 0 && <Icon name="chevron-right" size={14} />}{last ? <span aria-current="page">{b.name}</span> : <AppLink href={b.href}>{b.name}</AppLink>}</li>); })}</ol></nav>);
 }
-function SourceList({ sources }) {
-  return (<ul className="source-list">{sources.map((x) => (
-    <li key={x.url}><a className="source-link" href={x.url} target="_blank" rel="noopener noreferrer"><span><span className="src-name">{x.name}</span><span className="src-desc">{x.desc}</span></span><Icon name="external" size={18} /><span className="sr-only">(새 탭에서 열림)</span></a></li>))}</ul>);
+function PageHead() {
+  return (<div className="container page-head"><span className="badge badge-brand">{PAGE.category.name}</span><h1>{PAGE.title}</h1>
+    <p className="page-desc">연소득과 대출정보를 입력하면<br />연간 원리금 부담과 예상 DSR을 계산해드려요.</p>
+    <p className="page-meta"><span>실제 금융기관 심사 결과와 대출한도는 다를 수 있어요</span><span className="meta-sep" aria-hidden="true"></span>
+      <a href="#basis">마지막 확인 {CFG.checkedAt}<Icon name="info" size={16} /><span className="sr-only">, 계산 기준 보기</span></a></p></div>);
+}
+function FieldError({ id, message }) { if (!message) return null; return <p id={id} className="field-error"><Icon name="alert" size={16} />{message}</p>; }
+function Cards({ name, value, onChange, options, three }) {
+  return (<div className={"method-cards" + (three ? " three" : "")}>{options.map((o) => (
+    <label className="method-card" key={String(o.v)}><input type="radio" name={name} checked={value === o.v} onChange={() => onChange(o.v)} /><span><strong>{o.l}</strong>{o.d && <small>{o.d}</small>}</span></label>))}</div>);
+}
+function MoneyInput({ id, label, value, onChange, error, sub, help }) {
+  const num = parseCurrencyInput(value);
+  return (<div className={"field" + (sub ? " sub-field" : "")}><label className={sub ? "mini-label" : "field-label"} htmlFor={id}>{label}</label>
+    <div className={"input-wrap" + (sub ? " sm" : "") + (error ? " is-invalid" : "")}><input id={id} type="text" inputMode="numeric" autoComplete="off" placeholder="0" value={value} onChange={(e) => onChange(formatMoneyInput(e.target.value))}
+      aria-invalid={!!error} aria-describedby={[`${id}-help`, error && `${id}-error`].filter(Boolean).join(" ")} /><span className="input-suffix" aria-hidden="true">원</span></div>
+    <FieldError id={`${id}-error`} message={error} />
+    <p id={`${id}-help`} className="field-help">{num > 0 && <b className="korean-amount">{formatKoreanCurrency(num)}</b>}{num > 0 && help ? " · " : ""}{help}</p></div>);
+}
+function SmallInput({ id, label, value, onChange, suffix, error, decimal }) {
+  return (<div className="field sub-field"><label className="mini-label" htmlFor={id}>{label}</label>
+    <div className={"input-wrap sm" + (error ? " is-invalid" : "")}><input id={id} type="text" inputMode={decimal ? "decimal" : "numeric"} value={value} onChange={(e) => onChange(decimal ? sanitizePercent(e.target.value) : e.target.value.replace(/[^\d]/g, "").slice(0, 2))} aria-invalid={!!error} aria-describedby={error ? `${id}-error` : undefined} /><span className="input-suffix" aria-hidden="true">{suffix}</span></div>
+    <FieldError id={`${id}-error`} message={error} /></div>);
 }
 
-function GuideList() {
-  const q = new URLSearchParams(window.location.search).get("category");
-  const cats = GUIDE_CATEGORIES.filter((c) => PUBLISHED_GUIDES.some((g) => g.categoryId === c.id));
-  const current = cats.some((c) => c.id === q) ? q : "all";
-  const list = PUBLISHED_GUIDES.filter((g) => current === "all" || g.categoryId === current);
+/* 대출 입력 카드 (기존·신규 공용) */
+function LoanFields({ prefix, loan, onChange, errors, isNew, hideBalance }) {
+  const cfg = CFG;
+  const rule = cfg.loanTypeRules[loan.type];
+  const ex = rule.engine === "excluded";
   return (<>
-    <Crumbs items={[{ name: "얼마지", href: "/" }, { name: "생활정보" }]} />
-    <div className="container page-head"><h1>생활정보</h1>
-      <p className="page-desc">월급, 세금, 대출, 부동산, 육아·복지까지<br />생활 속에서 헷갈리는 기준을 쉽게 정리했어요.</p></div>
-    <section className="container" aria-label="생활정보 목록">
-      {cats.length > 1 && <ul className="cat-tabs" aria-label="카테고리">
-        <li><AppLink href="/guide" aria-current={current === "all" ? "page" : undefined}>전체<span className="cnt">{PUBLISHED_GUIDES.length}</span></AppLink></li>
-        {cats.map((c) => <li key={c.id}><AppLink href={`/guide?category=${c.id}`} aria-current={current === c.id ? "page" : undefined}>{c.name}<span className="cnt">{PUBLISHED_GUIDES.filter((g) => g.categoryId === c.id).length}</span></AppLink></li>)}</ul>}
-      <ul className="article-grid" style={{ marginTop: cats.length > 1 ? 0 : 24 }}>{list.map((a) => <li key={a.id}><ArticleCard article={a} /></li>)}</ul>
-      <p className="guide-meta">글마다 참고한 공식자료와 확인 날짜를 적고, 관련 계산기로 바로 이어지게 했어요.</p>
-    </section>
-    <AdSlot id="guide-list-bottom" label="목록 하단" />
-    <div style={{ height: 64 }}></div>
+    <label className="mini-label" htmlFor={`${prefix}-type`}>대출 종류</label>
+    <select id={`${prefix}-type`} className="select" value={loan.type} onChange={(e) => onChange({ type: e.target.value })}>
+      {Object.entries(cfg.loanTypeRules).filter(([k]) => !isNew || ["mortgage", "credit"].includes(k)).map(([k, r]) => <option key={k} value={k}>{r.label}</option>)}</select>
+    {ex && <p className="field-help">이 대출은 DSR 계산에서 제외되는 대출로 처리해요.</p>}
+    {rule.engine === "other" && <p className="field-help warn">대출 종류에 따라 DSR 산정방식이 달라질 수 있어요. 정확한 반영방식 확인이 필요해요.</p>}
+    {!hideBalance && <MoneyInput id={`${prefix}-bal`} label={isNew ? "대출금액" : loan.type === "credit" ? "대출잔액 (마이너스통장은 한도)" : "현재 대출잔액"} value={loan.balanceText} onChange={(x) => onChange({ balanceText: x })} error={errors[`${prefix}-balance`]} sub />}
+    {!ex && rule.engine !== "other" && <SmallInput id={`${prefix}-rate`} label={isNew ? "예상 금리" : "현재 금리"} value={loan.rateText} onChange={(x) => onChange({ rateText: x })} suffix="%" decimal error={errors[`${prefix}-rate`]} />}
+    {ex && <SmallInput id={`${prefix}-rate`} label="현재 금리 (실제 이자 참고용)" value={loan.rateText} onChange={(x) => onChange({ rateText: x })} suffix="%" decimal error={errors[`${prefix}-rate`]} />}
+    {loan.type === "mortgage" && (<>
+      <SmallInput id={`${prefix}-years`} label={isNew ? "대출기간" : "남은 대출기간"} value={loan.yearsText} onChange={(x) => onChange({ yearsText: x })} suffix="년" error={errors[`${prefix}-years`]} />
+      <label className="mini-label" htmlFor={`${prefix}-method`}>{isNew ? "상환방식" : "어떻게 갚고 있나요?"}</label>
+      <select id={`${prefix}-method`} className="select" value={loan.method} onChange={(e) => onChange({ method: e.target.value })}>{Object.entries(cfg.repaymentMethodRules).map(([k, l]) => <option key={k} value={k}>{l}</option>)}</select>
+    </>)}
+    {isNew && (<><label className="mini-label" htmlFor={`${prefix}-rt`}>금리 유형</label>
+      <select id={`${prefix}-rt`} className="select" value={loan.rateType} onChange={(e) => onChange({ rateType: e.target.value })}>{Object.entries(cfg.rateTypes).map(([k, l]) => <option key={k} value={k}>{l}</option>)}</select>
+      <p className="field-help">금리 유형에 따라 스트레스 금리 적용비율이 달라져요. 잘 모르겠다면 변동금리로 계산해요.</p></>)}
+    {rule.engine === "other" && <MoneyInput id={`${prefix}-act`} label="실제 월 상환액" value={loan.actualText} onChange={(x) => onChange({ actualText: x })} error={errors[`${prefix}-actual`]} sub />}
   </>);
 }
-function App() { return (<><a className="skip-link" href="#main">본문 바로가기</a><Header /><main id="main"><GuideList /></main><Footer /><Toast /></>); }
+
+/* =========================================================
+   21. Explanation / Result
+   ========================================================= */
+function generateDSRExplanation(r) {
+  const steps = [{ l: "연소득", v: won(r.income) }];
+  r.after.items.forEach((x) => steps.push({ l: `${x.loan.isNew ? "새 " : ""}${x.label} DSR 반영 원리금`, v: `+ ${won(x.annual)}` }));
+  steps.push({ l: "총 연간 원리금", v: won(r.after.total) });
+  steps.push({ l: `÷ 연소득 × 100`, v: pct1(r.after.dsr), final: true });
+  return steps;
+}
+function ResultEmpty() { return (<div className="result-empty"><span className="big-q" aria-hidden="true">?</span><h2 className="sr-only">계산 결과</h2><p>연소득과 대출정보를 입력하면<br />예상 DSR을 알려드릴게요.</p></div>); }
+
+function DsrBar({ dsr, threshold }) {
+  const max = Math.max(0.6, dsr * 1.1, threshold * 1.2);
+  return (<div className="dsr-bar" role="img" aria-label={`예상 DSR ${pct1(dsr)}, 일반적인 참고 기준 ${pct1(threshold)}`}>
+    <div className="goal-bar"><span style={{ width: `${Math.min(100, (dsr / max) * 100)}%` }}></span></div>
+    <div className="dsr-mark" style={{ left: `${(threshold / max) * 100}%` }} aria-hidden="true"></div>
+    <div className="dsr-legend"><span>예상 DSR {pct1(dsr)}</span><span>참고 기준 {pct1(threshold)} (은행권)</span></div></div>);
+}
+
+function Breakdown({ r }) {
+  return (<div className="pay-blocks"><h3 className="res-sub-title">어떤 대출이 얼마나 반영됐나요?</h3><dl className="pb-rows">
+    {r.after.items.map((x, i) => <div key={i}><dt>{x.loan.isNew ? "새 " : ""}{x.label}<small className="dt-sub">{x.how}{x.stress.add ? ` · 심사용 금리 ${pct2(x.dsrRate)}` : ""}</small></dt><dd>{x.excluded ? "제외" : `연 ${won(x.annual)}`}{x.confidence === "check" ? " (확인 필요)" : ""}</dd></div>)}
+    <div className="is-sum"><dt>총 연간 원리금</dt><dd>{won(r.after.total)}</dd></div></dl>
+    <p className="why-note">DSR은 대출 종류별 산정방식 때문에 실제로 매달 내는 금액과 다르게 계산될 수 있어요.</p></div>);
+}
+
+function ResultView({ r, stale, headingRef, onRecalc }) {
+  const v = r.input;
+  const withNew = v.mode === "withNew";
+  const th = r.cfg.dsrThresholdRules.bank;
+  const stressItem = r.newItem && r.newItem.stress.add > 0 ? r.newItem : null;
+  return (
+    <div className={"result-view" + (stale ? " is-stale" : "")}>
+      {stale && <div className="status is-note res-stale"><Icon name="info" size={20} /><p><strong>입력값을 확인해주세요</strong><span>올바르게 입력하면 결과가 바로 다시 계산돼요.</span></p></div>}
+      <div className="res-head"><h2 className="res-label" ref={headingRef} tabIndex={-1}>{withNew ? `${formatKoreanCurrency(v.newLoan.balance)}의 새 ${r.newItem.label}을 포함하면 예상 DSR` : "현재 입력한 대출을 기준으로 예상 DSR"}</h2><span className="badge badge-brand">2026년 하반기 기준</span></div>
+      <p className="res-amount">{pct1(r.after.dsr)}</p>
+      <p className="res-sentence">연소득 {formatKoreanCurrency(r.income)} 중 DSR에 반영되는 연간 원리금은 {man(r.after.total)}이에요. 월평균으로 보면 약 {man(r.after.total / 12)}이에요 (이해를 돕기 위한 단순 환산).</p>
+      {r.uncertain && <div className="status is-no"><Icon name="alert" size={20} /><p><strong>정확한 반영방식 확인이 필요한 대출이 있어요</strong><span>기타대출은 실제 상환액을 참고값으로 넣었어요.</span></p></div>}
+      <DsrBar dsr={r.after.dsr} threshold={th} />
+      <p className="why-note">입력한 조건에서는 DSR {pct1(th)}(은행권) 기준과 비교해볼 수 있어요. 이 기준이 실제로 적용되는지는 차주·상품에 따라 달라서 일반적인 참고 기준으로만 보여드려요.</p>
+      <div className="res-fade">
+        {withNew && (<div className="eq"><h3 className="res-sub-title">대출 전 → 대출 후</h3><div className="eq-row">
+          <div className="eq-item"><span>대출 전</span><strong>DSR {pct1(r.before.dsr)}</strong><small>연 {man(r.before.total)}</small></div><span className="eq-op" aria-hidden="true">→</span>
+          <div className="eq-item"><span>대출 후</span><strong>DSR {pct1(r.after.dsr)}</strong><small>연 {man(r.after.total)}</small></div><span className="eq-op" aria-hidden="true">=</span>
+          <div className="eq-item is-total"><span>변화</span><strong className="is-blue">+{((r.after.dsr - r.before.dsr) * 100).toFixed(1)}%p</strong><small>연 +{man(r.after.total - r.before.total)}</small></div></div></div>)}
+        {withNew && (<div className="sum-grid"><div className="sum-item"><span>새 대출 실제 예상 월 상환액 (첫 달)</span><strong>약 {man(r.newActualMonthly)}</strong></div>
+          <div className="sum-item"><span>새 대출 DSR 심사 반영액</span><strong>연 {man(r.newItem.annual)}</strong></div></div>)}
+        {stressItem && <div className="small-notice is-tip"><Icon name="info" size={18} /><p><strong>스트레스 DSR이 적용됐어요</strong><span>실제 금리 {pct2(v.newLoan.rate)}에 스트레스 금리 {pct2(stressItem.stress.add)}를 더한 {pct2(stressItem.dsrRate)}로 DSR을 계산했어요 ({stressItem.stress.label}). 스트레스 금리는 DSR 심사를 위한 계산에 쓰이는 값으로 실제 적용금리와는 달라요.</span></p></div>}
+        <div className="why"><h3 className="why-static">왜 {pct1(r.after.dsr)}인가요?</h3><div className="why-body"><div className="why-block"><ol className="grow-steps flow-steps">
+          {generateDSRExplanation(r).map((s, i) => <li key={i} className={s.final ? "is-final" : ""}><span>{s.l}</span><strong>{s.v}</strong></li>)}</ol></div></div></div>
+        <Breakdown r={r} />
+        {withNew && <Scenarios v={v} />}
+      </div>
+      <div className="res-actions"><button type="button" className="btn-secondary" onClick={onRecalc}><Icon name="refresh" size={18} />조건 바꿔 다시 계산하기</button></div>
+    </div>
+  );
+}
+function Scenarios({ v }) {
+  return (<div className="pay-blocks">
+    <h3 className="res-sub-title">금리가 달라지면?</h3>
+    <dl className="pb-rows">{runInterestRateScenario(v).map((x) => <div key={x.rate}><dt>금리 {pct2(x.rate)}{x.current ? " (현재)" : ""}</dt><dd>DSR {pct1(x.dsr)}</dd></div>)}</dl>
+    <h3 className="res-sub-title sub-gap">새 대출금액이 달라지면?</h3>
+    <dl className="pb-rows">{runLoanAmountScenario(v).map((x) => <div key={x.balance}><dt>{formatKoreanCurrency(x.balance)}{x.current ? " (현재)" : ""}</dt><dd>DSR {pct1(x.dsr)}</dd></div>)}</dl>
+    {v.newLoan.type === "mortgage" && <><h3 className="res-sub-title sub-gap">대출기간이 달라지면?</h3>
+      <dl className="pb-rows">{runTermScenario(v).map((x) => <div key={x.years}><dt>{x.years}년{x.current ? " (현재)" : ""}</dt><dd>DSR {pct1(x.dsr)}</dd></div>)}</dl></>}
+    <p className="why-note">각 경우마다 스트레스 금리를 포함한 전체 계산을 다시 했어요. 실제 상품의 최장 만기는 금융기관마다 달라요.</p></div>);
+}
+
+function CapacityView({ r, stale, headingRef, onRecalc }) {
+  const v = r.input, nl = v.newLoan;
+  const rule = r.cfg.loanTypeRules[nl.type];
+  return (<div className={"result-view" + (stale ? " is-stale" : "")}>
+    {stale && <div className="status is-note res-stale"><Icon name="info" size={20} /><p><strong>입력값을 확인해주세요</strong><span>올바르게 입력하면 결과가 바로 다시 계산돼요.</span></p></div>}
+    {r.noCapacity ? (<>
+      <div className="res-head"><h2 className="res-label" ref={headingRef} tabIndex={-1}>DSR 기준 예상 추가 대출금액</h2></div>
+      <p className="res-amount is-additional">입력한 목표 DSR 기준으로는 추가 원리금 여력이 계산되지 않아요</p>
+      <p className="res-sentence">현재 예상 DSR이 {pct1(r.base.before.dsr)}로, 목표로 입력한 {pct1(v.targetDSR)} 이상이에요. 실제 대출 가능 여부는 금융기관 심사에 따라 달라요.</p>
+    </>) : (<>
+      <div className="res-head"><h2 className="res-label" ref={headingRef} tabIndex={-1}>입력한 조건을 기준으로 DSR 기준 예상 추가 대출금액</h2><span className="badge badge-brand">단순 추정</span></div>
+      <p className="res-amount">약 {formatKoreanCurrency(r.principal)}</p>
+      <p className="res-sentence">목표 DSR {pct1(v.targetDSR)} · {rule.label} · 금리 {pct2(nl.rate)} · {nl.type === "mortgage" ? `${nl.years}년 · ${r.cfg.repaymentMethodRules[nl.method]}` : "원금 5년 가정"} 기준이에요.</p>
+      <div className="res-fade">
+        <div className="why"><h3 className="why-static">어떻게 계산했나요?</h3><div className="why-body"><div className="why-block"><ol className="grow-steps flow-steps">
+          <li><span>연소득 × 목표 DSR {pct1(v.targetDSR)}</span><strong>{won(v.income * v.targetDSR)}</strong></li>
+          <li><span>기존 대출 DSR 반영액</span><strong>− {won(r.base.before.total)}</strong></li>
+          <li><span>추가로 반영 가능한 연간 원리금</span><strong>{won(r.capacity)}</strong></li>
+          <li className="is-final"><span>스트레스 금리를 포함해 역산한 대출원금</span><strong>{formatKoreanCurrency(r.principal)}</strong></li></ol>
+          <p className="why-note">이 금액을 빌리면 예상 DSR은 {pct1(r.check.after.dsr)}이에요. 실제 첫 달 상환액은 약 {man(r.monthly)}이에요. 만원 단위에서 내림했어요.</p></div></div></div>
+      </div></>)}
+    <div className="small-notice"><Icon name="info" size={18} /><p><strong>DSR만 보면 대출한도를 알 수 있나요?</strong><span>아니요. DSR은 소득 대비 원리금 부담을 보는 기준이에요. 실제 대출한도는 LTV, 담보가치, 금융기관 심사, 소득 인정방식, 신용도, 상품 조건 등에 따라 달라질 수 있어요.</span></p></div>
+    <div className="res-actions"><button type="button" className="btn-secondary" onClick={onRecalc}><Icon name="refresh" size={18} />조건 바꿔 다시 계산하기</button></div>
+  </div>);
+}
+
+/* =========================================================
+   22. Calculator
+   ========================================================= */
+const MODES = { current: { l: "현재 DSR", d: "지금 가지고 있는 대출의 DSR을 확인해요." }, withNew: { l: "새 대출 포함", d: "새 대출까지 받으면 DSR이 얼마나 되는지 계산해요." }, capacity: { l: "대출 가능금액", d: "목표 DSR을 기준으로 추가 대출 여력을 추정해요." } };
+let seq = 1;
+const newLoanTemplate = (type = "mortgage") => ({ id: seq++, type, balanceText: "", rateText: "4.2", yearsText: "20", method: "equalPayment", rateType: "variable", actualText: "" });
+const INITIAL = { mode: "withNew", incomeText: "", hasExisting: false, loans: [], region: "capital",
+  newLoan: { id: 0, type: "mortgage", balanceText: (() => { const q = Number(new URLSearchParams(window.location.hash.slice(1)).get("loan") || new URLSearchParams(window.location.search).get("loan")); return q > 0 && q < 1e12 ? Math.round(q).toLocaleString("ko-KR") : "200,000,000"; })(), rateText: "4.0", yearsText: "30", method: "equalPayment", rateType: "variable", actualText: "" }, targetText: "40" };
+const toLoan = (l) => ({ id: l.id, type: l.type, balance: parseCurrencyInput(l.balanceText), rate: l.type === "other" ? 0 : parsePercentInput(l.rateText), years: Number(l.yearsText) || NaN, method: l.method, rateType: l.rateType, actualMonthly: parseCurrencyInput(l.actualText) });
+
+function DSRCalculator() {
+  const [s, setS] = useState(INITIAL);
+  const [errors, setErrors] = useState({});
+  const [submitted, setSubmitted] = useState(false);
+  const [scrollTick, setScrollTick] = useState(0);
+  const formRef = useRef(null), resultColRef = useRef(null), headingRef = useRef(null), lastRef = useRef(null);
+  const set = (p) => setS((x) => ({ ...x, ...p }));
+  const v = { mode: s.mode, income: parseCurrencyInput(s.incomeText), hasExisting: s.hasExisting, loans: s.loans.map(toLoan), region: s.region, newLoan: { ...toLoan(s.newLoan), years: s.newLoan.type === "mortgage" ? Number(s.newLoan.yearsText) || NaN : 5 }, targetDSR: parsePercentInput(s.targetText) };
+  const liveErrors = validateInputs(v);
+  const key = JSON.stringify(v);
+  const result = useMemo(() => (Object.keys(liveErrors).length ? null : s.mode === "capacity" ? estimateLoanPrincipalFromDSRCapacity(v) : calculateDSR(v)), [key]);
+  if (submitted && result) lastRef.current = result;
+  const shown = submitted ? lastRef.current : null;
+  const stale = submitted && !result;
+
+  useEffect(() => {
+    if (!scrollTick) return;
+    const col = resultColRef.current; if (!col) return;
+    const stacked = window.matchMedia("(max-width: 1023px)").matches;
+    const top = col.getBoundingClientRect().top;
+    if (top < 64 || top > window.innerHeight * 0.55) scrollToEl(stacked ? col : document.getElementById("calculator"));
+    const t = afterScroll(() => headingRef.current && headingRef.current.focus({ preventScroll: true }));
+    return () => clearTimeout(t);
+  }, [scrollTick]);
+
+  const onSubmit = (e) => { e.preventDefault(); const errs = validateInputs(v); setErrors(errs); if (Object.keys(errs).length) return; setSubmitted(true); setScrollTick((n) => n + 1); };
+  const onRecalc = () => scrollToEl(formRef.current);
+  const updLoan = (id, p) => set({ loans: s.loans.map((l) => (l.id === id ? { ...l, ...p } : l)) });
+  const setMode = (mode) => { set({ mode, hasExisting: mode === "current" ? true : s.hasExisting, loans: mode === "current" && !s.loans.length ? [newLoanTemplate()] : s.loans }); setSubmitted(false); setErrors({}); };
+
+  return (
+    <section className="calc-section" id="calculator" aria-label="DSR 계산기"><div className="container"><div className="calc-shell">
+      <form className="calc-form" ref={formRef} onSubmit={onSubmit} noValidate aria-labelledby="form-title">
+        <fieldset className="field"><legend className="sr-only" id="form-title">계산 방식</legend>
+          <div className="method-cards three">{Object.entries(MODES).map(([k, m]) => (<label className="method-card" key={k}><input type="radio" name="dmode" checked={s.mode === k} onChange={() => setMode(k)} /><span><strong>{m.l}</strong><small>{m.d}</small></span></label>))}</div></fieldset>
+
+        <h2 className="form-title step-title"><span className="step-count">STEP 1</span>연소득은 얼마인가요?</h2>
+        <MoneyInput id="income" label="세전 연소득 (금융기관 인정소득)" value={s.incomeText} onChange={(x) => set({ incomeText: x })} error={errors.income} help="금융기관이 DSR 심사에서 인정하는 연소득 금액을 알고 있다면 그 금액을 입력해주세요." />
+
+        <h2 className="form-title step-title"><span className="step-count">STEP 2</span>현재 갚고 있는 대출이 있나요?</h2>
+        {s.mode !== "current" && <Cards name="hasEx" value={s.hasExisting} onChange={(x) => set({ hasExisting: x, loans: x && !s.loans.length ? [newLoanTemplate()] : s.loans })} options={[{ v: true, l: "있어요" }, { v: false, l: "없어요" }]} />}
+        {s.hasExisting && (<>
+          {s.loans.map((l, i) => (<fieldset className="fam-card" key={l.id}><legend>대출 {i + 1}</legend>
+            <LoanFields prefix={`l${l.id}`} loan={l} onChange={(p) => updLoan(l.id, p)} errors={errors} />
+            <button type="button" className="btn-text" onClick={() => set({ loans: s.loans.filter((x) => x.id !== l.id) })}>이 대출 삭제</button></fieldset>))}
+          <button type="button" className="btn-secondary add-fam" onClick={() => set({ loans: [...s.loans, newLoanTemplate("credit")] })}><Icon name="plus" size={18} />대출 추가</button>
+        </>)}
+        <FieldError id="loans-error" message={errors.loans} />
+
+        {s.mode !== "current" && (<>
+          <h2 className="form-title step-title"><span className="step-count">STEP 3</span>{s.mode === "withNew" ? "새로 받을 대출을 입력해주세요" : "어떤 대출을 가정할까요?"}</h2>
+          {s.mode === "capacity" && <SmallInput id="target" label="목표 DSR" value={s.targetText} onChange={(x) => set({ targetText: x })} suffix="%" decimal error={errors.target} />}
+          {s.mode === "capacity" && <p className="field-help">은행권 일반 참고 기준은 {pct1(CFG.dsrThresholdRules.bank)}, 2금융권은 {pct1(CFG.dsrThresholdRules.nonBank)}예요.</p>}
+          <div className="fam-card"><LoanFields prefix="new" loan={s.newLoan} hideBalance={s.mode === "capacity"} onChange={(p) => set({ newLoan: { ...s.newLoan, ...p } })} errors={errors} isNew /></div>
+          {s.newLoan.type === "mortgage" && (<fieldset className="field"><legend className="field-label">주택은 어디에 있나요?</legend>
+            <Cards name="region" value={s.region} onChange={(x) => set({ region: x })} options={[{ v: "capital", l: "수도권·규제지역" }, { v: "local", l: "그 외 지방" }]} />
+            <p className="field-help">지역에 따라 스트레스 금리가 달라요. 스트레스 금리는 직접 입력하지 않아도 돼요.</p></fieldset>)}
+        </>)}
+        <button type="submit" className="btn btn-primary submit-btn">{s.mode === "capacity" ? "DSR 기준 금액 추정하기" : "DSR 계산하기"}</button>
+      </form>
+      <div className="result-col" ref={resultColRef}><div className="result-panel">
+        <p className="sr-only" aria-live="polite">{shown && !stale ? (shown.after ? `예상 DSR은 ${pct1(shown.after.dsr)}예요.` : shown.noCapacity ? "추가 원리금 여력이 계산되지 않아요." : `DSR 기준 예상 추가 대출금액은 약 ${formatKoreanCurrency(shown.principal)}이에요.`) : ""}</p>
+        {shown ? (shown.after ? <ResultView r={shown} stale={stale} headingRef={headingRef} onRecalc={onRecalc} /> : <CapacityView r={shown} stale={stale} headingRef={headingRef} onRecalc={onRecalc} />) : <ResultEmpty />}
+      </div></div>
+    </div></div></section>
+  );
+}
+
+/* =========================================================
+   23. Sections
+   ========================================================= */
+function RelatedCalculators() {
+  return (<section className="section tight-top" aria-labelledby="related-title"><div className="container"><SectionHead id="related-title" title="집을 살 계획이라면 같이 계산해보세요" moreHref="/calculators" moreLabel="전체 계산기" />
+    <ul className="calc-grid">{RELATED.map((c) => <li key={c.id}><CalculatorCard calc={c} /></li>)}</ul></div></section>);
+}
+function GuideSection() {
+  const st = CFG.stressDSRRules;
+  const blocks = [
+    ["DSR이란 무엇인가요?", "총부채원리금상환비율이에요. 1년 동안 갚아야 하는 모든 대출의 원리금이 연소득에서 차지하는 비율이에요."],
+    ["DSR은 어떻게 계산하나요?", "연간 대출 원리금 상환액 ÷ 연소득 × 100이에요. 대출잔액 ÷ 연소득이 아니고, 원리금은 대출 종류별 산정방식으로 계산해요."],
+    ["DSR에서 말하는 연소득은 무엇인가요?", "금융기관이 증빙으로 인정하는 세전 소득이에요. 근로·사업·연금 등 소득 종류와 증빙 방식에 따라 인정 금액이 달라질 수 있어요."],
+    ["주택담보대출과 신용대출은 어떻게 반영되나요?", `분할상환 주담대는 실제 원리금을, 만기일시 주담대는 원금을 약정만기(최대 ${CFG.mortgageRules.bulletMaxYears}년)로 나눈 금액과 이자를 반영해요. 신용대출·마이너스통장은 원금을 ${CFG.creditLoanRules.assumedMaturityYears}년에 나눠 갚는다고 보고 이자를 더해요.`],
+    ["실제 월 상환액과 DSR 원리금이 왜 다른가요?", "신용대출은 실제로는 이자만 내더라도 DSR에서는 원금을 5년에 나눠 갚는 것으로 봐요. 새 대출에는 스트레스 금리도 더해요. 그래서 실제 부담과 심사용 금액이 달라요."],
+    ["스트레스 DSR이란 무엇인가요?", `대출금리가 앞으로 오를 가능성을 반영해 심사할 때 가산금리를 더하는 제도예요. 2026년 하반기에는 ${st.mortgage.capital.label}, ${st.mortgage.local.label}, ${st.credit.label}가 적용돼요. 실제로 내는 금리는 아니에요.`],
+    ["DSR 40%는 무슨 뜻인가요?", "연소득의 40%까지를 1년 원리금으로 쓸 수 있다는 기준이에요. 연봉 5천만원이면 연 2,000만원이에요. DSR이 낮다고 대출이 무조건 되는 건 아니고, LTV 등 다른 기준도 함께 봐요."],
+    ["전세대출과 정책대출도 DSR에 포함되나요?", CFG.excludedLoanRules + " 다만 상품과 금융기관 기준을 함께 확인해주세요."],
+  ];
+  return (<section className="section band" id="guide" aria-label="DSR 안내"><div className="container">{blocks.map(([t, p], i) => (
+    <div className="content-block" key={t}><h2>{t}</h2><div className="prose"><p>{p}</p></div>{i === 3 && <AdSlot id="guide-middle" label="정보 콘텐츠 중간" bare />}</div>))}</div></section>);
+}
+function FaqSection() {
+  const [open, setOpen] = useState({ [FAQ[0].id]: true });
+  return (<section className="section" id="faq" aria-labelledby="faq-title"><div className="container"><SectionHead id="faq-title" title="자주 묻는 질문" />
+    <ul className="faq-list">{FAQ.map((q) => { const o = !!open[q.id]; return (<li className="faq-item" key={q.id}><h3 className="faq-q"><button type="button" id={`faq-btn-${q.id}`} className="faq-toggle" aria-expanded={o} aria-controls={`faq-panel-${q.id}`} onClick={() => setOpen((x) => ({ ...x, [q.id]: !x[q.id] }))}>{q.q}<Icon name="chevron-right" size={20} strokeWidth={2.2} /></button></h3>
+      <div id={`faq-panel-${q.id}`} role="region" aria-labelledby={`faq-btn-${q.id}`} className="faq-a" hidden={!o}><p>{q.a}</p></div></li>); })}</ul></div></section>);
+}
+function BasisSection() {
+  const c = CFG;
+  return (<section className="section band" id="basis" aria-labelledby="basis-title"><div className="container"><div className="trust-grid">
+    <div><h2 id="basis-title">어떤 기준으로 계산하나요?</h2><p className="section-desc">연소득과 대출정보만 받고, 계산은 이 화면 안에서만 이뤄져요. 이름·계좌번호·신용점수는 받지 않아요.</p>
+      <div className="notice-box"><Icon name="info" size={20} /><div><strong>참고용으로 확인해주세요</strong>
+        <p>이 계산기는 입력한 소득과 대출정보를 바탕으로 예상 DSR과 DSR 기준 대출여력을 계산하는 참고 도구입니다. 실제 금융기관의 DSR 산정 결과와 대출 가능금액은 인정소득, 기존부채, 대출종류, 금리유형, 스트레스 DSR, 금융기관 및 상품별 심사기준 등에 따라 달라질 수 있습니다. 계산 결과는 대출 승인이나 실제 대출한도를 보장하지 않습니다.</p></div></div></div>
+    <div className="basis-card"><div className="basis-head"><strong>DSR 계산 기준</strong><span className="badge badge-brand">{c.effectiveFrom.replace(/-/g, ".")}~{c.effectiveTo.replace(/-/g, ".")}</span></div>
+      <dl>
+        <div className="basis-row"><dt>계산 기준일</dt><dd>{TODAY.replace(/-/g, ".")}</dd></div>
+        <div className="basis-row"><dt>DSR 계산</dt><dd>대출 종류별 DSR 반영 연간 원리금 합계 ÷ 연소득</dd></div>
+        <div className="basis-row"><dt>주택담보대출</dt><dd>분할상환: 실제 첫 1년 원리금 / 만기일시: 원금 ÷ 약정만기(최대 {c.mortgageRules.bulletMaxYears}년) + 이자</dd></div>
+        <div className="basis-row"><dt>신용대출</dt><dd>원금 ÷ {c.creditLoanRules.assumedMaturityYears}년 + 연 이자</dd></div>
+        <div className="basis-row"><dt>제외 대출</dt><dd>전세자금대출, 중도금·이주비, 서민정책금융</dd></div>
+        <div className="basis-row"><dt>확인 필요</dt><dd>자동차·학자금 등 기타대출 (실제 상환액을 참고값으로 사용)</dd></div>
+        <div className="basis-row"><dt>스트레스 DSR</dt><dd>{c.stressDSRRules.appliesTo}에 적용 · {c.stressDSRRules.mortgage.capital.label} · {c.stressDSRRules.mortgage.local.label} · {c.stressDSRRules.credit.label}</dd></div>
+        <div className="basis-row"><dt>참고 기준</dt><dd>{c.dsrThresholdRules.note}</dd></div>
+        <div className="basis-row"><dt>공식 출처</dt><dd><ul className="source-list">{c.officialSources.map((x) => (
+          <li key={x.desc}><a className="source-link" href={x.url} target="_blank" rel="noopener noreferrer"><span><span className="src-name">{x.name}</span><span className="src-desc">{x.desc}</span></span><Icon name="external" size={18} /><span className="sr-only">(새 탭에서 열림)</span></a></li>))}</ul></dd></div>
+        <div className="basis-row"><dt>마지막 확인</dt><dd><time dateTime={PAGE.updatedAt.replace(/\./g, "-")}>{c.checkedAt}</time></dd></div>
+      </dl></div></div></div></section>);
+}
+function RelatedArticles() {
+  if (!RELATED_ARTICLES.length) return null;
+  return (<section className="section" aria-labelledby="articles-title"><div className="container"><SectionHead id="articles-title" title="같이 보면 좋은 생활정보" moreHref="/guide" moreLabel="생활정보 전체보기" /><ul className="article-grid">{RELATED_ARTICLES.map((a) => <li key={a.id}><ArticleCard article={a} /></li>)}</ul></div></section>);
+}
+function useStructuredData() { /* 구조화 데이터(WebApplication·BreadcrumbList)는 <head>에 정적으로 넣었어요. Google FAQ 리치결과 종료(2026)로 FAQPage는 쓰지 않고, 화면의 FAQ만 유지해요. */ }
+function App() {
+  useStructuredData();
+  return (<><a className="skip-link" href="#calculator">계산기로 바로가기</a><Header />
+    <main id="main"><Breadcrumb /><PageHead /><DSRCalculator /><AdSlot id="after-result" label="결과·계산 설명 이후" /><RelatedCalculators /><GuideSection /><FaqSection /><AdSlot id="after-faq" label="FAQ 이후" /><BasisSection /><RelatedArticles /></main>
+    <Footer /><Toast /></>);
+}
 ReactDOM.createRoot(document.getElementById("root")).render(<App />);
 
 </script>

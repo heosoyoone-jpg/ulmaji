@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="ko" data-theme="dark">
+<html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>생활정보 | 월급·대출·부동산·세금·육아 기준 쉽게 정리 - 얼마지?</title>
-<meta name="description" content="월급·수당, 대출·적금, 부동산, 세금, 육아·복지까지 생활 속에서 헷갈리는 기준 20가지를 공식자료로 확인해 쉽게 정리하고, 관련 계산기로 바로 연결해드려요.">
-<link rel="canonical" href="https://ulmaji.kr/guide">
+<title>중개보수 계산기 | 매매·전세·월세 복비 상한 계산 - 얼마지?</title>
+<meta name="description" content="매매가격이나 보증금·월세를 입력하면 주택 중개보수 상한요율과 한도액을 적용해 최대 중개수수료(복비)를 계산해요. 월세 거래금액 환산 방법과 부가세 안내도 함께 확인하세요.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://ulmaji.kr/calculators/brokerage-fee">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="얼마지?">
-<meta property="og:title" content="생활정보 | 얼마지?">
-<meta property="og:description" content="월급·수당, 대출·적금, 부동산, 세금, 육아·복지까지 생활 속에서 헷갈리는 기준 20가지를 공식자료로 확인해 쉽게 정리하고, 관련 계산기로 바로 연결해드려요.">
-<meta property="og:url" content="https://ulmaji.kr/guide">
+<meta property="og:title" content="중개보수 계산기 | 매매·전세·월세 복비 상한 계산 - 얼마지?">
+<meta property="og:description" content="매매가격이나 보증금·월세를 입력하면 주택 중개보수 상한요율과 한도액을 적용해 최대 중개수수료(복비)를 계산해요. 월세 거래금액 환산 방법과 부가세 안내도 함께 확인하세요.">
+<meta property="og:url" content="https://ulmaji.kr/calculators/brokerage-fee">
+<meta property="og:locale" content="ko_KR">
 <meta name="theme-color" content="#3366FF">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233366FF'/%3E%3Ctext x='32' y='46' font-family='Arial,sans-serif' font-size='40' font-weight='800' text-anchor='middle' fill='white'%3E%3F%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "얼마지", "item": "https://ulmaji.kr/"}, {"@type": "ListItem", "position": 2, "name": "생활정보", "item": "https://ulmaji.kr/guide"}]}, {"@type": "ItemList", "name": "얼마지 생활정보", "numberOfItems": 20, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://ulmaji.kr/guide/weekly-holiday-pay-15-hours", "name": "주 15시간 일하면 주휴수당은 얼마일까?"}, {"@type": "ListItem", "position": 2, "url": "https://ulmaji.kr/guide/minimum-wage-2027-monthly", "name": "2027 최저임금으로 월급을 계산하면?"}, {"@type": "ListItem", "position": 3, "url": "https://ulmaji.kr/guide/severance-pay-eligibility", "name": "퇴직금은 언제부터 받을 수 있을까?"}, {"@type": "ListItem", "position": 4, "url": "https://ulmaji.kr/guide/night-pay-hours", "name": "야간수당은 몇 시부터 적용될까?"}, {"@type": "ListItem", "position": 5, "url": "https://ulmaji.kr/guide/loan-100m-monthly-interest", "name": "대출 1억 받으면 한 달 이자는 얼마일까?"}, {"@type": "ListItem", "position": 6, "url": "https://ulmaji.kr/guide/loan-repayment-methods", "name": "원리금균등·원금균등, 매달 얼마씩 갚을까?"}, {"@type": "ListItem", "position": 7, "url": "https://ulmaji.kr/guide/monthly-savings-500k", "name": "적금 월 50만원씩 넣으면 만기 얼마일까?"}, {"@type": "ListItem", "position": 8, "url": "https://ulmaji.kr/guide/simple-vs-compound-interest", "name": "단리와 복리, 실제 이자는 얼마나 차이 날까?"}, {"@type": "ListItem", "position": 9, "url": "https://ulmaji.kr/guide/jeonse-to-monthly-rent", "name": "전세를 월세로 바꾸면 얼마가 적당할까?"}, {"@type": "ListItem", "position": 10, "url": "https://ulmaji.kr/guide/real-estate-brokerage-fee", "name": "부동산 중개수수료는 얼마까지 내야 할까?"}, {"@type": "ListItem", "position": 11, "url": "https://ulmaji.kr/guide/84sqm-to-pyeong", "name": "아파트 84㎡는 몇 평일까?"}, {"@type": "ListItem", "position": 12, "url": "https://ulmaji.kr/guide/housing-subscription-score", "name": "내 청약가점은 몇 점일까?"}, {"@type": "ListItem", "position": 13, "url": "https://ulmaji.kr/guide/freelancer-3-3-withholding", "name": "프리랜서 3.3% 떼면 실제 얼마 받을까?"}, {"@type": "ListItem", "position": 14, "url": "https://ulmaji.kr/guide/vat-included-excluded", "name": "부가세 포함·별도 금액은 어떻게 계산할까?"}, {"@type": "ListItem", "position": 15, "url": "https://ulmaji.kr/guide/home-acquisition-tax", "name": "집을 사면 취득세는 얼마나 나올까?"}, {"@type": "ListItem", "position": 16, "url": "https://ulmaji.kr/guide/gift-tax-from-parents", "name": "부모님께 돈을 받으면 증여세는 얼마나 나올까?"}, {"@type": "ListItem", "position": 17, "url": "https://ulmaji.kr/guide/parental-leave-benefit", "name": "육아휴직하면 매달 얼마 받을 수 있을까?"}, {"@type": "ListItem", "position": 18, "url": "https://ulmaji.kr/guide/maternity-leave-benefit", "name": "출산전후휴가 기간에는 얼마를 받을까?"}, {"@type": "ListItem", "position": 19, "url": "https://ulmaji.kr/guide/parent-benefit", "name": "부모급여는 몇 살까지 얼마 받을까?"}, {"@type": "ListItem", "position": 20, "url": "https://ulmaji.kr/guide/unemployment-benefit-duration", "name": "실업급여는 몇 개월 동안 얼마 받을 수 있을까?"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "@id": "https://ulmaji.kr/calculators/brokerage-fee#app", "name": "중개보수 계산기", "url": "https://ulmaji.kr/calculators/brokerage-fee", "description": "매매가격이나 보증금·월세를 입력하면 주택 중개보수 상한요율과 한도액을 적용해 최대 중개수수료(복비)를 계산해요. 월세 거래금액 환산 방법과 부가세 안내도 함께 확인하세요.", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "inLanguage": "ko-KR", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "KRW"}, "dateModified": "2026-09-24", "publisher": {"@type": "Organization", "name": "얼마지?", "alternateName": "ULMAJI", "url": "https://ulmaji.kr/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "홈", "item": "https://ulmaji.kr/"}, {"@type": "ListItem", "position": 2, "name": "계산기", "item": "https://ulmaji.kr/calculators"}, {"@type": "ListItem", "position": 3, "name": "부동산", "item": "https://ulmaji.kr/calculators#cat-realestate"}, {"@type": "ListItem", "position": 4, "name": "중개보수 계산기", "item": "https://ulmaji.kr/calculators/brokerage-fee"}]}]}</script>
 <style>
 /* =========================================================
    Design tokens
@@ -1553,99 +1555,6 @@ a.guide-calc:hover { border-color: var(--primary); }
 .field-help.center { text-align: center; margin-top: 8px; }
 .inline-fix { margin-left: 8px; min-height: 32px; }
 
-.rate-slider { width: 100%; margin-top: 10px; min-height: 44px; accent-color: var(--primary); }
-.field-help.warn { color: var(--error-text, #C23B3B); }
-
-/* Housing subscription score additions */
-.step-nav.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.score-row + .score-row { margin-top: 14px; }
-.score-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-size: 15px; }
-.score-head strong { font-size: 18px; font-weight: 800; font-variant-numeric: tabular-nums; }
-.score-head small { font-size: 13px; color: var(--muted); font-weight: 600; }
-.why-static { padding: 14px 16px 0; font-weight: 800; font-size: 16px; }
-
-/* DSR additions */
-.dsr-bar { position: relative; margin: 12px 0 4px; }
-.dsr-mark { position: absolute; top: -4px; width: 2px; height: 18px; background: var(--text); }
-.dsr-legend { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; color: var(--muted); margin-top: 8px; font-variant-numeric: tabular-nums; flex-wrap: wrap; }
-.dt-sub { display: block; font-size: 12.5px; color: var(--muted); font-weight: 500; margin-top: 2px; }
-.eq-item small { display: block; font-size: 12.5px; color: var(--muted); }
-
-/* Pyeong additions */
-.py-card { max-width: 720px; margin: 0 auto; background: var(--card); border-radius: 20px; padding: 24px 20px; box-shadow: 0 1px 2px rgba(23,35,60,.04); border: 1px solid var(--line, #E5EAF2); }
-.py-narrow { max-width: 760px; }
-.py-row { display: flex; gap: 12px; align-items: flex-end; margin-top: 18px; }
-.py-input { flex: 1; margin: 0; }
-.input-wrap.xl input { font-size: 30px; font-weight: 800; min-height: 64px; font-variant-numeric: tabular-nums; }
-.py-swap { flex: 0 0 52px; height: 52px; margin-bottom: 6px; border-radius: 14px; border: 1px solid var(--line, #E5EAF2); background: var(--secondary); color: var(--primary); font-size: 22px; font-weight: 800; cursor: pointer; }
-.py-swap:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
-.py-result { margin: 18px 0 14px; padding: 18px; border-radius: 16px; background: var(--secondary); position: relative; min-height: 96px; }
-.py-from { font-size: 15px; color: var(--muted); font-weight: 600; font-variant-numeric: tabular-nums; }
-.py-to { font-size: 40px; font-weight: 800; color: var(--primary); line-height: 1.2; margin-top: 4px; font-variant-numeric: tabular-nums; word-break: break-all; padding-right: 88px; }
-.py-to.is-neutral { color: var(--text); }
-.py-copy { position: absolute; right: 14px; bottom: 14px; min-height: 44px; }
-.section-title { font-size: 22px; font-weight: 800; line-height: 1.35; margin-bottom: 10px; }
-.area-stack { list-style: none; display: grid; gap: 8px; margin-top: 16px; }
-.area-stack li { display: grid; gap: 2px; padding: 14px 16px; border-radius: 14px; background: var(--card); border: 1px solid var(--line, #E5EAF2); }
-.area-stack li strong { font-size: 16px; }
-.area-stack li span { font-size: 14px; color: var(--muted); }
-.py-table { width: 100%; border-collapse: collapse; margin-top: 12px; font-variant-numeric: tabular-nums; }
-.py-table th, .py-table td { text-align: right; padding: 12px 14px; border-bottom: 1px solid var(--line, #E5EAF2); }
-.py-table th { font-size: 14px; color: var(--muted); }
-@media (max-width: 480px) { .py-to { font-size: 32px; } }
-
-/* Work hours additions */
-.mode-seg.wide { max-width: 520px; margin: 0 auto 16px; }
-.py-copy-inline { min-height: 40px; padding: 6px 12px; }
-.day-card { padding-bottom: 10px; }
-.day-list { list-style: none; display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; margin: 12px 0; }
-.day-list li { display: grid; gap: 2px; text-align: center; padding: 8px 4px; border-radius: 12px; background: var(--secondary); font-size: 13px; font-variant-numeric: tabular-nums; }
-.day-list li strong { font-size: 13px; }
-@media (max-width: 520px) { .day-list { grid-template-columns: repeat(4, 1fr); } }
-
-/* Loan repayment additions */
-.ex-badge { display: inline-block; margin-bottom: 12px; }
-.lr-table td, .lr-table th { white-space: nowrap; font-size: 14px; }
-.lr-table tr.is-current th, .lr-table tr.is-current td { background: var(--secondary); font-weight: 700; }
-.lr-legend { display: flex; gap: 14px; font-size: 13px; color: var(--muted); margin: 10px 0 6px; }
-.lr-legend .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
-.sw.p, .lr-p { background: var(--primary); }
-.sw.i, .lr-i { background: repeating-linear-gradient(45deg, var(--secondary), var(--secondary) 3px, #A9BEFF 3px, #A9BEFF 6px); }
-.lr-bars { list-style: none; display: grid; gap: 4px; margin-bottom: 12px; }
-.lr-bars li { display: grid; grid-template-columns: 44px 1fr; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.lr-track { display: flex; height: 12px; border-radius: 6px; overflow: hidden; background: var(--bg); }
-.lr-p, .lr-i { height: 100%; }
-
-/* Unemployment additions */
-details.fam-card summary { cursor: pointer; font-weight: 700; min-height: 44px; display: flex; align-items: center; }
-.sum-item small { display: block; margin-top: 4px; font-size: 12.5px; color: var(--muted); }
-
-/* Child allowance additions */
-.res-state { font-size: 24px; font-weight: 800; margin: 2px 0 14px; }
-.sum-grid.three { grid-template-columns: repeat(3, 1fr); }
-@media (max-width: 480px) { .sum-grid.three { grid-template-columns: 1fr 1fr; } }
-.child-row { display: flex; gap: 8px; align-items: center; }
-.child-row .input-wrap { flex: 1; }
-.child-card { border-top: 1px solid var(--line, #E5EAF2); padding-top: 18px; margin-top: 18px; }
-.al-timeline { list-style: none; display: grid; gap: 0; margin: 8px 0; }
-.al-timeline li { position: relative; padding: 8px 0 14px 22px; display: grid; gap: 2px; font-variant-numeric: tabular-nums; }
-.al-timeline li::before { content: ""; position: absolute; left: 5px; top: 13px; width: 10px; height: 10px; border-radius: 50%; background: var(--card); border: 2px solid var(--primary); }
-.al-timeline li:not(:last-child)::after { content: ""; position: absolute; left: 10px; top: 25px; bottom: -8px; width: 2px; background: var(--secondary); }
-.al-timeline li.is-final::before { background: var(--primary); }
-.al-timeline li span { font-size: 14px; color: var(--muted); }
-
-/* Freelancer additions */
-.eyebrow { font-size: 14px; font-weight: 700; color: var(--primary); margin: 8px 0 -4px; }
-.res-unit { font-size: 18px; color: var(--text); font-weight: 700; }
-.tax-amt { font-size: 20px; }
-.split-bar { display: flex; height: 14px; border-radius: 7px; overflow: hidden; margin: 12px 0 6px; background: var(--bg); }
-.sb-net { background: var(--primary); }
-.sb-tax { background: repeating-linear-gradient(45deg, var(--secondary), var(--secondary) 3px, #A9BEFF 3px, #A9BEFF 6px); }
-.split-legend { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.multi-row { display: grid; grid-template-columns: 1fr 1.4fr auto; gap: 8px; align-items: center; margin-top: 8px; }
-.mini-input { min-height: 44px; border: 1px solid var(--line, #E5EAF2); border-radius: 12px; padding: 0 12px; font: inherit; }
-.mini-input:focus-visible { outline: 3px solid var(--primary); outline-offset: 1px; }
-
 /* 좁은 화면에서 입력 폼이 화면 밖으로 밀려나지 않게 (grid 자식 최소 너비 보정) */
 @media (max-width: 1023px) { .calc-shell { grid-template-columns: minmax(0, 1fr); } }
 .calc-shell > *, .calc-form, .result-col, .method-cards > *, .seg > *, .step-nav > * { min-width: 0; }
@@ -1661,72 +1570,6 @@ details.fam-card summary { cursor: pointer; font-weight: 700; min-height: 44px; 
 .rc-row, .pb-rows > div { gap: 8px; }
 .rc-row dd, .pb-rows dd { min-width: 0; overflow-wrap: anywhere; text-align: right; }
 .btn-secondary { max-width: 100%; white-space: normal; height: auto; min-height: 44px; }
-
-/* Guide / content pages */
-.article-wrap { max-width: 780px; }
-.guide-lead { margin-top: 14px; font-size: 18px; line-height: 1.75; font-weight: 500; }
-.guide-body { margin-top: 8px; }
-.guide-body h2 { font-size: 21px; font-weight: 800; letter-spacing: -.02em; margin: 36px 0 10px; }
-.guide-body p { font-size: 16.5px; line-height: 1.8; color: var(--text); margin-top: 10px; }
-.example-box { margin-top: 32px; padding: 20px; border-radius: var(--r-md, 16px); background: var(--secondary); }
-.example-box h2 { margin: 0 0 6px; font-size: 18px; }
-.example-box .ex-lead { font-size: 15px; color: var(--muted); }
-.example-box dl { margin: 12px 0 0; }
-.example-box .ex-row { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); font-size: 15px; font-variant-numeric: tabular-nums; }
-.example-box .ex-row dt { color: var(--muted); flex: none; max-width: 45%; }
-.example-box .ex-row dd { margin: 0; font-weight: 700; text-align: right; overflow-wrap: anywhere; }
-.example-box .ex-note { margin-top: 10px; font-size: 13.5px; color: var(--muted); }
-.note-list { margin-top: 10px; padding-left: 20px; }
-.note-list li { font-size: 16px; line-height: 1.75; margin-top: 6px; }
-.guide-cta { margin-top: 36px; padding: 22px; border-radius: var(--r-md, 16px); border: 1px solid var(--line); background: var(--card); }
-.guide-cta h2 { margin: 0; font-size: 19px; }
-.guide-cta p { margin-top: 4px; font-size: 15px; color: var(--muted); }
-.guide-cta .btn { margin-top: 14px; }
-.guide-cta ul { list-style: none; margin-top: 12px; display: grid; gap: 8px; }
-.guide-cta .more-calc { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 48px; padding: 0 14px; border-radius: 12px; background: var(--bg); text-decoration: none; font-weight: 600; font-size: 15px; }
-.guide-cta .more-calc svg { color: var(--brand-text); flex: none; }
-.guide-meta { margin-top: 28px; font-size: 14px; color: var(--muted); }
-.cat-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 24px; list-style: none; padding: 0; }
-.cat-tabs a { display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--line); text-decoration: none; font-weight: 600; font-size: 15px; color: var(--muted); }
-.cat-tabs a[aria-current="page"] { background: var(--primary); border-color: var(--primary); color: #fff; }
-.about-body h2 { font-size: 20px; font-weight: 800; margin: 32px 0 8px; }
-.about-body p { font-size: 16.5px; line-height: 1.8; margin-top: 8px; }
-.nf { text-align: center; padding: 72px 0 96px; }
-.nf .big { font-size: 64px; font-weight: 800; color: var(--brand-text); line-height: 1; }
-.nf h1 { margin-top: 16px; font-size: 26px; }
-.nf p { margin-top: 8px; color: var(--muted); }
-.nf-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 24px; }
-.btn-ghost { display: inline-flex; align-items: center; justify-content: center; height: 52px; padding: 0 22px; border-radius: 12px; border: 1px solid var(--line-strong, var(--line)); text-decoration: none; font-weight: 700; color: var(--text); }
-
-/* Guide article v2 (생활정보 20개) */
-.guide-cat { text-decoration: none; }
-.page-head h1 { overflow-wrap: anywhere; word-break: keep-all; }
-.guide-dates { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 10px; font-size: 14px; color: var(--muted); }
-.answer-box { margin-top: 4px; padding: 18px 20px; border-radius: var(--r-md, 16px); background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--primary); }
-.answer-box .guide-lead { margin: 0; font-size: 17.5px; }
-.guide-body { word-break: keep-all; overflow-wrap: anywhere; }
-.key-list { margin-top: 10px; padding-left: 20px; }
-.key-list li { font-size: 16.5px; line-height: 1.75; margin-top: 8px; }
-.key-list li::marker { color: var(--brand-text); }
-.ex-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
-.ex-tag { background: var(--card); color: var(--muted); }
-.example-box .ex-row dt { flex: 0 1 45%; max-width: none; min-width: 0; }
-.example-box .ex-row dd { flex: 1 1 55%; min-width: 0; }
-.faq-item h3 { margin-top: 18px; font-size: 17px; font-weight: 700; }
-.faq-item p { margin-top: 6px; }
-.cta-eyebrow { margin: 0 0 6px !important; font-size: 14px !important; font-weight: 700; color: var(--brand-text) !important; }
-.src-box { margin-top: 32px; }
-.src-lead { margin-top: 8px; font-size: 14px; color: var(--muted); line-height: 1.6; }
-.src-box .source-list { margin-top: 12px; list-style: none; padding: 0; }
-.src-box .basis-head { flex-wrap: wrap; }
-.src-box .basis-head strong { white-space: nowrap; }
-.src-text { display: block; min-width: 0; }
-.src-url { display: block; margin-top: 2px; font-size: 12.5px; color: var(--subtle); overflow-wrap: anywhere; }
-.source-link { min-width: 0; }
-.guide-meta { line-height: 1.7; }
-.guide-cta .btn { max-width: 100%; white-space: normal; height: auto; min-height: 52px; padding-top: 12px; padding-bottom: 12px; text-align: center; line-height: 1.4; }
-.cat-tabs .cnt { margin-left: 6px; font-size: 13px; font-weight: 700; opacity: .8; font-variant-numeric: tabular-nums; }
-@media (max-width: 480px) { .example-box .ex-row { flex-direction: column; gap: 2px; } .example-box .ex-row dt, .example-box .ex-row dd { flex: none; text-align: left; } }
 
 /* MEGA_MENU:BEGIN — 헤더 메가메뉴 (기존 토큰만 사용) */
 .header-inner { position: relative; }
@@ -1781,16 +1624,177 @@ details.fam-card summary { cursor: pointer; font-weight: 700; min-height: 44px; 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3938535658741734" crossorigin="anonymous"></script>
 </head>
 <body>
-<div id="root"><!--prerender:start--><a class="skip-link" href="#main">본문 바로가기</a><header class="site-header"><div class="container header-inner"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><nav class="nav-desktop" aria-label="주요 메뉴"><ul><li class="nav-item nav-item-calc"><button type="button" class="nav-link nav-trigger" aria-expanded="false" aria-controls="mega-calc">계산기<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-calc" class="mega mega-calc" hidden=""><div class="mega-grid"><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-work">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="근로·급여 계산기"><li><a href="/calculators/net-salary" class="mega-link">월급 실수령액</a></li><li><a href="/calculators/weekly-holiday-pay" class="mega-link">주휴수당</a></li><li><a href="/calculators/severance-pay" class="mega-link">퇴직금</a></li><li><a href="/calculators/annual-leave" class="mega-link">연차·연차수당</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-finance">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="금융·생활 계산기"><li><a href="/calculators/loan-interest" class="mega-link">대출이자</a></li><li><a href="/calculators/percentage" class="mega-link">퍼센트</a></li><li><a href="/calculators/compound-interest" class="mega-link">단리·복리 이자</a></li><li><a href="/calculators/deposit-interest" class="mega-link">예금이자</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-realestate">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="부동산 계산기"><li><a href="/calculators/dsr" class="mega-link">DSR</a></li><li><a href="/calculators/brokerage-fee" class="mega-link">중개보수</a></li><li><a href="/calculators/housing-subscription-score" class="mega-link">청약가점</a></li><li><a href="/calculators/rent-conversion" class="mega-link">전월세 환산</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-tax">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="세금 계산기"><li><a href="/calculators/freelancer-withholding" class="mega-link">프리랜서 3.3%</a></li><li><a href="/calculators/vat" class="mega-link">VAT</a></li><li><a href="/calculators/year-end-tax" class="mega-link">연말정산</a></li><li><a href="/calculators/comprehensive-income-tax" class="mega-link">종합소득세</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-parenting">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="육아·복지 계산기"><li><a href="/calculators/unemployment-benefit" class="mega-link">실업급여</a></li><li><a href="/calculators/parental-leave" class="mega-link">육아휴직급여</a></li><li><a href="/calculators/maternity-leave-pay" class="mega-link">출산전후휴가 급여</a></li><li><a href="/calculators/parent-benefit" class="mega-link">부모급여</a></li></ul></div></div><div class="mega-foot"><a href="/calculators" class="mega-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li class="nav-item nav-item-guide"><button type="button" class="nav-link nav-trigger is-current" aria-expanded="false" aria-controls="mega-guide">생활정보<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-guide" class="mega mega-guide" hidden=""><ul class="mega-guide-list"><li><a href="/guide?category=work" class="mega-guide-cat">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/weekly-holiday-pay-15-hours" class="mega-guide-pick">주 15시간 일하면 주휴수당은 얼마일까?</a></li><li><a href="/guide?category=finance" class="mega-guide-cat">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/loan-100m-monthly-interest" class="mega-guide-pick">대출 1억 받으면 한 달 이자는 얼마일까?</a></li><li><a href="/guide?category=realestate" class="mega-guide-cat">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/84sqm-to-pyeong" class="mega-guide-pick">아파트 84㎡는 몇 평일까?</a></li><li><a href="/guide?category=tax" class="mega-guide-cat">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/freelancer-3-3-withholding" class="mega-guide-pick">프리랜서 3.3% 떼면 실제 얼마 받을까?</a></li><li><a href="/guide?category=parenting" class="mega-guide-cat">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/parental-leave-benefit" class="mega-guide-pick">육아휴직하면 매달 얼마 받을 수 있을까?</a></li></ul><div class="mega-foot"><a href="/guide" class="mega-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li><a href="/about" class="nav-link">얼마지 소개</a></li></ul></nav><div class="header-actions"><button type="button" class="icon-btn" aria-label="계산기 검색"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7.5"></circle><path d="m20.5 20.5-4.2-4.2"></path></svg></button><a href="/calculators" class="btn btn-primary btn-sm hide-mobile">전체 계산기</a><button type="button" class="icon-btn show-mobile" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button></div></div><div id="mobile-menu" class="mobile-menu" hidden=""><nav aria-label="모바일 메뉴"><ul><li class="m-group"><button type="button" class="m-link m-trigger" aria-expanded="false" aria-controls="m-sub-calc">계산기<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-calc" class="m-sub" hidden="" aria-label="계산기 카테고리"><li><a href="/calculators#cat-work" class="m-sub-link">근로·급여</a></li><li><a href="/calculators#cat-finance" class="m-sub-link">금융·생활</a></li><li><a href="/calculators#cat-realestate" class="m-sub-link">부동산</a></li><li><a href="/calculators#cat-tax" class="m-sub-link">세금</a></li><li><a href="/calculators#cat-parenting" class="m-sub-link">육아·복지</a></li><li><a href="/calculators" class="m-sub-link is-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li class="m-group"><button type="button" class="m-link m-trigger is-current" aria-expanded="false" aria-controls="m-sub-guide">생활정보<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-guide" class="m-sub" hidden="" aria-label="생활정보 카테고리"><li><a href="/guide?category=work" class="m-sub-link">근로·급여</a></li><li><a href="/guide?category=finance" class="m-sub-link">금융·생활</a></li><li><a href="/guide?category=realestate" class="m-sub-link">부동산</a></li><li><a href="/guide?category=tax" class="m-sub-link">세금</a></li><li><a href="/guide?category=parenting" class="m-sub-link">육아·복지</a></li><li><a href="/guide" class="m-sub-link is-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li><a href="/about" class="m-link">얼마지 소개<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></li></ul></nav><a href="/calculators" class="btn btn-primary btn-block">전체 계산기</a></div></header><main id="main"><nav class="container breadcrumb" aria-label="현재 위치"><ol><li><a href="/">얼마지</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><span aria-current="page">생활정보</span></li></ol></nav><div class="container page-head"><h1>생활정보</h1><p class="page-desc">월급, 세금, 대출, 부동산, 육아·복지까지<br>생활 속에서 헷갈리는 기준을 쉽게 정리했어요.</p></div><section class="container" aria-label="생활정보 목록"><ul class="cat-tabs" aria-label="카테고리"><li><a href="/guide" aria-current="page">전체<span class="cnt">20</span></a></li><li><a href="/guide?category=work">근로·급여<span class="cnt">4</span></a></li><li><a href="/guide?category=finance">금융·생활<span class="cnt">4</span></a></li><li><a href="/guide?category=realestate">부동산<span class="cnt">4</span></a></li><li><a href="/guide?category=tax">세금<span class="cnt">4</span></a></li><li><a href="/guide?category=parenting">육아·복지<span class="cnt">4</span></a></li></ul><ul class="article-grid" style="margin-top: 0px;"><li><a href="/guide/weekly-holiday-pay-15-hours" class="article-card"><span class="article-cat">근로·급여</span><h3>주 15시간 일하면 주휴수당은 얼마일까?</h3><p>주휴수당이 생기는 15시간 기준을 어떻게 보는지, 금액은 어떻게 계산하는지 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/minimum-wage-2027-monthly" class="article-card"><span class="article-cat">근로·급여</span><h3>2027 최저임금으로 월급을 계산하면?</h3><p>2027년 최저임금 시급 10,700원을 일급·월급으로 바꾸면 얼마인지, 실수령액과는 무엇이 다른지 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/severance-pay-eligibility" class="article-card"><span class="article-cat">근로·급여</span><h3>퇴직금은 언제부터 받을 수 있을까?</h3><p>1년 이상 근무, 주 15시간 이상 등 퇴직금을 받기 위한 기본 조건과 계산 방법을 쉽게 풀었어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/night-pay-hours" class="article-card"><span class="article-cat">근로·급여</span><h3>야간수당은 몇 시부터 적용될까?</h3><p>밤 10시부터 오전 6시까지 일하면 붙는 50% 가산과, 연장근로와 겹칠 때의 계산을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/loan-100m-monthly-interest" class="article-card"><span class="article-cat">금융·생활</span><h3>대출 1억 받으면 한 달 이자는 얼마일까?</h3><p>1억원을 빌리면 첫 달 이자는 금리 ÷ 12로 어림할 수 있어요. 금리별 월 이자를 비교해봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/loan-repayment-methods" class="article-card"><span class="article-cat">금융·생활</span><h3>원리금균등·원금균등, 매달 얼마씩 갚을까?</h3><p>같은 대출이라도 상환방식에 따라 매달 내는 돈과 총이자가 달라요. 1억원 예시로 비교했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/monthly-savings-500k" class="article-card"><span class="article-cat">금융·생활</span><h3>적금 월 50만원씩 넣으면 만기 얼마일까?</h3><p>월 50만원 1년 적금의 이자와 세금을 계산했어요. 광고 금리보다 이자가 적은 이유도 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/simple-vs-compound-interest" class="article-card"><span class="article-cat">금융·생활</span><h3>단리와 복리, 실제 이자는 얼마나 차이 날까?</h3><p>단리와 복리는 1년까지는 같고 기간이 길수록 차이가 커져요. 1,000만원 예시로 비교했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/jeonse-to-monthly-rent" class="article-card"><span class="article-cat">부동산</span><h3>전세를 월세로 바꾸면 얼마가 적당할까?</h3><p>보증금을 월세로 바꿀 때 법으로 정한 전환율 상한과, 월세 금액을 계산하는 방법을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/real-estate-brokerage-fee" class="article-card"><span class="article-cat">부동산</span><h3>부동산 중개수수료는 얼마까지 내야 할까?</h3><p>매매·전세·월세별 중개보수 상한요율과 한도, 월세 거래금액 계산법을 예시와 함께 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/84sqm-to-pyeong" class="article-card"><span class="article-cat">부동산</span><h3>아파트 84㎡는 몇 평일까?</h3><p>전용 84㎡는 25.41평이에요. 그런데 흔히 34평이라고 부르는 이유와 ㎡·평 환산법을 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/housing-subscription-score" class="article-card"><span class="article-cat">부동산</span><h3>내 청약가점은 몇 점일까?</h3><p>무주택기간·부양가족·청약통장 기간으로 84점 만점 청약가점을 계산하는 방법을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/freelancer-3-3-withholding" class="article-card"><span class="article-cat">세금</span><h3>프리랜서 3.3% 떼면 실제 얼마 받을까?</h3><p>프리랜서 수입에서 3.3%를 떼면 실제로 얼마를 받는지, 떼인 세금은 어떻게 정산되는지 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/vat-included-excluded" class="article-card"><span class="article-cat">세금</span><h3>부가세 포함·별도 금액은 어떻게 계산할까?</h3><p>견적서의 ‘부가세 별도’와 영수증의 ‘부가세 포함’ 금액을 계산하는 방법을 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/home-acquisition-tax" class="article-card"><span class="article-cat">세금</span><h3>집을 사면 취득세는 얼마나 나올까?</h3><p>집값 구간별 취득세율과 지방교육세·농어촌특별세, 생애최초 감면까지 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/gift-tax-from-parents" class="article-card"><span class="article-cat">세금</span><h3>부모님께 돈을 받으면 증여세는 얼마나 나올까?</h3><p>부모님께 받은 돈의 증여세 공제 한도와 세율, 금액별 예상 세금을 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/parental-leave-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>육아휴직하면 매달 얼마 받을 수 있을까?</h3><p>2026년 육아휴직급여를 기간별 지급률과 상한액으로 계산하고, 1년 총액 예시를 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/maternity-leave-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>출산전후휴가 기간에는 얼마를 받을까?</h3><p>출산전후휴가 90일 동안 회사와 고용보험이 각각 얼마를 주는지, 2026년 상한액으로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/parent-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>부모급여는 몇 살까지 얼마 받을까?</h3><p>부모급여는 생후 23개월까지 받아요. 2026년 월 지급액과 어린이집을 다닐 때 받는 금액을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/unemployment-benefit-duration" class="article-card"><span class="article-cat">육아·복지</span><h3>실업급여는 몇 개월 동안 얼마 받을 수 있을까?</h3><p>실업급여를 받는 기간(120~270일)과 2026년 하루 상·하한액으로 받을 금액을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li></ul><p class="guide-meta">글마다 참고한 공식자료와 확인 날짜를 적고, 관련 계산기로 바로 이어지게 했어요.</p></section><div style="height: 64px;"></div></main><footer class="site-footer"><div class="container"><div class="footer-top"><div class="footer-brand"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><span class="en">ULMAJI</span></div><nav class="footer-nav" aria-label="하단 메뉴"><ul><li><a href="/calculators">계산기</a></li><li><a href="/guide">생활정보</a></li><li><a href="/about">얼마지 소개</a></li><li><a href="/terms">이용약관</a></li><li><a href="/privacy">개인정보처리방침</a></li><li><a href="mailto:heosoyoone@gmail.com">문의</a></li></ul></nav></div><p class="footer-disclaimer">계산 결과는 입력한 정보와 적용 기준에 따른 참고용 정보입니다. 실제 지급액 및 적용 여부는 개인의 조건에 따라 달라질 수 있습니다.</p><p class="footer-copy">© 2026 ULMAJI. ulmaji.kr</p></div></footer><div class="toast" role="status" aria-live="polite"></div><!--prerender:end--></div>
+<div id="root"><!--prerender:start--><a class="skip-link" href="#calculator">계산기로 바로가기</a><header class="site-header"><div class="container header-inner"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><nav class="nav-desktop" aria-label="주요 메뉴"><ul><li class="nav-item nav-item-calc"><button type="button" class="nav-link nav-trigger is-current" aria-expanded="false" aria-controls="mega-calc">계산기<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-calc" class="mega mega-calc" hidden=""><div class="mega-grid"><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-work">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="근로·급여 계산기"><li><a href="/calculators/net-salary" class="mega-link">월급 실수령액</a></li><li><a href="/calculators/weekly-holiday-pay" class="mega-link">주휴수당</a></li><li><a href="/calculators/severance-pay" class="mega-link">퇴직금</a></li><li><a href="/calculators/annual-leave" class="mega-link">연차·연차수당</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-finance">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="금융·생활 계산기"><li><a href="/calculators/loan-interest" class="mega-link">대출이자</a></li><li><a href="/calculators/percentage" class="mega-link">퍼센트</a></li><li><a href="/calculators/compound-interest" class="mega-link">단리·복리 이자</a></li><li><a href="/calculators/deposit-interest" class="mega-link">예금이자</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-realestate">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="부동산 계산기"><li><a href="/calculators/dsr" class="mega-link">DSR</a></li><li><a href="/calculators/brokerage-fee" class="mega-link">중개보수</a></li><li><a href="/calculators/housing-subscription-score" class="mega-link">청약가점</a></li><li><a href="/calculators/rent-conversion" class="mega-link">전월세 환산</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-tax">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="세금 계산기"><li><a href="/calculators/freelancer-withholding" class="mega-link">프리랜서 3.3%</a></li><li><a href="/calculators/vat" class="mega-link">VAT</a></li><li><a href="/calculators/year-end-tax" class="mega-link">연말정산</a></li><li><a href="/calculators/comprehensive-income-tax" class="mega-link">종합소득세</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-parenting">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="육아·복지 계산기"><li><a href="/calculators/unemployment-benefit" class="mega-link">실업급여</a></li><li><a href="/calculators/parental-leave" class="mega-link">육아휴직급여</a></li><li><a href="/calculators/maternity-leave-pay" class="mega-link">출산전후휴가 급여</a></li><li><a href="/calculators/parent-benefit" class="mega-link">부모급여</a></li></ul></div></div><div class="mega-foot"><a href="/calculators" class="mega-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li class="nav-item nav-item-guide"><button type="button" class="nav-link nav-trigger" aria-expanded="false" aria-controls="mega-guide">생활정보<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-guide" class="mega mega-guide" hidden=""><ul class="mega-guide-list"><li><a href="/guide?category=work" class="mega-guide-cat">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/weekly-holiday-pay-15-hours" class="mega-guide-pick">주 15시간 일하면 주휴수당은 얼마일까?</a></li><li><a href="/guide?category=finance" class="mega-guide-cat">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/loan-100m-monthly-interest" class="mega-guide-pick">대출 1억 받으면 한 달 이자는 얼마일까?</a></li><li><a href="/guide?category=realestate" class="mega-guide-cat">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/84sqm-to-pyeong" class="mega-guide-pick">아파트 84㎡는 몇 평일까?</a></li><li><a href="/guide?category=tax" class="mega-guide-cat">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/freelancer-3-3-withholding" class="mega-guide-pick">프리랜서 3.3% 떼면 실제 얼마 받을까?</a></li><li><a href="/guide?category=parenting" class="mega-guide-cat">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/parental-leave-benefit" class="mega-guide-pick">육아휴직하면 매달 얼마 받을 수 있을까?</a></li></ul><div class="mega-foot"><a href="/guide" class="mega-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li><a href="/about" class="nav-link">얼마지 소개</a></li></ul></nav><div class="header-actions"><button type="button" class="icon-btn" aria-label="계산기 검색"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7.5"></circle><path d="m20.5 20.5-4.2-4.2"></path></svg></button><a href="/calculators" class="btn btn-primary btn-sm hide-mobile">전체 계산기</a><button type="button" class="icon-btn show-mobile" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button></div></div><div id="mobile-menu" class="mobile-menu" hidden=""><nav aria-label="모바일 메뉴"><ul><li class="m-group"><button type="button" class="m-link m-trigger is-current" aria-expanded="false" aria-controls="m-sub-calc">계산기<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-calc" class="m-sub" hidden="" aria-label="계산기 카테고리"><li><a href="/calculators#cat-work" class="m-sub-link">근로·급여</a></li><li><a href="/calculators#cat-finance" class="m-sub-link">금융·생활</a></li><li><a href="/calculators#cat-realestate" class="m-sub-link">부동산</a></li><li><a href="/calculators#cat-tax" class="m-sub-link">세금</a></li><li><a href="/calculators#cat-parenting" class="m-sub-link">육아·복지</a></li><li><a href="/calculators" class="m-sub-link is-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li class="m-group"><button type="button" class="m-link m-trigger" aria-expanded="false" aria-controls="m-sub-guide">생활정보<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-guide" class="m-sub" hidden="" aria-label="생활정보 카테고리"><li><a href="/guide?category=work" class="m-sub-link">근로·급여</a></li><li><a href="/guide?category=finance" class="m-sub-link">금융·생활</a></li><li><a href="/guide?category=realestate" class="m-sub-link">부동산</a></li><li><a href="/guide?category=tax" class="m-sub-link">세금</a></li><li><a href="/guide?category=parenting" class="m-sub-link">육아·복지</a></li><li><a href="/guide" class="m-sub-link is-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li><a href="/about" class="m-link">얼마지 소개<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></li></ul></nav><a href="/calculators" class="btn btn-primary btn-block">전체 계산기</a></div></header><main id="main"><nav class="container breadcrumb" aria-label="현재 위치"><ol><li><a href="/">홈</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><a href="/calculators">계산기</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><a href="/calculators#cat-realestate">부동산</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><span aria-current="page">중개보수 계산기</span></li></ol></nav><div class="container page-head"><span class="badge badge-brand">부동산</span><h1>중개보수 계산기</h1><p class="page-desc">매매·전세·월세 금액을 입력하면 적용되는 상한요율을 확인해<br>예상 중개보수 상한액을 계산해드려요.</p><p class="page-meta"><span>실제 중개보수는 법정 상한 범위 안에서 협의될 수 있어요</span><span class="meta-sep" aria-hidden="true"></span><a href="#basis">최종 업데이트 2026.09.24<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5.5M12 7.8h.01"></path></svg><span class="sr-only">, 계산 기준 보기</span></a></p></div><section class="calc-section" id="calculator" aria-label="중개보수 계산기"><div class="container"><div class="calc-shell"><form class="calc-form" novalidate="" aria-labelledby="form-title"><fieldset class="field"><legend class="field-label vat-q" id="form-title">어떤 계약인가요?</legend><div class="method-cards three"><label class="method-card"><input type="radio" name="btype"><span><strong>매매</strong><small>집을 사고팔아요</small></span></label><label class="method-card"><input type="radio" name="btype"><span><strong>전세</strong><small>보증금으로 임대차 계약해요</small></span></label><label class="method-card"><input type="radio" name="btype"><span><strong>월세</strong><small>보증금과 월세가 있어요</small></span></label></div><p class="field-help">현재 주택 매매·전세·월세 중개보수 계산을 지원하고 있어요. 오피스텔·상가·토지는 아직 지원하지 않아요.</p></fieldset><button type="submit" class="btn btn-primary submit-btn">중개보수 계산하기</button><p class="field-help center">법정 기준에 따른 중개보수 상한액을 계산해요.</p></form><div class="result-col"><div class="result-panel"><p class="sr-only" aria-live="polite"></p><div class="result-empty"><span class="big-q" aria-hidden="true">?</span><h2 class="sr-only">계산 결과</h2><p>계약 종류와 금액만 입력하면<br>중개보수 상한액을 알려드릴게요.</p></div></div></div></div></div></section><section class="section band" id="guide" aria-label="중개보수 안내"><div class="container"><div class="content-block"><h2>중개보수는 어떻게 계산하나요?</h2><div class="prose"><p>거래금액을 정하고, 그 금액이 속한 구간의 상한요율을 곱해요. 낮은 구간에는 한도액이 있어서 요율로 계산한 금액이 한도를 넘으면 한도액까지만 받을 수 있어요.</p></div></div><div class="content-block"><h2>중개보수와 복비는 같은 말인가요?</h2><div class="prose"><p>네. 법령상 이름은 중개보수이고, 흔히 복비나 중개수수료라고 불러요.</p></div></div><div class="content-block"><h2>매매와 전세의 중개보수는 다르게 계산되나요?</h2><div class="prose"><p>네. 매매와 임대차(전세·월세)는 요율표가 달라요. 같은 금액이라도 전세의 상한요율이 더 낮아요.</p></div></div><div class="content-block"><h2>월세 중개보수는 어떻게 계산하나요?</h2><div class="prose"><p>보증금 + 월세 × 100을 거래금액으로 봐요. 이 금액이 5천만원 미만이면 보증금 + 월세 × 70으로 다시 계산해요. 월세만 보면 거래 규모가 작게 잡히기 때문에 환산해서 계산해요.</p></div></div><div class="content-block"><h2>중개보수에 한도액이 있나요?</h2><div class="prose"><p>매매는 5천만원 미만 25만원, 2억원 미만 80만원, 임대차는 5천만원 미만 20만원, 1억원 미만 30만원 한도가 있어요. 그 위 구간은 요율만 적용해요.</p></div></div><div class="content-block"><h2>누가 중개보수를 부담하나요?</h2><div class="prose"><p>거래 당사자 각자가 의뢰한 중개업소에 내요. 매매는 매수인·매도인이, 임대차는 임대인·임차인이 각각 내요.</p></div></div><div class="content-block"><h2>계약이 해제되면 중개보수는 어떻게 되나요?</h2><div class="prose"><p>중개업자의 고의나 과실 없이 거래 당사자 사이의 사정으로 계약이 해제되면 중개보수를 내야 할 수 있어요. 구체적인 사정에 따라 달라서 단정하기 어려워요.</p></div></div><div class="content-block"><h2>주택 중개보수 상한요율표</h2><div class="cond-grid"><article class="cond-card"><h3>매매·교환</h3><dl class="pb-rows"><div><dt>5,000만원 미만</dt><dd>0.6% (한도 25만원)</dd></div><div><dt>5,000만원 이상 2억원 미만</dt><dd>0.5% (한도 80만원)</dd></div><div><dt>2억원 이상 9억원 미만</dt><dd>0.4%</dd></div><div><dt>9억원 이상 12억원 미만</dt><dd>0.5%</dd></div><div><dt>12억원 이상 15억원 미만</dt><dd>0.6%</dd></div><div><dt>15억원 이상</dt><dd>0.7%</dd></div></dl></article><article class="cond-card"><h3>임대차 (전세·월세)</h3><dl class="pb-rows"><div><dt>5,000만원 미만</dt><dd>0.5% (한도 20만원)</dd></div><div><dt>5,000만원 이상 1억원 미만</dt><dd>0.4% (한도 30만원)</dd></div><div><dt>1억원 이상 6억원 미만</dt><dd>0.3%</dd></div><div><dt>6억원 이상 12억원 미만</dt><dd>0.4%</dd></div><div><dt>12억원 이상 15억원 미만</dt><dd>0.5%</dd></div><div><dt>15억원 이상</dt><dd>0.6%</dd></div></dl></article></div></div></div></section><section class="section" id="faq" aria-labelledby="faq-title"><div class="container"><div class="section-head"><div><h2 id="faq-title">자주 묻는 질문</h2></div></div><ul class="faq-list"><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f1" class="faq-toggle" aria-expanded="true" aria-controls="faq-panel-f1">5억원 아파트를 매매하면 복비는 얼마인가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f1" role="region" aria-labelledby="faq-btn-f1" class="faq-a"><p>2억원 이상 9억원 미만 구간이라 상한요율 0.4%가 적용돼 중개보수 상한액은 2,000,000원이에요. 매수인과 매도인이 각자 내요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f2" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f2">전세 3억원이면 중개수수료는 얼마인가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f2" role="region" aria-labelledby="faq-btn-f2" class="faq-a" hidden=""><p>1억원 이상 6억원 미만 구간이라 0.3%가 적용돼 상한액은 900,000원이에요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f3" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f3">보증금 5천만원에 월세 80만원이면 복비는 얼마인가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f3" role="region" aria-labelledby="faq-btn-f3" class="faq-a" hidden=""><p>5천만원 + 80만원 × 100 = 1억 3,000만원을 거래금액으로 보고 0.3%를 적용해 상한액은 390,000원이에요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f4" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f4">월세 중개수수료는 보증금만 기준으로 계산하나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f4" role="region" aria-labelledby="faq-btn-f4" class="faq-a" hidden=""><p>아니요. 보증금에 월세 × 100을 더한 금액을 거래금액으로 봐요. 이 금액이 5천만원 미만이면 월세 × 70으로 다시 계산해요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f5" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f5">중개보수 상한액을 전부 내야 하나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f5" role="region" aria-labelledby="faq-btn-f5" class="faq-a" hidden=""><p>아니요. 계산 결과는 상한액이에요. 실제 중개보수는 상한 범위 안에서 중개의뢰인과 개업공인중개사가 협의해 정해요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f6" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f6">공인중개사가 상한액보다 많이 요구할 수 있나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f6" role="region" aria-labelledby="faq-btn-f6" class="faq-a" hidden=""><p>법정 상한을 넘는 금액을 받는 건 금지돼 있어요. 상한을 넘는 요구를 받았다면 관할 시·군·구청에 문의할 수 있어요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f7" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f7">중개수수료를 깎아달라고 협의할 수 있나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f7" role="region" aria-labelledby="faq-btn-f7" class="faq-a" hidden=""><p>네. 상한 범위 안에서 협의로 정하는 금액이라 계약 전에 미리 이야기해두는 게 좋아요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f8" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f8">중개보수에 부가가치세가 포함되어 있나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f8" role="region" aria-labelledby="faq-btn-f8" class="faq-a" hidden=""><p>상한액에는 포함되지 않아요. 중개업소가 일반과세자라면 부가가치세가 별도로 붙을 수 있어요. 과세유형은 중개업소에 확인해주세요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f9" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f9">매수인과 매도인이 각각 중개보수를 내나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f9" role="region" aria-labelledby="faq-btn-f9" class="faq-a" hidden=""><p>네. 거래 당사자 각자가 자신이 의뢰한 중개업소에 중개보수를 내요. 계산 결과는 한쪽이 내는 상한액이에요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f10" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f10">임대인과 임차인이 각각 내나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f10" role="region" aria-labelledby="faq-btn-f10" class="faq-a" hidden=""><p>네. 임대차도 임대인과 임차인이 각각 내요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f11" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f11">오피스텔도 이 계산기로 계산할 수 있나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f11" role="region" aria-labelledby="faq-btn-f11" class="faq-a" hidden=""><p>아직은 지원하지 않아요. 오피스텔은 주택과 다른 요율 기준이 적용돼요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f12" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f12">상가도 계산할 수 있나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f12" role="region" aria-labelledby="faq-btn-f12" class="faq-a" hidden=""><p>아직은 지원하지 않아요. 상가·토지 등 주택 외 부동산은 별도 기준이 적용돼요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f13" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f13">지역마다 중개보수가 다른가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f13" role="region" aria-labelledby="faq-btn-f13" class="faq-a" hidden=""><p>2021년 10월 19일 개정 이후 주택 중개보수 상한요율은 전국이 같아요. 그래서 지역을 묻지 않아요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f14" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f14">계산 결과와 부동산에서 말한 금액이 다른 이유는 무엇인가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f14" role="region" aria-labelledby="faq-btn-f14" class="faq-a" hidden=""><p>계산 결과는 법정 상한액이고, 실제 금액은 협의로 정해져요. 부가가치세가 별도로 붙거나 오피스텔·상가처럼 다른 기준이 적용되는 경우에도 달라져요.</p></div></li></ul></div></section><section class="section band" id="basis" aria-labelledby="basis-title"><div class="container"><div class="trust-grid"><div><h2 id="basis-title">어떤 기준으로 계산하나요?</h2><p class="section-desc">주소나 계약서 없이 계약 종류와 금액만으로 계산해요.</p><div class="notice-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5.5M12 7.8h.01"></path></svg><div><strong>참고용으로 확인해주세요</strong><p>이 계산기는 입력한 거래유형과 금액을 기준으로 관련 법령상 중개보수 상한액을 예상하는 참고 도구입니다. 실제 중개보수는 거래 대상의 종류, 거래금액 산정방식, 계약조건 및 협의 등에 따라 달라질 수 있고, 부가가치세가 별도로 발생하면 실제 결제금액이 다를 수 있습니다.</p></div></div></div><div class="basis-card"><div class="basis-head"><strong>중개보수 계산 기준</strong><span class="badge badge-brand">2021.10.19 시행</span></div><dl><div class="basis-row"><dt>부동산 유형</dt><dd>주택 (아파트·단독·다가구·다세대 등)</dd></div><div class="basis-row"><dt>거래유형</dt><dd>매매 / 전세 / 월세</dd></div><div class="basis-row"><dt>적용지역</dt><dd>전국 공통</dd></div><div class="basis-row"><dt>월세 환산</dt><dd>보증금 + 월세 × 100 (5천만원 미만이면 × 70)</dd></div><div class="basis-row"><dt>협의</dt><dd>상한 범위 안에서 중개의뢰인과 개업공인중개사가 서로 협의해 정해요.</dd></div><div class="basis-row"><dt>부가가치세</dt><dd>결과에 포함하지 않음</dd></div><div class="basis-row"><dt>공식 출처</dt><dd><ul class="source-list"><li><a class="source-link" href="https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B3%B5%EC%9D%B8%EC%A4%91%EA%B0%9C%EC%82%AC%EB%B2%95%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99" target="_blank" rel="noopener noreferrer"><span><span class="src-name">국가법령정보센터</span><span class="src-desc">공인중개사법 시행규칙 제20조 [별표 1]</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-8.5 8.5"></path><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"></path></svg><span class="sr-only">(새 탭에서 열림)</span></a></li><li><a class="source-link" href="https://www.molit.go.kr" target="_blank" rel="noopener noreferrer"><span><span class="src-name">국토교통부</span><span class="src-desc">부동산 중개보수 개편 안내 (2021.10.19 시행)</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-8.5 8.5"></path><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"></path></svg><span class="sr-only">(새 탭에서 열림)</span></a></li></ul></dd></div><div class="basis-row"><dt>마지막 업데이트</dt><dd><time datetime="2026-09-24">2026.09.24</time></dd></div></dl></div></div></div></section><section class="section tight-top" aria-labelledby="static-related-title"><div class="container"><div class="section-head"><div><h2 id="static-related-title">집 계약 전에 같이 계산해보세요</h2></div><a href="/calculators" class="more-link">전체 계산기 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div><ul class="calc-grid cols-3"><li><a href="/calculators/acquisition-tax" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 3h12v18l-2-1.4-2 1.4-2-1.4-2 1.4-2-1.4L6 21z"></path><path d="M9 8h6M9 12h6M9 16h3"></path></svg></span><div class="calc-text"><h3>취득세 계산기</h3><p>집을 살 때 내는 취득세와 지방교육세를 확인해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li><li><a href="/calculators/rent-conversion" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"></svg></span><div class="calc-text"><h3>전월세 환산 계산기</h3><p>전세와 월세 조건을 서로 바꿔 비교해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li><li><a href="/calculators/loan-interest" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18.5 5.5 5.5 18.5"></path><circle cx="7" cy="7" r="2.5"></circle><circle cx="17" cy="17" r="2.5"></circle></svg></span><div class="calc-text"><h3>대출이자 계산기</h3><p>매매·전세 자금을 대출로 마련할 때 월 이자를 확인해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li><li><a href="/calculators/capital-gains-tax" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 3h12v18l-2-1.4-2 1.4-2-1.4-2 1.4-2-1.4L6 21z"></path><path d="M9 8h6M9 12h6M9 16h3"></path></svg></span><div class="calc-text"><h3>양도소득세 계산기</h3><p>집을 팔 때 예상 양도소득세를 확인해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li></ul></div></section><section class="section" aria-labelledby="articles-title"><div class="container"><div class="section-head"><div><h2 id="articles-title">같이 보면 좋은 생활정보</h2></div><a href="/guide" class="more-link">생활정보 전체보기 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div><ul class="article-grid"><li><a href="/guide/real-estate-brokerage-fee" class="article-card"><span class="article-cat">부동산</span><h3>부동산 중개수수료는 얼마까지 내야 할까?</h3><p>매매·전세·월세별 중개보수 상한요율과 한도, 월세 거래금액 계산법을 예시와 함께 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/jeonse-to-monthly-rent" class="article-card"><span class="article-cat">부동산</span><h3>전세를 월세로 바꾸면 얼마가 적당할까?</h3><p>보증금을 월세로 바꿀 때 법으로 정한 전환율 상한과, 월세 금액을 계산하는 방법을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/84sqm-to-pyeong" class="article-card"><span class="article-cat">부동산</span><h3>아파트 84㎡는 몇 평일까?</h3><p>전용 84㎡는 25.41평이에요. 그런데 흔히 34평이라고 부르는 이유와 ㎡·평 환산법을 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li></ul></div></section></main><footer class="site-footer"><div class="container"><div class="footer-top"><div class="footer-brand"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><span class="en">ULMAJI</span></div><nav class="footer-nav" aria-label="하단 메뉴"><ul><li><a href="/calculators">계산기</a></li><li><a href="/guide">생활정보</a></li><li><a href="/about">얼마지 소개</a></li><li><a href="/terms">이용약관</a></li><li><a href="/privacy">개인정보처리방침</a></li><li><a href="mailto:heosoyoone@gmail.com">문의</a></li></ul></nav></div><p class="footer-disclaimer">계산 결과는 입력한 정보와 적용 기준에 따른 참고용 정보입니다. 실제 지급액 및 적용 여부는 개인의 조건에 따라 달라질 수 있습니다.</p><p class="footer-copy">© 2026 ULMAJI. ulmaji.kr</p></div></footer><div class="toast" role="status" aria-live="polite"></div><!--prerender:end--></div>
 <noscript><p style="max-width:720px;margin:16px auto;padding:0 20px;font-family:sans-serif;font-size:15px">계산 기능을 쓰려면 브라우저에서 JavaScript를 켜주세요.</p></noscript>
 <script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.24.7/babel.min.js"></script>
 <script type="text/babel" data-presets="react">
 const { useState, useRef, useEffect, useMemo } = React;
+
+/* =========================================================
+   1. Site / Page config
+   ========================================================= */
 const SITE = { name: "얼마지?", en: "ULMAJI", origin: "https://ulmaji.kr" };
+const PAGE = { path: "/calculators/brokerage-fee", title: "중개보수 계산기", category: { name: "부동산", href: "/calculators#cat-realestate" }, updatedAt: "2026.09.24" };
 const SHOW_AD_PLACEHOLDERS = new URLSearchParams(window.location.search).get("ads") === "preview";
-const NAV = [ { label: "계산기", href: "/#popular" }, { label: "생활정보", href: "/guide" }, { label: "얼마지 소개", href: "/about" } ];
+
+/* =========================================================
+   2. BROKERAGE_FEE_CONFIG
+   공인중개사법 시행규칙 제20조 [별표 1] 주택 중개보수 상한 (2021.10.19 시행, 전국 공통)
+   구간은 "이상 ~ 미만"이에요. upTo는 미만 기준.
+   ========================================================= */
+const BROKERAGE_FEE_CONFIG = [
+  {
+    id: "2021-10-19", effectiveFrom: "2021-10-19", effectiveTo: null,
+    region: "전국 공통", propertyType: "house",
+    transactionTypes: {
+      sale: { label: "매매", desc: "집을 사고팔아요", table: "sale" },
+      jeonse: { label: "전세", desc: "보증금으로 임대차 계약해요", table: "lease" },
+      monthly: { label: "월세", desc: "보증금과 월세가 있어요", table: "lease" },
+    },
+    priceRanges: {
+      sale: [
+        { below: 50000000, maxRate: 0.006, feeCap: 250000 },
+        { below: 200000000, maxRate: 0.005, feeCap: 800000 },
+        { below: 900000000, maxRate: 0.004, feeCap: null },
+        { below: 1200000000, maxRate: 0.005, feeCap: null },
+        { below: 1500000000, maxRate: 0.006, feeCap: null },
+        { below: Infinity, maxRate: 0.007, feeCap: null },
+      ],
+      lease: [
+        { below: 50000000, maxRate: 0.005, feeCap: 200000 },
+        { below: 100000000, maxRate: 0.004, feeCap: 300000 },
+        { below: 600000000, maxRate: 0.003, feeCap: null },
+        { below: 1200000000, maxRate: 0.004, feeCap: null },
+        { below: 1500000000, maxRate: 0.005, feeCap: null },
+        { below: Infinity, maxRate: 0.006, feeCap: null },
+      ],
+    },
+    // 월세 거래금액: 보증금 + 월세 × 100, 그 결과가 5천만원 미만이면 보증금 + 월세 × 70
+    monthlyRentConversionRules: { multiplier: 100, fallbackBelow: 50000000, fallbackMultiplier: 70 },
+    negotiationRules: "상한 범위 안에서 중개의뢰인과 개업공인중개사가 서로 협의해 정해요.",
+    vatGuidance: "중개업소의 과세유형 등에 따라 부가가치세가 별도로 발생할 수 있어요.",
+    roundingRules: { fee: 1 },
+    officialSources: [
+      { name: "국가법령정보센터", desc: "공인중개사법 시행규칙 제20조 [별표 1]", url: "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B3%B5%EC%9D%B8%EC%A4%91%EA%B0%9C%EC%82%AC%EB%B2%95%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99" },
+      { name: "국토교통부", desc: "부동산 중개보수 개편 안내 (2021.10.19 시행)", url: "https://www.molit.go.kr" },
+    ],
+    updatedAt: "2026.09.24",
+  },
+];
+const TODAY = new Date(Date.now() + 9 * 3600000).toISOString().slice(0, 10);
+const resolveBrokerageConfig = (date = TODAY) => BROKERAGE_FEE_CONFIG.find((c) => c.effectiveFrom <= date && (!c.effectiveTo || date <= c.effectiveTo)) || null;
+// 2021.10.19 개정 이후 주택 요율은 전국이 같아서 지역을 묻지 않아요.
+function resolveRegionalBrokerageRules(cfg) { return { needsRegion: false, label: cfg.region }; }
+
+/* =========================================================
+   3. Currency helpers
+   ========================================================= */
+function parseCurrencyInput(v) { const d = String(v ?? "").replace(/[^\d]/g, ""); return d ? Number(d) : NaN; }
+function formatMoneyInput(v) { const d = String(v).replace(/[^\d]/g, "").replace(/^0+(?=\d)/, "").slice(0, 14); return d ? Number(d).toLocaleString("ko-KR") : ""; }
+const safe = (n) => (Number.isFinite(n) ? n : 0);
+const floorWon = (n) => { const r = Math.floor(Math.round(safe(n) * 1e6) / 1e6); return Object.is(r, -0) ? 0 : r; };
+function formatCurrency(n) { const r = Math.round(safe(n)); return `${(Object.is(r, -0) ? 0 : r).toLocaleString("ko-KR")}원`; }
+function formatKoreanCurrency(n) {
+  n = Math.round(Math.abs(safe(n))); if (!n) return "0원";
+  const units = [{ v: 1e12, l: "조" }, { v: 1e8, l: "억" }, { v: 1e4, l: "만" }]; let rest = n; const parts = [];
+  units.forEach((u) => { const q = Math.floor(rest / u.v); if (q > 0) { parts.push(`${q.toLocaleString("ko-KR")}${u.l}`); rest -= q * u.v; } });
+  if (rest > 0) parts.push(rest.toLocaleString("ko-KR")); return parts.join(" ") + "원";
+}
+const pct = (r) => `${Math.round(safe(r) * 10000) / 100}%`;
+const rangeText = (list, i) => { const lo = i === 0 ? 0 : list[i - 1].below; const hi = list[i].below; return hi === Infinity ? `${formatKoreanCurrency(lo)} 이상` : lo === 0 ? `${formatKoreanCurrency(hi)} 미만` : `${formatKoreanCurrency(lo)} 이상 ${formatKoreanCurrency(hi)} 미만`; };
+
+/* =========================================================
+   4. Engines
+   ========================================================= */
+function resolveMonthlyRentConversionRule(deposit, rent, cfg) {
+  const r = cfg.monthlyRentConversionRules;
+  const base = deposit + rent * r.multiplier;
+  if (base < r.fallbackBelow) return { value: deposit + rent * r.fallbackMultiplier, multiplier: r.fallbackMultiplier, fallback: true, base };
+  return { value: base, multiplier: r.multiplier, fallback: false, base };
+}
+const calculateMonthlyRentTransactionValue = (deposit, rent, cfg) => resolveMonthlyRentConversionRule(deposit, rent, cfg).value;
+function resolveBrokerageFeeBracket(type, value, cfg) {
+  const list = cfg.priceRanges[cfg.transactionTypes[type].table];
+  const i = list.findIndex((b) => value < b.below);
+  return { ...list[i], index: i, label: rangeText(list, i) };
+}
+function calculateBrokerageFeeCap(value, bracket, cfg) {
+  const byRate = floorWon(value * bracket.maxRate);
+  const capped = bracket.feeCap !== null && byRate > bracket.feeCap;
+  return { byRate, cap: bracket.feeCap, capped, fee: capped ? bracket.feeCap : byRate };
+}
+function computeBrokerage(type, value, cfg, extra = {}) {
+  const bracket = resolveBrokerageFeeBracket(type, value, cfg);
+  return { type, transactionValue: value, bracket, ...calculateBrokerageFeeCap(value, bracket, cfg), ...extra, cfg };
+}
+const calculateSaleBrokerageFee = (price, cfg) => computeBrokerage("sale", price, cfg);
+const calculateJeonseBrokerageFee = (deposit, cfg) => computeBrokerage("jeonse", deposit, cfg);
+function calculateMonthlyBrokerageFee(deposit, rent, cfg) {
+  const conv = resolveMonthlyRentConversionRule(deposit, rent, cfg);
+  return computeBrokerage("monthly", conv.value, cfg, { deposit, rent, conv });
+}
+function calculateBrokerage(v) {
+  const cfg = resolveBrokerageConfig();
+  if (v.type === "sale") return calculateSaleBrokerageFee(v.amount, cfg);
+  if (v.type === "jeonse") return calculateJeonseBrokerageFee(v.amount, cfg);
+  return calculateMonthlyBrokerageFee(v.deposit, v.rent, cfg);
+}
+function validateInputs(v) {
+  const e = {};
+  if (!v.type) e.type = "어떤 계약인지 선택해주세요.";
+  if (v.type === "sale" || v.type === "jeonse") {
+    if (!Number.isFinite(v.amount) || v.amount === 0) e.amount = "거래금액을 입력해주세요.";
+    else if (v.amount > 1e13) e.amount = "금액을 다시 확인해주세요.";
+  }
+  if (v.type === "monthly") {
+    if (!Number.isFinite(v.deposit)) e.deposit = "보증금을 입력해주세요. 없다면 0을 입력해요.";
+    if (!Number.isFinite(v.rent)) e.rent = "월세를 입력해주세요.";
+    else if (v.rent === 0) e.rent = "월세가 0원이라면 전세 계약인지 확인해주세요.";
+    else if (v.rent > 1e10 || v.deposit > 1e13) e.rent = "금액을 다시 확인해주세요.";
+  }
+  return e;
+}
+function calculateScenario(v) {
+  if (v.type === "monthly") return [600000, 800000, 1000000, v.rent].filter((x, i, a) => a.indexOf(x) === i).sort((a, b) => a - b)
+    .map((rent) => ({ label: `월세 ${formatKoreanCurrency(rent)}`, current: rent === v.rent, fee: calculateBrokerage({ ...v, rent }).fee }));
+  const set = v.type === "sale" ? [400000000, 500000000, 600000000, 1000000000] : [100000000, 300000000, 500000000];
+  return [...new Set([...set, v.amount])].sort((a, b) => a - b).map((amount) => ({ label: formatKoreanCurrency(amount), current: amount === v.amount, fee: calculateBrokerage({ ...v, amount }).fee }));
+}
+
+/* =========================================================
+   5. Content data
+   ========================================================= */
+const CFG = resolveBrokerageConfig();
+const exS = calculateSaleBrokerageFee(500000000, CFG), exJ = calculateJeonseBrokerageFee(300000000, CFG), exM = calculateMonthlyBrokerageFee(50000000, 800000, CFG);
+const FAQ = [
+  { id: "f1", q: "5억원 아파트를 매매하면 복비는 얼마인가요?", a: `2억원 이상 9억원 미만 구간이라 상한요율 0.4%가 적용돼 중개보수 상한액은 ${formatCurrency(exS.fee)}이에요. 매수인과 매도인이 각자 내요.` },
+  { id: "f2", q: "전세 3억원이면 중개수수료는 얼마인가요?", a: `1억원 이상 6억원 미만 구간이라 0.3%가 적용돼 상한액은 ${formatCurrency(exJ.fee)}이에요.` },
+  { id: "f3", q: "보증금 5천만원에 월세 80만원이면 복비는 얼마인가요?", a: `5천만원 + 80만원 × 100 = ${formatKoreanCurrency(exM.transactionValue)}을 거래금액으로 보고 0.3%를 적용해 상한액은 ${formatCurrency(exM.fee)}이에요.` },
+  { id: "f4", q: "월세 중개수수료는 보증금만 기준으로 계산하나요?", a: "아니요. 보증금에 월세 × 100을 더한 금액을 거래금액으로 봐요. 이 금액이 5천만원 미만이면 월세 × 70으로 다시 계산해요." },
+  { id: "f5", q: "중개보수 상한액을 전부 내야 하나요?", a: "아니요. 계산 결과는 상한액이에요. 실제 중개보수는 상한 범위 안에서 중개의뢰인과 개업공인중개사가 협의해 정해요." },
+  { id: "f6", q: "공인중개사가 상한액보다 많이 요구할 수 있나요?", a: "법정 상한을 넘는 금액을 받는 건 금지돼 있어요. 상한을 넘는 요구를 받았다면 관할 시·군·구청에 문의할 수 있어요." },
+  { id: "f7", q: "중개수수료를 깎아달라고 협의할 수 있나요?", a: "네. 상한 범위 안에서 협의로 정하는 금액이라 계약 전에 미리 이야기해두는 게 좋아요." },
+  { id: "f8", q: "중개보수에 부가가치세가 포함되어 있나요?", a: "상한액에는 포함되지 않아요. 중개업소가 일반과세자라면 부가가치세가 별도로 붙을 수 있어요. 과세유형은 중개업소에 확인해주세요." },
+  { id: "f9", q: "매수인과 매도인이 각각 중개보수를 내나요?", a: "네. 거래 당사자 각자가 자신이 의뢰한 중개업소에 중개보수를 내요. 계산 결과는 한쪽이 내는 상한액이에요." },
+  { id: "f10", q: "임대인과 임차인이 각각 내나요?", a: "네. 임대차도 임대인과 임차인이 각각 내요." },
+  { id: "f11", q: "오피스텔도 이 계산기로 계산할 수 있나요?", a: "아직은 지원하지 않아요. 오피스텔은 주택과 다른 요율 기준이 적용돼요." },
+  { id: "f12", q: "상가도 계산할 수 있나요?", a: "아직은 지원하지 않아요. 상가·토지 등 주택 외 부동산은 별도 기준이 적용돼요." },
+  { id: "f13", q: "지역마다 중개보수가 다른가요?", a: "2021년 10월 19일 개정 이후 주택 중개보수 상한요율은 전국이 같아요. 그래서 지역을 묻지 않아요." },
+  { id: "f14", q: "계산 결과와 부동산에서 말한 금액이 다른 이유는 무엇인가요?", a: "계산 결과는 법정 상한액이고, 실제 금액은 협의로 정해져요. 부가가치세가 별도로 붙거나 오피스텔·상가처럼 다른 기준이 적용되는 경우에도 달라져요." },
+];
+const RELATED = {
+  sale: [
+    { id: "acquisition-tax", name: "취득세 계산기", desc: "집을 살 때 발생할 수 있는 취득세도 확인해보세요.", icon: "receipt", href: "/calculators/acquisition-tax" },
+    { id: "loan-interest", name: "대출이자 계산기", desc: "대출을 이용한다면 월 상환액과 총 이자도 확인해보세요.", icon: "percent", href: "/calculators/loan-interest" },
+    { id: "capital-gains-tax", name: "양도소득세 계산기", desc: "집을 파는 경우 예상 양도소득세도 확인해보세요.", icon: "receipt", href: "/calculators/capital-gains-tax" },
+  ],
+  lease: [
+    { id: "loan-interest", name: "대출이자 계산기", desc: "전세대출 등을 이용한다면 예상 이자도 확인해보세요.", icon: "percent", href: "/calculators/loan-interest" },
+    { id: "rent-conversion", name: "전월세 환산 계산기", desc: "보증금과 월세 조건을 서로 비교해보세요.", icon: "home", href: "/calculators/rent-conversion" },
+  ],
+};
 /* =========================================================
    GUIDES — 생활정보 레지스트리 (모든 페이지 공통, 한 곳에서만 수정)
    publishedAt / updatedAt: 실제 작성·수정한 날짜만 적어요.
@@ -1910,7 +1914,7 @@ const NAV_CALCULATORS = [
 ];
 const NAV_FEATURED_IDS = ["freelancer-withholding", "unemployment-benefit", "net-salary", "weekly-holiday-pay", "severance-pay", "loan-interest", "dsr", "annual-leave"];
 const navFeaturedIds = () => NAV_FEATURED_IDS;
-const NAV_SECTION = "guide"; // 헤더에서 현재 위치로 표시할 메뉴
+const NAV_SECTION = "calc"; // 헤더에서 현재 위치로 표시할 메뉴
 const NAV_MENU_OF = { "계산기": "calc", "생활정보": "guide" }; // 헤더에서 메가메뉴를 여는 항목
 const NAV_PER_CATEGORY = 4; // 카테고리마다 메뉴에 보여줄 계산기 수
 const NAV_CALC_INDEX_HREF = "/calculators"; // 전체 계산기 목록 페이지
@@ -1929,8 +1933,10 @@ function navGuidePick(catId) {
   return list.find((g) => FEATURED_GUIDE_IDS.includes(g.id)) || list[0] || null;
 }
 /* NAV_MENU:END */
+const RELATED_ARTICLES = guidesForCalculator("/calculators/brokerage-fee");
+const NAV = [ { label: "계산기", href: "/#popular" }, { label: "생활정보", href: "/guide" }, { label: "얼마지 소개", href: "/about" } ];
+const BREADCRUMB = [ { name: "홈", href: "/" }, { name: "계산기", href: "/calculators" }, { name: PAGE.category.name, href: PAGE.category.href }, { name: PAGE.title, href: PAGE.path } ];
 
-const PAGE = { path: "/guide", title: "생활정보", category: { name: "생활정보", href: "/guide" }, updatedAt: "2026.09.25" };
 /* =========================================================
    Routing
    - 실서비스(ulmaji.kr): 실제 경로로 이동
@@ -2358,41 +2364,213 @@ function Toast() {
 
 
 
-
-
-
-ICONS.copy = '<rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/>';
-
-function Crumbs({ items }) {
-  return (<nav className="container breadcrumb" aria-label="현재 위치"><ol>{items.map((b, i) => { const last = i === items.length - 1; return (
-    <li key={b.name}>{i > 0 && <Icon name="chevron-right" size={14} />}{last || !b.href ? <span aria-current={last ? "page" : undefined}>{b.name}</span> : <AppLink href={b.href}>{b.name}</AppLink>}</li>); })}</ol></nav>);
+/* =========================================================
+   20. Page pieces
+   ========================================================= */
+function Breadcrumb() {
+  return (<nav className="container breadcrumb" aria-label="현재 위치"><ol>{BREADCRUMB.map((b, i) => { const last = i === BREADCRUMB.length - 1; return (
+    <li key={b.href}>{i > 0 && <Icon name="chevron-right" size={14} />}{last ? <span aria-current="page">{b.name}</span> : <AppLink href={b.href}>{b.name}</AppLink>}</li>); })}</ol></nav>);
 }
-function SourceList({ sources }) {
-  return (<ul className="source-list">{sources.map((x) => (
-    <li key={x.url}><a className="source-link" href={x.url} target="_blank" rel="noopener noreferrer"><span><span className="src-name">{x.name}</span><span className="src-desc">{x.desc}</span></span><Icon name="external" size={18} /><span className="sr-only">(새 탭에서 열림)</span></a></li>))}</ul>);
+function PageHead() {
+  return (<div className="container page-head"><span className="badge badge-brand">{PAGE.category.name}</span><h1>{PAGE.title}</h1>
+    <p className="page-desc">매매·전세·월세 금액을 입력하면 적용되는 상한요율을 확인해<br />예상 중개보수 상한액을 계산해드려요.</p>
+    <p className="page-meta"><span>실제 중개보수는 법정 상한 범위 안에서 협의될 수 있어요</span><span className="meta-sep" aria-hidden="true"></span>
+      <a href="#basis">최종 업데이트 {PAGE.updatedAt}<Icon name="info" size={16} /><span className="sr-only">, 계산 기준 보기</span></a></p></div>);
+}
+function FieldError({ id, message, children }) { if (!message) return null; return <p id={id} className="field-error"><Icon name="alert" size={16} />{message}{children}</p>; }
+function MoneyInput({ id, label, value, onChange, error, quick, errorAction }) {
+  const num = parseCurrencyInput(value);
+  return (<div className="field"><label className="field-label" htmlFor={id}>{label}</label>
+    <div className={"input-wrap" + (error ? " is-invalid" : "")}><input id={id} type="text" inputMode="numeric" autoComplete="off" placeholder="0" value={value} onChange={(e) => onChange(formatMoneyInput(e.target.value))}
+      aria-invalid={!!error} aria-describedby={[`${id}-help`, error && `${id}-error`].filter(Boolean).join(" ")} /><span className="input-suffix" aria-hidden="true">원</span></div>
+    <FieldError id={`${id}-error`} message={error}>{errorAction}</FieldError>
+    <p id={`${id}-help`} className="field-help korean-amount" aria-live="polite">{Number.isFinite(num) ? formatKoreanCurrency(num) : ""}</p>
+    {quick && <ul className="quick-amounts" aria-label="금액 빠르게 넣기">{quick.map((a) => <li key={a}><button type="button" className="chip" aria-pressed={num === a} onClick={() => onChange(a.toLocaleString("ko-KR"))}>{formatKoreanCurrency(a)}</button></li>)}</ul>}
+  </div>);
 }
 
-function GuideList() {
-  const q = new URLSearchParams(window.location.search).get("category");
-  const cats = GUIDE_CATEGORIES.filter((c) => PUBLISHED_GUIDES.some((g) => g.categoryId === c.id));
-  const current = cats.some((c) => c.id === q) ? q : "all";
-  const list = PUBLISHED_GUIDES.filter((g) => current === "all" || g.categoryId === current);
-  return (<>
-    <Crumbs items={[{ name: "얼마지", href: "/" }, { name: "생활정보" }]} />
-    <div className="container page-head"><h1>생활정보</h1>
-      <p className="page-desc">월급, 세금, 대출, 부동산, 육아·복지까지<br />생활 속에서 헷갈리는 기준을 쉽게 정리했어요.</p></div>
-    <section className="container" aria-label="생활정보 목록">
-      {cats.length > 1 && <ul className="cat-tabs" aria-label="카테고리">
-        <li><AppLink href="/guide" aria-current={current === "all" ? "page" : undefined}>전체<span className="cnt">{PUBLISHED_GUIDES.length}</span></AppLink></li>
-        {cats.map((c) => <li key={c.id}><AppLink href={`/guide?category=${c.id}`} aria-current={current === c.id ? "page" : undefined}>{c.name}<span className="cnt">{PUBLISHED_GUIDES.filter((g) => g.categoryId === c.id).length}</span></AppLink></li>)}</ul>}
-      <ul className="article-grid" style={{ marginTop: cats.length > 1 ? 0 : 24 }}>{list.map((a) => <li key={a.id}><ArticleCard article={a} /></li>)}</ul>
-      <p className="guide-meta">글마다 참고한 공식자료와 확인 날짜를 적고, 관련 계산기로 바로 이어지게 했어요.</p>
-    </section>
-    <AdSlot id="guide-list-bottom" label="목록 하단" />
-    <div style={{ height: 64 }}></div>
-  </>);
+/* =========================================================
+   21. Result
+   ========================================================= */
+function ResultEmpty() { return (<div className="result-empty"><span className="big-q" aria-hidden="true">?</span><h2 className="sr-only">계산 결과</h2><p>계약 종류와 금액만 입력하면<br />중개보수 상한액을 알려드릴게요.</p></div>); }
+
+function ResultView({ r, v, stale, headingRef, onRecalc }) {
+  const [whyOpen, setWhyOpen] = useState(true);
+  const [formulaOpen, setFormulaOpen] = useState(false);
+  const m = r.type === "monthly";
+  const title = r.type === "sale" ? `${formatKoreanCurrency(r.transactionValue)} 주택을 매매하면` : r.type === "jeonse" ? `전세보증금 ${formatKoreanCurrency(r.transactionValue)}이라면` : `보증금 ${formatKoreanCurrency(r.deposit)} · 월세 ${formatKoreanCurrency(r.rent)}이라면`;
+  const conv = r.cfg.monthlyRentConversionRules;
+  const related = RELATED[r.type === "sale" ? "sale" : "lease"];
+  return (
+    <div className={"result-view" + (stale ? " is-stale" : "")}>
+      {stale && <div className="status is-note res-stale"><Icon name="info" size={20} /><p><strong>입력값을 확인해주세요</strong><span>올바르게 입력하면 결과가 바로 다시 계산돼요.</span></p></div>}
+      <div className="res-head"><h2 className="res-label" ref={headingRef} tabIndex={-1}>{title} 중개보수 상한액</h2><span className="badge badge-brand">주택 {r.cfg.transactionTypes[r.type].label} · 2026년 기준</span></div>
+      <p className="res-amount">{formatCurrency(r.fee)}</p>
+      <p className="res-sentence">{m ? `거래금액 ${formatKoreanCurrency(r.transactionValue)} · ` : `거래금액 ${formatKoreanCurrency(r.transactionValue)} · `}적용 상한요율 {pct(r.bracket.maxRate)}{r.capped ? ` · 한도액 ${formatKoreanCurrency(r.cap)} 적용` : ""}. 실제 중개보수는 상한 범위 안에서 협의될 수 있어요.</p>
+      <div className="res-fade">
+        {m && <div className="sum-grid"><div className="sum-item"><span>중개보수 계산용 거래금액</span><strong>{formatCurrency(r.transactionValue)}</strong></div>
+          <div className="sum-item"><span>환산 방식</span><strong>월세 × {r.conv.multiplier}</strong></div></div>}
+        <div className="why">
+          <button type="button" className="why-toggle" aria-expanded={whyOpen} aria-controls="why-body" onClick={() => setWhyOpen((x) => !x)}>왜 이 금액인가요?<Icon name="chevron-right" size={20} strokeWidth={2.2} /></button>
+          <div id="why-body" className="why-body" hidden={!whyOpen}><div className="why-block"><ol className="grow-steps flow-steps">
+            {m && <><li><span>보증금</span><strong>{formatCurrency(r.deposit)}</strong></li><li><span>월세</span><strong>{formatCurrency(r.rent)}</strong></li></>}
+            <li><span>{m ? "공식 기준으로 환산한 거래금액" : "거래금액"}</span><strong>{formatCurrency(r.transactionValue)}</strong></li>
+            <li><span>적용 구간 ({r.bracket.label})</span><strong>상한요율 {pct(r.bracket.maxRate)}</strong></li>
+            <li><span>요율 기준 계산액</span><strong>{formatCurrency(r.byRate)}</strong></li>
+            <li><span>해당 구간 한도액</span><strong>{r.cap === null ? "없음" : formatCurrency(r.cap)}</strong></li>
+            <li className="is-final"><span>중개보수 상한액</span><strong>{formatCurrency(r.fee)}</strong></li>
+          </ol>
+            {r.capped && <p className="why-note">요율로 계산하면 {formatCurrency(r.byRate)}이지만, 이 구간에는 한도액 {formatCurrency(r.cap)}이 있어 한도액까지만 받을 수 있어요.</p>}
+            {m && (<><button type="button" className="nested-toggle" aria-expanded={formulaOpen} aria-controls="formula" onClick={() => setFormulaOpen((x) => !x)}>계산식 자세히 보기<Icon name="chevron-right" size={18} strokeWidth={2.2} /></button>
+              <div id="formula" className="formula-detail" hidden={!formulaOpen}>
+                <p className="formula-line">거래금액 = 보증금 + 월세 × {conv.multiplier} = {formatCurrency(r.conv.base)}</p>
+                <p className="formula-line">이 금액이 {formatKoreanCurrency(conv.fallbackBelow)} 미만이면 보증금 + 월세 × {conv.fallbackMultiplier}{r.conv.fallback ? ` = ${formatCurrency(r.transactionValue)} (적용됨)` : " (해당 없음)"}</p>
+                <p className="why-note">월세 거래는 보증금과 월세를 중개보수 계산용 거래금액으로 환산한 뒤 요율을 적용해요.</p></div></>)}
+          </div></div>
+        </div>
+        <div className="small-notice is-tip"><Icon name="info" size={18} /><p><strong>이 금액을 꼭 다 내야 하나요?</strong><span>아니요. 계산 결과는 법정 중개보수의 상한액이에요. 실제 중개보수는 이 범위 안에서 중개의뢰인과 개업공인중개사가 협의해 정해요. 계산 결과는 거래 당사자 한쪽이 내는 금액이에요.</span></p></div>
+        <div className="small-notice"><Icon name="info" size={18} /><p><strong>부가가치세도 내나요?</strong><span>{r.cfg.vatGuidance} 이 결과에는 포함하지 않았어요. 부가세가 붙는지는 중개업소에 먼저 확인해주세요. <AppLink href="/calculators/vat">VAT 계산기 →</AppLink></span></p></div>
+      </div>
+      <div className="pay-blocks"><h3 className="res-sub-title">{m ? "월세가 달라지면?" : "거래금액이 달라지면?"}</h3>
+        <dl className="pb-rows">{calculateScenario(v).map((x) => <div key={x.label}><dt>{x.label}{x.current ? " (현재)" : ""}</dt><dd>{formatCurrency(x.fee)}</dd></div>)}</dl>
+        <p className="why-note">각 경우마다 {m ? "거래금액 환산부터 " : ""}구간·요율·한도액을 다시 적용했어요.</p></div>
+      <div className="pay-blocks"><h3 className="res-sub-title">{r.type === "sale" ? "집을 사기 전에 같이 계산해보세요" : "계약 전에 같이 계산해보세요"}</h3>
+        <ul className="guide-calcs">{related.filter((c) => !c.soon).map((c) => <li key={c.id}><AppLink className="guide-calc" href={c.href}><strong>{c.name}</strong><span>{c.desc}</span><Icon name="chevron-right" size={18} /></AppLink></li>)}</ul></div>
+      <div className="res-actions"><button type="button" className="btn-secondary" onClick={onRecalc}><Icon name="refresh" size={18} />조건 바꿔 다시 계산하기</button></div>
+    </div>
+  );
 }
-function App() { return (<><a className="skip-link" href="#main">본문 바로가기</a><Header /><main id="main"><GuideList /></main><Footer /><Toast /></>); }
+
+/* =========================================================
+   22. Calculator
+   ========================================================= */
+const INITIAL = { type: "", amount: "", deposit: "", rent: "" };
+function BrokerageCalculator() {
+  const [s, setS] = useState(INITIAL);
+  const [errors, setErrors] = useState({});
+  const [submitted, setSubmitted] = useState(false);
+  const [scrollTick, setScrollTick] = useState(0);
+  const formRef = useRef(null), amountRef = useRef(null), resultColRef = useRef(null), headingRef = useRef(null), lastRef = useRef(null);
+  const set = (p, keys = []) => { setS((x) => ({ ...x, ...p })); if (keys.length) setErrors((e) => { const n = { ...e }; keys.forEach((k) => delete n[k]); return n; }); };
+  const values = { type: s.type, amount: parseCurrencyInput(s.amount), deposit: s.deposit === "" ? NaN : parseCurrencyInput(s.deposit), rent: parseCurrencyInput(s.rent) };
+  const liveErrors = validateInputs(values);
+  const key = JSON.stringify(values);
+  const result = useMemo(() => (Object.keys(liveErrors).length ? null : calculateBrokerage(values)), [key]);
+  if (submitted && result) lastRef.current = { r: result, v: values };
+  const shown = submitted ? lastRef.current : null;
+  const stale = submitted && !result;
+  const cfg = resolveBrokerageConfig();
+  const regional = resolveRegionalBrokerageRules(cfg);
+
+  useEffect(() => {
+    if (!scrollTick) return;
+    const col = resultColRef.current; if (!col) return;
+    const stacked = window.matchMedia("(max-width: 1023px)").matches;
+    const top = col.getBoundingClientRect().top;
+    if (top < 64 || top > window.innerHeight * 0.55) scrollToEl(stacked ? col : document.getElementById("calculator"));
+    const t = afterScroll(() => headingRef.current && headingRef.current.focus({ preventScroll: true }));
+    return () => clearTimeout(t);
+  }, [scrollTick]);
+
+  const onSubmit = (e) => { e.preventDefault(); const errs = validateInputs(values); setErrors(errs); if (Object.keys(errs).length) return; setSubmitted(true); setScrollTick((n) => n + 1); };
+  const onRecalc = () => { scrollToEl(formRef.current); afterScroll(() => amountRef.current && amountRef.current.focus({ preventScroll: true })); };
+  const toJeonse = () => { set({ type: "jeonse", amount: s.deposit }, ["rent", "amount"]); };
+
+  return (
+    <section className="calc-section" id="calculator" aria-label="중개보수 계산기"><div className="container"><div className="calc-shell">
+      <form className="calc-form" ref={formRef} onSubmit={onSubmit} noValidate aria-labelledby="form-title">
+        <fieldset className="field"><legend className="field-label vat-q" id="form-title">어떤 계약인가요?</legend>
+          <div className="method-cards three">{Object.entries(cfg.transactionTypes).map(([k, t]) => (
+            <label className="method-card" key={k}><input type="radio" name="btype" checked={s.type === k} onChange={() => { set({ type: k }, ["type", "amount", "deposit", "rent"]); setSubmitted(false); }} /><span><strong>{t.label}</strong><small>{t.desc}</small></span></label>))}</div>
+          <FieldError id="type-error" message={errors.type} />
+          <p className="field-help">현재 주택 매매·전세·월세 중개보수 계산을 지원하고 있어요. 오피스텔·상가·토지는 아직 지원하지 않아요.</p></fieldset>
+
+        {s.type === "sale" && <MoneyInput id="amount" label="얼마에 매매하나요?" value={s.amount} onChange={(v) => set({ amount: v }, ["amount"])} error={errors.amount} quick={[100000000, 300000000, 500000000, 1000000000]} />}
+        {s.type === "jeonse" && <MoneyInput id="amount" label="전세보증금은 얼마인가요?" value={s.amount} onChange={(v) => set({ amount: v }, ["amount"])} error={errors.amount} quick={[50000000, 100000000, 300000000, 500000000]} />}
+        {s.type === "monthly" && (<>
+          <MoneyInput id="deposit" label="보증금은 얼마인가요?" value={s.deposit} onChange={(v) => set({ deposit: v }, ["deposit"])} error={errors.deposit} quick={[0, 10000000, 50000000, 100000000]} />
+          <MoneyInput id="rent" label="한 달 월세는 얼마인가요?" value={s.rent} onChange={(v) => set({ rent: v }, ["rent"])} error={errors.rent} quick={[500000, 800000, 1000000, 1500000]}
+            errorAction={values.rent === 0 ? <button type="button" className="btn-text inline-fix" onClick={toJeonse}>전세로 계산하기</button> : null} />
+        </>)}
+        {regional.needsRegion ? null : s.type && <p className="field-help">주택 중개보수 상한요율은 {regional.label} 기준이라 지역은 묻지 않아요.</p>}
+
+        <button type="submit" className="btn btn-primary submit-btn">중개보수 계산하기</button>
+        <p className="field-help center">법정 기준에 따른 중개보수 상한액을 계산해요.</p>
+      </form>
+      <div className="result-col" ref={resultColRef}><div className="result-panel">
+        <p className="sr-only" aria-live="polite">{shown && !stale ? `중개보수 상한액은 ${formatCurrency(shown.r.fee)}이에요.` : ""}</p>
+        {shown ? <ResultView r={shown.r} v={shown.v} stale={stale} headingRef={headingRef} onRecalc={onRecalc} /> : <ResultEmpty />}
+      </div></div>
+    </div></div></section>
+  );
+}
+
+/* =========================================================
+   23. Sections
+   ========================================================= */
+function GuideSection() {
+  const blocks = [
+    ["중개보수는 어떻게 계산하나요?", "거래금액을 정하고, 그 금액이 속한 구간의 상한요율을 곱해요. 낮은 구간에는 한도액이 있어서 요율로 계산한 금액이 한도를 넘으면 한도액까지만 받을 수 있어요."],
+    ["중개보수와 복비는 같은 말인가요?", "네. 법령상 이름은 중개보수이고, 흔히 복비나 중개수수료라고 불러요."],
+    ["매매와 전세의 중개보수는 다르게 계산되나요?", "네. 매매와 임대차(전세·월세)는 요율표가 달라요. 같은 금액이라도 전세의 상한요율이 더 낮아요."],
+    ["월세 중개보수는 어떻게 계산하나요?", "보증금 + 월세 × 100을 거래금액으로 봐요. 이 금액이 5천만원 미만이면 보증금 + 월세 × 70으로 다시 계산해요. 월세만 보면 거래 규모가 작게 잡히기 때문에 환산해서 계산해요."],
+    ["중개보수에 한도액이 있나요?", "매매는 5천만원 미만 25만원, 2억원 미만 80만원, 임대차는 5천만원 미만 20만원, 1억원 미만 30만원 한도가 있어요. 그 위 구간은 요율만 적용해요."],
+    ["누가 중개보수를 부담하나요?", "거래 당사자 각자가 의뢰한 중개업소에 내요. 매매는 매수인·매도인이, 임대차는 임대인·임차인이 각각 내요."],
+    ["계약이 해제되면 중개보수는 어떻게 되나요?", "중개업자의 고의나 과실 없이 거래 당사자 사이의 사정으로 계약이 해제되면 중개보수를 내야 할 수 있어요. 구체적인 사정에 따라 달라서 단정하기 어려워요."],
+  ];
+  return (<section className="section band" id="guide" aria-label="중개보수 안내"><div className="container">{blocks.map(([t, p], i) => (
+    <div className="content-block" key={t}><h2>{t}</h2><div className="prose"><p>{p}</p></div>{i === 3 && <AdSlot id="guide-middle" label="정보 콘텐츠 중간" bare />}</div>))}
+    <div className="content-block"><h2>주택 중개보수 상한요율표</h2>
+      <div className="cond-grid">{[["sale", "매매·교환"], ["lease", "임대차 (전세·월세)"]].map(([k, t]) => (
+        <article className="cond-card" key={k}><h3>{t}</h3><dl className="pb-rows">{CFG.priceRanges[k].map((b, i) => <div key={i}><dt>{rangeText(CFG.priceRanges[k], i)}</dt><dd>{pct(b.maxRate)}{b.feeCap ? ` (한도 ${formatKoreanCurrency(b.feeCap)})` : ""}</dd></div>)}</dl></article>))}</div></div>
+  </div></section>);
+}
+function FaqSection() {
+  const [open, setOpen] = useState({ [FAQ[0].id]: true });
+  return (<section className="section" id="faq" aria-labelledby="faq-title"><div className="container"><SectionHead id="faq-title" title="자주 묻는 질문" />
+    <ul className="faq-list">{FAQ.map((q) => { const o = !!open[q.id]; return (<li className="faq-item" key={q.id}><h3 className="faq-q"><button type="button" id={`faq-btn-${q.id}`} className="faq-toggle" aria-expanded={o} aria-controls={`faq-panel-${q.id}`} onClick={() => setOpen((x) => ({ ...x, [q.id]: !x[q.id] }))}>{q.q}<Icon name="chevron-right" size={20} strokeWidth={2.2} /></button></h3>
+      <div id={`faq-panel-${q.id}`} role="region" aria-labelledby={`faq-btn-${q.id}`} className="faq-a" hidden={!o}><p>{q.a}</p></div></li>); })}</ul></div></section>);
+}
+function BasisSection() {
+  return (<section className="section band" id="basis" aria-labelledby="basis-title"><div className="container"><div className="trust-grid">
+    <div><h2 id="basis-title">어떤 기준으로 계산하나요?</h2><p className="section-desc">주소나 계약서 없이 계약 종류와 금액만으로 계산해요.</p>
+      <div className="notice-box"><Icon name="info" size={20} /><div><strong>참고용으로 확인해주세요</strong>
+        <p>이 계산기는 입력한 거래유형과 금액을 기준으로 관련 법령상 중개보수 상한액을 예상하는 참고 도구입니다. 실제 중개보수는 거래 대상의 종류, 거래금액 산정방식, 계약조건 및 협의 등에 따라 달라질 수 있고, 부가가치세가 별도로 발생하면 실제 결제금액이 다를 수 있습니다.</p></div></div></div>
+    <div className="basis-card"><div className="basis-head"><strong>중개보수 계산 기준</strong><span className="badge badge-brand">{CFG.effectiveFrom.replace(/-/g, ".")} 시행</span></div>
+      <dl>
+        <div className="basis-row"><dt>부동산 유형</dt><dd>주택 (아파트·단독·다가구·다세대 등)</dd></div>
+        <div className="basis-row"><dt>거래유형</dt><dd>매매 / 전세 / 월세</dd></div>
+        <div className="basis-row"><dt>적용지역</dt><dd>{CFG.region}</dd></div>
+        <div className="basis-row"><dt>월세 환산</dt><dd>보증금 + 월세 × 100 (5천만원 미만이면 × 70)</dd></div>
+        <div className="basis-row"><dt>협의</dt><dd>{CFG.negotiationRules}</dd></div>
+        <div className="basis-row"><dt>부가가치세</dt><dd>결과에 포함하지 않음</dd></div>
+        <div className="basis-row"><dt>공식 출처</dt><dd><ul className="source-list">{CFG.officialSources.map((x) => (
+          <li key={x.desc}><a className="source-link" href={x.url} target="_blank" rel="noopener noreferrer"><span><span className="src-name">{x.name}</span><span className="src-desc">{x.desc}</span></span><Icon name="external" size={18} /><span className="sr-only">(새 탭에서 열림)</span></a></li>))}</ul></dd></div>
+        <div className="basis-row"><dt>마지막 업데이트</dt><dd><time dateTime={PAGE.updatedAt.replace(/\./g, "-")}>{PAGE.updatedAt}</time></dd></div>
+      </dl></div></div></div></section>);
+}
+function RelatedArticles() {
+  if (!RELATED_ARTICLES.length) return null;
+  return (<section className="section" aria-labelledby="articles-title"><div className="container"><SectionHead id="articles-title" title="같이 보면 좋은 생활정보" moreHref="/guide" moreLabel="생활정보 전체보기" /><ul className="article-grid">{RELATED_ARTICLES.map((a) => <li key={a.id}><ArticleCard article={a} /></li>)}</ul></div></section>);
+}
+function useStructuredData() { /* 구조화 데이터(WebApplication·BreadcrumbList)는 <head>에 정적으로 넣었어요. Google FAQ 리치결과 종료(2026)로 FAQPage는 쓰지 않고, 화면의 FAQ만 유지해요. */ }
+// 결과 전에도 보이는 관련 계산기 (결과 영역의 거래유형별 추천과 별도)
+const STATIC_RELATED = [
+  { id: "acquisition-tax", name: "취득세 계산기", desc: "집을 살 때 내는 취득세와 지방교육세를 확인해보세요.", icon: "receipt", href: "/calculators/acquisition-tax" },
+  { id: "rent-conversion", name: "전월세 환산 계산기", desc: "전세와 월세 조건을 서로 바꿔 비교해보세요.", icon: "home", href: "/calculators/rent-conversion" },
+  { id: "loan-interest", name: "대출이자 계산기", desc: "매매·전세 자금을 대출로 마련할 때 월 이자를 확인해보세요.", icon: "percent", href: "/calculators/loan-interest" },
+  { id: "capital-gains-tax", name: "양도소득세 계산기", desc: "집을 팔 때 예상 양도소득세를 확인해보세요.", icon: "receipt", href: "/calculators/capital-gains-tax" },
+];
+function StaticRelated() {
+  return (<section className="section tight-top" aria-labelledby="static-related-title"><div className="container"><SectionHead id="static-related-title" title="집 계약 전에 같이 계산해보세요" moreHref="/calculators" moreLabel="전체 계산기" />
+    <ul className="calc-grid cols-3">{STATIC_RELATED.map((c) => <li key={c.id}><CalculatorCard calc={c} /></li>)}</ul></div></section>);
+}
+function App() {
+  useStructuredData();
+  return (<><a className="skip-link" href="#calculator">계산기로 바로가기</a><Header />
+    <main id="main"><Breadcrumb /><PageHead /><BrokerageCalculator /><AdSlot id="after-result" label="결과·계산 설명 이후" /><GuideSection /><FaqSection /><AdSlot id="after-faq" label="FAQ 이후" /><BasisSection /><StaticRelated /><RelatedArticles /></main>
+    <Footer /><Toast /></>);
+}
 ReactDOM.createRoot(document.getElementById("root")).render(<App />);
 
 </script>

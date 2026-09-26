@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="ko" data-theme="dark">
+<html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>생활정보 | 월급·대출·부동산·세금·육아 기준 쉽게 정리 - 얼마지?</title>
-<meta name="description" content="월급·수당, 대출·적금, 부동산, 세금, 육아·복지까지 생활 속에서 헷갈리는 기준 20가지를 공식자료로 확인해 쉽게 정리하고, 관련 계산기로 바로 연결해드려요.">
-<link rel="canonical" href="https://ulmaji.kr/guide">
+<title>증여세 계산기 | 부모·자녀 증여재산공제 반영 계산 - 얼마지?</title>
+<meta name="description" content="증여금액과 증여하는 사람과의 관계, 10년 안의 과거 증여를 입력하면 증여재산공제와 누진세율, 신고세액공제를 반영한 예상 증여세를 계산해요. 신고기한도 함께 알려드려요.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://ulmaji.kr/calculators/gift-tax">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="얼마지?">
-<meta property="og:title" content="생활정보 | 얼마지?">
-<meta property="og:description" content="월급·수당, 대출·적금, 부동산, 세금, 육아·복지까지 생활 속에서 헷갈리는 기준 20가지를 공식자료로 확인해 쉽게 정리하고, 관련 계산기로 바로 연결해드려요.">
-<meta property="og:url" content="https://ulmaji.kr/guide">
+<meta property="og:title" content="증여세 계산기 | 부모·자녀 증여재산공제 반영 계산 - 얼마지?">
+<meta property="og:description" content="증여금액과 증여하는 사람과의 관계, 10년 안의 과거 증여를 입력하면 증여재산공제와 누진세율, 신고세액공제를 반영한 예상 증여세를 계산해요. 신고기한도 함께 알려드려요.">
+<meta property="og:url" content="https://ulmaji.kr/calculators/gift-tax">
+<meta property="og:locale" content="ko_KR">
 <meta name="theme-color" content="#3366FF">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233366FF'/%3E%3Ctext x='32' y='46' font-family='Arial,sans-serif' font-size='40' font-weight='800' text-anchor='middle' fill='white'%3E%3F%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "얼마지", "item": "https://ulmaji.kr/"}, {"@type": "ListItem", "position": 2, "name": "생활정보", "item": "https://ulmaji.kr/guide"}]}, {"@type": "ItemList", "name": "얼마지 생활정보", "numberOfItems": 20, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://ulmaji.kr/guide/weekly-holiday-pay-15-hours", "name": "주 15시간 일하면 주휴수당은 얼마일까?"}, {"@type": "ListItem", "position": 2, "url": "https://ulmaji.kr/guide/minimum-wage-2027-monthly", "name": "2027 최저임금으로 월급을 계산하면?"}, {"@type": "ListItem", "position": 3, "url": "https://ulmaji.kr/guide/severance-pay-eligibility", "name": "퇴직금은 언제부터 받을 수 있을까?"}, {"@type": "ListItem", "position": 4, "url": "https://ulmaji.kr/guide/night-pay-hours", "name": "야간수당은 몇 시부터 적용될까?"}, {"@type": "ListItem", "position": 5, "url": "https://ulmaji.kr/guide/loan-100m-monthly-interest", "name": "대출 1억 받으면 한 달 이자는 얼마일까?"}, {"@type": "ListItem", "position": 6, "url": "https://ulmaji.kr/guide/loan-repayment-methods", "name": "원리금균등·원금균등, 매달 얼마씩 갚을까?"}, {"@type": "ListItem", "position": 7, "url": "https://ulmaji.kr/guide/monthly-savings-500k", "name": "적금 월 50만원씩 넣으면 만기 얼마일까?"}, {"@type": "ListItem", "position": 8, "url": "https://ulmaji.kr/guide/simple-vs-compound-interest", "name": "단리와 복리, 실제 이자는 얼마나 차이 날까?"}, {"@type": "ListItem", "position": 9, "url": "https://ulmaji.kr/guide/jeonse-to-monthly-rent", "name": "전세를 월세로 바꾸면 얼마가 적당할까?"}, {"@type": "ListItem", "position": 10, "url": "https://ulmaji.kr/guide/real-estate-brokerage-fee", "name": "부동산 중개수수료는 얼마까지 내야 할까?"}, {"@type": "ListItem", "position": 11, "url": "https://ulmaji.kr/guide/84sqm-to-pyeong", "name": "아파트 84㎡는 몇 평일까?"}, {"@type": "ListItem", "position": 12, "url": "https://ulmaji.kr/guide/housing-subscription-score", "name": "내 청약가점은 몇 점일까?"}, {"@type": "ListItem", "position": 13, "url": "https://ulmaji.kr/guide/freelancer-3-3-withholding", "name": "프리랜서 3.3% 떼면 실제 얼마 받을까?"}, {"@type": "ListItem", "position": 14, "url": "https://ulmaji.kr/guide/vat-included-excluded", "name": "부가세 포함·별도 금액은 어떻게 계산할까?"}, {"@type": "ListItem", "position": 15, "url": "https://ulmaji.kr/guide/home-acquisition-tax", "name": "집을 사면 취득세는 얼마나 나올까?"}, {"@type": "ListItem", "position": 16, "url": "https://ulmaji.kr/guide/gift-tax-from-parents", "name": "부모님께 돈을 받으면 증여세는 얼마나 나올까?"}, {"@type": "ListItem", "position": 17, "url": "https://ulmaji.kr/guide/parental-leave-benefit", "name": "육아휴직하면 매달 얼마 받을 수 있을까?"}, {"@type": "ListItem", "position": 18, "url": "https://ulmaji.kr/guide/maternity-leave-benefit", "name": "출산전후휴가 기간에는 얼마를 받을까?"}, {"@type": "ListItem", "position": 19, "url": "https://ulmaji.kr/guide/parent-benefit", "name": "부모급여는 몇 살까지 얼마 받을까?"}, {"@type": "ListItem", "position": 20, "url": "https://ulmaji.kr/guide/unemployment-benefit-duration", "name": "실업급여는 몇 개월 동안 얼마 받을 수 있을까?"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "@id": "https://ulmaji.kr/calculators/gift-tax#app", "name": "증여세 계산기", "url": "https://ulmaji.kr/calculators/gift-tax", "description": "증여금액과 증여하는 사람과의 관계, 10년 안의 과거 증여를 입력하면 증여재산공제와 누진세율, 신고세액공제를 반영한 예상 증여세를 계산해요. 신고기한도 함께 알려드려요.", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "inLanguage": "ko-KR", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "KRW"}, "dateModified": "2026-09-24", "publisher": {"@type": "Organization", "name": "얼마지?", "alternateName": "ULMAJI", "url": "https://ulmaji.kr/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "홈", "item": "https://ulmaji.kr/"}, {"@type": "ListItem", "position": 2, "name": "계산기", "item": "https://ulmaji.kr/calculators"}, {"@type": "ListItem", "position": 3, "name": "세금", "item": "https://ulmaji.kr/calculators#cat-tax"}, {"@type": "ListItem", "position": 4, "name": "증여세 계산기", "item": "https://ulmaji.kr/calculators/gift-tax"}]}]}</script>
 <style>
 /* =========================================================
    Design tokens
@@ -1550,102 +1552,6 @@ a.guide-calc:hover { border-color: var(--primary); }
 .check-list li.is-q > span { background: var(--secondary); color: var(--brand-text); }
 .fam-grid .field { margin: 0; }
 
-.field-help.center { text-align: center; margin-top: 8px; }
-.inline-fix { margin-left: 8px; min-height: 32px; }
-
-.rate-slider { width: 100%; margin-top: 10px; min-height: 44px; accent-color: var(--primary); }
-.field-help.warn { color: var(--error-text, #C23B3B); }
-
-/* Housing subscription score additions */
-.step-nav.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.score-row + .score-row { margin-top: 14px; }
-.score-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-size: 15px; }
-.score-head strong { font-size: 18px; font-weight: 800; font-variant-numeric: tabular-nums; }
-.score-head small { font-size: 13px; color: var(--muted); font-weight: 600; }
-.why-static { padding: 14px 16px 0; font-weight: 800; font-size: 16px; }
-
-/* DSR additions */
-.dsr-bar { position: relative; margin: 12px 0 4px; }
-.dsr-mark { position: absolute; top: -4px; width: 2px; height: 18px; background: var(--text); }
-.dsr-legend { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; color: var(--muted); margin-top: 8px; font-variant-numeric: tabular-nums; flex-wrap: wrap; }
-.dt-sub { display: block; font-size: 12.5px; color: var(--muted); font-weight: 500; margin-top: 2px; }
-.eq-item small { display: block; font-size: 12.5px; color: var(--muted); }
-
-/* Pyeong additions */
-.py-card { max-width: 720px; margin: 0 auto; background: var(--card); border-radius: 20px; padding: 24px 20px; box-shadow: 0 1px 2px rgba(23,35,60,.04); border: 1px solid var(--line, #E5EAF2); }
-.py-narrow { max-width: 760px; }
-.py-row { display: flex; gap: 12px; align-items: flex-end; margin-top: 18px; }
-.py-input { flex: 1; margin: 0; }
-.input-wrap.xl input { font-size: 30px; font-weight: 800; min-height: 64px; font-variant-numeric: tabular-nums; }
-.py-swap { flex: 0 0 52px; height: 52px; margin-bottom: 6px; border-radius: 14px; border: 1px solid var(--line, #E5EAF2); background: var(--secondary); color: var(--primary); font-size: 22px; font-weight: 800; cursor: pointer; }
-.py-swap:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
-.py-result { margin: 18px 0 14px; padding: 18px; border-radius: 16px; background: var(--secondary); position: relative; min-height: 96px; }
-.py-from { font-size: 15px; color: var(--muted); font-weight: 600; font-variant-numeric: tabular-nums; }
-.py-to { font-size: 40px; font-weight: 800; color: var(--primary); line-height: 1.2; margin-top: 4px; font-variant-numeric: tabular-nums; word-break: break-all; padding-right: 88px; }
-.py-to.is-neutral { color: var(--text); }
-.py-copy { position: absolute; right: 14px; bottom: 14px; min-height: 44px; }
-.section-title { font-size: 22px; font-weight: 800; line-height: 1.35; margin-bottom: 10px; }
-.area-stack { list-style: none; display: grid; gap: 8px; margin-top: 16px; }
-.area-stack li { display: grid; gap: 2px; padding: 14px 16px; border-radius: 14px; background: var(--card); border: 1px solid var(--line, #E5EAF2); }
-.area-stack li strong { font-size: 16px; }
-.area-stack li span { font-size: 14px; color: var(--muted); }
-.py-table { width: 100%; border-collapse: collapse; margin-top: 12px; font-variant-numeric: tabular-nums; }
-.py-table th, .py-table td { text-align: right; padding: 12px 14px; border-bottom: 1px solid var(--line, #E5EAF2); }
-.py-table th { font-size: 14px; color: var(--muted); }
-@media (max-width: 480px) { .py-to { font-size: 32px; } }
-
-/* Work hours additions */
-.mode-seg.wide { max-width: 520px; margin: 0 auto 16px; }
-.py-copy-inline { min-height: 40px; padding: 6px 12px; }
-.day-card { padding-bottom: 10px; }
-.day-list { list-style: none; display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; margin: 12px 0; }
-.day-list li { display: grid; gap: 2px; text-align: center; padding: 8px 4px; border-radius: 12px; background: var(--secondary); font-size: 13px; font-variant-numeric: tabular-nums; }
-.day-list li strong { font-size: 13px; }
-@media (max-width: 520px) { .day-list { grid-template-columns: repeat(4, 1fr); } }
-
-/* Loan repayment additions */
-.ex-badge { display: inline-block; margin-bottom: 12px; }
-.lr-table td, .lr-table th { white-space: nowrap; font-size: 14px; }
-.lr-table tr.is-current th, .lr-table tr.is-current td { background: var(--secondary); font-weight: 700; }
-.lr-legend { display: flex; gap: 14px; font-size: 13px; color: var(--muted); margin: 10px 0 6px; }
-.lr-legend .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
-.sw.p, .lr-p { background: var(--primary); }
-.sw.i, .lr-i { background: repeating-linear-gradient(45deg, var(--secondary), var(--secondary) 3px, #A9BEFF 3px, #A9BEFF 6px); }
-.lr-bars { list-style: none; display: grid; gap: 4px; margin-bottom: 12px; }
-.lr-bars li { display: grid; grid-template-columns: 44px 1fr; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.lr-track { display: flex; height: 12px; border-radius: 6px; overflow: hidden; background: var(--bg); }
-.lr-p, .lr-i { height: 100%; }
-
-/* Unemployment additions */
-details.fam-card summary { cursor: pointer; font-weight: 700; min-height: 44px; display: flex; align-items: center; }
-.sum-item small { display: block; margin-top: 4px; font-size: 12.5px; color: var(--muted); }
-
-/* Child allowance additions */
-.res-state { font-size: 24px; font-weight: 800; margin: 2px 0 14px; }
-.sum-grid.three { grid-template-columns: repeat(3, 1fr); }
-@media (max-width: 480px) { .sum-grid.three { grid-template-columns: 1fr 1fr; } }
-.child-row { display: flex; gap: 8px; align-items: center; }
-.child-row .input-wrap { flex: 1; }
-.child-card { border-top: 1px solid var(--line, #E5EAF2); padding-top: 18px; margin-top: 18px; }
-.al-timeline { list-style: none; display: grid; gap: 0; margin: 8px 0; }
-.al-timeline li { position: relative; padding: 8px 0 14px 22px; display: grid; gap: 2px; font-variant-numeric: tabular-nums; }
-.al-timeline li::before { content: ""; position: absolute; left: 5px; top: 13px; width: 10px; height: 10px; border-radius: 50%; background: var(--card); border: 2px solid var(--primary); }
-.al-timeline li:not(:last-child)::after { content: ""; position: absolute; left: 10px; top: 25px; bottom: -8px; width: 2px; background: var(--secondary); }
-.al-timeline li.is-final::before { background: var(--primary); }
-.al-timeline li span { font-size: 14px; color: var(--muted); }
-
-/* Freelancer additions */
-.eyebrow { font-size: 14px; font-weight: 700; color: var(--primary); margin: 8px 0 -4px; }
-.res-unit { font-size: 18px; color: var(--text); font-weight: 700; }
-.tax-amt { font-size: 20px; }
-.split-bar { display: flex; height: 14px; border-radius: 7px; overflow: hidden; margin: 12px 0 6px; background: var(--bg); }
-.sb-net { background: var(--primary); }
-.sb-tax { background: repeating-linear-gradient(45deg, var(--secondary), var(--secondary) 3px, #A9BEFF 3px, #A9BEFF 6px); }
-.split-legend { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.multi-row { display: grid; grid-template-columns: 1fr 1.4fr auto; gap: 8px; align-items: center; margin-top: 8px; }
-.mini-input { min-height: 44px; border: 1px solid var(--line, #E5EAF2); border-radius: 12px; padding: 0 12px; font: inherit; }
-.mini-input:focus-visible { outline: 3px solid var(--primary); outline-offset: 1px; }
-
 /* 좁은 화면에서 입력 폼이 화면 밖으로 밀려나지 않게 (grid 자식 최소 너비 보정) */
 @media (max-width: 1023px) { .calc-shell { grid-template-columns: minmax(0, 1fr); } }
 .calc-shell > *, .calc-form, .result-col, .method-cards > *, .seg > *, .step-nav > * { min-width: 0; }
@@ -1661,72 +1567,6 @@ details.fam-card summary { cursor: pointer; font-weight: 700; min-height: 44px; 
 .rc-row, .pb-rows > div { gap: 8px; }
 .rc-row dd, .pb-rows dd { min-width: 0; overflow-wrap: anywhere; text-align: right; }
 .btn-secondary { max-width: 100%; white-space: normal; height: auto; min-height: 44px; }
-
-/* Guide / content pages */
-.article-wrap { max-width: 780px; }
-.guide-lead { margin-top: 14px; font-size: 18px; line-height: 1.75; font-weight: 500; }
-.guide-body { margin-top: 8px; }
-.guide-body h2 { font-size: 21px; font-weight: 800; letter-spacing: -.02em; margin: 36px 0 10px; }
-.guide-body p { font-size: 16.5px; line-height: 1.8; color: var(--text); margin-top: 10px; }
-.example-box { margin-top: 32px; padding: 20px; border-radius: var(--r-md, 16px); background: var(--secondary); }
-.example-box h2 { margin: 0 0 6px; font-size: 18px; }
-.example-box .ex-lead { font-size: 15px; color: var(--muted); }
-.example-box dl { margin: 12px 0 0; }
-.example-box .ex-row { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); font-size: 15px; font-variant-numeric: tabular-nums; }
-.example-box .ex-row dt { color: var(--muted); flex: none; max-width: 45%; }
-.example-box .ex-row dd { margin: 0; font-weight: 700; text-align: right; overflow-wrap: anywhere; }
-.example-box .ex-note { margin-top: 10px; font-size: 13.5px; color: var(--muted); }
-.note-list { margin-top: 10px; padding-left: 20px; }
-.note-list li { font-size: 16px; line-height: 1.75; margin-top: 6px; }
-.guide-cta { margin-top: 36px; padding: 22px; border-radius: var(--r-md, 16px); border: 1px solid var(--line); background: var(--card); }
-.guide-cta h2 { margin: 0; font-size: 19px; }
-.guide-cta p { margin-top: 4px; font-size: 15px; color: var(--muted); }
-.guide-cta .btn { margin-top: 14px; }
-.guide-cta ul { list-style: none; margin-top: 12px; display: grid; gap: 8px; }
-.guide-cta .more-calc { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 48px; padding: 0 14px; border-radius: 12px; background: var(--bg); text-decoration: none; font-weight: 600; font-size: 15px; }
-.guide-cta .more-calc svg { color: var(--brand-text); flex: none; }
-.guide-meta { margin-top: 28px; font-size: 14px; color: var(--muted); }
-.cat-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 24px; list-style: none; padding: 0; }
-.cat-tabs a { display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--line); text-decoration: none; font-weight: 600; font-size: 15px; color: var(--muted); }
-.cat-tabs a[aria-current="page"] { background: var(--primary); border-color: var(--primary); color: #fff; }
-.about-body h2 { font-size: 20px; font-weight: 800; margin: 32px 0 8px; }
-.about-body p { font-size: 16.5px; line-height: 1.8; margin-top: 8px; }
-.nf { text-align: center; padding: 72px 0 96px; }
-.nf .big { font-size: 64px; font-weight: 800; color: var(--brand-text); line-height: 1; }
-.nf h1 { margin-top: 16px; font-size: 26px; }
-.nf p { margin-top: 8px; color: var(--muted); }
-.nf-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 24px; }
-.btn-ghost { display: inline-flex; align-items: center; justify-content: center; height: 52px; padding: 0 22px; border-radius: 12px; border: 1px solid var(--line-strong, var(--line)); text-decoration: none; font-weight: 700; color: var(--text); }
-
-/* Guide article v2 (생활정보 20개) */
-.guide-cat { text-decoration: none; }
-.page-head h1 { overflow-wrap: anywhere; word-break: keep-all; }
-.guide-dates { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 10px; font-size: 14px; color: var(--muted); }
-.answer-box { margin-top: 4px; padding: 18px 20px; border-radius: var(--r-md, 16px); background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--primary); }
-.answer-box .guide-lead { margin: 0; font-size: 17.5px; }
-.guide-body { word-break: keep-all; overflow-wrap: anywhere; }
-.key-list { margin-top: 10px; padding-left: 20px; }
-.key-list li { font-size: 16.5px; line-height: 1.75; margin-top: 8px; }
-.key-list li::marker { color: var(--brand-text); }
-.ex-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
-.ex-tag { background: var(--card); color: var(--muted); }
-.example-box .ex-row dt { flex: 0 1 45%; max-width: none; min-width: 0; }
-.example-box .ex-row dd { flex: 1 1 55%; min-width: 0; }
-.faq-item h3 { margin-top: 18px; font-size: 17px; font-weight: 700; }
-.faq-item p { margin-top: 6px; }
-.cta-eyebrow { margin: 0 0 6px !important; font-size: 14px !important; font-weight: 700; color: var(--brand-text) !important; }
-.src-box { margin-top: 32px; }
-.src-lead { margin-top: 8px; font-size: 14px; color: var(--muted); line-height: 1.6; }
-.src-box .source-list { margin-top: 12px; list-style: none; padding: 0; }
-.src-box .basis-head { flex-wrap: wrap; }
-.src-box .basis-head strong { white-space: nowrap; }
-.src-text { display: block; min-width: 0; }
-.src-url { display: block; margin-top: 2px; font-size: 12.5px; color: var(--subtle); overflow-wrap: anywhere; }
-.source-link { min-width: 0; }
-.guide-meta { line-height: 1.7; }
-.guide-cta .btn { max-width: 100%; white-space: normal; height: auto; min-height: 52px; padding-top: 12px; padding-bottom: 12px; text-align: center; line-height: 1.4; }
-.cat-tabs .cnt { margin-left: 6px; font-size: 13px; font-weight: 700; opacity: .8; font-variant-numeric: tabular-nums; }
-@media (max-width: 480px) { .example-box .ex-row { flex-direction: column; gap: 2px; } .example-box .ex-row dt, .example-box .ex-row dd { flex: none; text-align: left; } }
 
 /* MEGA_MENU:BEGIN — 헤더 메가메뉴 (기존 토큰만 사용) */
 .header-inner { position: relative; }
@@ -1781,16 +1621,281 @@ details.fam-card summary { cursor: pointer; font-weight: 700; min-height: 44px; 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3938535658741734" crossorigin="anonymous"></script>
 </head>
 <body>
-<div id="root"><!--prerender:start--><a class="skip-link" href="#main">본문 바로가기</a><header class="site-header"><div class="container header-inner"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><nav class="nav-desktop" aria-label="주요 메뉴"><ul><li class="nav-item nav-item-calc"><button type="button" class="nav-link nav-trigger" aria-expanded="false" aria-controls="mega-calc">계산기<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-calc" class="mega mega-calc" hidden=""><div class="mega-grid"><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-work">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="근로·급여 계산기"><li><a href="/calculators/net-salary" class="mega-link">월급 실수령액</a></li><li><a href="/calculators/weekly-holiday-pay" class="mega-link">주휴수당</a></li><li><a href="/calculators/severance-pay" class="mega-link">퇴직금</a></li><li><a href="/calculators/annual-leave" class="mega-link">연차·연차수당</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-finance">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="금융·생활 계산기"><li><a href="/calculators/loan-interest" class="mega-link">대출이자</a></li><li><a href="/calculators/percentage" class="mega-link">퍼센트</a></li><li><a href="/calculators/compound-interest" class="mega-link">단리·복리 이자</a></li><li><a href="/calculators/deposit-interest" class="mega-link">예금이자</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-realestate">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="부동산 계산기"><li><a href="/calculators/dsr" class="mega-link">DSR</a></li><li><a href="/calculators/brokerage-fee" class="mega-link">중개보수</a></li><li><a href="/calculators/housing-subscription-score" class="mega-link">청약가점</a></li><li><a href="/calculators/rent-conversion" class="mega-link">전월세 환산</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-tax">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="세금 계산기"><li><a href="/calculators/freelancer-withholding" class="mega-link">프리랜서 3.3%</a></li><li><a href="/calculators/vat" class="mega-link">VAT</a></li><li><a href="/calculators/year-end-tax" class="mega-link">연말정산</a></li><li><a href="/calculators/comprehensive-income-tax" class="mega-link">종합소득세</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-parenting">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="육아·복지 계산기"><li><a href="/calculators/unemployment-benefit" class="mega-link">실업급여</a></li><li><a href="/calculators/parental-leave" class="mega-link">육아휴직급여</a></li><li><a href="/calculators/maternity-leave-pay" class="mega-link">출산전후휴가 급여</a></li><li><a href="/calculators/parent-benefit" class="mega-link">부모급여</a></li></ul></div></div><div class="mega-foot"><a href="/calculators" class="mega-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li class="nav-item nav-item-guide"><button type="button" class="nav-link nav-trigger is-current" aria-expanded="false" aria-controls="mega-guide">생활정보<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-guide" class="mega mega-guide" hidden=""><ul class="mega-guide-list"><li><a href="/guide?category=work" class="mega-guide-cat">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/weekly-holiday-pay-15-hours" class="mega-guide-pick">주 15시간 일하면 주휴수당은 얼마일까?</a></li><li><a href="/guide?category=finance" class="mega-guide-cat">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/loan-100m-monthly-interest" class="mega-guide-pick">대출 1억 받으면 한 달 이자는 얼마일까?</a></li><li><a href="/guide?category=realestate" class="mega-guide-cat">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/84sqm-to-pyeong" class="mega-guide-pick">아파트 84㎡는 몇 평일까?</a></li><li><a href="/guide?category=tax" class="mega-guide-cat">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/freelancer-3-3-withholding" class="mega-guide-pick">프리랜서 3.3% 떼면 실제 얼마 받을까?</a></li><li><a href="/guide?category=parenting" class="mega-guide-cat">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/parental-leave-benefit" class="mega-guide-pick">육아휴직하면 매달 얼마 받을 수 있을까?</a></li></ul><div class="mega-foot"><a href="/guide" class="mega-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li><a href="/about" class="nav-link">얼마지 소개</a></li></ul></nav><div class="header-actions"><button type="button" class="icon-btn" aria-label="계산기 검색"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7.5"></circle><path d="m20.5 20.5-4.2-4.2"></path></svg></button><a href="/calculators" class="btn btn-primary btn-sm hide-mobile">전체 계산기</a><button type="button" class="icon-btn show-mobile" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button></div></div><div id="mobile-menu" class="mobile-menu" hidden=""><nav aria-label="모바일 메뉴"><ul><li class="m-group"><button type="button" class="m-link m-trigger" aria-expanded="false" aria-controls="m-sub-calc">계산기<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-calc" class="m-sub" hidden="" aria-label="계산기 카테고리"><li><a href="/calculators#cat-work" class="m-sub-link">근로·급여</a></li><li><a href="/calculators#cat-finance" class="m-sub-link">금융·생활</a></li><li><a href="/calculators#cat-realestate" class="m-sub-link">부동산</a></li><li><a href="/calculators#cat-tax" class="m-sub-link">세금</a></li><li><a href="/calculators#cat-parenting" class="m-sub-link">육아·복지</a></li><li><a href="/calculators" class="m-sub-link is-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li class="m-group"><button type="button" class="m-link m-trigger is-current" aria-expanded="false" aria-controls="m-sub-guide">생활정보<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-guide" class="m-sub" hidden="" aria-label="생활정보 카테고리"><li><a href="/guide?category=work" class="m-sub-link">근로·급여</a></li><li><a href="/guide?category=finance" class="m-sub-link">금융·생활</a></li><li><a href="/guide?category=realestate" class="m-sub-link">부동산</a></li><li><a href="/guide?category=tax" class="m-sub-link">세금</a></li><li><a href="/guide?category=parenting" class="m-sub-link">육아·복지</a></li><li><a href="/guide" class="m-sub-link is-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li><a href="/about" class="m-link">얼마지 소개<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></li></ul></nav><a href="/calculators" class="btn btn-primary btn-block">전체 계산기</a></div></header><main id="main"><nav class="container breadcrumb" aria-label="현재 위치"><ol><li><a href="/">얼마지</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><span aria-current="page">생활정보</span></li></ol></nav><div class="container page-head"><h1>생활정보</h1><p class="page-desc">월급, 세금, 대출, 부동산, 육아·복지까지<br>생활 속에서 헷갈리는 기준을 쉽게 정리했어요.</p></div><section class="container" aria-label="생활정보 목록"><ul class="cat-tabs" aria-label="카테고리"><li><a href="/guide" aria-current="page">전체<span class="cnt">20</span></a></li><li><a href="/guide?category=work">근로·급여<span class="cnt">4</span></a></li><li><a href="/guide?category=finance">금융·생활<span class="cnt">4</span></a></li><li><a href="/guide?category=realestate">부동산<span class="cnt">4</span></a></li><li><a href="/guide?category=tax">세금<span class="cnt">4</span></a></li><li><a href="/guide?category=parenting">육아·복지<span class="cnt">4</span></a></li></ul><ul class="article-grid" style="margin-top: 0px;"><li><a href="/guide/weekly-holiday-pay-15-hours" class="article-card"><span class="article-cat">근로·급여</span><h3>주 15시간 일하면 주휴수당은 얼마일까?</h3><p>주휴수당이 생기는 15시간 기준을 어떻게 보는지, 금액은 어떻게 계산하는지 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/minimum-wage-2027-monthly" class="article-card"><span class="article-cat">근로·급여</span><h3>2027 최저임금으로 월급을 계산하면?</h3><p>2027년 최저임금 시급 10,700원을 일급·월급으로 바꾸면 얼마인지, 실수령액과는 무엇이 다른지 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/severance-pay-eligibility" class="article-card"><span class="article-cat">근로·급여</span><h3>퇴직금은 언제부터 받을 수 있을까?</h3><p>1년 이상 근무, 주 15시간 이상 등 퇴직금을 받기 위한 기본 조건과 계산 방법을 쉽게 풀었어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/night-pay-hours" class="article-card"><span class="article-cat">근로·급여</span><h3>야간수당은 몇 시부터 적용될까?</h3><p>밤 10시부터 오전 6시까지 일하면 붙는 50% 가산과, 연장근로와 겹칠 때의 계산을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/loan-100m-monthly-interest" class="article-card"><span class="article-cat">금융·생활</span><h3>대출 1억 받으면 한 달 이자는 얼마일까?</h3><p>1억원을 빌리면 첫 달 이자는 금리 ÷ 12로 어림할 수 있어요. 금리별 월 이자를 비교해봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/loan-repayment-methods" class="article-card"><span class="article-cat">금융·생활</span><h3>원리금균등·원금균등, 매달 얼마씩 갚을까?</h3><p>같은 대출이라도 상환방식에 따라 매달 내는 돈과 총이자가 달라요. 1억원 예시로 비교했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/monthly-savings-500k" class="article-card"><span class="article-cat">금융·생활</span><h3>적금 월 50만원씩 넣으면 만기 얼마일까?</h3><p>월 50만원 1년 적금의 이자와 세금을 계산했어요. 광고 금리보다 이자가 적은 이유도 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/simple-vs-compound-interest" class="article-card"><span class="article-cat">금융·생활</span><h3>단리와 복리, 실제 이자는 얼마나 차이 날까?</h3><p>단리와 복리는 1년까지는 같고 기간이 길수록 차이가 커져요. 1,000만원 예시로 비교했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/jeonse-to-monthly-rent" class="article-card"><span class="article-cat">부동산</span><h3>전세를 월세로 바꾸면 얼마가 적당할까?</h3><p>보증금을 월세로 바꿀 때 법으로 정한 전환율 상한과, 월세 금액을 계산하는 방법을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/real-estate-brokerage-fee" class="article-card"><span class="article-cat">부동산</span><h3>부동산 중개수수료는 얼마까지 내야 할까?</h3><p>매매·전세·월세별 중개보수 상한요율과 한도, 월세 거래금액 계산법을 예시와 함께 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/84sqm-to-pyeong" class="article-card"><span class="article-cat">부동산</span><h3>아파트 84㎡는 몇 평일까?</h3><p>전용 84㎡는 25.41평이에요. 그런데 흔히 34평이라고 부르는 이유와 ㎡·평 환산법을 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/housing-subscription-score" class="article-card"><span class="article-cat">부동산</span><h3>내 청약가점은 몇 점일까?</h3><p>무주택기간·부양가족·청약통장 기간으로 84점 만점 청약가점을 계산하는 방법을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/freelancer-3-3-withholding" class="article-card"><span class="article-cat">세금</span><h3>프리랜서 3.3% 떼면 실제 얼마 받을까?</h3><p>프리랜서 수입에서 3.3%를 떼면 실제로 얼마를 받는지, 떼인 세금은 어떻게 정산되는지 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/vat-included-excluded" class="article-card"><span class="article-cat">세금</span><h3>부가세 포함·별도 금액은 어떻게 계산할까?</h3><p>견적서의 ‘부가세 별도’와 영수증의 ‘부가세 포함’ 금액을 계산하는 방법을 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/home-acquisition-tax" class="article-card"><span class="article-cat">세금</span><h3>집을 사면 취득세는 얼마나 나올까?</h3><p>집값 구간별 취득세율과 지방교육세·농어촌특별세, 생애최초 감면까지 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/gift-tax-from-parents" class="article-card"><span class="article-cat">세금</span><h3>부모님께 돈을 받으면 증여세는 얼마나 나올까?</h3><p>부모님께 받은 돈의 증여세 공제 한도와 세율, 금액별 예상 세금을 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/parental-leave-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>육아휴직하면 매달 얼마 받을 수 있을까?</h3><p>2026년 육아휴직급여를 기간별 지급률과 상한액으로 계산하고, 1년 총액 예시를 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/maternity-leave-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>출산전후휴가 기간에는 얼마를 받을까?</h3><p>출산전후휴가 90일 동안 회사와 고용보험이 각각 얼마를 주는지, 2026년 상한액으로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/parent-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>부모급여는 몇 살까지 얼마 받을까?</h3><p>부모급여는 생후 23개월까지 받아요. 2026년 월 지급액과 어린이집을 다닐 때 받는 금액을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/unemployment-benefit-duration" class="article-card"><span class="article-cat">육아·복지</span><h3>실업급여는 몇 개월 동안 얼마 받을 수 있을까?</h3><p>실업급여를 받는 기간(120~270일)과 2026년 하루 상·하한액으로 받을 금액을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li></ul><p class="guide-meta">글마다 참고한 공식자료와 확인 날짜를 적고, 관련 계산기로 바로 이어지게 했어요.</p></section><div style="height: 64px;"></div></main><footer class="site-footer"><div class="container"><div class="footer-top"><div class="footer-brand"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><span class="en">ULMAJI</span></div><nav class="footer-nav" aria-label="하단 메뉴"><ul><li><a href="/calculators">계산기</a></li><li><a href="/guide">생활정보</a></li><li><a href="/about">얼마지 소개</a></li><li><a href="/terms">이용약관</a></li><li><a href="/privacy">개인정보처리방침</a></li><li><a href="mailto:heosoyoone@gmail.com">문의</a></li></ul></nav></div><p class="footer-disclaimer">계산 결과는 입력한 정보와 적용 기준에 따른 참고용 정보입니다. 실제 지급액 및 적용 여부는 개인의 조건에 따라 달라질 수 있습니다.</p><p class="footer-copy">© 2026 ULMAJI. ulmaji.kr</p></div></footer><div class="toast" role="status" aria-live="polite"></div><!--prerender:end--></div>
+<div id="root"><!--prerender:start--><a class="skip-link" href="#calculator">계산기로 바로가기</a><header class="site-header"><div class="container header-inner"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><nav class="nav-desktop" aria-label="주요 메뉴"><ul><li class="nav-item nav-item-calc"><button type="button" class="nav-link nav-trigger is-current" aria-expanded="false" aria-controls="mega-calc">계산기<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-calc" class="mega mega-calc" hidden=""><div class="mega-grid"><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-work">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="근로·급여 계산기"><li><a href="/calculators/net-salary" class="mega-link">월급 실수령액</a></li><li><a href="/calculators/weekly-holiday-pay" class="mega-link">주휴수당</a></li><li><a href="/calculators/severance-pay" class="mega-link">퇴직금</a></li><li><a href="/calculators/annual-leave" class="mega-link">연차·연차수당</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-finance">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="금융·생활 계산기"><li><a href="/calculators/loan-interest" class="mega-link">대출이자</a></li><li><a href="/calculators/percentage" class="mega-link">퍼센트</a></li><li><a href="/calculators/compound-interest" class="mega-link">단리·복리 이자</a></li><li><a href="/calculators/deposit-interest" class="mega-link">예금이자</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-realestate">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="부동산 계산기"><li><a href="/calculators/dsr" class="mega-link">DSR</a></li><li><a href="/calculators/brokerage-fee" class="mega-link">중개보수</a></li><li><a href="/calculators/housing-subscription-score" class="mega-link">청약가점</a></li><li><a href="/calculators/rent-conversion" class="mega-link">전월세 환산</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-tax">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="세금 계산기"><li><a href="/calculators/freelancer-withholding" class="mega-link">프리랜서 3.3%</a></li><li><a href="/calculators/vat" class="mega-link">VAT</a></li><li><a href="/calculators/year-end-tax" class="mega-link">연말정산</a></li><li><a href="/calculators/comprehensive-income-tax" class="mega-link">종합소득세</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-parenting">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="육아·복지 계산기"><li><a href="/calculators/unemployment-benefit" class="mega-link">실업급여</a></li><li><a href="/calculators/parental-leave" class="mega-link">육아휴직급여</a></li><li><a href="/calculators/maternity-leave-pay" class="mega-link">출산전후휴가 급여</a></li><li><a href="/calculators/parent-benefit" class="mega-link">부모급여</a></li></ul></div></div><div class="mega-foot"><a href="/calculators" class="mega-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li class="nav-item nav-item-guide"><button type="button" class="nav-link nav-trigger" aria-expanded="false" aria-controls="mega-guide">생활정보<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-guide" class="mega mega-guide" hidden=""><ul class="mega-guide-list"><li><a href="/guide?category=work" class="mega-guide-cat">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/weekly-holiday-pay-15-hours" class="mega-guide-pick">주 15시간 일하면 주휴수당은 얼마일까?</a></li><li><a href="/guide?category=finance" class="mega-guide-cat">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/loan-100m-monthly-interest" class="mega-guide-pick">대출 1억 받으면 한 달 이자는 얼마일까?</a></li><li><a href="/guide?category=realestate" class="mega-guide-cat">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/84sqm-to-pyeong" class="mega-guide-pick">아파트 84㎡는 몇 평일까?</a></li><li><a href="/guide?category=tax" class="mega-guide-cat">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/freelancer-3-3-withholding" class="mega-guide-pick">프리랜서 3.3% 떼면 실제 얼마 받을까?</a></li><li><a href="/guide?category=parenting" class="mega-guide-cat">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/parental-leave-benefit" class="mega-guide-pick">육아휴직하면 매달 얼마 받을 수 있을까?</a></li></ul><div class="mega-foot"><a href="/guide" class="mega-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li><a href="/about" class="nav-link">얼마지 소개</a></li></ul></nav><div class="header-actions"><button type="button" class="icon-btn" aria-label="계산기 검색"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7.5"></circle><path d="m20.5 20.5-4.2-4.2"></path></svg></button><a href="/calculators" class="btn btn-primary btn-sm hide-mobile">전체 계산기</a><button type="button" class="icon-btn show-mobile" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button></div></div><div id="mobile-menu" class="mobile-menu" hidden=""><nav aria-label="모바일 메뉴"><ul><li class="m-group"><button type="button" class="m-link m-trigger is-current" aria-expanded="false" aria-controls="m-sub-calc">계산기<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-calc" class="m-sub" hidden="" aria-label="계산기 카테고리"><li><a href="/calculators#cat-work" class="m-sub-link">근로·급여</a></li><li><a href="/calculators#cat-finance" class="m-sub-link">금융·생활</a></li><li><a href="/calculators#cat-realestate" class="m-sub-link">부동산</a></li><li><a href="/calculators#cat-tax" class="m-sub-link">세금</a></li><li><a href="/calculators#cat-parenting" class="m-sub-link">육아·복지</a></li><li><a href="/calculators" class="m-sub-link is-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li class="m-group"><button type="button" class="m-link m-trigger" aria-expanded="false" aria-controls="m-sub-guide">생활정보<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-guide" class="m-sub" hidden="" aria-label="생활정보 카테고리"><li><a href="/guide?category=work" class="m-sub-link">근로·급여</a></li><li><a href="/guide?category=finance" class="m-sub-link">금융·생활</a></li><li><a href="/guide?category=realestate" class="m-sub-link">부동산</a></li><li><a href="/guide?category=tax" class="m-sub-link">세금</a></li><li><a href="/guide?category=parenting" class="m-sub-link">육아·복지</a></li><li><a href="/guide" class="m-sub-link is-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li><a href="/about" class="m-link">얼마지 소개<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></li></ul></nav><a href="/calculators" class="btn btn-primary btn-block">전체 계산기</a></div></header><main id="main"><nav class="container breadcrumb" aria-label="현재 위치"><ol><li><a href="/">홈</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><a href="/calculators">계산기</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><a href="/calculators#cat-tax">세금</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><span aria-current="page">증여세 계산기</span></li></ol></nav><div class="container page-head"><span class="badge badge-brand">세금</span><h1>증여세 계산기</h1><p class="page-desc">누가 누구에게 얼마를 증여하는지 입력하면<br>증여재산공제와 과거 증여내역을 반영해 예상 증여세를 계산해드려요.</p><p class="page-meta"><span>최근 같은 사람에게 받은 재산이 있다면 함께 확인해주세요</span><span class="meta-sep" aria-hidden="true"></span><a href="#basis">최종 업데이트 2026.09.24<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5.5M12 7.8h.01"></path></svg><span class="sr-only">, 계산 기준 보기</span></a></p></div><section class="calc-section" id="calculator" aria-label="증여세 계산기"><div class="container"><div class="calc-shell"><form class="calc-form" novalidate="" aria-labelledby="step-title"><div class="field"><label class="field-label" for="gift-date">언제 증여하나요?</label><div class="input-wrap date"><input id="gift-date" type="date" aria-invalid="false" aria-describedby="gift-date-help" value="2026-09-27"></div><p id="gift-date-help" class="field-help">증여일에 시행 중인 기준으로 계산해요. <span class="badge badge-brand">2026.09.24 기준 확인</span></p></div><div class="stepbar" aria-hidden="true"><span style="width: 25%;"></span></div><ol class="step-nav" aria-label="입력 단계"><li><button type="button" class="step-pill is-current" aria-current="step">1. 관계</button></li><li><button type="button" class="step-pill">2. 증여재산</button></li><li><button type="button" class="step-pill">3. 과거 증여</button></li><li><button type="button" class="step-pill">4. 추가 조건</button></li></ol><h2 id="step-title" class="form-title step-title" tabindex="-1" aria-live="polite"><span class="step-count">1 / 4</span>누가 누구에게 주나요?</h2><fieldset class="field"><legend class="sr-only">관계</legend><div class="method-cards"><label class="method-card"><input type="radio" name="rel" checked=""><span><strong>부모 → 자녀</strong></span></label><label class="method-card"><input type="radio" name="rel"><span><strong>조부모 → 손자녀</strong></span></label><label class="method-card"><input type="radio" name="rel"><span><strong>배우자 → 배우자</strong></span></label><label class="method-card"><input type="radio" name="rel"><span><strong>자녀 → 부모</strong></span></label><label class="method-card"><input type="radio" name="rel"><span><strong>기타 가족</strong></span></label><label class="method-card"><input type="radio" name="rel"><span><strong>가족이 아닌 사람</strong></span></label></div></fieldset><p class="field-help">주는 사람을 <b>증여자</b>, 받는 사람을 <b>수증자</b>라고 해요.</p><fieldset class="field"><legend class="field-label">받는 자녀는 성인인가요? (증여일 기준 만 19세)</legend><div class="method-cards"><label class="method-card"><input type="radio" name="minor" checked=""><span><strong>성인</strong></span></label><label class="method-card"><input type="radio" name="minor"><span><strong>미성년자</strong></span></label></div></fieldset><div class="step-actions"><button type="submit" class="btn btn-primary submit-btn">다음</button></div></form><div class="result-col"><div class="result-panel"><p class="sr-only" aria-live="polite"></p><div class="result-empty"><span class="big-q" aria-hidden="true">?</span><h2 class="sr-only">계산 결과</h2><p>몇 가지만 답하면<br>이번 증여의 예상 증여세를 알려드릴게요.</p></div></div></div></div><div class="detail-stack"><div class="cond-grid"><article class="cond-card"><h3>부동산을 증여받으면 다른 세금도 생길 수 있어요</h3><p class="card-text">이 계산기는 증여세만 계산해요. 부동산을 증여받는 사람은 취득세도 따로 내요.</p><a href="/calculators/acquisition-tax" class="more-link">취득세 계산하기 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></article><article class="cond-card"><h3>증여세와 상속세는 뭐가 다른가요?</h3><p class="card-text">증여세는 살아 있는 사람이 재산을 무상으로 넘길 때, 상속세는 사망으로 재산이 넘어갈 때 검토하는 세금이에요.</p><a href="/calculators/inheritance-tax" class="more-link">상속세 계산하기 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></article></div></div></div></section><section class="section tight-top" aria-labelledby="related-title"><div class="container"><div class="section-head"><div><h2 id="related-title">재산을 이전하기 전에 같이 계산해보세요</h2></div><a href="/calculators" class="more-link">전체 계산기 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div><ul class="calc-grid cols-3"><li><a href="/calculators/acquisition-tax" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 3h12v18l-2-1.4-2 1.4-2-1.4-2 1.4-2-1.4L6 21z"></path><path d="M9 8h6M9 12h6M9 16h3"></path></svg></span><div class="calc-text"><h3>취득세 계산기</h3><p>부동산을 증여받는다면 취득 관련 세금도 확인해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li><li><a href="/calculators/capital-gains-tax" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 3h12v18l-2-1.4-2 1.4-2-1.4-2 1.4-2-1.4L6 21z"></path><path d="M9 8h6M9 12h6M9 16h3"></path></svg></span><div class="calc-text"><h3>양도소득세 계산기</h3><p>부담부증여 등 양도세 검토가 필요한 거래라면 함께 확인해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li><li><a href="/calculators/inheritance-tax" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 3h12v18l-2-1.4-2 1.4-2-1.4-2 1.4-2-1.4L6 21z"></path><path d="M9 8h6M9 12h6M9 16h3"></path></svg></span><div class="calc-text"><h3>상속세 계산기</h3><p>상속으로 재산을 받는 경우의 예상 세금을 확인해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li></ul></div></section><section class="section band" id="guide" aria-label="증여세 안내"><div class="container"><div class="content-block"><h2>증여세는 어떻게 계산하나요?</h2><div class="prose"><p>이번 증여재산에 10년 안에 같은 사람에게 받은 증여를 합치고, 관계별 증여재산공제를 뺀 과세표준에 10~50% 누진세율을 적용해요. 기한 안에 신고하면 신고세액공제 3%를 빼줘요.</p></div></div><div class="content-block"><h2>증여재산공제란 무엇인가요?</h2><div class="prose"><p>관계별로 10년 동안 세금 없이 받을 수 있는 한도예요. 배우자 6억원, 직계존속에게 받는 성인 5,000만원·미성년 2,000만원, 직계비속에게 받는 부모 5,000만원, 기타 친족 1,000만원이에요. '면제한도'라고도 부르지만 정확히는 공제예요.</p></div></div><div class="content-block"><h2>아버지와 어머니에게 각각 받으면 어떻게 계산하나요?</h2><div class="prose"><p>직계존속이 준 증여는 그 배우자도 같은 사람으로 보아 합산해요. 또 부모·조부모 등 직계존속 전체가 공제 한도를 함께 써요. 그래서 나눠 받는다고 공제가 두 번 생기지 않아요.</p></div></div><div class="content-block"><h2>여러 번 나눠서 증여하면 세금이 줄어드나요?</h2><div class="prose"><p>10년 안에 같은 사람에게 받은 증여는 합산해서 다시 계산하기 때문에, 짧은 기간에 나눠 받는 것만으로는 세금이 줄지 않아요.</p></div></div><div class="content-block"><h2>조부모가 손자녀에게 증여하면 세금이 달라지나요?</h2><div class="prose"><p>세대를 건너뛴 증여라 산출세액의 30%(미성년자가 20억원 넘게 받으면 40%)가 더해져요. 손자녀의 부모가 사망한 경우는 예외예요.</p></div></div><div class="content-block"><h2>결혼이나 출산과 관련된 증여 공제가 있나요?</h2><div class="prose"><p>2024년 이후 증여부터 혼인신고일 전후 2년, 자녀 출생·입양일부터 2년 안에 직계존속에게 받으면 일반 공제와 별도로 합계 1억원까지 더 공제돼요.</p></div></div><div class="content-block"><h2>증여세 신고는 언제까지 하나요?</h2><div class="prose"><p>증여일이 속하는 달의 말일부터 3개월 안에 받는 사람의 주소지 관할 세무서에 신고해요. 예를 들어 9월 24일에 받았다면 12월 31일까지예요.</p></div></div></div></section><section class="section" id="faq" aria-labelledby="faq-title"><div class="container"><div class="section-head"><div><h2 id="faq-title">자주 묻는 질문</h2></div></div><ul class="faq-list"><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f1" class="faq-toggle" aria-expanded="true" aria-controls="faq-panel-f1">부모님이 1억원을 주면 증여세는 얼마인가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f1" role="region" aria-labelledby="faq-btn-f1" class="faq-a"><p>성인 자녀가 10년 안에 부모에게 받은 다른 증여가 없다면 공제 5,000만원을 빼고 과세표준 5,000만원에 10%를 적용해요. 기한 안에 신고하면 신고세액공제 3%를 빼서 약 4,850,000원이에요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f2" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f2">부모님이 5천만원을 주면 증여세가 없나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f2" role="region" aria-labelledby="faq-btn-f2" class="faq-a" hidden=""><p>10년 안에 부모(조부모 포함 직계존속)에게 받은 다른 증여가 없는 성인 자녀라면 공제 범위 안이라 0원이에요. 과거 증여가 있거나 미성년자라면 달라져요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f3" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f3">성인 자녀와 미성년 자녀는 공제가 다른가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f3" role="region" aria-labelledby="faq-btn-f3" class="faq-a" hidden=""><p>네. 직계존속에게 받을 때 성인은 10년간 5,000만원, 미성년자는 2,000만원까지 공제돼요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f4" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f4">배우자에게 증여하면 얼마까지 공제되나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f4" role="region" aria-labelledby="faq-btn-f4" class="faq-a" hidden=""><p>10년간 6억원까지 공제돼요. 법률상 배우자여야 해요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f5" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f5">예전에 받은 돈도 증여세 계산에 포함되나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f5" role="region" aria-labelledby="faq-btn-f5" class="faq-a" hidden=""><p>이번 증여일 전 10년 안에 같은 사람에게 받은 증여가 합계 1천만원 이상이면 합쳐서 계산해요. 이때 예전에 낸 증여세는 공제돼요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f6" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f6">아버지와 어머니에게 각각 받은 돈도 합산되나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f6" role="region" aria-labelledby="faq-btn-f6" class="faq-a" hidden=""><p>네. 증여자가 직계존속이면 그 배우자도 같은 사람으로 보아 합산해요. 그래서 아버지와 어머니에게 나눠 받아도 공제는 한 번만 적용돼요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f7" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f7">조부모에게 증여받으면 세금이 더 나오나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f7" role="region" aria-labelledby="faq-btn-f7" class="faq-a" hidden=""><p>공제는 부모와 합쳐서 한 번이고, 세대를 건너뛴 증여라 산출세액의 30%(미성년자가 20억원 넘게 받으면 40%)를 더 내요. 1억원이면 약 6,305,000원이에요. 손자녀의 부모가 사망한 경우는 할증하지 않아요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f8" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f8">결혼할 때 부모님에게 받은 돈도 증여세 대상인가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f8" role="region" aria-labelledby="faq-btn-f8" class="faq-a" hidden=""><p>네. 다만 2024년 이후 증여분부터 혼인신고일 전후 2년 안에 직계존속에게 받으면 일반 공제와 별도로 최대 1억원(출산 공제와 합산)을 더 공제받을 수 있어요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f9" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f9">출산과 관련된 증여 공제가 있나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f9" role="region" aria-labelledby="faq-btn-f9" class="faq-a" hidden=""><p>2024년 이후 증여분부터 자녀 출생·입양일부터 2년 안에 직계존속에게 받으면 최대 1억원(혼인 공제와 합산)을 추가로 공제받을 수 있어요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f10" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f10">부동산을 증여받으면 시세로 계산하나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f10" role="region" aria-labelledby="faq-btn-f10" class="faq-a" hidden=""><p>세법상 평가한 금액(시가, 매매사례가액, 감정가액 등)으로 계산해요. 이 계산기는 평가된 금액을 직접 입력하는 방식이에요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f11" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f11">부동산 증여세와 취득세를 둘 다 내나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f11" role="region" aria-labelledby="faq-btn-f11" class="faq-a" hidden=""><p>네. 증여받은 사람은 증여세와 별도로 취득세(증여 취득)를 내요. 취득세 계산기에서 따로 확인해보세요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f12" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f12">증여세가 0원이면 신고하지 않아도 되나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f12" role="region" aria-labelledby="faq-btn-f12" class="faq-a" hidden=""><p>세금이 0원이라도 신고하는 게 좋아요. 나중에 자금 출처를 설명하거나 다음 증여 때 공제 사용 내역을 확인하는 근거가 돼요. 신고기한은 증여일이 속한 달의 말일부터 3개월이에요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f13" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f13">증여자가 증여세를 대신 내면 어떻게 되나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f13" role="region" aria-labelledby="faq-btn-f13" class="faq-a" hidden=""><p>증여자가 대신 낸 세금도 추가 증여로 보아 다시 과세될 수 있어요. 대신 내려면 그 금액까지 포함해 계산해야 해요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f14" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f14">계산 결과와 실제 신고액이 다른 이유는 무엇인가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f14" role="region" aria-labelledby="faq-btn-f14" class="faq-a" hidden=""><p>재산 평가, 과거 증여 합산, 공제 사용내역, 세대생략, 신고시기와 특례에 따라 달라져요. 이 계산기는 입력한 조건으로 계산한 예상값이에요.</p></div></li></ul></div></section><section class="section band" id="basis" aria-labelledby="basis-title"><div class="container"><div class="trust-grid"><div><h2 id="basis-title">어떤 기준으로 계산하나요?</h2><p class="section-desc">증여일에 시행 중인 기준을 사용해요. 이름·주민등록번호 없이 관계와 금액, 날짜만 받아요.</p><div class="notice-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5.5M12 7.8h.01"></path></svg><div><strong>참고용으로 확인해주세요</strong><p>이 계산기는 입력한 증여재산가액, 증여자와 수증자의 관계, 과거 증여내역 및 지원되는 공제조건을 바탕으로 증여세를 예상하는 참고 도구입니다. 부담부증여, 비상장주식, 저가양수·고가양도, 해외재산, 신탁, 법인 관련 거래 등 복잡한 증여는 실제 신고 결과와 차이가 클 수 있습니다.</p></div></div></div><div class="basis-card"><div class="basis-head"><strong>증여세 계산 기준</strong><span class="badge badge-brand">2019.01.01 이후 증여</span></div><dl><div class="basis-row"><dt>증여재산공제 (10년)</dt><dd>배우자 6억원, 직계존속→성인 5천만원·미성년 2천만원, 직계비속→직계존속 5천만원, 기타 친족 1천만원</dd></div><div class="basis-row"><dt>혼인·출산 공제</dt><dd>2024.1.1 이후 직계존속 증여, 합계 1억원 (날짜 확인 시에만)</dd></div><div class="basis-row"><dt>합산</dt><dd>10년 이내 같은 사람(직계존속이면 그 배우자 포함) 1천만원 이상</dd></div><div class="basis-row"><dt>세율</dt><dd>1억원 이하 10%, 5억원 20%, 10억원 30%, 30억원 40%, 초과 50%</dd></div><div class="basis-row"><dt>세대생략 할증</dt><dd>30% (미성년자 20억원 초과 40%), 부모 사망 시 제외</dd></div><div class="basis-row"><dt>세액공제</dt><dd>합산된 과거 증여세 공제, 신고세액공제 3%</dd></div><div class="basis-row"><dt>과세최저한·원 단위</dt><dd>과세표준 50만원 미만 과세 제외, 원 미만 절사</dd></div><div class="basis-row"><dt>공식 출처</dt><dd><ul class="source-list"><li><a class="source-link" href="https://www.nts.go.kr" target="_blank" rel="noopener noreferrer"><span><span class="src-name">국세청</span><span class="src-desc">증여세 안내</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-8.5 8.5"></path><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"></path></svg><span class="sr-only">(새 탭에서 열림)</span></a></li><li><a class="source-link" href="https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EC%86%8D%EC%84%B8%EB%B0%8F%EC%A6%9D%EC%97%AC%EC%84%B8%EB%B2%95" target="_blank" rel="noopener noreferrer"><span><span class="src-name">국가법령정보센터</span><span class="src-desc">상속세 및 증여세법 제47조·제53조·제53조의2·제56조·제57조·제69조</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-8.5 8.5"></path><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"></path></svg><span class="sr-only">(새 탭에서 열림)</span></a></li></ul></dd></div><div class="basis-row"><dt>마지막 업데이트</dt><dd><time datetime="2026-09-24">2026.09.24</time></dd></div></dl></div></div></div></section><section class="section" aria-labelledby="articles-title"><div class="container"><div class="section-head"><div><h2 id="articles-title">같이 보면 좋은 생활정보</h2></div><a href="/guide" class="more-link">생활정보 전체보기 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div><ul class="article-grid"><li><a href="/guide/gift-tax-from-parents" class="article-card"><span class="article-cat">세금</span><h3>부모님께 돈을 받으면 증여세는 얼마나 나올까?</h3><p>부모님께 받은 돈의 증여세 공제 한도와 세율, 금액별 예상 세금을 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li></ul></div></section></main><footer class="site-footer"><div class="container"><div class="footer-top"><div class="footer-brand"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><span class="en">ULMAJI</span></div><nav class="footer-nav" aria-label="하단 메뉴"><ul><li><a href="/calculators">계산기</a></li><li><a href="/guide">생활정보</a></li><li><a href="/about">얼마지 소개</a></li><li><a href="/terms">이용약관</a></li><li><a href="/privacy">개인정보처리방침</a></li><li><a href="mailto:heosoyoone@gmail.com">문의</a></li></ul></nav></div><p class="footer-disclaimer">계산 결과는 입력한 정보와 적용 기준에 따른 참고용 정보입니다. 실제 지급액 및 적용 여부는 개인의 조건에 따라 달라질 수 있습니다.</p><p class="footer-copy">© 2026 ULMAJI. ulmaji.kr</p></div></footer><div class="toast" role="status" aria-live="polite"></div><!--prerender:end--></div>
 <noscript><p style="max-width:720px;margin:16px auto;padding:0 20px;font-family:sans-serif;font-size:15px">계산 기능을 쓰려면 브라우저에서 JavaScript를 켜주세요.</p></noscript>
 <script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.24.7/babel.min.js"></script>
 <script type="text/babel" data-presets="react">
 const { useState, useRef, useEffect, useMemo } = React;
+
+/* =========================================================
+   1. Site / Page config
+   ========================================================= */
 const SITE = { name: "얼마지?", en: "ULMAJI", origin: "https://ulmaji.kr" };
+const PAGE = { path: "/calculators/gift-tax", title: "증여세 계산기", category: { name: "세금", href: "/calculators#cat-tax" }, updatedAt: "2026.09.24" };
 const SHOW_AD_PLACEHOLDERS = new URLSearchParams(window.location.search).get("ads") === "preview";
-const NAV = [ { label: "계산기", href: "/#popular" }, { label: "생활정보", href: "/guide" }, { label: "얼마지 소개", href: "/about" } ];
+
+/* =========================================================
+   2. GIFT_TAX_CONFIG (증여일 기준 버전)
+   ========================================================= */
+const GIFT_COMMON = {
+  // 생활언어 관계 → 세법상 공제 그룹
+  relationshipTypes: {
+    parentToChild: { label: "부모 → 자녀", giver: "부모", receiver: "자녀", group: "ascendant", ascendantGiver: true },
+    grandparentToGrandchild: { label: "조부모 → 손자녀", giver: "조부모", receiver: "손자녀", group: "ascendant", ascendantGiver: true, generationSkip: true },
+    spouse: { label: "배우자 → 배우자", giver: "배우자", receiver: "배우자", group: "spouse" },
+    childToParent: { label: "자녀 → 부모", giver: "자녀", receiver: "부모", group: "descendant" },
+    otherRelative: { label: "기타 가족", giver: "친족", receiver: "친족", group: "otherRelative" },
+    nonRelative: { label: "가족이 아닌 사람", giver: "타인", receiver: "본인", group: "none" },
+  },
+  // 상속세 및 증여세법 제53조 증여재산공제 (10년간 그룹별 합계 한도)
+  giftDeductionRules: {
+    periodYears: 10,
+    limits: { spouse: 600000000, ascendant: 50000000, ascendantMinor: 20000000, descendant: 50000000, otherRelative: 10000000, none: 0 },
+    otherRelativeScope: "6촌 이내 혈족, 4촌 이내 인척",
+  },
+  // 제47조 제2항: 10년 이내 동일인(직계존속이면 그 배우자 포함) 증여 합계 1천만원 이상이면 합산
+  aggregationRules: { periodYears: 10, minTotal: 10000000, ascendantSpouseIsSamePerson: true },
+  // 제56조 세율
+  taxBrackets: [
+    { upTo: 100000000, rate: 0.1, progressive: 0 },
+    { upTo: 500000000, rate: 0.2, progressive: 10000000 },
+    { upTo: 1000000000, rate: 0.3, progressive: 60000000 },
+    { upTo: 3000000000, rate: 0.4, progressive: 160000000 },
+    { upTo: Infinity, rate: 0.5, progressive: 460000000 },
+  ],
+  // 제55조 제2항 과세최저한
+  minimumTaxBase: 500000,
+  // 제57조 세대생략 할증
+  generationSkippingRules: { rate: 0.3, minorLargeRate: 0.4, minorLargeThreshold: 2000000000 },
+  // 제68조 신고기한: 증여일이 속하는 달의 말일부터 3개월
+  reportingRules: { monthsAfterMonthEnd: 3 },
+  roundingRules: { tax: 1 },
+  officialSources: [
+    { name: "국세청", desc: "증여세 안내", url: "https://www.nts.go.kr" },
+    { name: "국가법령정보센터", desc: "상속세 및 증여세법 제47조·제53조·제53조의2·제56조·제57조·제69조", url: "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EC%86%8D%EC%84%B8%EB%B0%8F%EC%A6%9D%EC%97%AC%EC%84%B8%EB%B2%95" },
+  ],
+  updatedAt: "2026.09.24",
+};
+const GIFT_TAX_CONFIG = [
+  { ...GIFT_COMMON, id: "2019", effectiveFrom: "2019-01-01", effectiveTo: "2023-12-31",
+    taxCreditRules: { filingCreditRate: 0.03 }, marriageChildbirthRules: null },
+  { ...GIFT_COMMON, id: "2024", effectiveFrom: "2024-01-01", effectiveTo: null,
+    taxCreditRules: { filingCreditRate: 0.03 }, // 제69조 신고세액공제
+    // 제53조의2 혼인·출산 증여재산공제 (직계존속으로부터, 혼인신고일 전후 2년 / 출생·입양일부터 2년, 합계 1억원)
+    marriageChildbirthRules: { limit: 100000000, marriageBeforeYears: 2, marriageAfterYears: 2, birthAfterYears: 2 } },
+];
+const MIN_GIFT_DATE = "2019-01-01", MAX_GIFT_DATE = "2027-12-31";
+
+/* =========================================================
+   3. Resolver / dates / currency
+   ========================================================= */
+function resolveGiftTaxConfig(giftDate) {
+  return GIFT_TAX_CONFIG.find((c) => c.effectiveFrom <= giftDate && (!c.effectiveTo || giftDate <= c.effectiveTo)) || null;
+}
+const iso = /^\d{4}-\d{2}-\d{2}$/;
+const addYears = (d, n) => `${Number(d.slice(0, 4)) + n}${d.slice(4)}`;
+function reportingDeadline(giftDate, cfg) {
+  const y = Number(giftDate.slice(0, 4)), m = Number(giftDate.slice(5, 7));
+  const idx = y * 12 + (m - 1) + cfg.reportingRules.monthsAfterMonthEnd;
+  const ty = Math.floor(idx / 12), tm = idx % 12 + 1;
+  const last = new Date(Date.UTC(ty, tm, 0)).getUTCDate();
+  return `${ty}.${String(tm).padStart(2, "0")}.${String(last).padStart(2, "0")}`;
+}
+function parseCurrencyInput(v) { const d = String(v ?? "").replace(/[^\d]/g, ""); return d ? Number(d) : NaN; }
+function formatMoneyInput(v) { const d = String(v).replace(/[^\d]/g, "").replace(/^0+(?=\d)/, "").slice(0, 13); return d ? Number(d).toLocaleString("ko-KR") : ""; }
+const safe = (n) => (Number.isFinite(n) ? n : 0);
+const nz = (n) => (Number.isFinite(n) && n > 0 ? n : 0);
+const floorWon = (n) => { const r = Math.floor(Math.round(safe(n) * 1e6) / 1e6); return Object.is(r, -0) ? 0 : r; };
+function formatCurrency(n) { const r = Math.round(safe(n)); return `${(Object.is(r, -0) ? 0 : r).toLocaleString("ko-KR")}원`; }
+function formatKoreanCurrency(n) {
+  n = Math.round(Math.abs(safe(n))); if (!n) return "0원";
+  const units = [{ v: 1e12, l: "조" }, { v: 1e8, l: "억" }, { v: 1e4, l: "만" }]; let rest = n; const parts = [];
+  units.forEach((u) => { const q = Math.floor(rest / u.v); if (q > 0) { parts.push(`${q.toLocaleString("ko-KR")}${u.l}`); rest -= q * u.v; } });
+  if (rest > 0) parts.push(rest.toLocaleString("ko-KR")); return parts.join(" ") + "원";
+}
+const approxMan = (n) => `약 ${Math.round(safe(n) / 10000).toLocaleString("ko-KR")}만원`;
+const pct = (r) => `${Math.round(safe(r) * 1000) / 10}%`;
+
+/* =========================================================
+   4. Property valuation
+   ========================================================= */
+const PROPERTY_TYPES = {
+  cash: { label: "현금", desc: "가장 정확하게 계산해요", valuation: "amount" },
+  realEstate: { label: "부동산", desc: "세법상 평가된 금액을 입력해요", valuation: "direct" },
+  listedStock: { label: "주식", desc: "평가된 금액을 직접 입력해요", valuation: "direct" },
+  other: { label: "기타 재산", desc: "평가된 금액을 직접 입력해요", valuation: "direct" },
+};
+function determineGiftPropertyValue(v) { return nz(v.amount); }
+
+/* =========================================================
+   5. Aggregation / Deduction engines
+   ========================================================= */
+// 과거 증여를 준 사람이 이번 증여자와 어떤 관계인지
+const PRIOR_GIVER_TYPES = {
+  same: "이번에 주는 사람과 같은 사람",
+  giverSpouse: "이번에 주는 사람의 배우자 (예: 아버지 → 어머니)",
+  otherAscendant: "다른 직계존속 (예: 조부모)",
+  other: "그 밖의 사람",
+};
+function priorGroupOf(p, rel) {
+  if (p.giverType === "same" || p.giverType === "giverSpouse") return rel.group;
+  if (p.giverType === "otherAscendant") return "ascendant";
+  return "unknown";
+}
+function determineGiftAggregation(v, cfg) {
+  const rel = cfg.relationshipTypes[v.relationship];
+  const from = addYears(v.giftDate, -cfg.aggregationRules.periodYears);
+  const inPeriod = v.priorGifts.filter((p) => p.date > from && p.date <= v.giftDate);
+  const sameCandidates = inPeriod.filter((p) => p.giverType === "same" || (p.giverType === "giverSpouse" && rel.ascendantGiver && cfg.aggregationRules.ascendantSpouseIsSamePerson));
+  const total = sameCandidates.reduce((s, p) => s + nz(p.amount), 0);
+  const aggregated = total >= cfg.aggregationRules.minTotal ? sameCandidates : [];
+  const notAggregated = v.priorGifts.filter((p) => !aggregated.includes(p));
+  const reasons = v.priorGifts.map((p) => {
+    if (!(p.date > from && p.date <= v.giftDate)) return { p, text: "10년보다 전이라 합산하지 않아요." };
+    if (aggregated.includes(p)) return { p, text: p.giverType === "same" ? "10년 이내 같은 사람에게 받아 합산해요." : "직계존속이 준 경우 그 배우자도 같은 사람으로 보아 합산해요." };
+    if (sameCandidates.includes(p)) return { p, text: "같은 사람에게 받은 10년 합계가 1천만원 미만이라 합산하지 않아요." };
+    return { p, text: "다른 사람에게 받아 합산하지 않지만, 같은 공제 그룹이면 공제 한도는 나눠 써요." };
+  });
+  return { aggregated, notAggregated, inPeriod, from, reasons, aggregatedTotal: aggregated.reduce((s, p) => s + nz(p.amount), 0), aggregatedPaidTax: aggregated.reduce((s, p) => s + nz(p.paidTax), 0) };
+}
+function calculateGiftDeduction(v, cfg, agg, taxableValue) {
+  const rel = cfg.relationshipTypes[v.relationship];
+  const r = cfg.giftDeductionRules;
+  const key = rel.group === "ascendant" && v.recipientMinor ? "ascendantMinor" : rel.group;
+  const limit = r.limits[key];
+  // 합산하지 않은 과거 증여 중 같은 공제 그룹(10년 이내)이 이미 쓴 공제
+  const from = addYears(v.giftDate, -r.periodYears);
+  const sameGroup = agg.notAggregated.filter((p) => p.date > from && p.date <= v.giftDate && priorGroupOf(p, rel) === rel.group);
+  const used = Math.min(limit, sameGroup.reduce((s, p) => s + nz(p.amount), 0));
+  const remaining = Math.max(0, limit - used);
+  return { limit, used, remaining, applied: Math.min(remaining, taxableValue), groupLabel: key };
+}
+function evaluateMarriageChildbirthGiftDeduction(v, cfg) {
+  const m = cfg.marriageChildbirthRules;
+  const rel = cfg.relationshipTypes[v.relationship];
+  if (!m || !rel.ascendantGiver || v.mcType === "none") return { status: "none", amount: 0 };
+  if (!iso.test(v.mcDate || "")) return { status: "possible", amount: 0, reason: `${v.mcType === "marriage" ? "혼인신고일" : "출생·입양일"}을 입력하면 적용 여부를 확인할 수 있어요.` };
+  let ok;
+  if (v.mcType === "marriage") ok = v.giftDate >= addYears(v.mcDate, -m.marriageBeforeYears) && v.giftDate <= addYears(v.mcDate, m.marriageAfterYears);
+  else ok = v.giftDate >= v.mcDate && v.giftDate <= addYears(v.mcDate, m.birthAfterYears);
+  if (!ok) return { status: "fail", amount: 0, reason: v.mcType === "marriage" ? "증여일이 혼인신고일 전후 2년 안이 아니에요." : "증여일이 출생·입양일부터 2년 안이 아니에요." };
+  const remaining = Math.max(0, m.limit - nz(v.mcUsed));
+  return { status: "ok", amount: remaining, limit: m.limit, used: nz(v.mcUsed), reason: v.mcType === "marriage" ? "혼인신고일 전후 2년 이내 직계존속 증여" : "출생·입양일부터 2년 이내 직계존속 증여" };
+}
+
+/* =========================================================
+   6. Tax engines
+   ========================================================= */
+function calculateProgressiveGiftTax(taxBase, cfg) {
+  const b = cfg.taxBrackets.find((x) => taxBase <= x.upTo);
+  return { tax: floorWon(taxBase * b.rate - b.progressive), bracket: b };
+}
+function evaluateGenerationSkippingSurcharge(v, cfg, calcTax, currentValue, totalValue) {
+  const rel = cfg.relationshipTypes[v.relationship];
+  if (!rel.generationSkip) return { applied: false, amount: 0, rate: 0, reason: "" };
+  if (v.parentDeceased) return { applied: false, amount: 0, rate: 0, reason: "손자녀의 부모(증여자의 자녀)가 사망해 할증하지 않아요." };
+  const g = cfg.generationSkippingRules;
+  const rate = v.recipientMinor && currentValue > g.minorLargeThreshold ? g.minorLargeRate : g.rate;
+  const share = totalValue > 0 ? currentValue / totalValue : 1;
+  return { applied: true, rate, amount: floorWon(calcTax * share * rate), reason: `자녀를 건너뛰고 손자녀에게 증여해 산출세액의 ${pct(rate)}를 더해요.` };
+}
+function calculateGiftTaxCredits(v, cfg, base, priorPaid, calcTax, priorShare) {
+  const prior = Math.min(nz(priorPaid), floorWon(calcTax * priorShare)); // 기납부세액공제 한도
+  const afterPrior = Math.max(0, base - prior);
+  const filing = v.willFile === "yes" ? floorWon(afterPrior * cfg.taxCreditRules.filingCreditRate) : 0;
+  return { prior, filing };
+}
+
+/* =========================================================
+   7. Final Gift Tax Engine
+   ========================================================= */
+function calculateGiftTax(v) {
+  const cfg = resolveGiftTaxConfig(v.giftDate);
+  const rel = cfg.relationshipTypes[v.relationship];
+  if (v.propertyType === "realEstate" && v.burdened) return { cfg, input: v, state: "needInfo", reason: "burdened" };
+  const current = determineGiftPropertyValue(v);
+  const agg = determineGiftAggregation(v, cfg);
+  const taxableValue = current + agg.aggregatedTotal; // 증여세 과세가액
+  const ded = calculateGiftDeduction(v, cfg, agg, taxableValue);
+  const mc = evaluateMarriageChildbirthGiftDeduction(v, cfg);
+  const mcApplied = mc.status === "ok" ? Math.min(mc.amount, current, Math.max(0, taxableValue - ded.applied)) : 0;
+  const totalDeduction = ded.applied + mcApplied;
+  let taxBase = Math.max(0, taxableValue - totalDeduction);
+  const belowMinimum = taxBase > 0 && taxBase < cfg.minimumTaxBase;
+  if (belowMinimum) taxBase = 0;
+  const { tax: calcTax, bracket } = calculateProgressiveGiftTax(taxBase, cfg);
+  const gs = evaluateGenerationSkippingSurcharge(v, cfg, calcTax, current, taxableValue);
+  const priorShare = taxableValue > 0 ? agg.aggregatedTotal / taxableValue : 0;
+  const credits = calculateGiftTaxCredits(v, cfg, calcTax + gs.amount, agg.aggregatedPaidTax, calcTax, priorShare);
+  const finalTax = floorWon(Math.max(0, calcTax + gs.amount - credits.prior - credits.filing));
+  return {
+    cfg, input: v, rel, state: "ok", current, agg, taxableValue, ded, mc, mcApplied, totalDeduction, taxBase, belowMinimum,
+    calcTax, bracket, gs, credits, finalTax, deadline: reportingDeadline(v.giftDate, cfg),
+    unknownPrior: v.priorMode === "unknown",
+  };
+}
+
+/* =========================================================
+   8. Scenario Engine
+   ========================================================= */
+function calculateAmountScenario(v) {
+  const set = [...new Set([50000000, 100000000, 200000000, 300000000, v.amount])].sort((a, b) => a - b);
+  return set.map((a) => ({ amount: a, current: a === v.amount, tax: calculateGiftTax({ ...v, amount: a }).finalTax }));
+}
+
+/* =========================================================
+   9. Validation
+   ========================================================= */
+function validateInputs(v) {
+  const e = {};
+  if (!iso.test(v.giftDate || "")) e.date = "증여일을 입력해주세요.";
+  else if (v.giftDate < MIN_GIFT_DATE || v.giftDate > MAX_GIFT_DATE) e.date = `${MIN_GIFT_DATE.replace(/-/g, ".")}~${MAX_GIFT_DATE.replace(/-/g, ".")} 증여분만 계산할 수 있어요.`;
+  if (!GIFT_COMMON.relationshipTypes[v.relationship]) e.relationship = "관계를 선택해주세요.";
+  if (v.relationship === "otherRelative" && !v.otherRelativeOk) e.relationship = "6촌 이내 혈족·4촌 이내 인척이 아니라면 '가족이 아닌 사람'을 선택해주세요.";
+  if (!Number.isFinite(v.amount) || v.amount <= 0) e.amount = "0원보다 큰 증여금액을 입력해주세요.";
+  else if (v.amount > 1e13) e.amount = "금액을 다시 확인해주세요.";
+  if (v.priorMode === "yes") {
+    if (!v.priorGifts.length) e.prior = "과거 증여를 추가하거나 '없어요'를 선택해주세요.";
+    v.priorGifts.forEach((p) => {
+      if (!iso.test(p.date || "") || (iso.test(v.giftDate || "") && p.date > v.giftDate)) e[`prior-${p.id}`] = "과거 증여일은 이번 증여일 이전이어야 해요.";
+      else if (!Number.isFinite(p.amount) || p.amount <= 0) e[`prior-${p.id}`] = "과거 증여 금액을 입력해주세요.";
+    });
+  }
+  return e;
+}
+
+/* =========================================================
+   10. Content data
+   ========================================================= */
+const TODAY = new Date(Date.now() + 9 * 3600000).toISOString().slice(0, 10);
+const baseEx = { giftDate: TODAY, relationship: "parentToChild", recipientMinor: false, otherRelativeOk: true, parentDeceased: false, propertyType: "cash", amount: 100000000, burdened: false,
+  priorMode: "no", priorGifts: [], mcType: "none", mcDate: "", mcUsed: 0, willFile: "yes" };
+const ex1 = calculateGiftTax(baseEx), ex5 = calculateGiftTax({ ...baseEx, amount: 50000000 }), exGs = calculateGiftTax({ ...baseEx, relationship: "grandparentToGrandchild" });
+const L = GIFT_COMMON.giftDeductionRules.limits;
+
+const FAQ = [
+  { id: "f1", q: "부모님이 1억원을 주면 증여세는 얼마인가요?", a: `성인 자녀가 10년 안에 부모에게 받은 다른 증여가 없다면 공제 ${formatKoreanCurrency(L.ascendant)}을 빼고 과세표준 ${formatKoreanCurrency(ex1.taxBase)}에 10%를 적용해요. 기한 안에 신고하면 신고세액공제 3%를 빼서 약 ${formatCurrency(ex1.finalTax)}이에요.` },
+  { id: "f2", q: "부모님이 5천만원을 주면 증여세가 없나요?", a: `10년 안에 부모(조부모 포함 직계존속)에게 받은 다른 증여가 없는 성인 자녀라면 공제 범위 안이라 ${formatCurrency(ex5.finalTax)}이에요. 과거 증여가 있거나 미성년자라면 달라져요.` },
+  { id: "f3", q: "성인 자녀와 미성년 자녀는 공제가 다른가요?", a: `네. 직계존속에게 받을 때 성인은 10년간 ${formatKoreanCurrency(L.ascendant)}, 미성년자는 ${formatKoreanCurrency(L.ascendantMinor)}까지 공제돼요.` },
+  { id: "f4", q: "배우자에게 증여하면 얼마까지 공제되나요?", a: `10년간 ${formatKoreanCurrency(L.spouse)}까지 공제돼요. 법률상 배우자여야 해요.` },
+  { id: "f5", q: "예전에 받은 돈도 증여세 계산에 포함되나요?", a: "이번 증여일 전 10년 안에 같은 사람에게 받은 증여가 합계 1천만원 이상이면 합쳐서 계산해요. 이때 예전에 낸 증여세는 공제돼요." },
+  { id: "f6", q: "아버지와 어머니에게 각각 받은 돈도 합산되나요?", a: "네. 증여자가 직계존속이면 그 배우자도 같은 사람으로 보아 합산해요. 그래서 아버지와 어머니에게 나눠 받아도 공제는 한 번만 적용돼요." },
+  { id: "f7", q: "조부모에게 증여받으면 세금이 더 나오나요?", a: `공제는 부모와 합쳐서 한 번이고, 세대를 건너뛴 증여라 산출세액의 30%(미성년자가 20억원 넘게 받으면 40%)를 더 내요. 1억원이면 약 ${formatCurrency(exGs.finalTax)}이에요. 손자녀의 부모가 사망한 경우는 할증하지 않아요.` },
+  { id: "f8", q: "결혼할 때 부모님에게 받은 돈도 증여세 대상인가요?", a: "네. 다만 2024년 이후 증여분부터 혼인신고일 전후 2년 안에 직계존속에게 받으면 일반 공제와 별도로 최대 1억원(출산 공제와 합산)을 더 공제받을 수 있어요." },
+  { id: "f9", q: "출산과 관련된 증여 공제가 있나요?", a: "2024년 이후 증여분부터 자녀 출생·입양일부터 2년 안에 직계존속에게 받으면 최대 1억원(혼인 공제와 합산)을 추가로 공제받을 수 있어요." },
+  { id: "f10", q: "부동산을 증여받으면 시세로 계산하나요?", a: "세법상 평가한 금액(시가, 매매사례가액, 감정가액 등)으로 계산해요. 이 계산기는 평가된 금액을 직접 입력하는 방식이에요." },
+  { id: "f11", q: "부동산 증여세와 취득세를 둘 다 내나요?", a: "네. 증여받은 사람은 증여세와 별도로 취득세(증여 취득)를 내요. 취득세 계산기에서 따로 확인해보세요." },
+  { id: "f12", q: "증여세가 0원이면 신고하지 않아도 되나요?", a: "세금이 0원이라도 신고하는 게 좋아요. 나중에 자금 출처를 설명하거나 다음 증여 때 공제 사용 내역을 확인하는 근거가 돼요. 신고기한은 증여일이 속한 달의 말일부터 3개월이에요." },
+  { id: "f13", q: "증여자가 증여세를 대신 내면 어떻게 되나요?", a: "증여자가 대신 낸 세금도 추가 증여로 보아 다시 과세될 수 있어요. 대신 내려면 그 금액까지 포함해 계산해야 해요." },
+  { id: "f14", q: "계산 결과와 실제 신고액이 다른 이유는 무엇인가요?", a: "재산 평가, 과거 증여 합산, 공제 사용내역, 세대생략, 신고시기와 특례에 따라 달라져요. 이 계산기는 입력한 조건으로 계산한 예상값이에요." },
+];
+const RELATED_CALCULATORS = [
+  { id: "acquisition-tax", name: "취득세 계산기", desc: "부동산을 증여받는다면 취득 관련 세금도 확인해보세요.", icon: "receipt", href: "/calculators/acquisition-tax" },
+  { id: "capital-gains-tax", name: "양도소득세 계산기", desc: "부담부증여 등 양도세 검토가 필요한 거래라면 함께 확인해보세요.", icon: "receipt", href: "/calculators/capital-gains-tax" },
+  { id: "inheritance-tax", name: "상속세 계산기", desc: "상속으로 재산을 받는 경우의 예상 세금을 확인해보세요.", icon: "receipt", href: "/calculators/inheritance-tax" },
+];
 /* =========================================================
    GUIDES — 생활정보 레지스트리 (모든 페이지 공통, 한 곳에서만 수정)
    publishedAt / updatedAt: 실제 작성·수정한 날짜만 적어요.
@@ -1910,7 +2015,7 @@ const NAV_CALCULATORS = [
 ];
 const NAV_FEATURED_IDS = ["freelancer-withholding", "unemployment-benefit", "net-salary", "weekly-holiday-pay", "severance-pay", "loan-interest", "dsr", "annual-leave"];
 const navFeaturedIds = () => NAV_FEATURED_IDS;
-const NAV_SECTION = "guide"; // 헤더에서 현재 위치로 표시할 메뉴
+const NAV_SECTION = "calc"; // 헤더에서 현재 위치로 표시할 메뉴
 const NAV_MENU_OF = { "계산기": "calc", "생활정보": "guide" }; // 헤더에서 메가메뉴를 여는 항목
 const NAV_PER_CATEGORY = 4; // 카테고리마다 메뉴에 보여줄 계산기 수
 const NAV_CALC_INDEX_HREF = "/calculators"; // 전체 계산기 목록 페이지
@@ -1929,8 +2034,10 @@ function navGuidePick(catId) {
   return list.find((g) => FEATURED_GUIDE_IDS.includes(g.id)) || list[0] || null;
 }
 /* NAV_MENU:END */
+const RELATED_ARTICLES = guidesForCalculator("/calculators/gift-tax");
+const NAV = [ { label: "계산기", href: "/#popular" }, { label: "생활정보", href: "/guide" }, { label: "얼마지 소개", href: "/about" } ];
+const BREADCRUMB = [ { name: "홈", href: "/" }, { name: "계산기", href: "/calculators" }, { name: PAGE.category.name, href: PAGE.category.href }, { name: PAGE.title, href: PAGE.path } ];
 
-const PAGE = { path: "/guide", title: "생활정보", category: { name: "생활정보", href: "/guide" }, updatedAt: "2026.09.25" };
 /* =========================================================
    Routing
    - 실서비스(ulmaji.kr): 실제 경로로 이동
@@ -2356,43 +2463,326 @@ function Toast() {
 
 
 
-
-
-
-
-
-ICONS.copy = '<rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/>';
-
-function Crumbs({ items }) {
-  return (<nav className="container breadcrumb" aria-label="현재 위치"><ol>{items.map((b, i) => { const last = i === items.length - 1; return (
-    <li key={b.name}>{i > 0 && <Icon name="chevron-right" size={14} />}{last || !b.href ? <span aria-current={last ? "page" : undefined}>{b.name}</span> : <AppLink href={b.href}>{b.name}</AppLink>}</li>); })}</ol></nav>);
+/* =========================================================
+   20. Page pieces
+   ========================================================= */
+function Breadcrumb() {
+  return (<nav className="container breadcrumb" aria-label="현재 위치"><ol>{BREADCRUMB.map((b, i) => { const last = i === BREADCRUMB.length - 1; return (
+    <li key={b.href}>{i > 0 && <Icon name="chevron-right" size={14} />}{last ? <span aria-current="page">{b.name}</span> : <AppLink href={b.href}>{b.name}</AppLink>}</li>); })}</ol></nav>);
 }
-function SourceList({ sources }) {
-  return (<ul className="source-list">{sources.map((x) => (
-    <li key={x.url}><a className="source-link" href={x.url} target="_blank" rel="noopener noreferrer"><span><span className="src-name">{x.name}</span><span className="src-desc">{x.desc}</span></span><Icon name="external" size={18} /><span className="sr-only">(새 탭에서 열림)</span></a></li>))}</ul>);
+function PageHead() {
+  return (<div className="container page-head"><span className="badge badge-brand">{PAGE.category.name}</span><h1>{PAGE.title}</h1>
+    <p className="page-desc">누가 누구에게 얼마를 증여하는지 입력하면<br />증여재산공제와 과거 증여내역을 반영해 예상 증여세를 계산해드려요.</p>
+    <p className="page-meta"><span>최근 같은 사람에게 받은 재산이 있다면 함께 확인해주세요</span><span className="meta-sep" aria-hidden="true"></span>
+      <a href="#basis">최종 업데이트 {PAGE.updatedAt}<Icon name="info" size={16} /><span className="sr-only">, 계산 기준 보기</span></a></p></div>);
+}
+function FieldError({ id, message }) { if (!message) return null; return <p id={id} className="field-error"><Icon name="alert" size={16} />{message}</p>; }
+function Cards({ name, value, onChange, options, three }) {
+  return (<div className={"method-cards" + (three ? " three" : "")}>{options.map((o) => (
+    <label className="method-card" key={String(o.v)}><input type="radio" name={name} checked={value === o.v} onChange={() => onChange(o.v)} /><span><strong>{o.l}</strong>{o.d && <small>{o.d}</small>}</span></label>))}</div>);
+}
+function MoneyInput({ id, label, value, onChange, help, error, sub }) {
+  const num = parseCurrencyInput(value);
+  return (<div className={"field" + (sub ? " sub-field" : "")}><label className={sub ? "mini-label" : "field-label"} htmlFor={id}>{label}</label>
+    <div className={"input-wrap" + (sub ? " sm" : "") + (error ? " is-invalid" : "")}><input id={id} type="text" inputMode="decimal" autoComplete="off" placeholder="0" value={value} onChange={(e) => onChange(formatMoneyInput(e.target.value))}
+      aria-invalid={!!error} aria-describedby={[`${id}-help`, error && `${id}-error`].filter(Boolean).join(" ")} /><span className="input-suffix" aria-hidden="true">원</span></div>
+    <FieldError id={`${id}-error`} message={error} />
+    <p id={`${id}-help`} className="field-help">{num > 0 && <b className="korean-amount">{formatKoreanCurrency(num)}</b>}{num > 0 && help ? " · " : ""}{help}</p></div>);
 }
 
-function GuideList() {
-  const q = new URLSearchParams(window.location.search).get("category");
-  const cats = GUIDE_CATEGORIES.filter((c) => PUBLISHED_GUIDES.some((g) => g.categoryId === c.id));
-  const current = cats.some((c) => c.id === q) ? q : "all";
-  const list = PUBLISHED_GUIDES.filter((g) => current === "all" || g.categoryId === current);
-  return (<>
-    <Crumbs items={[{ name: "얼마지", href: "/" }, { name: "생활정보" }]} />
-    <div className="container page-head"><h1>생활정보</h1>
-      <p className="page-desc">월급, 세금, 대출, 부동산, 육아·복지까지<br />생활 속에서 헷갈리는 기준을 쉽게 정리했어요.</p></div>
-    <section className="container" aria-label="생활정보 목록">
-      {cats.length > 1 && <ul className="cat-tabs" aria-label="카테고리">
-        <li><AppLink href="/guide" aria-current={current === "all" ? "page" : undefined}>전체<span className="cnt">{PUBLISHED_GUIDES.length}</span></AppLink></li>
-        {cats.map((c) => <li key={c.id}><AppLink href={`/guide?category=${c.id}`} aria-current={current === c.id ? "page" : undefined}>{c.name}<span className="cnt">{PUBLISHED_GUIDES.filter((g) => g.categoryId === c.id).length}</span></AppLink></li>)}</ul>}
-      <ul className="article-grid" style={{ marginTop: cats.length > 1 ? 0 : 24 }}>{list.map((a) => <li key={a.id}><ArticleCard article={a} /></li>)}</ul>
-      <p className="guide-meta">글마다 참고한 공식자료와 확인 날짜를 적고, 관련 계산기로 바로 이어지게 했어요.</p>
-    </section>
-    <AdSlot id="guide-list-bottom" label="목록 하단" />
-    <div style={{ height: 64 }}></div>
-  </>);
+/* =========================================================
+   21. Result
+   ========================================================= */
+function ResultEmpty() { return (<div className="result-empty"><span className="big-q" aria-hidden="true">?</span><h2 className="sr-only">계산 결과</h2><p>몇 가지만 답하면<br />이번 증여의 예상 증여세를 알려드릴게요.</p></div>); }
+
+function ResultView({ r, stale, headingRef, onRecalc, onReset }) {
+  const [whyOpen, setWhyOpen] = useState(false);
+  const v = r.input;
+  if (r.state === "needInfo") {
+    return (<div className={"result-view" + (stale ? " is-stale" : "")}>
+      <div className="res-head"><h2 className="res-label" ref={headingRef} tabIndex={-1}>계산 결과</h2></div>
+      <p className="res-amount is-additional">부담부증여는 추가 계산이 필요해요</p>
+      <p className="res-sentence">대출·보증금 같은 채무를 함께 넘겨받으면 채무 부분은 증여자에게 양도소득세 문제가 생길 수 있어 일반 증여와 같은 방식으로 계산하지 않아요. 전용 계산은 준비 중이에요.</p>
+      <div className="res-actions"><button type="button" className="btn-secondary" onClick={onRecalc}><Icon name="refresh" size={18} />조건 바꾸기</button></div>
+    </div>);
+  }
+  const zero = r.finalTax === 0;
+  const rel = r.rel;
+  return (
+    <div className={"result-view" + (stale ? " is-stale" : "")}>
+      {stale && <div className="status is-note res-stale"><Icon name="info" size={20} /><p><strong>입력값을 확인해주세요</strong><span>올바르게 입력하면 결과가 바로 다시 계산돼요.</span></p></div>}
+      <div className="res-head"><h2 className="res-label" ref={headingRef} tabIndex={-1}>이번 증여를 기준으로 예상 증여세</h2>
+        <span className="badge badge-brand">{r.unknownPrior ? "간편 예상" : "상세 예상"} · {rel.label}{rel.group === "ascendant" ? (v.recipientMinor ? " (미성년)" : " (성인)") : ""}</span></div>
+      <p className={"res-amount" + (zero ? " is-refund" : "")}>{formatCurrency(r.finalTax)}</p>
+      <p className="res-sentence">{zero ? "입력한 관계와 과거 증여내역을 기준으로 적용 가능한 공제 범위 안에 있는 것으로 계산됐어요." : `그래서 증여세는 ${approxMan(r.finalTax)}으로 예상돼요.`}</p>
+      {r.unknownPrior && <div className="status is-no"><Icon name="alert" size={20} /><p><strong>과거 증여를 모른다고 선택했어요</strong><span>합산대상 증여가 있다면 실제 증여세가 크게 달라질 수 있어요.</span></p></div>}
+      <div className="res-fade">
+        <div className="res-card"><dl className="rc-rows">
+          <div className="rc-row"><dt>이번 증여재산</dt><dd>{formatCurrency(r.current)}</dd></div>
+          <div className="rc-row"><dt>합산대상 과거 증여</dt><dd>+ {formatCurrency(r.agg.aggregatedTotal)}</dd></div>
+          <div className="rc-row"><dt>적용 공제</dt><dd>− {formatCurrency(r.totalDeduction)}</dd></div>
+          <div className="rc-row"><dt>예상 과세표준</dt><dd>{formatCurrency(r.taxBase)}</dd></div>
+          <div className="rc-row"><dt>산출세액</dt><dd>{formatCurrency(r.calcTax)}</dd></div>
+          {r.gs.applied && <div className="rc-row"><dt>세대생략 할증 ({pct(r.gs.rate)})</dt><dd>+ {formatCurrency(r.gs.amount)}</dd></div>}
+          {r.credits.prior > 0 && <div className="rc-row"><dt>과거에 낸 증여세 공제</dt><dd>− {formatCurrency(r.credits.prior)}</dd></div>}
+          <div className="rc-row"><dt>신고세액공제 {v.willFile === "yes" ? `(${pct(r.cfg.taxCreditRules.filingCreditRate)})` : "(기한 내 신고 시)"}</dt><dd>− {formatCurrency(r.credits.filing)}</dd></div>
+          <div className="rc-row is-grand"><dt>예상 납부세액</dt><dd>{formatCurrency(r.finalTax)}</dd></div>
+        </dl>{r.belowMinimum && <p className="why-note">과세표준이 50만원 미만이라 세금을 매기지 않아요 (과세최저한).</p>}</div>
+
+        <div className="pay-blocks"><h3 className="res-sub-title">어떤 공제가 적용됐나요?</h3><dl className="pb-rows">
+          <div><dt>증여자와의 관계</dt><dd>{rel.label}{rel.group === "ascendant" ? (v.recipientMinor ? " · 미성년" : " · 성인") : ""}</dd></div>
+          <div><dt>10년간 공제 한도</dt><dd>{formatCurrency(r.ded.limit)}</dd></div>
+          <div><dt>합산하지 않은 과거 증여로 이미 쓴 공제</dt><dd>− {formatCurrency(r.ded.used)}</dd></div>
+          <div><dt>이번에 남아 있는 공제</dt><dd>{formatCurrency(r.ded.remaining)}</dd></div>
+          <div className="is-sum"><dt>실제 적용한 증여재산공제</dt><dd>{formatCurrency(r.ded.applied)}</dd></div>
+          {r.mcApplied > 0 && <div><dt>혼인·출산 증여재산공제</dt><dd>{formatCurrency(r.mcApplied)}</dd></div>}
+        </dl>
+          {r.mc.status === "possible" && <p className="why-note">혼인·출산 공제 적용 가능성이 있어요. {r.mc.reason}</p>}
+          {r.mc.status === "fail" && <p className="why-note">혼인·출산 공제는 적용하지 않았어요. {r.mc.reason}</p>}
+          {r.mc.status === "ok" && <p className="why-note">혼인·출산 공제: {r.mc.reason} (평생 {formatKoreanCurrency(r.mc.limit)} 중 이전 사용 {formatKoreanCurrency(r.mc.used)})</p>}
+        </div>
+
+        {v.priorGifts.length > 0 && v.priorMode === "yes" && (<div className="pay-blocks"><h3 className="res-sub-title">왜 예전에 받은 돈까지 합치나요?</h3>
+          <ul className="check-list">{r.agg.reasons.map(({ p, text }) => <li key={p.id} className={r.agg.aggregated.includes(p) ? "is-q" : "is-ok"}><span aria-hidden="true">{r.agg.aggregated.includes(p) ? "+" : "−"}</span>{p.date.replace(/-/g, ".")} {formatKoreanCurrency(p.amount)} · {text}</li>)}</ul>
+          <p className="why-note">이번 증여일 전 10년({r.agg.from.replace(/-/g, ".")} 이후) 안에 같은 사람에게 받은 증여가 합계 1천만원 이상이면 합산해요. 직계존속이 준 경우 그 배우자도 같은 사람으로 봐요.</p></div>)}
+
+        {r.gs.reason && <div className="small-notice is-tip"><Icon name="info" size={18} /><p><strong>세대생략 관련</strong><span>{r.gs.reason}</span></p></div>}
+
+        <div className="pay-blocks"><h3 className="res-sub-title">높은 세율 구간에 들어가도 전체 금액에 그 세율을 곱하는 건 아니에요</h3>
+          <dl className="pb-rows"><div><dt>적용된 세율 구간</dt><dd>{pct(r.bracket.rate)} (누진공제 {formatCurrency(r.bracket.progressive)})</dd></div>
+            <div><dt>신고기한</dt><dd>{r.deadline}까지</dd></div></dl></div>
+
+        {v.propertyType === "cash" && !zero && (<div className="eq"><h3 className="res-sub-title">세금 부담을 단순 차감한 참고금액</h3><div className="eq-row">
+          <div className="eq-item"><span>증여금액</span><strong>{formatCurrency(r.current)}</strong></div><span className="eq-op" aria-hidden="true">−</span>
+          <div className="eq-item"><span>예상 증여세</span><strong>{formatCurrency(r.finalTax)}</strong></div><span className="eq-op" aria-hidden="true">=</span>
+          <div className="eq-item is-total"><span>참고금액</span><strong>{formatCurrency(r.current - r.finalTax)}</strong></div></div>
+          <p className="why-note">실제 수령 후 보유금액을 확정하는 값은 아니에요.</p></div>)}
+        {v.propertyType === "realEstate" && <div className="small-notice is-tip"><Icon name="info" size={18} /><p><strong>부동산 취득 과정에서 발생하는 취득세 등은 포함되지 않아요</strong><span><AppLink href="/calculators/acquisition-tax">취득세 계산하기 →</AppLink></span></p></div>}
+      </div>
+
+      <div className="why"><button type="button" className="why-toggle" aria-expanded={whyOpen} aria-controls="why-body" onClick={() => setWhyOpen((x) => !x)}>{zero ? "왜 0원인가요?" : "왜 이 금액이 나오나요?"}<Icon name="chevron-right" size={20} strokeWidth={2.2} /></button>
+        <div id="why-body" className="why-body" hidden={!whyOpen}><div className="why-block"><ol className="grow-steps flow-steps">
+          <li><span>① 이번에 받는 재산</span><strong>{formatCurrency(r.current)}</strong></li>
+          <li><span>② 합산되는 과거 증여</span><strong>+ {formatCurrency(r.agg.aggregatedTotal)}</strong></li>
+          <li><span>③ 증여재산공제 등</span><strong>− {formatCurrency(r.totalDeduction)}</strong></li>
+          <li><span>④ 예상 과세표준</span><strong>{formatCurrency(r.taxBase)}</strong></li>
+          <li><span>⑤ 누진세율 적용 (산출세액)</span><strong>{formatCurrency(r.calcTax)}</strong></li>
+          <li><span>⑥ 할증·세액공제 등</span><strong>{r.gs.amount - r.credits.prior - r.credits.filing >= 0 ? "+" : "−"} {formatCurrency(Math.abs(r.gs.amount - r.credits.prior - r.credits.filing))}</strong></li>
+          <li className="is-final"><span>예상 증여세</span><strong>{formatCurrency(r.finalTax)}</strong></li>
+        </ol><p className="why-note">세금이 0원이어도 신고의무가 무조건 없는 건 아니에요. 공제 사용 내역을 남기려면 신고하는 게 좋아요.</p></div></div></div>
+
+      <div className="pay-blocks"><h3 className="res-sub-title">금액을 다르게 증여하면 세금은?</h3>
+        <dl className="pb-rows">{calculateAmountScenario(v).map((x) => <div key={x.amount}><dt>{formatKoreanCurrency(x.amount)}{x.current ? " (현재)" : ""}</dt><dd>{formatCurrency(x.tax)}</dd></div>)}</dl>
+        <p className="why-note">같은 관계·과거 증여 조건으로 매번 처음부터 다시 계산했어요.</p></div>
+
+      <div className="small-notice"><Icon name="info" size={18} /><p><strong>증여세는 받는 사람이 내요</strong><span>증여자가 수증자의 세금을 대신 부담하면 그 금액도 추가 증여로 판단될 수 있어요.</span></p></div>
+      <div className="res-actions"><button type="button" className="btn-secondary" onClick={onRecalc}><Icon name="refresh" size={18} />조건 바꿔서 다시 계산하기</button><button type="button" className="btn-text" onClick={onReset}>입력값 초기화</button></div>
+    </div>
+  );
 }
-function App() { return (<><a className="skip-link" href="#main">본문 바로가기</a><Header /><main id="main"><GuideList /></main><Footer /><Toast /></>); }
+
+/* =========================================================
+   22. Step Form
+   ========================================================= */
+const STEPS = ["관계", "증여재산", "과거 증여", "추가 조건"];
+const STEP_TITLES = ["누가 누구에게 주나요?", "얼마를 증여하나요?", "최근에 같은 사람에게 받은 증여가 있나요?", "추가로 확인할 조건이 있어요"];
+let priorSeq = 1;
+const INITIAL = { giftDate: TODAY, relationship: "parentToChild", recipientMinor: false, otherRelativeOk: true, parentDeceased: false, propertyType: "cash", amount: "", burdened: false,
+  priorMode: "no", priorGifts: [], mcType: "none", mcDate: "", mcUsed: "", willFile: "yes" };
+
+function GiftCalculator() {
+  const [s, setS] = useState(INITIAL);
+  const [step, setStep] = useState(0);
+  const [errors, setErrors] = useState({});
+  const [submitted, setSubmitted] = useState(false);
+  const [scrollTick, setScrollTick] = useState(0);
+  const formRef = useRef(null), stepHeadRef = useRef(null), resultColRef = useRef(null), headingRef = useRef(null), lastRef = useRef(null);
+  const set = (p) => setS((x) => ({ ...x, ...p }));
+  const values = { ...s, amount: parseCurrencyInput(s.amount), mcUsed: nz(parseCurrencyInput(s.mcUsed)),
+    priorGifts: s.priorMode === "yes" ? s.priorGifts.map((p) => ({ ...p, amount: parseCurrencyInput(p.amount), paidTax: nz(parseCurrencyInput(p.paidTax)) })) : [] };
+  const liveErrors = validateInputs(values);
+  const key = JSON.stringify(values);
+  const result = useMemo(() => (Object.keys(liveErrors).length ? null : calculateGiftTax(values)), [key]);
+  if (submitted && result) lastRef.current = result;
+  const shown = submitted ? lastRef.current : null;
+  const stale = submitted && !result;
+  const cfg = resolveGiftTaxConfig(iso.test(s.giftDate) ? s.giftDate : TODAY) || GIFT_TAX_CONFIG[GIFT_TAX_CONFIG.length - 1];
+  const rel = cfg.relationshipTypes[s.relationship];
+
+  useEffect(() => {
+    if (!scrollTick) return;
+    const col = resultColRef.current; if (!col) return;
+    const stacked = window.matchMedia("(max-width: 1023px)").matches;
+    const top = col.getBoundingClientRect().top;
+    if (top < 64 || top > window.innerHeight * 0.55) scrollToEl(stacked ? col : document.getElementById("calculator"));
+    const t = afterScroll(() => headingRef.current && headingRef.current.focus({ preventScroll: true }));
+    return () => clearTimeout(t);
+  }, [scrollTick]);
+
+  const stepOf = (k) => (["date", "relationship"].includes(k) ? 0 : k === "amount" ? 1 : k.startsWith("prior") ? 2 : 3);
+  const goStep = (n) => { setStep(n); setTimeout(() => stepHeadRef.current && stepHeadRef.current.focus(), 0); };
+  const onSubmit = (ev) => {
+    ev.preventDefault();
+    const errs = validateInputs(values);
+    if (step < STEPS.length - 1) { const mine = Object.fromEntries(Object.entries(errs).filter(([k]) => stepOf(k) === step)); setErrors(mine); if (!Object.keys(mine).length) goStep(step + 1); return; }
+    setErrors(errs);
+    if (Object.keys(errs).length) { goStep(Math.min(...Object.keys(errs).map(stepOf))); return; }
+    setSubmitted(true); setScrollTick((n) => n + 1);
+  };
+  const onRecalc = () => { goStep(0); scrollToEl(formRef.current); };
+  const onReset = () => { setS(INITIAL); setErrors({}); setSubmitted(false); lastRef.current = null; goStep(0); scrollToEl(formRef.current); toast("입력값을 초기화했어요."); };
+  const updPrior = (id, p) => set({ priorGifts: s.priorGifts.map((x) => (x.id === id ? { ...x, ...p } : x)) });
+  const amt = values.amount;
+  const showMc = cfg.marriageChildbirthRules && rel.ascendantGiver;
+
+  return (
+    <section className="calc-section" id="calculator" aria-label="증여세 계산기"><div className="container"><div className="calc-shell">
+      <form className="calc-form" ref={formRef} onSubmit={onSubmit} noValidate aria-labelledby="step-title">
+        <div className="field"><label className="field-label" htmlFor="gift-date">언제 증여하나요?</label>
+          <div className={"input-wrap date" + (errors.date ? " is-invalid" : "")}><input id="gift-date" type="date" value={s.giftDate} onChange={(e) => set({ giftDate: e.target.value })} aria-invalid={!!errors.date} aria-describedby={errors.date ? "gift-date-error" : "gift-date-help"} /></div>
+          <FieldError id="gift-date-error" message={errors.date} />
+          <p id="gift-date-help" className="field-help">증여일에 시행 중인 기준으로 계산해요. <span className="badge badge-brand">{cfg.updatedAt} 기준 확인</span></p></div>
+        <div className="stepbar" aria-hidden="true"><span style={{ width: `${((step + 1) / STEPS.length) * 100}%` }}></span></div>
+        <ol className="step-nav" aria-label="입력 단계">{STEPS.map((t, i) => <li key={t}><button type="button" className={"step-pill" + (i === step ? " is-current" : "")} aria-current={i === step ? "step" : undefined} onClick={() => goStep(i)}>{i + 1}. {t}</button></li>)}</ol>
+        <h2 id="step-title" className="form-title step-title" ref={stepHeadRef} tabIndex={-1} aria-live="polite"><span className="step-count">{step + 1} / {STEPS.length}</span>{STEP_TITLES[step]}</h2>
+
+        {step === 0 && (<>
+          <fieldset className="field"><legend className="sr-only">관계</legend>
+            <Cards name="rel" value={s.relationship} onChange={(v) => set({ relationship: v })} options={Object.entries(cfg.relationshipTypes).map(([k, r]) => ({ v: k, l: r.label }))} /></fieldset>
+          <p className="field-help">주는 사람을 <b>증여자</b>, 받는 사람을 <b>수증자</b>라고 해요.</p>
+          {rel.ascendantGiver && (<fieldset className="field"><legend className="field-label">받는 {rel.receiver}는 성인인가요? (증여일 기준 만 19세)</legend>
+            <Cards name="minor" value={s.recipientMinor} onChange={(v) => set({ recipientMinor: v })} options={[{ v: false, l: "성인" }, { v: true, l: "미성년자" }]} /></fieldset>)}
+          {s.relationship === "grandparentToGrandchild" && <label className="check-row"><input type="checkbox" checked={s.parentDeceased} onChange={(e) => set({ parentDeceased: e.target.checked })} /><span><strong>손자녀의 부모(조부모의 자녀)가 이미 사망했어요</strong><small>이 경우 세대생략 할증을 하지 않아요.</small></span></label>}
+          {s.relationship === "otherRelative" && <label className="check-row"><input type="checkbox" checked={s.otherRelativeOk} onChange={(e) => set({ otherRelativeOk: e.target.checked })} /><span><strong>6촌 이내 혈족 또는 4촌 이내 인척이에요</strong><small>형제자매, 삼촌·이모, 사위·며느리 등이 해당돼요.</small></span></label>}
+          <FieldError id="rel-error" message={errors.relationship} />
+          {s.relationship === "nonRelative" && <p className="field-help">가족이 아닌 사람에게 받으면 증여재산공제가 없어요.</p>}
+        </>)}
+
+        {step === 1 && (<>
+          <fieldset className="field"><legend className="field-label">무엇을 주나요?</legend>
+            <Cards name="ptype" value={s.propertyType} onChange={(v) => set({ propertyType: v })} options={Object.entries(PROPERTY_TYPES).map(([k, p]) => ({ v: k, l: p.label, d: p.desc }))} /></fieldset>
+          <MoneyInput id="amount" label={s.propertyType === "cash" ? "증여금액" : "평가된 증여재산가액"} value={s.amount} onChange={(v) => set({ amount: v })} error={errors.amount}
+            help={s.propertyType === "cash" ? "" : "증여세는 세법상 평가한 재산가액을 기준으로 계산될 수 있어요. 매매가를 그대로 쓰지 말고 평가된 금액을 입력해주세요."} />
+          <ul className="quick-amounts" aria-label="금액 빠르게 넣기">{[10000000, 30000000, 50000000, 100000000, 300000000, 500000000].map((a) => <li key={a}><button type="button" className="chip" aria-pressed={amt === a} onClick={() => set({ amount: a.toLocaleString("ko-KR") })}>{formatKoreanCurrency(a).replace("원", "원")}</button></li>)}</ul>
+          {s.propertyType === "realEstate" && <label className="check-row"><input type="checkbox" checked={s.burdened} onChange={(e) => set({ burdened: e.target.checked })} /><span><strong>대출·보증금 등 채무도 함께 넘겨받아요</strong><small>부담부증여는 일반 증여와 따로 계산해야 해요.</small></span></label>}
+          <p className="field-help">비상장주식, 해외재산, 신탁, 저가양수·고가양도, 채무면제 등 특수한 증여는 지원하지 않아요.</p>
+        </>)}
+
+        {step === 2 && (<>
+          <fieldset className="field"><legend className="sr-only">과거 증여 여부</legend>
+            <Cards name="pm" value={s.priorMode} onChange={(v) => set({ priorMode: v })} three options={[{ v: "no", l: "없어요" }, { v: "yes", l: "있어요" }, { v: "unknown", l: "잘 모르겠어요", d: "간편 예상" }]} /></fieldset>
+          <p className="field-help" aria-live="polite">{iso.test(s.giftDate) ? `이번 증여일 기준 ${addYears(s.giftDate, -10).replace(/-/g, ".")} 이후 10년 동안 받은 증여를 확인해요.` : ""}{s.priorMode === "no" ? " 이 기간에 합산할 과거 증여가 없다고 가정해요." : ""}</p>
+          {s.priorMode === "yes" && (<>
+            {s.priorGifts.map((p, i) => (<fieldset className="fam-card" key={p.id}><legend>과거 증여 {i + 1}</legend>
+              <div className="fam-grid">
+                <div><label className="mini-label" htmlFor={`pd-${p.id}`}>증여일</label><div className={"input-wrap sm date" + (errors[`prior-${p.id}`] ? " is-invalid" : "")}><input id={`pd-${p.id}`} type="date" value={p.date} onChange={(e) => updPrior(p.id, { date: e.target.value })} aria-describedby={errors[`prior-${p.id}`] ? `prior-${p.id}-error` : undefined} /></div></div>
+                <div><label className="mini-label" htmlFor={`pg-${p.id}`}>누가 주었나요?</label><select id={`pg-${p.id}`} className="select" value={p.giverType} onChange={(e) => updPrior(p.id, { giverType: e.target.value })}>{Object.entries(PRIOR_GIVER_TYPES).map(([k, l]) => <option key={k} value={k}>{l}</option>)}</select></div>
+              </div>
+              <MoneyInput id={`pa-${p.id}`} label="증여재산가액" value={p.amount} onChange={(v) => updPrior(p.id, { amount: v })} sub />
+              <MoneyInput id={`pt-${p.id}`} label="당시 납부한 증여세 (있다면)" value={p.paidTax} onChange={(v) => updPrior(p.id, { paidTax: v })} sub />
+              <FieldError id={`prior-${p.id}-error`} message={errors[`prior-${p.id}`]} />
+              <button type="button" className="btn-text" onClick={() => set({ priorGifts: s.priorGifts.filter((x) => x.id !== p.id) })}>이 증여 삭제</button></fieldset>))}
+            <button type="button" className="btn-secondary add-fam" onClick={() => set({ priorGifts: [...s.priorGifts, { id: priorSeq++, date: "", giverType: "same", amount: "", paidTax: "" }] })}><Icon name="plus" size={18} />과거 증여 추가</button>
+            <FieldError id="prior-error" message={errors.prior} />
+          </>)}
+          {s.priorMode === "unknown" && <div className="status is-no"><Icon name="alert" size={20} /><p><strong>간편 예상으로 계산해요</strong><span>과거 합산대상 증여가 있다면 실제 증여세가 크게 달라질 수 있어요.</span></p></div>}
+        </>)}
+
+        {step === 3 && (<>
+          {showMc && (<fieldset className="field"><legend className="field-label">혼인이나 출산과 관련된 증여인가요?</legend>
+            <Cards name="mc" value={s.mcType} onChange={(v) => set({ mcType: v })} three options={[{ v: "none", l: "해당 없어요" }, { v: "marriage", l: "혼인", d: "혼인신고일 전후 2년" }, { v: "birth", l: "출산·입양", d: "출생·입양일부터 2년" }]} />
+            {s.mcType !== "none" && (<div className="fam-grid">
+              <div className="field"><label className="mini-label" htmlFor="mc-date">{s.mcType === "marriage" ? "혼인신고일 (예정일)" : "출생·입양일"}</label><div className="input-wrap sm date"><input id="mc-date" type="date" value={s.mcDate} onChange={(e) => set({ mcDate: e.target.value })} /></div></div>
+              <MoneyInput id="mc-used" label="이전에 받은 혼인·출산 공제" value={s.mcUsed} onChange={(v) => set({ mcUsed: v })} sub />
+            </div>)}
+            <p className="field-help">날짜를 확인할 수 있을 때만 추가 공제를 반영해요.</p></fieldset>)}
+          <fieldset className="field"><legend className="field-label">법정 신고기한 안에 신고할 예정인가요?</legend>
+            <Cards name="file" value={s.willFile} onChange={(v) => set({ willFile: v })} options={[{ v: "yes", l: "네", d: iso.test(s.giftDate) && resolveGiftTaxConfig(s.giftDate) ? `${reportingDeadline(s.giftDate, cfg)}까지` : "" }, { v: "unknown", l: "아직 모르겠어요", d: "신고세액공제를 빼고 계산해요" }]} /></fieldset>
+          {!showMc && <p className="field-help">선택한 관계에서는 추가로 확인할 공제 조건이 없어요.</p>}
+        </>)}
+
+        <div className="step-actions">
+          {step > 0 && <button type="button" className="btn-secondary" onClick={() => goStep(step - 1)}>이전</button>}
+          <button type="submit" className="btn btn-primary submit-btn">{step < STEPS.length - 1 ? "다음" : "예상 증여세 계산하기"}</button>
+        </div>
+      </form>
+
+      <div className="result-col" ref={resultColRef}><div className="result-panel">
+        <p className="sr-only" aria-live="polite">{shown && !stale ? (shown.state === "needInfo" ? "부담부증여는 추가 계산이 필요해요." : `예상 증여세는 ${formatCurrency(shown.finalTax)}이에요.`) : ""}</p>
+        {shown ? <ResultView r={shown} stale={stale} headingRef={headingRef} onRecalc={onRecalc} onReset={onReset} /> : <ResultEmpty />}
+      </div></div>
+    </div>
+
+    <div className="detail-stack"><div className="cond-grid">
+      <article className="cond-card"><h3>부동산을 증여받으면 다른 세금도 생길 수 있어요</h3><p className="card-text">이 계산기는 증여세만 계산해요. 부동산을 증여받는 사람은 취득세도 따로 내요.</p>
+        <AppLink href="/calculators/acquisition-tax" className="more-link">취득세 계산하기 <Icon name="arrow-right" size={16} strokeWidth={2.2} /></AppLink></article>
+      <article className="cond-card"><h3>증여세와 상속세는 뭐가 다른가요?</h3><p className="card-text">증여세는 살아 있는 사람이 재산을 무상으로 넘길 때, 상속세는 사망으로 재산이 넘어갈 때 검토하는 세금이에요.</p>
+        <AppLink href="/calculators/inheritance-tax" className="more-link">상속세 계산하기 <Icon name="arrow-right" size={16} strokeWidth={2.2} /></AppLink></article>
+    </div></div>
+    </div></section>
+  );
+}
+
+/* =========================================================
+   23. Sections
+   ========================================================= */
+function RelatedCard({ calc }) {
+  if (calc.soon) return (<div className="calc-card is-soon" aria-disabled="true"><span className="icon-box is-muted"><Icon name={calc.icon} /></span><div className="calc-text"><h3>{calc.name}</h3><p>{calc.desc}</p></div><span className="badge badge-soon">준비 중</span></div>);
+  return <CalculatorCard calc={calc} />;
+}
+function RelatedCalculators() {
+  return (<section className="section tight-top" aria-labelledby="related-title"><div className="container"><SectionHead id="related-title" title="재산을 이전하기 전에 같이 계산해보세요" moreHref="/calculators" moreLabel="전체 계산기" />
+    <ul className="calc-grid cols-3">{RELATED_CALCULATORS.map((c) => <li key={c.id}><RelatedCard calc={c} /></li>)}</ul></div></section>);
+}
+function GuideSection() {
+  const blocks = [
+    ["증여세는 어떻게 계산하나요?", "이번 증여재산에 10년 안에 같은 사람에게 받은 증여를 합치고, 관계별 증여재산공제를 뺀 과세표준에 10~50% 누진세율을 적용해요. 기한 안에 신고하면 신고세액공제 3%를 빼줘요."],
+    ["증여재산공제란 무엇인가요?", `관계별로 10년 동안 세금 없이 받을 수 있는 한도예요. 배우자 ${formatKoreanCurrency(L.spouse)}, 직계존속에게 받는 성인 ${formatKoreanCurrency(L.ascendant)}·미성년 ${formatKoreanCurrency(L.ascendantMinor)}, 직계비속에게 받는 부모 ${formatKoreanCurrency(L.descendant)}, 기타 친족 ${formatKoreanCurrency(L.otherRelative)}이에요. '면제한도'라고도 부르지만 정확히는 공제예요.`],
+    ["아버지와 어머니에게 각각 받으면 어떻게 계산하나요?", "직계존속이 준 증여는 그 배우자도 같은 사람으로 보아 합산해요. 또 부모·조부모 등 직계존속 전체가 공제 한도를 함께 써요. 그래서 나눠 받는다고 공제가 두 번 생기지 않아요."],
+    ["여러 번 나눠서 증여하면 세금이 줄어드나요?", "10년 안에 같은 사람에게 받은 증여는 합산해서 다시 계산하기 때문에, 짧은 기간에 나눠 받는 것만으로는 세금이 줄지 않아요."],
+    ["조부모가 손자녀에게 증여하면 세금이 달라지나요?", "세대를 건너뛴 증여라 산출세액의 30%(미성년자가 20억원 넘게 받으면 40%)가 더해져요. 손자녀의 부모가 사망한 경우는 예외예요."],
+    ["결혼이나 출산과 관련된 증여 공제가 있나요?", "2024년 이후 증여부터 혼인신고일 전후 2년, 자녀 출생·입양일부터 2년 안에 직계존속에게 받으면 일반 공제와 별도로 합계 1억원까지 더 공제돼요."],
+    ["증여세 신고는 언제까지 하나요?", "증여일이 속하는 달의 말일부터 3개월 안에 받는 사람의 주소지 관할 세무서에 신고해요. 예를 들어 9월 24일에 받았다면 12월 31일까지예요."],
+  ];
+  return (<section className="section band" id="guide" aria-label="증여세 안내"><div className="container">{blocks.map(([t, p], i) => (
+    <div className="content-block" key={t}><h2>{t}</h2><div className="prose"><p>{p}</p></div>{i === 2 && <AdSlot id="guide-middle" label="정보 콘텐츠 중간" bare />}</div>))}</div></section>);
+}
+function FaqSection() {
+  const [open, setOpen] = useState({ [FAQ[0].id]: true });
+  return (<section className="section" id="faq" aria-labelledby="faq-title"><div className="container"><SectionHead id="faq-title" title="자주 묻는 질문" />
+    <ul className="faq-list">{FAQ.map((q) => { const o = !!open[q.id]; return (<li className="faq-item" key={q.id}><h3 className="faq-q"><button type="button" id={`faq-btn-${q.id}`} className="faq-toggle" aria-expanded={o} aria-controls={`faq-panel-${q.id}`} onClick={() => setOpen((x) => ({ ...x, [q.id]: !x[q.id] }))}>{q.q}<Icon name="chevron-right" size={20} strokeWidth={2.2} /></button></h3>
+      <div id={`faq-panel-${q.id}`} role="region" aria-labelledby={`faq-btn-${q.id}`} className="faq-a" hidden={!o}><p>{q.a}</p></div></li>); })}</ul></div></section>);
+}
+function BasisSection() {
+  return (<section className="section band" id="basis" aria-labelledby="basis-title"><div className="container"><div className="trust-grid">
+    <div><h2 id="basis-title">어떤 기준으로 계산하나요?</h2><p className="section-desc">증여일에 시행 중인 기준을 사용해요. 이름·주민등록번호 없이 관계와 금액, 날짜만 받아요.</p>
+      <div className="notice-box"><Icon name="info" size={20} /><div><strong>참고용으로 확인해주세요</strong>
+        <p>이 계산기는 입력한 증여재산가액, 증여자와 수증자의 관계, 과거 증여내역 및 지원되는 공제조건을 바탕으로 증여세를 예상하는 참고 도구입니다. 부담부증여, 비상장주식, 저가양수·고가양도, 해외재산, 신탁, 법인 관련 거래 등 복잡한 증여는 실제 신고 결과와 차이가 클 수 있습니다.</p></div></div></div>
+    <div className="basis-card"><div className="basis-head"><strong>증여세 계산 기준</strong><span className="badge badge-brand">2019.01.01 이후 증여</span></div>
+      <dl>
+        <div className="basis-row"><dt>증여재산공제 (10년)</dt><dd>배우자 6억원, 직계존속→성인 5천만원·미성년 2천만원, 직계비속→직계존속 5천만원, 기타 친족 1천만원</dd></div>
+        <div className="basis-row"><dt>혼인·출산 공제</dt><dd>2024.1.1 이후 직계존속 증여, 합계 1억원 (날짜 확인 시에만)</dd></div>
+        <div className="basis-row"><dt>합산</dt><dd>10년 이내 같은 사람(직계존속이면 그 배우자 포함) 1천만원 이상</dd></div>
+        <div className="basis-row"><dt>세율</dt><dd>1억원 이하 10%, 5억원 20%, 10억원 30%, 30억원 40%, 초과 50%</dd></div>
+        <div className="basis-row"><dt>세대생략 할증</dt><dd>30% (미성년자 20억원 초과 40%), 부모 사망 시 제외</dd></div>
+        <div className="basis-row"><dt>세액공제</dt><dd>합산된 과거 증여세 공제, 신고세액공제 3%</dd></div>
+        <div className="basis-row"><dt>과세최저한·원 단위</dt><dd>과세표준 50만원 미만 과세 제외, 원 미만 절사</dd></div>
+        <div className="basis-row"><dt>공식 출처</dt><dd><ul className="source-list">{GIFT_COMMON.officialSources.map((x) => (
+          <li key={x.desc}><a className="source-link" href={x.url} target="_blank" rel="noopener noreferrer"><span><span className="src-name">{x.name}</span><span className="src-desc">{x.desc}</span></span><Icon name="external" size={18} /><span className="sr-only">(새 탭에서 열림)</span></a></li>))}</ul></dd></div>
+        <div className="basis-row"><dt>마지막 업데이트</dt><dd><time dateTime={PAGE.updatedAt.replace(/\./g, "-")}>{PAGE.updatedAt}</time></dd></div>
+      </dl></div></div></div></section>);
+}
+function RelatedArticles() {
+  if (!RELATED_ARTICLES.length) return null;
+  return (<section className="section" aria-labelledby="articles-title"><div className="container"><SectionHead id="articles-title" title="같이 보면 좋은 생활정보" moreHref="/guide" moreLabel="생활정보 전체보기" /><ul className="article-grid">{RELATED_ARTICLES.map((a) => <li key={a.id}><ArticleCard article={a} /></li>)}</ul></div></section>);
+}
+function useStructuredData() { /* 구조화 데이터(WebApplication·BreadcrumbList)는 <head>에 정적으로 넣었어요. Google FAQ 리치결과 종료(2026)로 FAQPage는 쓰지 않고, 화면의 FAQ만 유지해요. */ }
+function App() {
+  useStructuredData();
+  return (<><a className="skip-link" href="#calculator">계산기로 바로가기</a><Header />
+    <main id="main"><Breadcrumb /><PageHead /><GiftCalculator /><AdSlot id="after-result" label="결과·계산 설명 이후" /><RelatedCalculators /><GuideSection /><FaqSection /><AdSlot id="after-faq" label="FAQ 이후" /><BasisSection /><RelatedArticles /></main>
+    <Footer /><Toast /></>);
+}
 ReactDOM.createRoot(document.getElementById("root")).render(<App />);
 
 </script>

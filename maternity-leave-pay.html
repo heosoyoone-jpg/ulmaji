@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="ko" data-theme="dark">
+<html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>생활정보 | 월급·대출·부동산·세금·육아 기준 쉽게 정리 - 얼마지?</title>
-<meta name="description" content="월급·수당, 대출·적금, 부동산, 세금, 육아·복지까지 생활 속에서 헷갈리는 기준 20가지를 공식자료로 확인해 쉽게 정리하고, 관련 계산기로 바로 연결해드려요.">
-<link rel="canonical" href="https://ulmaji.kr/guide">
+<title>출산전후휴가 급여 계산기 | 90일 급여·회사·고용보험 몫 - 얼마지?</title>
+<meta name="description" content="통상임금과 휴가 시작일, 회사 규모를 입력하면 출산전후휴가 90일(다태아 120일) 동안 회사와 고용보험이 각각 지급하는 예상 금액을 계산해요. 2026년 상한액 기준을 적용해요.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://ulmaji.kr/calculators/maternity-leave-pay">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="얼마지?">
-<meta property="og:title" content="생활정보 | 얼마지?">
-<meta property="og:description" content="월급·수당, 대출·적금, 부동산, 세금, 육아·복지까지 생활 속에서 헷갈리는 기준 20가지를 공식자료로 확인해 쉽게 정리하고, 관련 계산기로 바로 연결해드려요.">
-<meta property="og:url" content="https://ulmaji.kr/guide">
+<meta property="og:title" content="출산전후휴가 급여 계산기 | 90일 급여·회사·고용보험 몫 - 얼마지?">
+<meta property="og:description" content="통상임금과 휴가 시작일, 회사 규모를 입력하면 출산전후휴가 90일(다태아 120일) 동안 회사와 고용보험이 각각 지급하는 예상 금액을 계산해요. 2026년 상한액 기준을 적용해요.">
+<meta property="og:url" content="https://ulmaji.kr/calculators/maternity-leave-pay">
+<meta property="og:locale" content="ko_KR">
 <meta name="theme-color" content="#3366FF">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233366FF'/%3E%3Ctext x='32' y='46' font-family='Arial,sans-serif' font-size='40' font-weight='800' text-anchor='middle' fill='white'%3E%3F%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "얼마지", "item": "https://ulmaji.kr/"}, {"@type": "ListItem", "position": 2, "name": "생활정보", "item": "https://ulmaji.kr/guide"}]}, {"@type": "ItemList", "name": "얼마지 생활정보", "numberOfItems": 20, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://ulmaji.kr/guide/weekly-holiday-pay-15-hours", "name": "주 15시간 일하면 주휴수당은 얼마일까?"}, {"@type": "ListItem", "position": 2, "url": "https://ulmaji.kr/guide/minimum-wage-2027-monthly", "name": "2027 최저임금으로 월급을 계산하면?"}, {"@type": "ListItem", "position": 3, "url": "https://ulmaji.kr/guide/severance-pay-eligibility", "name": "퇴직금은 언제부터 받을 수 있을까?"}, {"@type": "ListItem", "position": 4, "url": "https://ulmaji.kr/guide/night-pay-hours", "name": "야간수당은 몇 시부터 적용될까?"}, {"@type": "ListItem", "position": 5, "url": "https://ulmaji.kr/guide/loan-100m-monthly-interest", "name": "대출 1억 받으면 한 달 이자는 얼마일까?"}, {"@type": "ListItem", "position": 6, "url": "https://ulmaji.kr/guide/loan-repayment-methods", "name": "원리금균등·원금균등, 매달 얼마씩 갚을까?"}, {"@type": "ListItem", "position": 7, "url": "https://ulmaji.kr/guide/monthly-savings-500k", "name": "적금 월 50만원씩 넣으면 만기 얼마일까?"}, {"@type": "ListItem", "position": 8, "url": "https://ulmaji.kr/guide/simple-vs-compound-interest", "name": "단리와 복리, 실제 이자는 얼마나 차이 날까?"}, {"@type": "ListItem", "position": 9, "url": "https://ulmaji.kr/guide/jeonse-to-monthly-rent", "name": "전세를 월세로 바꾸면 얼마가 적당할까?"}, {"@type": "ListItem", "position": 10, "url": "https://ulmaji.kr/guide/real-estate-brokerage-fee", "name": "부동산 중개수수료는 얼마까지 내야 할까?"}, {"@type": "ListItem", "position": 11, "url": "https://ulmaji.kr/guide/84sqm-to-pyeong", "name": "아파트 84㎡는 몇 평일까?"}, {"@type": "ListItem", "position": 12, "url": "https://ulmaji.kr/guide/housing-subscription-score", "name": "내 청약가점은 몇 점일까?"}, {"@type": "ListItem", "position": 13, "url": "https://ulmaji.kr/guide/freelancer-3-3-withholding", "name": "프리랜서 3.3% 떼면 실제 얼마 받을까?"}, {"@type": "ListItem", "position": 14, "url": "https://ulmaji.kr/guide/vat-included-excluded", "name": "부가세 포함·별도 금액은 어떻게 계산할까?"}, {"@type": "ListItem", "position": 15, "url": "https://ulmaji.kr/guide/home-acquisition-tax", "name": "집을 사면 취득세는 얼마나 나올까?"}, {"@type": "ListItem", "position": 16, "url": "https://ulmaji.kr/guide/gift-tax-from-parents", "name": "부모님께 돈을 받으면 증여세는 얼마나 나올까?"}, {"@type": "ListItem", "position": 17, "url": "https://ulmaji.kr/guide/parental-leave-benefit", "name": "육아휴직하면 매달 얼마 받을 수 있을까?"}, {"@type": "ListItem", "position": 18, "url": "https://ulmaji.kr/guide/maternity-leave-benefit", "name": "출산전후휴가 기간에는 얼마를 받을까?"}, {"@type": "ListItem", "position": 19, "url": "https://ulmaji.kr/guide/parent-benefit", "name": "부모급여는 몇 살까지 얼마 받을까?"}, {"@type": "ListItem", "position": 20, "url": "https://ulmaji.kr/guide/unemployment-benefit-duration", "name": "실업급여는 몇 개월 동안 얼마 받을 수 있을까?"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "@id": "https://ulmaji.kr/calculators/maternity-leave-pay#app", "name": "출산전후휴가 급여 계산기", "url": "https://ulmaji.kr/calculators/maternity-leave-pay", "description": "통상임금과 휴가 시작일, 회사 규모를 입력하면 출산전후휴가 90일(다태아 120일) 동안 회사와 고용보험이 각각 지급하는 예상 금액을 계산해요. 2026년 상한액 기준을 적용해요.", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "inLanguage": "ko-KR", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "KRW"}, "dateModified": "2026-09-24", "publisher": {"@type": "Organization", "name": "얼마지?", "alternateName": "ULMAJI", "url": "https://ulmaji.kr/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "홈", "item": "https://ulmaji.kr/"}, {"@type": "ListItem", "position": 2, "name": "계산기", "item": "https://ulmaji.kr/calculators"}, {"@type": "ListItem", "position": 3, "name": "육아·복지", "item": "https://ulmaji.kr/calculators#cat-parenting"}, {"@type": "ListItem", "position": 4, "name": "출산전후휴가 급여 계산기", "item": "https://ulmaji.kr/calculators/maternity-leave-pay"}]}]}</script>
 <style>
 /* =========================================================
    Design tokens
@@ -1254,398 +1256,6 @@ input:focus-visible,
 @media (min-width: 768px) { .priority-list { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; } }
 .priority-list li { text-align: left; }
 
-/* =========================================================
-   Parent benefit page additions
-   ========================================================= */
-.sum-grid.four { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.range-note { margin-top: 8px; font-size: 13.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.base-field { margin-top: -6px; }
-.pb-groups li { flex-direction: column; align-items: stretch; justify-content: center; gap: 4px; padding: 10px 0; }
-.pbg-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
-.pb-groups .g-amt { display: flex; flex-direction: column; align-items: flex-end; text-align: right; }
-.pb-groups .g-amt small { font-size: 12.5px; font-weight: 600; color: var(--muted); }
-.change-marker { display: inline-flex; align-items: center; gap: 4px; align-self: flex-start; height: 24px; padding: 0 9px; border-radius: 999px; background: var(--secondary); color: var(--brand-text); font-size: 12.5px; font-weight: 700; }
-.compare-grid.three { grid-template-columns: 1fr; }
-@media (min-width: 440px) { .compare-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-.pb-rows dt { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-.support-card { display: grid; gap: 14px; margin-top: 16px; padding: 22px; border-radius: var(--r-lg); background: var(--card); border: 1px solid var(--line); }
-@media (min-width: 900px) { .support-card { grid-template-columns: 1fr auto; align-items: center; padding: 26px 28px; } }
-.support-card h3 { font-size: 17px; font-weight: 800; letter-spacing: -.02em; }
-.support-card p { margin-top: 4px; font-size: 14.5px; color: var(--muted); line-height: 1.6; }
-.support-links { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; }
-.chip.is-disabled { color: var(--muted); background: var(--bg); cursor: default; gap: 6px; }
-.chip.is-disabled small { font-size: 12px; }
-
-/* =========================================================
-   Interest page additions
-   ========================================================= */
-.korean-amount { font-weight: 600; color: var(--text); }
-.period-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 8px; align-items: center; }
-.unit-seg .seg-option span { min-height: 48px; }
-.method-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
-.method-card { position: relative; cursor: pointer; }
-.method-card input { position: absolute; opacity: 0; width: 1px; height: 1px; pointer-events: none; }
-.method-card span { display: flex; flex-direction: column; gap: 4px; height: 100%; padding: 14px 16px; border: 1.5px solid var(--line-strong); border-radius: 14px; background: var(--card); transition: border-color .15s ease, background-color .15s ease; }
-.method-card strong { display: flex; align-items: center; gap: 6px; font-size: 16px; font-weight: 800; }
-.method-card strong::before { content: ""; width: 16px; height: 16px; border-radius: 50%; border: 2px solid var(--line-strong); flex: none; box-sizing: border-box; }
-.method-card small { font-size: 13.5px; color: var(--muted); line-height: 1.5; }
-.method-card:hover span { border-color: var(--primary); }
-.method-card input:checked + span { border-color: var(--primary); background: var(--secondary); }
-.method-card input:checked + span strong::before { border: 5px solid var(--primary); }
-.method-card input:focus-visible + span { box-shadow: var(--focus-ring); }
-.tax-toggle { margin: 4px 0 12px; padding: 12px 14px; border-radius: 14px; background: var(--bg); border: 1px solid var(--line); }
-
-.eq { margin-top: 12px; padding: 18px; border-radius: 16px; background: var(--card); border: 1px solid var(--line); }
-.eq-row { display: grid; grid-template-columns: 1fr; gap: 6px; margin-top: 12px; }
-@media (min-width: 560px) { .eq-row { grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; } }
-.eq-item { padding: 12px; border-radius: 12px; background: var(--bg); min-width: 0; }
-.eq-item span { display: block; font-size: 12.5px; font-weight: 600; color: var(--muted); }
-.eq-item strong { display: block; font-size: 15px; font-weight: 800; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
-.eq-item strong.is-blue { color: var(--brand-text); }
-.eq-item.is-total { background: var(--secondary); }
-.eq-op { justify-self: center; font-size: 18px; font-weight: 800; color: var(--muted); }
-
-.grow-steps { list-style: none; display: grid; gap: 4px; margin-top: 12px; }
-.grow-steps li { display: flex; justify-content: space-between; gap: 12px; padding: 10px 12px; border-radius: 10px; background: var(--bg); font-size: 14.5px; font-variant-numeric: tabular-nums; position: relative; }
-.grow-steps li + li::before { content: "↓"; position: absolute; top: -12px; left: 18px; font-size: 12px; color: var(--subtle); }
-.grow-steps strong { font-weight: 800; }
-.table-scroll { margin-top: 12px; overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; }
-.data-table { width: 100%; min-width: 420px; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
-.data-table th, .data-table td { padding: 10px 12px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap; }
-.data-table thead th { background: var(--bg); font-size: 12.5px; font-weight: 700; color: var(--muted); }
-.data-table th[scope="row"], .data-table thead th:first-child { text-align: left; }
-.data-table tbody tr:last-child th, .data-table tbody tr:last-child td { border-bottom: 0; font-weight: 800; }
-.diff-line { display: flex; justify-content: space-between; margin-top: 10px; padding: 12px; border-radius: 12px; background: var(--secondary); font-size: 14.5px; font-weight: 700; font-variant-numeric: tabular-nums; }
-.diff-line b { color: var(--brand-text); font-weight: 800; }
-.scenario-list { list-style: none; margin-top: 8px; }
-.scenario-list li { display: flex; justify-content: space-between; gap: 12px; padding: 10px 2px; border-bottom: 1px solid var(--line); font-size: 14.5px; font-variant-numeric: tabular-nums; }
-.scenario-list li:last-child { border-bottom: 0; }
-.scenario-list li.is-current span { font-weight: 800; color: var(--brand-text); }
-.scenario-list b { font-weight: 800; }
-.sub-gap { margin-top: 18px; }
-
-/* =========================================================
-   Loan page additions
-   ========================================================= */
-.method-cards.three { grid-template-columns: 1fr; }
-@media (min-width: 560px) { .method-cards.three { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-.ratio-foot { margin-top: 10px !important; font-size: 14px !important; font-weight: 500 !important; color: var(--muted); }
-.ratio-foot b { color: var(--text); font-weight: 800; }
-.first-block + .first-block { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--line); }
-.first-block .pb-rows { margin-top: 6px; }
-
-.detail-stack { display: grid; gap: 16px; margin-top: 16px; }
-.detail-stack.is-stale { opacity: .45; }
-.detail-card { padding: 22px; border-radius: var(--r-xl); background: var(--card); border: 1px solid var(--line); box-shadow: var(--shadow-sm); min-width: 0; }
-@media (min-width: 768px) { .detail-card { padding: 30px; } }
-.detail-title { font-size: clamp(19px, 4.2vw, 22px); font-weight: 800; letter-spacing: -.03em; }
-.detail-card .section-desc { font-size: 15px; }
-.cur-badge { margin-left: 6px; height: 22px; font-size: 12px; vertical-align: middle; }
-.diff-note { display: block; margin-top: 2px; font-size: 12.5px; font-weight: 500; color: var(--muted); }
-.resp-table tr.is-current { background: var(--secondary); }
-.resp-table tr.is-current th { color: var(--brand-text); }
-.resp-table tr.is-grace td, .resp-table tr.is-grace th { color: var(--muted); }
-.resp-table tbody tr:last-child th, .resp-table tbody tr:last-child td { font-weight: 600; }
-.sched-tabs { max-width: 360px; margin: 14px 0 4px; }
-.sched-more { margin-top: 12px; width: 100%; }
-@media (min-width: 640px) { .sched-more { width: auto; } }
-.rate-cards { list-style: none; display: grid; gap: 10px; margin-top: 14px; }
-@media (min-width: 768px) { .rate-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-.rate-cards li { padding: 16px; border-radius: 14px; background: var(--bg); border: 1.5px solid var(--line); }
-.rate-cards li.is-current { border-color: var(--primary); background: var(--secondary); }
-.rc-rate { font-size: 16px; font-weight: 800; font-variant-numeric: tabular-nums; }
-.rate-cards dl { margin: 8px 0 0; font-size: 14.5px; font-variant-numeric: tabular-nums; }
-.rate-cards dl div { display: flex; justify-content: space-between; gap: 8px; padding: 4px 0; }
-.rate-cards dt { color: var(--muted); }
-.rate-cards dd { margin: 0; font-weight: 800; }
-
-/* 모바일: 표를 카드로 바꿔 보여주기 */
-@media (max-width: 639px) {
-  .table-scroll.resp { border: 0; overflow: visible; }
-  .resp-table { min-width: 0; }
-  .resp-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
-  .resp-table, .resp-table tbody, .resp-table tr, .resp-table th, .resp-table td { display: block; width: 100%; }
-  .resp-table tr { margin-bottom: 10px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 14px; background: var(--card); }
-  .resp-table th[scope="row"] { padding: 0 0 8px; border: 0; font-size: 15px; font-weight: 800; white-space: normal; }
-  .resp-table td { display: flex; justify-content: space-between; gap: 12px; padding: 5px 0; border: 0; text-align: right; }
-  .resp-table td::before { content: attr(data-label); color: var(--muted); font-weight: 500; text-align: left; }
-}
-
-/* =========================================================
-   Savings page additions
-   ========================================================= */
-.mode-seg { margin-bottom: 20px; }
-.sum-item.wide { grid-column: 1 / -1; }
-.ratio-bar.slim { height: 10px; margin-top: 12px; }
-.tax-flow { list-style: none; display: grid; gap: 6px; margin-top: 12px; }
-.tax-flow > li { padding: 12px 14px; border-radius: 12px; background: var(--bg); font-variant-numeric: tabular-nums; }
-.tax-flow dl { margin: 8px 0 0; font-size: 14.5px; }
-.tax-flow dl div { display: flex; justify-content: space-between; gap: 12px; padding: 3px 0; }
-.tax-flow dd { margin: 0; font-weight: 800; }
-.tax-flow .tax-mid { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; background: var(--card); border: 1px dashed var(--line-strong); font-size: 14.5px; }
-.tax-flow .tax-mid b { font-weight: 800; }
-.tax-flow .tax-mid small { flex-basis: 100%; font-size: 12.5px; color: var(--muted); }
-.deposit-link { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 12px; margin-top: 12px; padding: 10px 14px; border-radius: 14px; background: var(--card); border: 1px solid var(--line); font-size: 14.5px; }
-
-/* =========================================================
-   Deposit page additions
-   ========================================================= */
-.explain-box p + strong { margin-top: 10px; }
-.deposit-link small { font-size: 13px; color: var(--muted); }
-.money-steps li:first-child { color: var(--muted); font-size: 13.5px; }
-
-/* =========================================================
-   Compound interest page additions
-   ========================================================= */
-.dual { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 14px; }
-.dual-card { min-width: 0; padding: 16px; border-radius: 16px; background: var(--card); border: 1.5px solid var(--line); }
-.dual-card.is-compound { border-color: var(--primary); }
-.dual-title { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 700; color: var(--muted); }
-.dual-amount { margin-top: 6px; font-size: clamp(19px, 5vw, 24px); font-weight: 800; letter-spacing: -.03em; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
-.dual-card.is-compound .dual-amount { color: var(--brand-text); }
-.dual-sub { margin-top: 4px; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.line-key { display: inline-block; flex: none; width: 22px; height: 0; border-top: 3px solid var(--primary); }
-.line-key.is-simple { border-top: 3px dashed var(--subtle); }
-.diff-card { margin-top: 10px; padding: 18px; border-radius: 16px; background: var(--secondary); }
-.diff-title { font-size: 15px; font-weight: 700; }
-.diff-amount { margin-top: 4px; font-size: clamp(28px, 7vw, 36px); font-weight: 800; letter-spacing: -.035em; color: var(--brand-text); font-variant-numeric: tabular-nums; }
-.diff-desc { margin-top: 6px; font-size: 14px; line-height: 1.6; color: var(--text); }
-.diff-desc + .diff-desc { color: var(--muted); }
-
-.chart { margin: 14px 0 0; }
-.chart svg { display: block; width: 100%; height: 240px; }
-.chart .axis { stroke: var(--line-strong); stroke-width: 1; }
-.chart .grid { stroke: var(--line); stroke-width: 1; stroke-dasharray: 2 4; }
-.chart .ln-simple { stroke: var(--subtle); stroke-width: 2.5; stroke-dasharray: 7 6; vector-effect: non-scaling-stroke; }
-.chart .ln-compound { stroke: var(--primary); stroke-width: 3; vector-effect: non-scaling-stroke; }
-.chart .tick { font-size: 12px; fill: var(--muted); font-family: inherit; }
-.chart-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-bottom: 8px; font-size: 13.5px; font-weight: 600; }
-.chart-legend span { display: inline-flex; align-items: center; gap: 8px; }
-.chart-scale { display: flex; justify-content: space-between; margin-top: 4px; font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.chart-alt { margin-top: 10px; font-size: 14px; line-height: 1.65; color: var(--muted); }
-
-.guide-calcs { list-style: none; display: grid; gap: 8px; margin-top: 14px; }
-@media (min-width: 768px) { .guide-calcs { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-.guide-calc { position: relative; display: flex; flex-direction: column; gap: 4px; height: 100%; padding: 16px 44px 16px 16px; border-radius: 14px; background: var(--bg); border: 1.5px solid var(--line); text-decoration: none; color: inherit; transition: border-color .15s ease; }
-a.guide-calc:hover { border-color: var(--primary); }
-.guide-calc strong { font-size: 15.5px; font-weight: 800; }
-.guide-calc span { font-size: 14px; color: var(--muted); line-height: 1.55; }
-.guide-calc > svg { position: absolute; right: 14px; top: 50%; transform: translateY(-50%); color: var(--brand-text); }
-.guide-calc.is-current { background: var(--secondary); border-color: transparent; padding-right: 16px; }
-
-/* =========================================================
-   Percentage page additions
-   ========================================================= */
-.type-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
-.type-card { position: relative; cursor: pointer; }
-.type-card input { position: absolute; opacity: 0; width: 1px; height: 1px; pointer-events: none; }
-.type-card span { display: flex; flex-direction: column; gap: 2px; height: 100%; min-height: 64px; padding: 12px 14px; border: 1.5px solid var(--line-strong); border-radius: 14px; background: var(--card); transition: border-color .15s ease, background-color .15s ease; }
-.type-card strong { font-size: 15.5px; font-weight: 800; }
-.type-card small { font-size: 13px; color: var(--muted); }
-.type-card:hover span { border-color: var(--primary); }
-.type-card input:checked + span { border-color: var(--primary); background: var(--secondary); }
-.type-card input:checked + span strong { color: var(--brand-text); }
-.type-card input:focus-visible + span { box-shadow: var(--focus-ring); }
-.type-form { margin-top: 6px; padding-top: 18px; border-top: 1px solid var(--line); }
-.type-form .form-title { margin-bottom: 12px; font-size: 19px; }
-.sentence { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; font-size: 17px; font-weight: 700; line-height: 1.4; }
-.sent-input { width: 130px; }
-.sent-input.is-wide { width: 190px; }
-.sent-input .input-wrap { height: 52px; }
-.sent-input .input-wrap input { font-size: 18px; }
-.live-note { margin-top: 18px; }
-.empty-ex { margin-top: 6px !important; font-size: 14px !important; color: var(--brand-text) !important; font-weight: 600; }
-.quick-grid { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 14px; }
-@media (min-width: 768px) { .quick-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-@media (min-width: 1024px) { .quick-grid.use-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
-.quick-card { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; width: 100%; height: 100%; min-height: 64px; padding: 14px; border: 1.5px solid var(--line); border-radius: 14px; background: var(--bg); text-align: left; cursor: pointer; transition: border-color .15s ease; }
-.quick-card:hover { border-color: var(--primary); }
-.quick-card strong { font-size: 15px; font-weight: 800; line-height: 1.4; }
-.quick-card > span:not(.badge) { font-size: 13px; color: var(--muted); }
-
-/* =========================================================
-   VAT page additions
-   ========================================================= */
-.vat-q { font-size: 19px !important; font-weight: 800 !important; margin-bottom: 12px !important; }
-@media (min-width: 1024px) { .quick-grid.use-four { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
-.pb-rows .is-sum.top { margin-top: 0; padding-top: 0; padding-bottom: 9px; border-top: 0; border-bottom: 1px solid var(--line); }
-.cond-card .pb-rows { margin-top: 10px; }
-
-.basis-line { margin-top: 10px; font-size: 13.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.basis-line b { color: var(--text); font-weight: 700; }
-.pay-blocks .more-link { margin-top: 8px; }
-
-/* Savings goal page additions */
-.res-amount.is-success { color: var(--success-text, var(--success)); font-size: clamp(26px, 6vw, 34px); }
-.progress-card { margin-top: 12px; padding: 16px; border-radius: 16px; background: var(--card); border: 1px solid var(--line); }
-.goal-bar { height: 12px; margin-top: 10px; border-radius: 999px; background: var(--line); overflow: hidden; }
-.goal-bar span { display: block; height: 100%; border-radius: inherit; background: var(--primary); }
-.progress-text { margin-top: 8px; font-size: 14.5px; font-variant-numeric: tabular-nums; }
-.progress-text b { font-weight: 800; }
-.detail-stack > .deposit-link { margin-top: 0; }
-
-/* Annual salary page additions */
-.link-btn { padding: 0; border: 0; background: none; font: inherit; font-weight: 800; color: var(--brand-text); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; min-height: 32px; }
-
-/* =========================================================
-   Year-end tax page additions
-   ========================================================= */
-.select { width: 100%; min-height: 48px; padding: 0 40px 0 14px; border: 1.5px solid var(--line-strong); border-radius: 12px; background: var(--card); color: var(--text); font: inherit; font-size: 15.5px; appearance: none; background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%); background-position: calc(100% - 20px) 50%, calc(100% - 14px) 50%; background-size: 6px 6px; background-repeat: no-repeat; }
-.select:focus-visible { outline: none; box-shadow: var(--focus-ring); border-color: var(--primary); }
-.year-row { display: grid; gap: 8px; }
-@media (min-width: 560px) { .year-row { grid-template-columns: minmax(0, 1fr) auto; align-items: center; } }
-.stepbar { height: 6px; margin: 18px 0 10px; border-radius: 999px; background: var(--line); overflow: hidden; }
-.stepbar span { display: block; height: 100%; background: var(--primary); border-radius: inherit; transition: width .25s ease; }
-@media (prefers-reduced-motion: reduce) { .stepbar span { transition: none; } }
-.step-nav { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
-@media (min-width: 560px) { .step-nav { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
-.step-pill { width: 100%; min-height: 44px; padding: 6px 8px; border: 1.5px solid var(--line); border-radius: 12px; background: var(--card); color: var(--muted); font: inherit; font-size: 13.5px; font-weight: 700; cursor: pointer; }
-.step-pill.is-current { border-color: var(--primary); background: var(--secondary); color: var(--brand-text); }
-.step-pill:focus-visible { outline: none; box-shadow: var(--focus-ring); }
-.step-title { display: flex; flex-direction: column; gap: 2px; margin: 18px 0 14px; font-size: 20px; }
-.step-title:focus { outline: none; }
-.step-count { font-size: 13px; font-weight: 700; color: var(--brand-text); }
-.ded-section + .ded-section { margin-top: 8px; }
-.ded-section .more-toggle span { font-weight: 800; }
-.more-body.plain { padding-top: 8px; }
-.fam-self { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; padding: 14px; border-radius: 14px; background: var(--secondary); margin-bottom: 10px; }
-.fam-self strong { font-weight: 800; }
-.fam-self > span { font-size: 13.5px; color: var(--muted); }
-.check-row.inline { margin: 0 0 0 auto; }
-.fam-card { margin: 0 0 10px; padding: 14px; border: 1.5px solid var(--line); border-radius: 14px; background: var(--card); }
-.fam-card legend { padding: 0 6px; font-weight: 800; font-size: 14.5px; }
-.fam-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; margin-bottom: 8px; }
-.fam-status { margin: 8px 0 4px; font-size: 13.5px; font-weight: 600; }
-.fam-status.is-ok { color: var(--success-text, var(--success)); }
-.fam-status.is-no { color: var(--error-text, #C23B3B); }
-.add-fam { width: 100%; }
-.step-actions { display: flex; gap: 8px; margin-top: 22px; }
-.step-actions .btn-secondary { flex: 0 0 auto; min-height: 52px; }
-.step-actions .submit-btn { flex: 1 1 auto; margin-top: 0; }
-.res-amount.is-refund { color: var(--success-text, var(--success)); }
-.res-amount.is-additional { color: var(--error-text, #C23B3B); }
-
-/* Comprehensive income tax additions */
-.flow-steps li.is-final { background: var(--secondary); }
-.flow-steps li.is-final span, .flow-steps li.is-final strong { font-weight: 800; color: var(--brand-text); }
-.cond-card .more-link { margin-top: 10px; }
-
-/* Acquisition tax additions */
-.seg.cols-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-@media (min-width: 480px) { .seg.cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
-.input-wrap.date input { padding-right: 14px; }
-.pb-rows dd { text-align: right; }
-
-/* Capital gains tax additions */
-.method-card.is-disabled { opacity: .55; cursor: not-allowed; }
-.method-card.is-disabled input { cursor: not-allowed; }
-@media (min-width: 560px) { .step-nav.five { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
-.step-nav.five { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.seg.cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.check-list { list-style: none; display: grid; gap: 6px; margin-top: 6px; }
-.check-list li { display: flex; gap: 8px; align-items: flex-start; font-size: 14.5px; line-height: 1.5; }
-.check-list li > span { flex: 0 0 22px; height: 22px; border-radius: 999px; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 800; }
-.check-list li.is-ok > span { background: var(--success-bg, #E7F6EF); color: var(--success-text, var(--success)); }
-.check-list li.is-no > span { background: var(--error-bg, #FFECEC); color: var(--error-text, #C23B3B); }
-.check-list li.is-q > span { background: var(--secondary); color: var(--brand-text); }
-.fam-grid .field { margin: 0; }
-
-.field-help.center { text-align: center; margin-top: 8px; }
-.inline-fix { margin-left: 8px; min-height: 32px; }
-
-.rate-slider { width: 100%; margin-top: 10px; min-height: 44px; accent-color: var(--primary); }
-.field-help.warn { color: var(--error-text, #C23B3B); }
-
-/* Housing subscription score additions */
-.step-nav.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.score-row + .score-row { margin-top: 14px; }
-.score-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-size: 15px; }
-.score-head strong { font-size: 18px; font-weight: 800; font-variant-numeric: tabular-nums; }
-.score-head small { font-size: 13px; color: var(--muted); font-weight: 600; }
-.why-static { padding: 14px 16px 0; font-weight: 800; font-size: 16px; }
-
-/* DSR additions */
-.dsr-bar { position: relative; margin: 12px 0 4px; }
-.dsr-mark { position: absolute; top: -4px; width: 2px; height: 18px; background: var(--text); }
-.dsr-legend { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; color: var(--muted); margin-top: 8px; font-variant-numeric: tabular-nums; flex-wrap: wrap; }
-.dt-sub { display: block; font-size: 12.5px; color: var(--muted); font-weight: 500; margin-top: 2px; }
-.eq-item small { display: block; font-size: 12.5px; color: var(--muted); }
-
-/* Pyeong additions */
-.py-card { max-width: 720px; margin: 0 auto; background: var(--card); border-radius: 20px; padding: 24px 20px; box-shadow: 0 1px 2px rgba(23,35,60,.04); border: 1px solid var(--line, #E5EAF2); }
-.py-narrow { max-width: 760px; }
-.py-row { display: flex; gap: 12px; align-items: flex-end; margin-top: 18px; }
-.py-input { flex: 1; margin: 0; }
-.input-wrap.xl input { font-size: 30px; font-weight: 800; min-height: 64px; font-variant-numeric: tabular-nums; }
-.py-swap { flex: 0 0 52px; height: 52px; margin-bottom: 6px; border-radius: 14px; border: 1px solid var(--line, #E5EAF2); background: var(--secondary); color: var(--primary); font-size: 22px; font-weight: 800; cursor: pointer; }
-.py-swap:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
-.py-result { margin: 18px 0 14px; padding: 18px; border-radius: 16px; background: var(--secondary); position: relative; min-height: 96px; }
-.py-from { font-size: 15px; color: var(--muted); font-weight: 600; font-variant-numeric: tabular-nums; }
-.py-to { font-size: 40px; font-weight: 800; color: var(--primary); line-height: 1.2; margin-top: 4px; font-variant-numeric: tabular-nums; word-break: break-all; padding-right: 88px; }
-.py-to.is-neutral { color: var(--text); }
-.py-copy { position: absolute; right: 14px; bottom: 14px; min-height: 44px; }
-.section-title { font-size: 22px; font-weight: 800; line-height: 1.35; margin-bottom: 10px; }
-.area-stack { list-style: none; display: grid; gap: 8px; margin-top: 16px; }
-.area-stack li { display: grid; gap: 2px; padding: 14px 16px; border-radius: 14px; background: var(--card); border: 1px solid var(--line, #E5EAF2); }
-.area-stack li strong { font-size: 16px; }
-.area-stack li span { font-size: 14px; color: var(--muted); }
-.py-table { width: 100%; border-collapse: collapse; margin-top: 12px; font-variant-numeric: tabular-nums; }
-.py-table th, .py-table td { text-align: right; padding: 12px 14px; border-bottom: 1px solid var(--line, #E5EAF2); }
-.py-table th { font-size: 14px; color: var(--muted); }
-@media (max-width: 480px) { .py-to { font-size: 32px; } }
-
-/* Work hours additions */
-.mode-seg.wide { max-width: 520px; margin: 0 auto 16px; }
-.py-copy-inline { min-height: 40px; padding: 6px 12px; }
-.day-card { padding-bottom: 10px; }
-.day-list { list-style: none; display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; margin: 12px 0; }
-.day-list li { display: grid; gap: 2px; text-align: center; padding: 8px 4px; border-radius: 12px; background: var(--secondary); font-size: 13px; font-variant-numeric: tabular-nums; }
-.day-list li strong { font-size: 13px; }
-@media (max-width: 520px) { .day-list { grid-template-columns: repeat(4, 1fr); } }
-
-/* Loan repayment additions */
-.ex-badge { display: inline-block; margin-bottom: 12px; }
-.lr-table td, .lr-table th { white-space: nowrap; font-size: 14px; }
-.lr-table tr.is-current th, .lr-table tr.is-current td { background: var(--secondary); font-weight: 700; }
-.lr-legend { display: flex; gap: 14px; font-size: 13px; color: var(--muted); margin: 10px 0 6px; }
-.lr-legend .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
-.sw.p, .lr-p { background: var(--primary); }
-.sw.i, .lr-i { background: repeating-linear-gradient(45deg, var(--secondary), var(--secondary) 3px, #A9BEFF 3px, #A9BEFF 6px); }
-.lr-bars { list-style: none; display: grid; gap: 4px; margin-bottom: 12px; }
-.lr-bars li { display: grid; grid-template-columns: 44px 1fr; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.lr-track { display: flex; height: 12px; border-radius: 6px; overflow: hidden; background: var(--bg); }
-.lr-p, .lr-i { height: 100%; }
-
-/* Unemployment additions */
-details.fam-card summary { cursor: pointer; font-weight: 700; min-height: 44px; display: flex; align-items: center; }
-.sum-item small { display: block; margin-top: 4px; font-size: 12.5px; color: var(--muted); }
-
-/* Child allowance additions */
-.res-state { font-size: 24px; font-weight: 800; margin: 2px 0 14px; }
-.sum-grid.three { grid-template-columns: repeat(3, 1fr); }
-@media (max-width: 480px) { .sum-grid.three { grid-template-columns: 1fr 1fr; } }
-.child-row { display: flex; gap: 8px; align-items: center; }
-.child-row .input-wrap { flex: 1; }
-.child-card { border-top: 1px solid var(--line, #E5EAF2); padding-top: 18px; margin-top: 18px; }
-.al-timeline { list-style: none; display: grid; gap: 0; margin: 8px 0; }
-.al-timeline li { position: relative; padding: 8px 0 14px 22px; display: grid; gap: 2px; font-variant-numeric: tabular-nums; }
-.al-timeline li::before { content: ""; position: absolute; left: 5px; top: 13px; width: 10px; height: 10px; border-radius: 50%; background: var(--card); border: 2px solid var(--primary); }
-.al-timeline li:not(:last-child)::after { content: ""; position: absolute; left: 10px; top: 25px; bottom: -8px; width: 2px; background: var(--secondary); }
-.al-timeline li.is-final::before { background: var(--primary); }
-.al-timeline li span { font-size: 14px; color: var(--muted); }
-
-/* Freelancer additions */
-.eyebrow { font-size: 14px; font-weight: 700; color: var(--primary); margin: 8px 0 -4px; }
-.res-unit { font-size: 18px; color: var(--text); font-weight: 700; }
-.tax-amt { font-size: 20px; }
-.split-bar { display: flex; height: 14px; border-radius: 7px; overflow: hidden; margin: 12px 0 6px; background: var(--bg); }
-.sb-net { background: var(--primary); }
-.sb-tax { background: repeating-linear-gradient(45deg, var(--secondary), var(--secondary) 3px, #A9BEFF 3px, #A9BEFF 6px); }
-.split-legend { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.multi-row { display: grid; grid-template-columns: 1fr 1.4fr auto; gap: 8px; align-items: center; margin-top: 8px; }
-.mini-input { min-height: 44px; border: 1px solid var(--line, #E5EAF2); border-radius: 12px; padding: 0 12px; font: inherit; }
-.mini-input:focus-visible { outline: 3px solid var(--primary); outline-offset: 1px; }
-
 /* 좁은 화면에서 입력 폼이 화면 밖으로 밀려나지 않게 (grid 자식 최소 너비 보정) */
 @media (max-width: 1023px) { .calc-shell { grid-template-columns: minmax(0, 1fr); } }
 .calc-shell > *, .calc-form, .result-col, .method-cards > *, .seg > *, .step-nav > * { min-width: 0; }
@@ -1661,72 +1271,6 @@ details.fam-card summary { cursor: pointer; font-weight: 700; min-height: 44px; 
 .rc-row, .pb-rows > div { gap: 8px; }
 .rc-row dd, .pb-rows dd { min-width: 0; overflow-wrap: anywhere; text-align: right; }
 .btn-secondary { max-width: 100%; white-space: normal; height: auto; min-height: 44px; }
-
-/* Guide / content pages */
-.article-wrap { max-width: 780px; }
-.guide-lead { margin-top: 14px; font-size: 18px; line-height: 1.75; font-weight: 500; }
-.guide-body { margin-top: 8px; }
-.guide-body h2 { font-size: 21px; font-weight: 800; letter-spacing: -.02em; margin: 36px 0 10px; }
-.guide-body p { font-size: 16.5px; line-height: 1.8; color: var(--text); margin-top: 10px; }
-.example-box { margin-top: 32px; padding: 20px; border-radius: var(--r-md, 16px); background: var(--secondary); }
-.example-box h2 { margin: 0 0 6px; font-size: 18px; }
-.example-box .ex-lead { font-size: 15px; color: var(--muted); }
-.example-box dl { margin: 12px 0 0; }
-.example-box .ex-row { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); font-size: 15px; font-variant-numeric: tabular-nums; }
-.example-box .ex-row dt { color: var(--muted); flex: none; max-width: 45%; }
-.example-box .ex-row dd { margin: 0; font-weight: 700; text-align: right; overflow-wrap: anywhere; }
-.example-box .ex-note { margin-top: 10px; font-size: 13.5px; color: var(--muted); }
-.note-list { margin-top: 10px; padding-left: 20px; }
-.note-list li { font-size: 16px; line-height: 1.75; margin-top: 6px; }
-.guide-cta { margin-top: 36px; padding: 22px; border-radius: var(--r-md, 16px); border: 1px solid var(--line); background: var(--card); }
-.guide-cta h2 { margin: 0; font-size: 19px; }
-.guide-cta p { margin-top: 4px; font-size: 15px; color: var(--muted); }
-.guide-cta .btn { margin-top: 14px; }
-.guide-cta ul { list-style: none; margin-top: 12px; display: grid; gap: 8px; }
-.guide-cta .more-calc { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 48px; padding: 0 14px; border-radius: 12px; background: var(--bg); text-decoration: none; font-weight: 600; font-size: 15px; }
-.guide-cta .more-calc svg { color: var(--brand-text); flex: none; }
-.guide-meta { margin-top: 28px; font-size: 14px; color: var(--muted); }
-.cat-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 24px; list-style: none; padding: 0; }
-.cat-tabs a { display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--line); text-decoration: none; font-weight: 600; font-size: 15px; color: var(--muted); }
-.cat-tabs a[aria-current="page"] { background: var(--primary); border-color: var(--primary); color: #fff; }
-.about-body h2 { font-size: 20px; font-weight: 800; margin: 32px 0 8px; }
-.about-body p { font-size: 16.5px; line-height: 1.8; margin-top: 8px; }
-.nf { text-align: center; padding: 72px 0 96px; }
-.nf .big { font-size: 64px; font-weight: 800; color: var(--brand-text); line-height: 1; }
-.nf h1 { margin-top: 16px; font-size: 26px; }
-.nf p { margin-top: 8px; color: var(--muted); }
-.nf-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 24px; }
-.btn-ghost { display: inline-flex; align-items: center; justify-content: center; height: 52px; padding: 0 22px; border-radius: 12px; border: 1px solid var(--line-strong, var(--line)); text-decoration: none; font-weight: 700; color: var(--text); }
-
-/* Guide article v2 (생활정보 20개) */
-.guide-cat { text-decoration: none; }
-.page-head h1 { overflow-wrap: anywhere; word-break: keep-all; }
-.guide-dates { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 10px; font-size: 14px; color: var(--muted); }
-.answer-box { margin-top: 4px; padding: 18px 20px; border-radius: var(--r-md, 16px); background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--primary); }
-.answer-box .guide-lead { margin: 0; font-size: 17.5px; }
-.guide-body { word-break: keep-all; overflow-wrap: anywhere; }
-.key-list { margin-top: 10px; padding-left: 20px; }
-.key-list li { font-size: 16.5px; line-height: 1.75; margin-top: 8px; }
-.key-list li::marker { color: var(--brand-text); }
-.ex-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
-.ex-tag { background: var(--card); color: var(--muted); }
-.example-box .ex-row dt { flex: 0 1 45%; max-width: none; min-width: 0; }
-.example-box .ex-row dd { flex: 1 1 55%; min-width: 0; }
-.faq-item h3 { margin-top: 18px; font-size: 17px; font-weight: 700; }
-.faq-item p { margin-top: 6px; }
-.cta-eyebrow { margin: 0 0 6px !important; font-size: 14px !important; font-weight: 700; color: var(--brand-text) !important; }
-.src-box { margin-top: 32px; }
-.src-lead { margin-top: 8px; font-size: 14px; color: var(--muted); line-height: 1.6; }
-.src-box .source-list { margin-top: 12px; list-style: none; padding: 0; }
-.src-box .basis-head { flex-wrap: wrap; }
-.src-box .basis-head strong { white-space: nowrap; }
-.src-text { display: block; min-width: 0; }
-.src-url { display: block; margin-top: 2px; font-size: 12.5px; color: var(--subtle); overflow-wrap: anywhere; }
-.source-link { min-width: 0; }
-.guide-meta { line-height: 1.7; }
-.guide-cta .btn { max-width: 100%; white-space: normal; height: auto; min-height: 52px; padding-top: 12px; padding-bottom: 12px; text-align: center; line-height: 1.4; }
-.cat-tabs .cnt { margin-left: 6px; font-size: 13px; font-weight: 700; opacity: .8; font-variant-numeric: tabular-nums; }
-@media (max-width: 480px) { .example-box .ex-row { flex-direction: column; gap: 2px; } .example-box .ex-row dt, .example-box .ex-row dd { flex: none; text-align: left; } }
 
 /* MEGA_MENU:BEGIN — 헤더 메가메뉴 (기존 토큰만 사용) */
 .header-inner { position: relative; }
@@ -1781,16 +1325,322 @@ details.fam-card summary { cursor: pointer; font-weight: 700; min-height: 44px; 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3938535658741734" crossorigin="anonymous"></script>
 </head>
 <body>
-<div id="root"><!--prerender:start--><a class="skip-link" href="#main">본문 바로가기</a><header class="site-header"><div class="container header-inner"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><nav class="nav-desktop" aria-label="주요 메뉴"><ul><li class="nav-item nav-item-calc"><button type="button" class="nav-link nav-trigger" aria-expanded="false" aria-controls="mega-calc">계산기<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-calc" class="mega mega-calc" hidden=""><div class="mega-grid"><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-work">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="근로·급여 계산기"><li><a href="/calculators/net-salary" class="mega-link">월급 실수령액</a></li><li><a href="/calculators/weekly-holiday-pay" class="mega-link">주휴수당</a></li><li><a href="/calculators/severance-pay" class="mega-link">퇴직금</a></li><li><a href="/calculators/annual-leave" class="mega-link">연차·연차수당</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-finance">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="금융·생활 계산기"><li><a href="/calculators/loan-interest" class="mega-link">대출이자</a></li><li><a href="/calculators/percentage" class="mega-link">퍼센트</a></li><li><a href="/calculators/compound-interest" class="mega-link">단리·복리 이자</a></li><li><a href="/calculators/deposit-interest" class="mega-link">예금이자</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-realestate">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="부동산 계산기"><li><a href="/calculators/dsr" class="mega-link">DSR</a></li><li><a href="/calculators/brokerage-fee" class="mega-link">중개보수</a></li><li><a href="/calculators/housing-subscription-score" class="mega-link">청약가점</a></li><li><a href="/calculators/rent-conversion" class="mega-link">전월세 환산</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-tax">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="세금 계산기"><li><a href="/calculators/freelancer-withholding" class="mega-link">프리랜서 3.3%</a></li><li><a href="/calculators/vat" class="mega-link">VAT</a></li><li><a href="/calculators/year-end-tax" class="mega-link">연말정산</a></li><li><a href="/calculators/comprehensive-income-tax" class="mega-link">종합소득세</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-parenting">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="육아·복지 계산기"><li><a href="/calculators/unemployment-benefit" class="mega-link">실업급여</a></li><li><a href="/calculators/parental-leave" class="mega-link">육아휴직급여</a></li><li><a href="/calculators/maternity-leave-pay" class="mega-link">출산전후휴가 급여</a></li><li><a href="/calculators/parent-benefit" class="mega-link">부모급여</a></li></ul></div></div><div class="mega-foot"><a href="/calculators" class="mega-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li class="nav-item nav-item-guide"><button type="button" class="nav-link nav-trigger is-current" aria-expanded="false" aria-controls="mega-guide">생활정보<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-guide" class="mega mega-guide" hidden=""><ul class="mega-guide-list"><li><a href="/guide?category=work" class="mega-guide-cat">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/weekly-holiday-pay-15-hours" class="mega-guide-pick">주 15시간 일하면 주휴수당은 얼마일까?</a></li><li><a href="/guide?category=finance" class="mega-guide-cat">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/loan-100m-monthly-interest" class="mega-guide-pick">대출 1억 받으면 한 달 이자는 얼마일까?</a></li><li><a href="/guide?category=realestate" class="mega-guide-cat">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/84sqm-to-pyeong" class="mega-guide-pick">아파트 84㎡는 몇 평일까?</a></li><li><a href="/guide?category=tax" class="mega-guide-cat">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/freelancer-3-3-withholding" class="mega-guide-pick">프리랜서 3.3% 떼면 실제 얼마 받을까?</a></li><li><a href="/guide?category=parenting" class="mega-guide-cat">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/parental-leave-benefit" class="mega-guide-pick">육아휴직하면 매달 얼마 받을 수 있을까?</a></li></ul><div class="mega-foot"><a href="/guide" class="mega-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li><a href="/about" class="nav-link">얼마지 소개</a></li></ul></nav><div class="header-actions"><button type="button" class="icon-btn" aria-label="계산기 검색"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7.5"></circle><path d="m20.5 20.5-4.2-4.2"></path></svg></button><a href="/calculators" class="btn btn-primary btn-sm hide-mobile">전체 계산기</a><button type="button" class="icon-btn show-mobile" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button></div></div><div id="mobile-menu" class="mobile-menu" hidden=""><nav aria-label="모바일 메뉴"><ul><li class="m-group"><button type="button" class="m-link m-trigger" aria-expanded="false" aria-controls="m-sub-calc">계산기<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-calc" class="m-sub" hidden="" aria-label="계산기 카테고리"><li><a href="/calculators#cat-work" class="m-sub-link">근로·급여</a></li><li><a href="/calculators#cat-finance" class="m-sub-link">금융·생활</a></li><li><a href="/calculators#cat-realestate" class="m-sub-link">부동산</a></li><li><a href="/calculators#cat-tax" class="m-sub-link">세금</a></li><li><a href="/calculators#cat-parenting" class="m-sub-link">육아·복지</a></li><li><a href="/calculators" class="m-sub-link is-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li class="m-group"><button type="button" class="m-link m-trigger is-current" aria-expanded="false" aria-controls="m-sub-guide">생활정보<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-guide" class="m-sub" hidden="" aria-label="생활정보 카테고리"><li><a href="/guide?category=work" class="m-sub-link">근로·급여</a></li><li><a href="/guide?category=finance" class="m-sub-link">금융·생활</a></li><li><a href="/guide?category=realestate" class="m-sub-link">부동산</a></li><li><a href="/guide?category=tax" class="m-sub-link">세금</a></li><li><a href="/guide?category=parenting" class="m-sub-link">육아·복지</a></li><li><a href="/guide" class="m-sub-link is-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li><a href="/about" class="m-link">얼마지 소개<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></li></ul></nav><a href="/calculators" class="btn btn-primary btn-block">전체 계산기</a></div></header><main id="main"><nav class="container breadcrumb" aria-label="현재 위치"><ol><li><a href="/">얼마지</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><span aria-current="page">생활정보</span></li></ol></nav><div class="container page-head"><h1>생활정보</h1><p class="page-desc">월급, 세금, 대출, 부동산, 육아·복지까지<br>생활 속에서 헷갈리는 기준을 쉽게 정리했어요.</p></div><section class="container" aria-label="생활정보 목록"><ul class="cat-tabs" aria-label="카테고리"><li><a href="/guide" aria-current="page">전체<span class="cnt">20</span></a></li><li><a href="/guide?category=work">근로·급여<span class="cnt">4</span></a></li><li><a href="/guide?category=finance">금융·생활<span class="cnt">4</span></a></li><li><a href="/guide?category=realestate">부동산<span class="cnt">4</span></a></li><li><a href="/guide?category=tax">세금<span class="cnt">4</span></a></li><li><a href="/guide?category=parenting">육아·복지<span class="cnt">4</span></a></li></ul><ul class="article-grid" style="margin-top: 0px;"><li><a href="/guide/weekly-holiday-pay-15-hours" class="article-card"><span class="article-cat">근로·급여</span><h3>주 15시간 일하면 주휴수당은 얼마일까?</h3><p>주휴수당이 생기는 15시간 기준을 어떻게 보는지, 금액은 어떻게 계산하는지 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/minimum-wage-2027-monthly" class="article-card"><span class="article-cat">근로·급여</span><h3>2027 최저임금으로 월급을 계산하면?</h3><p>2027년 최저임금 시급 10,700원을 일급·월급으로 바꾸면 얼마인지, 실수령액과는 무엇이 다른지 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/severance-pay-eligibility" class="article-card"><span class="article-cat">근로·급여</span><h3>퇴직금은 언제부터 받을 수 있을까?</h3><p>1년 이상 근무, 주 15시간 이상 등 퇴직금을 받기 위한 기본 조건과 계산 방법을 쉽게 풀었어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/night-pay-hours" class="article-card"><span class="article-cat">근로·급여</span><h3>야간수당은 몇 시부터 적용될까?</h3><p>밤 10시부터 오전 6시까지 일하면 붙는 50% 가산과, 연장근로와 겹칠 때의 계산을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/loan-100m-monthly-interest" class="article-card"><span class="article-cat">금융·생활</span><h3>대출 1억 받으면 한 달 이자는 얼마일까?</h3><p>1억원을 빌리면 첫 달 이자는 금리 ÷ 12로 어림할 수 있어요. 금리별 월 이자를 비교해봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/loan-repayment-methods" class="article-card"><span class="article-cat">금융·생활</span><h3>원리금균등·원금균등, 매달 얼마씩 갚을까?</h3><p>같은 대출이라도 상환방식에 따라 매달 내는 돈과 총이자가 달라요. 1억원 예시로 비교했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/monthly-savings-500k" class="article-card"><span class="article-cat">금융·생활</span><h3>적금 월 50만원씩 넣으면 만기 얼마일까?</h3><p>월 50만원 1년 적금의 이자와 세금을 계산했어요. 광고 금리보다 이자가 적은 이유도 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/simple-vs-compound-interest" class="article-card"><span class="article-cat">금융·생활</span><h3>단리와 복리, 실제 이자는 얼마나 차이 날까?</h3><p>단리와 복리는 1년까지는 같고 기간이 길수록 차이가 커져요. 1,000만원 예시로 비교했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/jeonse-to-monthly-rent" class="article-card"><span class="article-cat">부동산</span><h3>전세를 월세로 바꾸면 얼마가 적당할까?</h3><p>보증금을 월세로 바꿀 때 법으로 정한 전환율 상한과, 월세 금액을 계산하는 방법을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/real-estate-brokerage-fee" class="article-card"><span class="article-cat">부동산</span><h3>부동산 중개수수료는 얼마까지 내야 할까?</h3><p>매매·전세·월세별 중개보수 상한요율과 한도, 월세 거래금액 계산법을 예시와 함께 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/84sqm-to-pyeong" class="article-card"><span class="article-cat">부동산</span><h3>아파트 84㎡는 몇 평일까?</h3><p>전용 84㎡는 25.41평이에요. 그런데 흔히 34평이라고 부르는 이유와 ㎡·평 환산법을 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/housing-subscription-score" class="article-card"><span class="article-cat">부동산</span><h3>내 청약가점은 몇 점일까?</h3><p>무주택기간·부양가족·청약통장 기간으로 84점 만점 청약가점을 계산하는 방법을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/freelancer-3-3-withholding" class="article-card"><span class="article-cat">세금</span><h3>프리랜서 3.3% 떼면 실제 얼마 받을까?</h3><p>프리랜서 수입에서 3.3%를 떼면 실제로 얼마를 받는지, 떼인 세금은 어떻게 정산되는지 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/vat-included-excluded" class="article-card"><span class="article-cat">세금</span><h3>부가세 포함·별도 금액은 어떻게 계산할까?</h3><p>견적서의 ‘부가세 별도’와 영수증의 ‘부가세 포함’ 금액을 계산하는 방법을 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/home-acquisition-tax" class="article-card"><span class="article-cat">세금</span><h3>집을 사면 취득세는 얼마나 나올까?</h3><p>집값 구간별 취득세율과 지방교육세·농어촌특별세, 생애최초 감면까지 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/gift-tax-from-parents" class="article-card"><span class="article-cat">세금</span><h3>부모님께 돈을 받으면 증여세는 얼마나 나올까?</h3><p>부모님께 받은 돈의 증여세 공제 한도와 세율, 금액별 예상 세금을 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/parental-leave-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>육아휴직하면 매달 얼마 받을 수 있을까?</h3><p>2026년 육아휴직급여를 기간별 지급률과 상한액으로 계산하고, 1년 총액 예시를 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/maternity-leave-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>출산전후휴가 기간에는 얼마를 받을까?</h3><p>출산전후휴가 90일 동안 회사와 고용보험이 각각 얼마를 주는지, 2026년 상한액으로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/parent-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>부모급여는 몇 살까지 얼마 받을까?</h3><p>부모급여는 생후 23개월까지 받아요. 2026년 월 지급액과 어린이집을 다닐 때 받는 금액을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/unemployment-benefit-duration" class="article-card"><span class="article-cat">육아·복지</span><h3>실업급여는 몇 개월 동안 얼마 받을 수 있을까?</h3><p>실업급여를 받는 기간(120~270일)과 2026년 하루 상·하한액으로 받을 금액을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li></ul><p class="guide-meta">글마다 참고한 공식자료와 확인 날짜를 적고, 관련 계산기로 바로 이어지게 했어요.</p></section><div style="height: 64px;"></div></main><footer class="site-footer"><div class="container"><div class="footer-top"><div class="footer-brand"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><span class="en">ULMAJI</span></div><nav class="footer-nav" aria-label="하단 메뉴"><ul><li><a href="/calculators">계산기</a></li><li><a href="/guide">생활정보</a></li><li><a href="/about">얼마지 소개</a></li><li><a href="/terms">이용약관</a></li><li><a href="/privacy">개인정보처리방침</a></li><li><a href="mailto:heosoyoone@gmail.com">문의</a></li></ul></nav></div><p class="footer-disclaimer">계산 결과는 입력한 정보와 적용 기준에 따른 참고용 정보입니다. 실제 지급액 및 적용 여부는 개인의 조건에 따라 달라질 수 있습니다.</p><p class="footer-copy">© 2026 ULMAJI. ulmaji.kr</p></div></footer><div class="toast" role="status" aria-live="polite"></div><!--prerender:end--></div>
+<div id="root"><!--prerender:start--><a class="skip-link" href="#calculator">계산기로 바로가기</a><header class="site-header"><div class="container header-inner"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><nav class="nav-desktop" aria-label="주요 메뉴"><ul><li class="nav-item nav-item-calc"><button type="button" class="nav-link nav-trigger is-current" aria-expanded="false" aria-controls="mega-calc">계산기<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-calc" class="mega mega-calc" hidden=""><div class="mega-grid"><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-work">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="근로·급여 계산기"><li><a href="/calculators/net-salary" class="mega-link">월급 실수령액</a></li><li><a href="/calculators/weekly-holiday-pay" class="mega-link">주휴수당</a></li><li><a href="/calculators/severance-pay" class="mega-link">퇴직금</a></li><li><a href="/calculators/annual-leave" class="mega-link">연차·연차수당</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-finance">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="금융·생활 계산기"><li><a href="/calculators/loan-interest" class="mega-link">대출이자</a></li><li><a href="/calculators/percentage" class="mega-link">퍼센트</a></li><li><a href="/calculators/compound-interest" class="mega-link">단리·복리 이자</a></li><li><a href="/calculators/deposit-interest" class="mega-link">예금이자</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-realestate">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="부동산 계산기"><li><a href="/calculators/dsr" class="mega-link">DSR</a></li><li><a href="/calculators/brokerage-fee" class="mega-link">중개보수</a></li><li><a href="/calculators/housing-subscription-score" class="mega-link">청약가점</a></li><li><a href="/calculators/rent-conversion" class="mega-link">전월세 환산</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-tax">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="세금 계산기"><li><a href="/calculators/freelancer-withholding" class="mega-link">프리랜서 3.3%</a></li><li><a href="/calculators/vat" class="mega-link">VAT</a></li><li><a href="/calculators/year-end-tax" class="mega-link">연말정산</a></li><li><a href="/calculators/comprehensive-income-tax" class="mega-link">종합소득세</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-parenting">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="육아·복지 계산기"><li><a href="/calculators/unemployment-benefit" class="mega-link">실업급여</a></li><li><a href="/calculators/parental-leave" class="mega-link">육아휴직급여</a></li><li><a href="/calculators/maternity-leave-pay" class="mega-link">출산전후휴가 급여</a></li><li><a href="/calculators/parent-benefit" class="mega-link">부모급여</a></li></ul></div></div><div class="mega-foot"><a href="/calculators" class="mega-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li class="nav-item nav-item-guide"><button type="button" class="nav-link nav-trigger" aria-expanded="false" aria-controls="mega-guide">생활정보<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-guide" class="mega mega-guide" hidden=""><ul class="mega-guide-list"><li><a href="/guide?category=work" class="mega-guide-cat">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/weekly-holiday-pay-15-hours" class="mega-guide-pick">주 15시간 일하면 주휴수당은 얼마일까?</a></li><li><a href="/guide?category=finance" class="mega-guide-cat">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/loan-100m-monthly-interest" class="mega-guide-pick">대출 1억 받으면 한 달 이자는 얼마일까?</a></li><li><a href="/guide?category=realestate" class="mega-guide-cat">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/84sqm-to-pyeong" class="mega-guide-pick">아파트 84㎡는 몇 평일까?</a></li><li><a href="/guide?category=tax" class="mega-guide-cat">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/freelancer-3-3-withholding" class="mega-guide-pick">프리랜서 3.3% 떼면 실제 얼마 받을까?</a></li><li><a href="/guide?category=parenting" class="mega-guide-cat">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/parental-leave-benefit" class="mega-guide-pick">육아휴직하면 매달 얼마 받을 수 있을까?</a></li></ul><div class="mega-foot"><a href="/guide" class="mega-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li><a href="/about" class="nav-link">얼마지 소개</a></li></ul></nav><div class="header-actions"><button type="button" class="icon-btn" aria-label="계산기 검색"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7.5"></circle><path d="m20.5 20.5-4.2-4.2"></path></svg></button><a href="/calculators" class="btn btn-primary btn-sm hide-mobile">전체 계산기</a><button type="button" class="icon-btn show-mobile" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button></div></div><div id="mobile-menu" class="mobile-menu" hidden=""><nav aria-label="모바일 메뉴"><ul><li class="m-group"><button type="button" class="m-link m-trigger is-current" aria-expanded="false" aria-controls="m-sub-calc">계산기<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-calc" class="m-sub" hidden="" aria-label="계산기 카테고리"><li><a href="/calculators#cat-work" class="m-sub-link">근로·급여</a></li><li><a href="/calculators#cat-finance" class="m-sub-link">금융·생활</a></li><li><a href="/calculators#cat-realestate" class="m-sub-link">부동산</a></li><li><a href="/calculators#cat-tax" class="m-sub-link">세금</a></li><li><a href="/calculators#cat-parenting" class="m-sub-link">육아·복지</a></li><li><a href="/calculators" class="m-sub-link is-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li class="m-group"><button type="button" class="m-link m-trigger" aria-expanded="false" aria-controls="m-sub-guide">생활정보<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-guide" class="m-sub" hidden="" aria-label="생활정보 카테고리"><li><a href="/guide?category=work" class="m-sub-link">근로·급여</a></li><li><a href="/guide?category=finance" class="m-sub-link">금융·생활</a></li><li><a href="/guide?category=realestate" class="m-sub-link">부동산</a></li><li><a href="/guide?category=tax" class="m-sub-link">세금</a></li><li><a href="/guide?category=parenting" class="m-sub-link">육아·복지</a></li><li><a href="/guide" class="m-sub-link is-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li><a href="/about" class="m-link">얼마지 소개<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></li></ul></nav><a href="/calculators" class="btn btn-primary btn-block">전체 계산기</a></div></header><main id="main"><nav class="container breadcrumb" aria-label="현재 위치"><ol><li><a href="/">홈</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><a href="/calculators">계산기</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><a href="/calculators#cat-parenting">육아·복지</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><span aria-current="page">출산전후휴가 급여 계산기</span></li></ol></nav><div class="container page-head"><span class="badge badge-brand">육아·복지</span><h1>출산전후휴가 급여 계산기</h1><p class="page-desc">월 통상임금과 휴가 정보를 입력하면<br>출산휴가 동안 받을 수 있는 예상 급여를 계산해드려요.</p><p class="page-meta"><span>2026년 기준</span><span class="meta-sep" aria-hidden="true"></span><a href="#basis">최종 업데이트 2026.09.24<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5.5M12 7.8h.01"></path></svg><span class="sr-only">, 계산 기준 보기</span></a></p></div><section class="calc-section" id="calculator" aria-label="출산전후휴가 급여 계산기"><div class="container"><div class="calc-shell"><form class="calc-form" novalidate="" aria-labelledby="form-title"><h2 id="form-title" class="form-title">출산휴가 정보를 입력해주세요</h2><p class="form-desc">몇 가지만 입력하면 예상 급여를 확인할 수 있어요.</p><div class="field"><div class="label-row"><label class="field-label" for="wage">월 통상임금<span class="sr-only"> (원)</span></label><button type="button" class="help-btn" aria-expanded="false" aria-controls="help-wage" aria-label="월 통상임금 설명 보기"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.4a2.5 2.5 0 0 1 4.8.9c0 1.7-2.4 2.1-2.4 3.5M12 16.8h.01"></path></svg></button></div><p id="help-wage" class="help-pop" hidden="">출산전후휴가 급여를 계산할 때 기준이 되는 임금이에요.</p><div class="input-wrap"><input id="wage" type="text" inputmode="numeric" autocomplete="off" placeholder="예: 3,000,000" aria-invalid="false" value=""><span class="input-suffix" aria-hidden="true">원</span></div><ul class="quick-amounts" aria-label="금액 빠르게 넣기"><li><button type="button" class="chip" aria-pressed="false">200만원</button></li><li><button type="button" class="chip" aria-pressed="false">250만원</button></li><li><button type="button" class="chip" aria-pressed="false">300만원</button></li><li><button type="button" class="chip" aria-pressed="false">350만원</button></li><li><button type="button" class="chip" aria-pressed="false">400만원</button></li></ul><button type="button" class="nested-toggle" aria-expanded="false" aria-controls="wage-info">통상임금을 잘 모르겠어요<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="wage-info" class="explain-box" hidden=""><strong>통상임금이란?</strong><p>정해진 근무에 대해 매달 정기적이고 고정적으로 받기로 한 임금이에요. 보통 기본급과 매달 고정으로 받는 수당이 들어가고, 연장근로수당이나 성과에 따라 달라지는 금액은 빠지는 경우가 많아요.</p><p>어떤 수당이 들어가는지는 회사 임금 규정에 따라 달라질 수 있어요. 급여명세서나 회사 인사팀에 확인해주세요. 통상임금 계산기도 준비하고 있어요.</p></div></div><div class="field"><label class="field-label" for="start-date">출산휴가 시작일</label><div class="input-wrap date"><input id="start-date" type="date" aria-invalid="false" aria-describedby="start-help" value=""></div><p id="start-help" class="field-help">실제로 출산전후휴가를 시작하는 날짜를 입력해주세요.</p></div><fieldset class="field"><legend class="field-label">출산 정보</legend><div class="seg"><label class="seg-option"><input type="radio" name="birth-status" checked=""><span>아직 출산 전이에요</span></label><label class="seg-option"><input type="radio" name="birth-status"><span>이미 출산했어요</span></label></div><div class="sub-field"><label class="mini-label" for="birth-date">출산예정일</label><div class="input-wrap date"><input id="birth-date" type="date" aria-invalid="false" value=""></div></div></fieldset><fieldset class="field"><legend class="field-label">아이를 몇 명 낳나요?</legend><div class="seg"><label class="seg-option"><input type="radio" name="birth-type" checked=""><span>한 명<small>단태아</small></span></label><label class="seg-option"><input type="radio" name="birth-type"><span>둘 이상<small>다태아</small></span></label></div></fieldset><div class="service-box" aria-live="polite"><div class="svc-row"><span>예상 휴가기간</span><strong class="">날짜를 입력하면 계산돼요</strong></div></div><fieldset class="field company-field"><div class="label-row"><legend class="field-label">회사가 우선지원대상기업에 해당하나요?</legend></div><div class="seg cols-3"><label class="seg-option"><input type="radio" name="size"><span>네</span></label><label class="seg-option"><input type="radio" name="size"><span>아니요</span></label><label class="seg-option"><input type="radio" name="size" checked=""><span>잘 모르겠어요</span></label></div><button type="button" class="nested-toggle" aria-expanded="false" aria-controls="priority-info">우선지원대상기업이 뭔가요?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="priority-info" hidden=""><div class="explain-box"><strong>우선지원대상기업이란?</strong><p>고용보험에서 더 많이 지원하는 중소 규모 회사예요. 업종별로 평소 일하는 사람 수가 아래 기준 이하이거나, 중소기업기본법상 중소기업이면 해당돼요.</p><ul class="help-list"><li>제조업: 500명 이하</li><li>광업, 건설업, 운수·창고업, 정보통신업 등: 300명 이하</li><li>도매·소매업, 숙박·음식점업, 금융·보험업 등: 200명 이하</li><li>그 밖의 업종: 100명 이하</li></ul><p>정확한 여부는 회사 인사팀에 물어보거나 고용24에서 확인할 수 있어요.</p></div></div><p class="field-help">괜찮아요. 우선 일반적인 기준으로 예상 금액을 보여드리고, 결과에서 차이를 함께 안내할게요.</p></fieldset><fieldset class="field"><div class="label-row"><legend class="field-label">고용보험 가입기간이 합쳐서 180일 이상인가요?</legend><button type="button" class="help-btn" aria-expanded="false" aria-controls="help-insured" aria-label="고용보험 가입기간 설명 보기"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M9.6 9.4a2.5 2.5 0 0 1 4.8.9c0 1.7-2.4 2.1-2.4 3.5M12 16.8h.01"></path></svg></button></div><p id="help-insured" class="help-pop" hidden="">지금 회사와 예전 회사에서 고용보험에 가입했던 기간을 모두 합쳐요. 휴가가 끝나는 날까지 180일 이상이면 돼요. 1년 가까이 한 회사에 다녔다면 대부분 충족해요.</p><div class="seg cols-3"><label class="seg-option"><input type="radio" name="insured" checked=""><span>네</span></label><label class="seg-option"><input type="radio" name="insured"><span>아니요</span></label><label class="seg-option"><input type="radio" name="insured"><span>잘 모르겠어요</span></label></div></fieldset><div class="more-settings"><button type="button" class="more-toggle" aria-expanded="false" aria-controls="more-body"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"></path><circle cx="15" cy="7" r="2"></circle><circle cx="9" cy="17" r="2"></circle></svg>추가 조건</span><small>미숙아, 회사 추가 지급</small><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="more-body" class="more-body" hidden=""><label class="check-row"><input type="checkbox"><span><strong>휴가 중 회사에서 따로 받는 돈이 있어요</strong><small>회사 유급기간이 끝난 뒤에도 회사에서 받는 금액이 있을 때 선택해주세요.</small></span></label></div></div><button type="submit" class="btn btn-primary submit-btn">출산휴가 급여 계산하기</button></form><div class="result-col"><div class="result-panel"><p class="sr-only" aria-live="polite"></p><div class="result-empty"><span class="big-q" aria-hidden="true">?</span><h2 class="sr-only">계산 결과</h2><p>출산휴가 정보를 입력하면<br>예상 급여를 알려드릴게요.</p></div></div></div></div></div></section><section class="section tight-top" aria-labelledby="related-title"><div class="container"><div class="section-head"><div><h2 id="related-title">이어서 계산해볼까요?</h2></div><a href="/calculators" class="more-link">전체 계산기 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div><ul class="calc-grid"><li><a href="/calculators/parental-leave" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="13" r="7.5"></circle><path d="M12 5.5c0-1.5 1-2.5 2.5-2.5M9.5 12.5h.01M14.5 12.5h.01M10 16c1.2.9 2.8.9 4 0"></path></svg></span><div class="calc-text"><h3>육아휴직급여 계산기</h3><p>육아휴직을 시작하면 매달 얼마를 받을 수 있는지 확인해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li><li><a href="/calculators/parent-benefit" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="13" r="7.5"></circle><path d="M12 5.5c0-1.5 1-2.5 2.5-2.5M9.5 12.5h.01M14.5 12.5h.01M10 16c1.2.9 2.8.9 4 0"></path></svg></span><div class="calc-text"><h3>부모급여 계산기</h3><p>아이 연령에 따라 받을 수 있는 부모급여를 확인해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li><li><a href="/calculators/net-salary" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M8.5 12.5h7M8.5 16.5h4.5"></path></svg></span><div class="calc-text"><h3>월급 실수령액 계산기</h3><p>현재 월급에서 실제 받는 금액을 확인해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li><li><a href="/calculators/severance-pay" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"></rect><path d="M8 3v4M16 3v4M3.5 10h17M8 14h2M14 14h2M8 17h2"></path></svg></span><div class="calc-text"><h3>퇴직금 계산기</h3><p>현재 근무기간을 기준으로 예상 퇴직금을 확인해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li></ul></div></section><section class="section band" id="guide" aria-label="출산전후휴가 급여 안내"><div class="container"><div class="content-block"><h2>출산전후휴가란?</h2><div class="prose"><p>아이를 낳기 전후에 몸을 회복하고 아이를 돌볼 수 있도록 법으로 보장된 휴가예요. 흔히 출산휴가라고 불러요.</p><p>회사는 임신한 근로자가 신청하면 휴가를 줘야 하고, 휴가 기간 중 일부는 급여도 받을 수 있어요. 고용 형태와 관계없이 쓸 수 있어요.</p></div></div><div class="content-block"><h2>출산휴가는 며칠 사용할 수 있나요?</h2><ul class="tier-list"><li><span class="tier-range">한 명(단태아)</span><span class="tier-rate">90일</span><span class="tier-cap">출산 후 45일 이상</span></li><li><span class="tier-range">둘 이상(다태아)</span><span class="tier-rate">120일</span><span class="tier-cap">출산 후 60일 이상</span></li><li><span class="tier-range">미숙아 출산</span><span class="tier-rate">100일</span><span class="tier-cap">출산 후 45일 이상</span></li></ul><p class="formula-caption tier-caption">출산이 예정보다 늦어지면 출산 후 기간을 채우기 위해 휴가가 늘어날 수 있어요.</p></div><div class="content-block"><h2>출산휴가 동안 월급은 누가 주나요?</h2><p class="section-desc">받는 총액은 같고, 회사 규모에 따라 누가 주는지가 달라져요.</p><div class="cond-grid"><article class="cond-card"><h3>우선지원대상기업이라면</h3><p class="card-text">전체 기간을 고용보험에서 줘요. 처음 60일은 고용보험 급여가 통상임금보다 적으면 회사가 차액을 채워줘요.</p></article><article class="cond-card"><h3>그 외 기업이라면</h3><p class="card-text">처음 60일은 회사가 통상임금 100%를 주고, 나머지 30일은 고용보험에서 줘요.</p></article></div></div><div class="content-block"><h2>출산전후휴가 급여는 얼마인가요?</h2><div class="prose"><p>통상임금을 기준으로 받아요. 다만 고용보험에서 주는 부분은 2026년 기준 30일에 2,200,000원이 상한이고, 최저임금 월 환산액(2,156,880원)보다 적으면 그 금액을 받아요.</p><p>그래서 통상임금이 상한보다 높다면 회사가 주는 처음 60일은 통상임금 전액을, 나머지 기간은 상한액을 받아요.</p></div></div><div class="content-block"><h2>우선지원대상기업이란?</h2><div class="prose"><p>고용보험에서 더 많이 지원하는 중소 규모 회사예요. 업종별로 평소 일하는 사람 수가 아래 기준 이하이거나, 중소기업기본법상 중소기업이면 해당돼요. 정확한 여부는 회사 인사팀이나 고용24에서 확인할 수 있어요.</p></div><ul class="cap-steps priority-list"><li><span>제조업</span><strong>500명 이하</strong></li><li><span>광업, 건설업, 운수·창고업, 정보통신업 등</span><strong>300명 이하</strong></li><li><span>도매·소매업, 숙박·음식점업, 금융·보험업 등</span><strong>200명 이하</strong></li><li><span>그 밖의 업종</span><strong>100명 이하</strong></li></ul></div><div class="content-block"><h2>통상임금별로 얼마나 받을까요?</h2><p class="section-desc">아이 한 명, 90일 휴가, 고용보험 요건을 충족한 경우예요.</p><ul class="example-grid"><li><article class="example-card"><h3>통상임금 250만원이라면?</h3><p class="example-meta">마지막 30일은 상한 적용</p><div class="example-result"><span>예상 출산휴가 급여</span><strong>7,200,000원</strong><small>월평균 약 2,400,000원</small></div><div class="example-actions"><button type="button" class="btn-secondary">이 금액으로 계산하기</button></div></article></li><li><article class="example-card"><h3>통상임금 300만원이라면?</h3><p class="example-meta">마지막 30일은 상한 적용</p><div class="example-result"><span>예상 출산휴가 급여</span><strong>8,200,000원</strong><small>월평균 약 2,733,333원</small></div><div class="example-actions"><button type="button" class="btn-secondary">이 금액으로 계산하기</button></div></article></li><li><article class="example-card"><h3>통상임금 400만원이라면?</h3><p class="example-meta">마지막 30일은 상한 적용</p><div class="example-result"><span>예상 출산휴가 급여</span><strong>10,200,000원</strong><small>월평균 약 3,400,000원</small></div><div class="example-actions"><button type="button" class="btn-secondary">이 금액으로 계산하기</button></div></article></li></ul></div></div></section><section class="section" id="faq" aria-labelledby="faq-title"><div class="container"><div class="section-head"><div><h2 id="faq-title">자주 묻는 질문</h2></div></div><ul class="faq-list"><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q1" class="faq-toggle" aria-expanded="true" aria-controls="faq-panel-q1">출산전후휴가는 며칠 사용할 수 있나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q1" role="region" aria-labelledby="faq-btn-q1" class="faq-a"><p>아이를 한 명 낳는 경우 90일, 둘 이상 낳는 경우 120일이에요. 출산 후에 45일(다태아는 60일) 이상이 남도록 사용해야 해요. 미숙아를 출산했다면 100일까지 쓸 수 있어요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q2" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q2">출산휴가 동안 월급을 그대로 받을 수 있나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q2" role="region" aria-labelledby="faq-btn-q2" class="faq-a" hidden=""><p>처음 60일(다태아 75일)은 통상임금 100%를 받아요. 나머지 기간은 고용보험에서 받는데, 30일에 220만원까지만 나와서 통상임금이 이보다 높으면 그만큼 줄어요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q3" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q3">출산휴가 급여는 회사에서 주나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q3" role="region" aria-labelledby="faq-btn-q3" class="faq-a" hidden=""><p>회사 규모에 따라 달라요. 대규모기업은 처음 60일을 회사가 주고 나머지를 고용보험에서 줘요. 우선지원대상기업은 전체 기간을 고용보험에서 주고, 처음 60일은 부족한 차액을 회사가 채워줘요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q4" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q4">고용보험에서는 얼마를 받을 수 있나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q4" role="region" aria-labelledby="faq-btn-q4" class="faq-a" hidden=""><p>2026년 기준 통상임금을 기준으로 30일에 최대 220만원이에요. 통상임금이 최저임금보다 낮으면 최저임금 수준으로 받아요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q5" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q5">출산전후휴가 급여에도 상한액이 있나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q5" role="region" aria-labelledby="faq-btn-q5" class="faq-a" hidden=""><p>네. 고용보험에서 주는 급여는 30일 기준 220만원이 상한이에요. 회사가 주는 처음 60일분은 이 상한과 관계없이 통상임금 100%예요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q6" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q6">우선지원대상기업이 아니면 급여가 달라지나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q6" role="region" aria-labelledby="faq-btn-q6" class="faq-a" hidden=""><p>받는 총액은 같고, 누가 주는지만 달라져요. 우선지원대상기업이 아니면 처음 60일은 회사가 전액 주고, 마지막 30일만 고용보험에서 받아요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q7" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q7">다태아는 출산휴가 기간이 다른가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q7" role="region" aria-labelledby="faq-btn-q7" class="faq-a" hidden=""><p>네. 둘 이상을 임신했다면 120일을 쓸 수 있고, 출산 후 60일 이상이 남아야 해요. 회사가 유급으로 주는 기간도 75일로 늘어나요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q8" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q8">계약직도 출산전후휴가 급여를 받을 수 있나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q8" role="region" aria-labelledby="faq-btn-q8" class="faq-a" hidden=""><p>네. 고용 형태와 관계없이 고용보험 가입기간이 합쳐서 180일 이상이면 받을 수 있어요. 휴가 중 계약이 끝나면 그 이후 기간은 받을 수 없을 수 있어서 고용센터에 확인하는 게 좋아요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q9" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q9">출산휴가 중 회사에서 돈을 받으면 고용보험 급여도 받을 수 있나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q9" role="region" aria-labelledby="faq-btn-q9" class="faq-a" hidden=""><p>받을 수 있어요. 다만 회사에서 받은 돈과 고용보험 급여를 합친 금액이 통상임금보다 많으면, 넘는 만큼 고용보험 급여가 줄어들 수 있어요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q10" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q10">출산전후휴가 급여는 언제 신청하나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q10" role="region" aria-labelledby="faq-btn-q10" class="faq-a" hidden=""><p>휴가를 시작한 뒤 1개월이 지나면 신청할 수 있어요. 휴가가 끝난 날부터 12개월 안에 신청해야 받을 수 있으니 기한을 꼭 확인해주세요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q11" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q11">출산전후휴가 급여는 어디에서 신청하나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q11" role="region" aria-labelledby="faq-btn-q11" class="faq-a" hidden=""><p>회사가 출산전후휴가 확인서를 제출하면, 본인이 고용24에서 온라인으로 신청하거나 가까운 고용센터에 방문해서 신청할 수 있어요.</p></div></li></ul></div></section><section class="section band" id="basis" aria-labelledby="basis-title"><div class="container"><div class="trust-grid"><div><h2 id="basis-title">어떤 기준으로 계산하나요?</h2><p class="section-desc">얼마지는 근로기준법, 고용보험법과 고용노동부 고시를 기준으로 휴가기간과 상한액을 관리해요. 휴가 시작일에 맞는 연도의 기준을 자동으로 적용해요.</p><div class="notice-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5.5M12 7.8h.01"></path></svg><div><strong>입력한 정보는 저장하지 않아요</strong><p>모든 계산은 이 화면 안에서만 이뤄져요. 이름, 주민등록번호, 회사명처럼 계산에 필요 없는 정보는 묻지 않아요.</p></div></div></div><div class="basis-card"><div class="basis-head"><strong>출산전후휴가 급여 계산 기준</strong><span class="badge badge-brand">2026년 기준</span></div><dl><div class="basis-row"><dt>적용 기준</dt><dd><ul class="plain-list"><li>2025년 시작: 고용보험 상한 30일 2,100,000원</li><li>2026년 시작: 고용보험 상한 30일 2,200,000원</li></ul></dd></div><div class="basis-row"><dt>확인 항목</dt><dd><ul class="plain-list"><li>출산전후휴가 기간: 90일, 다태아 120일</li><li>통상임금 기준, 회사 유급기간 60일(다태아 75일)</li><li>고용보험 급여 상한과 하한</li><li>사업장 유형별 지급 구조</li><li>지급 요건: 고용보험 180일</li></ul></dd></div><div class="basis-row"><dt>공식 출처</dt><dd><ul class="source-list"><li><a class="source-link" href="https://www.work24.go.kr" target="_blank" rel="noopener noreferrer"><span><span class="src-name">고용24</span><span class="src-desc">출산전후휴가 급여 제도 안내와 신청</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-8.5 8.5"></path><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"></path></svg><span class="sr-only">(새 탭에서 열림)</span></a></li><li><a class="source-link" href="https://www.moel.go.kr" target="_blank" rel="noopener noreferrer"><span><span class="src-name">고용노동부</span><span class="src-desc">출산전후휴가 급여 상한액 고시</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-8.5 8.5"></path><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"></path></svg><span class="sr-only">(새 탭에서 열림)</span></a></li><li><a class="source-link" href="https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95" target="_blank" rel="noopener noreferrer"><span><span class="src-name">국가법령정보센터</span><span class="src-desc">근로기준법 제74조, 고용보험법 제75조·제76조</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-8.5 8.5"></path><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"></path></svg><span class="sr-only">(새 탭에서 열림)</span></a></li></ul></dd></div><div class="basis-row"><dt>마지막 업데이트</dt><dd><time datetime="2026-09-24">2026.09.24</time></dd></div></dl></div></div></div></section><section class="section tight-top" aria-labelledby="apply-title"><div class="container"><div class="apply-card"><div><h2 id="apply-title">실제 급여 신청은 어디에서 하나요?</h2><p>계산 결과를 확인했다면 공식 사이트에서 신청 방법과 필요한 서류를 확인해보세요. 얼마지는 신청을 대신하지 않아요.</p></div><a class="btn-secondary apply-link" href="https://www.work24.go.kr" target="_blank" rel="noopener noreferrer">공식 신청 페이지 확인하기<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-8.5 8.5"></path><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"></path></svg><span class="sr-only">(외부 공식 사이트 고용24, 새 탭에서 열림)</span></a><p class="apply-note">고용24 외부 공식 사이트로 이동해요.</p></div></div></section><section class="section" aria-labelledby="articles-title"><div class="container"><div class="section-head"><div><h2 id="articles-title">같이 보면 좋은 생활정보</h2></div><a href="/guide" class="more-link">생활정보 전체보기 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div><ul class="article-grid"><li><a href="/guide/maternity-leave-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>출산전후휴가 기간에는 얼마를 받을까?</h3><p>출산전후휴가 90일 동안 회사와 고용보험이 각각 얼마를 주는지, 2026년 상한액으로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/parental-leave-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>육아휴직하면 매달 얼마 받을 수 있을까?</h3><p>2026년 육아휴직급여를 기간별 지급률과 상한액으로 계산하고, 1년 총액 예시를 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li></ul></div></section></main><footer class="site-footer"><div class="container"><div class="footer-top"><div class="footer-brand"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><span class="en">ULMAJI</span></div><nav class="footer-nav" aria-label="하단 메뉴"><ul><li><a href="/calculators">계산기</a></li><li><a href="/guide">생활정보</a></li><li><a href="/about">얼마지 소개</a></li><li><a href="/terms">이용약관</a></li><li><a href="/privacy">개인정보처리방침</a></li><li><a href="mailto:heosoyoone@gmail.com">문의</a></li></ul></nav></div><p class="footer-disclaimer">계산 결과는 입력한 정보와 적용 기준에 따른 참고용 정보입니다. 실제 지급액 및 적용 여부는 개인의 조건에 따라 달라질 수 있습니다.</p><p class="footer-copy">© 2026 ULMAJI. ulmaji.kr</p></div></footer><div class="toast" role="status" aria-live="polite"></div><!--prerender:end--></div>
 <noscript><p style="max-width:720px;margin:16px auto;padding:0 20px;font-family:sans-serif;font-size:15px">계산 기능을 쓰려면 브라우저에서 JavaScript를 켜주세요.</p></noscript>
 <script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.24.7/babel.min.js"></script>
 <script type="text/babel" data-presets="react">
-const { useState, useRef, useEffect, useMemo } = React;
+const { useState, useRef, useEffect } = React;
+
+/* =========================================================
+   1. Site / Page config
+   ========================================================= */
 const SITE = { name: "얼마지?", en: "ULMAJI", origin: "https://ulmaji.kr" };
+const PAGE = {
+  path: "/calculators/maternity-leave-pay",
+  title: "출산전후휴가 급여 계산기",
+  category: { name: "육아·복지", href: "/calculators#cat-parenting" },
+  updatedAt: "2026.09.24",
+};
 const SHOW_AD_PLACEHOLDERS = new URLSearchParams(window.location.search).get("ads") === "preview";
-const NAV = [ { label: "계산기", href: "/#popular" }, { label: "생활정보", href: "/guide" }, { label: "얼마지 소개", href: "/about" } ];
+
+/* =========================================================
+   2. Policy Config
+   휴가 시작일에 맞는 버전이 자동으로 선택돼요. 새 기준이 나오면 버전을 추가하세요.
+   ========================================================= */
+const BASE_RULES = {
+  // 얼마나 쉴 수 있나요 (근로기준법 제74조)
+  leaveDurationRules: {
+    single: { totalDays: 90, minPostnatalDays: 45, employerPaidDays: 60, label: "한 명(단태아)" },
+    multiple: { totalDays: 120, minPostnatalDays: 60, employerPaidDays: 75, label: "둘 이상(다태아)" },
+    // TODO: 공식 2026년 출산전후휴가 급여 기준 검증 필요 (미숙아 출산 시 100일, 회사 유급기간과 고용보험 지급일수)
+    premature: { totalDays: 100, minPostnatalDays: 45, employerPaidDays: 60, label: "미숙아 출산" },
+  },
+  // 출산이 늦어져 출산 후 최소 기간을 채우려고 늘어난 기간은 급여 지급 대상에서 제외
+  // TODO: 공식 2026년 출산전후휴가 급여 기준 검증 필요
+  extensionIsUnpaid: true,
+
+  // 고용보험 급여는 30일 단위 상한을 일할 계산
+  benefitUnitDays: 30,
+  // 월 통상임금을 하루치로 바꿀 때 나누는 일수
+  // TODO: 공식 2026년 출산전후휴가 급여 기준 검증 필요 (통상임금 일급 환산 방식)
+  ordinaryWageRules: { monthlyToDailyDivisor: 30 },
+
+  // 회사와 고용보험의 역할 (근로기준법 제74조 제4항, 고용보험법 제75조·제76조)
+  employerPaymentRules: {
+    // 대규모기업: 회사 유급기간(최초 60일, 다태아 75일)은 회사가 통상임금 100% 지급
+    large: { employerPaysFullDuringPaidDays: true, insuranceDuringPaidDays: false },
+    // 우선지원대상기업: 전 기간 고용보험 지급, 회사 유급기간에는 통상임금과의 차액을 회사가 지급
+    priority: { employerPaysFullDuringPaidDays: false, insuranceDuringPaidDays: true },
+  },
+
+  // 휴가 중 회사가 따로 준 돈이 있을 때: 회사 지급액 + 고용보험 급여가 통상임금을 넘으면 넘는 만큼 급여를 줄임
+  // TODO: 공식 2026년 출산전후휴가 급여 기준 검증 필요 (감액 적용 기간과 방식)
+  companyPaymentAdjustmentRules: { reduceInsuranceIfSumExceedsOrdinaryWage: true },
+
+  insuranceEligibilityRules: { minInsuredDays: 180, text: "휴가가 끝나는 날 이전에 고용보험 가입기간(피보험 단위기간)이 합쳐서 180일 이상" },
+
+  // 우선지원대상기업 대략 기준 (고용보험법 시행령 제12조)
+  // TODO: 공식 2026년 출산전후휴가 급여 기준 검증 필요 (업종 분류 세부)
+  prioritySupportCompanyRules: [
+    { industry: "제조업", maxWorkers: 500 },
+    { industry: "광업, 건설업, 운수·창고업, 정보통신업 등", maxWorkers: 300 },
+    { industry: "도매·소매업, 숙박·음식점업, 금융·보험업 등", maxWorkers: 200 },
+    { industry: "그 밖의 업종", maxWorkers: 100 },
+  ],
+
+  application: { site: "고용24", url: "https://www.work24.go.kr", deadlineMonthsAfterEnd: 12 },
+};
+
+const MATERNITY_LEAVE_CONFIG_2025 = {
+  ...BASE_RULES,
+  id: "2025", policyYear: 2025, effectiveFrom: "2025-01-01", effectiveTo: "2025-12-31", updatedAt: "2026.09.24",
+  governmentBenefitCaps: { per30Days: 2100000 },
+  governmentBenefitFloors: { hourlyMinimumWage: 10030, monthlyHours: 209 },
+};
+
+const MATERNITY_LEAVE_CONFIG_2026 = {
+  ...BASE_RULES,
+  id: "2026", policyYear: 2026, effectiveFrom: "2026-01-01", effectiveTo: "2026-12-31", updatedAt: "2026.09.24",
+  governmentBenefitCaps: { per30Days: 2200000 },          // 30일 기준 220만원 (2026.1.1 시행)
+  governmentBenefitFloors: { hourlyMinimumWage: 10320, monthlyHours: 209 }, // 최저임금 월 환산액
+};
+
+const POLICY_VERSIONS = [MATERNITY_LEAVE_CONFIG_2025, MATERNITY_LEAVE_CONFIG_2026];
+const CURRENT_POLICY = MATERNITY_LEAVE_CONFIG_2026;
+
+const SOURCES = [
+  { name: "고용24", desc: "출산전후휴가 급여 제도 안내와 신청", url: "https://www.work24.go.kr" },
+  { name: "고용노동부", desc: "출산전후휴가 급여 상한액 고시", url: "https://www.moel.go.kr" },
+  { name: "국가법령정보센터", desc: "근로기준법 제74조, 고용보험법 제75조·제76조", url: "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95" },
+];
+
+/* =========================================================
+   3. Utils
+   ========================================================= */
+const DAY = 86400000;
+const formatNumber = (n) => Number(n).toLocaleString("ko-KR");
+const won = (n) => formatNumber(n) + "원";
+const manwon = (n) => formatNumber(Math.round(n / 1000) / 10) + "만원";
+const parseNumber = (s) => { const d = String(s).replace(/[^\d]/g, ""); return d ? Number(d) : NaN; };
+const formatMoneyInput = (v, maxDigits = 10) => {
+  const d = v.replace(/[^\d]/g, "").replace(/^0+(?=\d)/, "").slice(0, maxDigits);
+  return d ? formatNumber(Number(d)) : "";
+};
+function parseDate(s) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(s || "")) return null;
+  const [y, m, d] = s.split("-").map(Number);
+  const dt = new Date(Date.UTC(y, m - 1, d));
+  return dt.getUTCMonth() === m - 1 && dt.getUTCDate() === d ? dt : null;
+}
+const addDays = (d, n) => new Date(d.getTime() + n * DAY);
+const daysBetween = (a, b) => Math.round((b.getTime() - a.getTime()) / DAY);
+const fmtDate = (d) => `${d.getUTCFullYear()}.${String(d.getUTCMonth() + 1).padStart(2, "0")}.${String(d.getUTCDate()).padStart(2, "0")}`;
+const floor = (n) => Math.floor(Math.round(n * 1e6) / 1e6);
+
+/* =========================================================
+   4. Policy Version Resolver
+   ========================================================= */
+function resolvePolicy(startDate, versions = POLICY_VERSIONS) {
+  const sorted = [...versions].sort((a, b) => (a.effectiveFrom < b.effectiveFrom ? -1 : 1));
+  const iso = startDate.toISOString().slice(0, 10);
+  if (iso < sorted[0].effectiveFrom) return { policy: null, status: "unsupported" };
+  const exact = sorted.find((v) => v.effectiveFrom <= iso && iso <= v.effectiveTo);
+  if (exact) return { policy: exact, status: "exact" };
+  return { policy: sorted[sorted.length - 1], status: "projected" };
+}
+
+/* =========================================================
+   5. Leave Duration Logic
+   ========================================================= */
+function leaveTypeKey(v) {
+  if (v.birthType === "multiple") return "multiple";
+  if (v.birthStatus === "born" && v.premature) return "premature";
+  return "single";
+}
+
+function getLeavePeriod(policy, v) {
+  const rule = policy.leaveDurationRules[leaveTypeKey(v)];
+  const start = parseDate(v.startDate);
+  const birth = parseDate(v.birthDate);
+  const baseEnd = addDays(start, rule.totalDays - 1);
+  // 출산 후 최소 기간 확보 (출산일 포함)
+  const minEnd = birth ? addDays(birth, rule.minPostnatalDays - 1) : baseEnd;
+  const end = minEnd > baseEnd ? minEnd : baseEnd;
+  const totalDays = daysBetween(start, end) + 1;
+  const prenatalDays = birth ? Math.max(0, daysBetween(start, birth)) : null;
+  const postnatalDays = birth ? totalDays - prenatalDays : null;
+  const extendedDays = totalDays - rule.totalDays;
+  return { rule, start, end, birth, totalDays, prenatalDays, postnatalDays, extendedDays, paidDays: rule.totalDays };
+}
+
+/* =========================================================
+   6. Eligibility Logic
+   ========================================================= */
+function insuranceEligible(v) {
+  return v.insured !== "no"; // "잘 모르겠어요"는 충족한다고 가정하고 결과에서 안내
+}
+
+/* =========================================================
+   7. Ordinary Wage / Employer / Insurance / Adjustment Logic
+   ========================================================= */
+function dailyAmounts(policy, wage) {
+  const div = policy.ordinaryWageRules.monthlyToDailyDivisor;
+  const unit = policy.benefitUnitDays;
+  const floorMonthly = policy.governmentBenefitFloors.hourlyMinimumWage * policy.governmentBenefitFloors.monthlyHours;
+  return {
+    wageDaily: wage / div,
+    capDaily: policy.governmentBenefitCaps.per30Days / unit,
+    floorDaily: floorMonthly / unit,
+    floorMonthly,
+  };
+}
+
+// 30일 단위와 회사 유급기간 경계로 구간 나누기
+function buildBlocks(policy, period) {
+  const unit = policy.benefitUnitDays;
+  const cuts = new Set([period.paidDays, period.rule.employerPaidDays]);
+  for (let d = unit; d < period.paidDays; d += unit) cuts.add(d);
+  const sorted = [...cuts].filter((x) => x > 0 && x <= period.paidDays).sort((a, b) => a - b);
+  const blocks = [];
+  let from = 1;
+  sorted.forEach((to) => { blocks.push({ fromDay: from, toDay: to, days: to - from + 1 }); from = to + 1; });
+  return blocks;
+}
+
+function computeScenario(policy, v, period, size) {
+  const { wageDaily, capDaily, floorDaily } = dailyAmounts(policy, v.wage);
+  const eligible = insuranceEligible(v);
+  const rules = policy.employerPaymentRules[size];
+  const extraDaily = v.companyExtra ? (v.companyExtraMonthly || 0) / policy.ordinaryWageRules.monthlyToDailyDivisor : 0;
+  let capHit = false, floorHit = false, reduced = 0;
+
+  const blocks = buildBlocks(policy, period).map((b) => {
+    const inPaid = b.toDay <= period.rule.employerPaidDays;
+    const ordinary = wageDaily * b.days;
+    let benefitDaily = Math.min(Math.max(wageDaily, floorDaily), capDaily);
+    if (wageDaily > capDaily) capHit = true;
+    if (wageDaily < floorDaily) floorHit = true;
+    let insurance = 0, company = 0;
+    if (inPaid) {
+      if (rules.employerPaysFullDuringPaidDays || !eligible) {
+        company = ordinary;
+      } else {
+        insurance = benefitDaily * b.days;
+        company = Math.max(0, ordinary - insurance);
+      }
+    } else if (eligible) {
+      insurance = benefitDaily * b.days;
+      // 회사가 따로 준 돈이 있으면 합이 통상임금을 넘지 않도록 급여를 줄여요.
+      if (extraDaily > 0 && policy.companyPaymentAdjustmentRules.reduceInsuranceIfSumExceedsOrdinaryWage) {
+        const extra = extraDaily * b.days;
+        const over = Math.max(0, extra + insurance - ordinary);
+        const cut = Math.min(over, insurance);
+        insurance -= cut; reduced += cut;
+        company = extra;
+      }
+    } else if (extraDaily > 0) {
+      company = extraDaily * b.days;
+    }
+    const startDate = addDays(period.start, b.fromDay - 1);
+    const endDate = addDays(period.start, b.toDay - 1);
+    return {
+      ...b, startDate, endDate, inPaid,
+      ordinary: floor(ordinary),
+      capAmount: floor(capDaily * b.days),
+      company: floor(company),
+      insurance: floor(insurance),
+      total: floor(company) + floor(insurance),
+    };
+  });
+  const company = blocks.reduce((s, b) => s + b.company, 0);
+  const insurance = blocks.reduce((s, b) => s + b.insurance, 0);
+  return { size, blocks, company, insurance, total: company + insurance, capHit, floorHit, reduced: floor(reduced) };
+}
+
+/* =========================================================
+   8. Main calculation
+   ========================================================= */
+function validateInputs(v) {
+  const e = {};
+  if (!Number.isFinite(v.wage)) e.wage = "월 통상임금을 입력해주세요.";
+  else if (v.wage <= 0) e.wage = "월 통상임금은 1원 이상으로 입력해주세요.";
+  const start = parseDate(v.startDate);
+  if (!v.startDate) e.start = "출산휴가 시작일을 선택해주세요.";
+  else if (!start) e.start = "날짜를 다시 확인해주세요.";
+  else if (!resolvePolicy(start).policy) e.start = `${POLICY_VERSIONS[0].policyYear}년 1월 1일 이후에 시작하는 출산휴가만 계산할 수 있어요.`;
+  if (!v.birthStatus) e.birthStatus = "출산 정보를 선택해주세요.";
+  const birth = parseDate(v.birthDate);
+  const label = v.birthStatus === "born" ? "실제 출산일" : "출산예정일";
+  if (v.birthStatus && !v.birthDate) e.birth = `${label}을 입력해주세요.`;
+  else if (v.birthDate && !birth) e.birth = "날짜를 다시 확인해주세요.";
+  if (start && birth) {
+    const { policy } = resolvePolicy(start);
+    if (policy) {
+      const rule = policy.leaveDurationRules[leaveTypeKey(v)];
+      if (birth < start && daysBetween(birth, start) >= rule.minPostnatalDays) e.start = "출산 후 너무 늦게 시작하는 날짜예요. 날짜를 다시 확인해주세요.";
+    }
+  }
+  if (!v.birthType) e.birthType = "출산 형태를 선택해주세요.";
+  if (v.companyExtra && !(v.companyExtraMonthly > 0)) e.companyExtra = "회사에서 받는 금액을 입력해주세요.";
+  return e;
+}
+
+function calculateMaternityLeave(v) {
+  const start = parseDate(v.startDate);
+  const { policy, status } = resolvePolicy(start);
+  const period = getLeavePeriod(policy, v);
+  const size = v.size === "no" ? "large" : "priority";
+  const main = computeScenario(policy, v, period, size);
+  const alt = v.size === "unknown" ? computeScenario(policy, v, period, "large") : null;
+  const daily = dailyAmounts(policy, v.wage);
+  return {
+    input: v, policy, policyStatus: status, period, main, alt, daily,
+    eligible: insuranceEligible(v),
+    monthlyAverage: floor(main.total / (period.paidDays / policy.benefitUnitDays)),
+  };
+}
+
+/* =========================================================
+   9. Content data
+   ========================================================= */
+const P = CURRENT_POLICY;
+const LD = P.leaveDurationRules;
+const EXAMPLES = [2500000, 3000000, 4000000];
+
+const FAQ = [
+  { id: "q1", q: "출산전후휴가는 며칠 사용할 수 있나요?",
+    a: `아이를 한 명 낳는 경우 ${LD.single.totalDays}일, 둘 이상 낳는 경우 ${LD.multiple.totalDays}일이에요. 출산 후에 ${LD.single.minPostnatalDays}일(다태아는 ${LD.multiple.minPostnatalDays}일) 이상이 남도록 사용해야 해요. 미숙아를 출산했다면 ${LD.premature.totalDays}일까지 쓸 수 있어요.` },
+  { id: "q2", q: "출산휴가 동안 월급을 그대로 받을 수 있나요?",
+    a: `처음 ${LD.single.employerPaidDays}일(다태아 ${LD.multiple.employerPaidDays}일)은 통상임금 100%를 받아요. 나머지 기간은 고용보험에서 받는데, 30일에 ${manwon(P.governmentBenefitCaps.per30Days)}까지만 나와서 통상임금이 이보다 높으면 그만큼 줄어요.` },
+  { id: "q3", q: "출산휴가 급여는 회사에서 주나요?",
+    a: "회사 규모에 따라 달라요. 대규모기업은 처음 60일을 회사가 주고 나머지를 고용보험에서 줘요. 우선지원대상기업은 전체 기간을 고용보험에서 주고, 처음 60일은 부족한 차액을 회사가 채워줘요." },
+  { id: "q4", q: "고용보험에서는 얼마를 받을 수 있나요?",
+    a: `${P.policyYear}년 기준 통상임금을 기준으로 30일에 최대 ${manwon(P.governmentBenefitCaps.per30Days)}이에요. 통상임금이 최저임금보다 낮으면 최저임금 수준으로 받아요.` },
+  { id: "q5", q: "출산전후휴가 급여에도 상한액이 있나요?",
+    a: `네. 고용보험에서 주는 급여는 30일 기준 ${manwon(P.governmentBenefitCaps.per30Days)}이 상한이에요. 회사가 주는 처음 60일분은 이 상한과 관계없이 통상임금 100%예요.` },
+  { id: "q6", q: "우선지원대상기업이 아니면 급여가 달라지나요?",
+    a: "받는 총액은 같고, 누가 주는지만 달라져요. 우선지원대상기업이 아니면 처음 60일은 회사가 전액 주고, 마지막 30일만 고용보험에서 받아요." },
+  { id: "q7", q: "다태아는 출산휴가 기간이 다른가요?",
+    a: `네. 둘 이상을 임신했다면 ${LD.multiple.totalDays}일을 쓸 수 있고, 출산 후 ${LD.multiple.minPostnatalDays}일 이상이 남아야 해요. 회사가 유급으로 주는 기간도 ${LD.multiple.employerPaidDays}일로 늘어나요.` },
+  { id: "q8", q: "계약직도 출산전후휴가 급여를 받을 수 있나요?",
+    a: "네. 고용 형태와 관계없이 고용보험 가입기간이 합쳐서 180일 이상이면 받을 수 있어요. 휴가 중 계약이 끝나면 그 이후 기간은 받을 수 없을 수 있어서 고용센터에 확인하는 게 좋아요." },
+  { id: "q9", q: "출산휴가 중 회사에서 돈을 받으면 고용보험 급여도 받을 수 있나요?",
+    a: "받을 수 있어요. 다만 회사에서 받은 돈과 고용보험 급여를 합친 금액이 통상임금보다 많으면, 넘는 만큼 고용보험 급여가 줄어들 수 있어요." },
+  { id: "q10", q: "출산전후휴가 급여는 언제 신청하나요?",
+    a: `휴가를 시작한 뒤 1개월이 지나면 신청할 수 있어요. 휴가가 끝난 날부터 ${P.application.deadlineMonthsAfterEnd}개월 안에 신청해야 받을 수 있으니 기한을 꼭 확인해주세요.` },
+  { id: "q11", q: "출산전후휴가 급여는 어디에서 신청하나요?",
+    a: "회사가 출산전후휴가 확인서를 제출하면, 본인이 고용24에서 온라인으로 신청하거나 가까운 고용센터에 방문해서 신청할 수 있어요." },
+];
+
+const RELATED_CALCULATORS = [
+  { id: "parental-leave", name: "육아휴직급여 계산기", desc: "육아휴직을 시작하면 매달 얼마를 받을 수 있는지 확인해보세요.", icon: "baby", href: "/calculators/parental-leave" },
+  { id: "parent-benefit", name: "부모급여 계산기", desc: "아이 연령에 따라 받을 수 있는 부모급여를 확인해보세요.", icon: "baby", href: "/calculators/parent-benefit" },
+  { id: "net-salary", name: "월급 실수령액 계산기", desc: "현재 월급에서 실제 받는 금액을 확인해보세요.", icon: "payslip", href: "/calculators/net-salary" },
+  { id: "severance-pay", name: "퇴직금 계산기", desc: "현재 근무기간을 기준으로 예상 퇴직금을 확인해보세요.", icon: "calendar", href: "/calculators/severance-pay" },
+];
+
 /* =========================================================
    GUIDES — 생활정보 레지스트리 (모든 페이지 공통, 한 곳에서만 수정)
    publishedAt / updatedAt: 실제 작성·수정한 날짜만 적어요.
@@ -1910,7 +1760,7 @@ const NAV_CALCULATORS = [
 ];
 const NAV_FEATURED_IDS = ["freelancer-withholding", "unemployment-benefit", "net-salary", "weekly-holiday-pay", "severance-pay", "loan-interest", "dsr", "annual-leave"];
 const navFeaturedIds = () => NAV_FEATURED_IDS;
-const NAV_SECTION = "guide"; // 헤더에서 현재 위치로 표시할 메뉴
+const NAV_SECTION = "calc"; // 헤더에서 현재 위치로 표시할 메뉴
 const NAV_MENU_OF = { "계산기": "calc", "생활정보": "guide" }; // 헤더에서 메가메뉴를 여는 항목
 const NAV_PER_CATEGORY = 4; // 카테고리마다 메뉴에 보여줄 계산기 수
 const NAV_CALC_INDEX_HREF = "/calculators"; // 전체 계산기 목록 페이지
@@ -1929,8 +1779,16 @@ function navGuidePick(catId) {
   return list.find((g) => FEATURED_GUIDE_IDS.includes(g.id)) || list[0] || null;
 }
 /* NAV_MENU:END */
+const RELATED_ARTICLES = guidesForCalculator("/calculators/maternity-leave-pay");
 
-const PAGE = { path: "/guide", title: "생활정보", category: { name: "생활정보", href: "/guide" }, updatedAt: "2026.09.25" };
+const NAV = [
+  { label: "계산기", href: "/#popular" },
+  { label: "생활정보", href: "/guide" },
+  { label: "얼마지 소개", href: "/about" },
+];
+
+const BREADCRUMB = [ { name: "홈", href: "/" }, { name: "계산기", href: "/calculators" }, { name: PAGE.category.name, href: PAGE.category.href }, { name: PAGE.title, href: PAGE.path } ];
+
 /* =========================================================
    Routing
    - 실서비스(ulmaji.kr): 실제 경로로 이동
@@ -2090,8 +1948,6 @@ async function shareCalculator() {
    8. Icon (메인페이지와 동일한 아웃라인 세트)
    ========================================================= */
 const ICONS = {
-  receipt: '<path d="M6 3h12v18l-2-1.4-2 1.4-2-1.4-2 1.4-2-1.4L6 21z"/><path d="M9 8h6M9 12h6M9 16h3"/>',
-  percent: '<path d="M18.5 5.5 5.5 18.5"/><circle cx="7" cy="7" r="2.5"/><circle cx="17" cy="17" r="2.5"/>',
   clock: '<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>',
   baby: '<circle cx="12" cy="13" r="7.5"/><path d="M12 5.5c0-1.5 1-2.5 2.5-2.5M9.5 12.5h.01M14.5 12.5h.01M10 16c1.2.9 2.8.9 4 0"/>',
   help: '<circle cx="12" cy="12" r="9"/><path d="M9.6 9.4a2.5 2.5 0 0 1 4.8.9c0 1.7-2.4 2.1-2.4 3.5M12 16.8h.01"/>',
@@ -2340,59 +2196,869 @@ function Toast() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ICONS.copy = '<rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/>';
-
-function Crumbs({ items }) {
-  return (<nav className="container breadcrumb" aria-label="현재 위치"><ol>{items.map((b, i) => { const last = i === items.length - 1; return (
-    <li key={b.name}>{i > 0 && <Icon name="chevron-right" size={14} />}{last || !b.href ? <span aria-current={last ? "page" : undefined}>{b.name}</span> : <AppLink href={b.href}>{b.name}</AppLink>}</li>); })}</ol></nav>);
-}
-function SourceList({ sources }) {
-  return (<ul className="source-list">{sources.map((x) => (
-    <li key={x.url}><a className="source-link" href={x.url} target="_blank" rel="noopener noreferrer"><span><span className="src-name">{x.name}</span><span className="src-desc">{x.desc}</span></span><Icon name="external" size={18} /><span className="sr-only">(새 탭에서 열림)</span></a></li>))}</ul>);
+/* =========================================================
+   10. Page top
+   ========================================================= */
+function Breadcrumb() {
+  return (
+    <nav className="container breadcrumb" aria-label="현재 위치">
+      <ol>
+        {BREADCRUMB.map((b, i) => {
+          const last = i === BREADCRUMB.length - 1;
+          return (
+            <li key={b.href}>
+              {i > 0 && <Icon name="chevron-right" size={14} />}
+              {last ? <span aria-current="page">{b.name}</span> : <AppLink href={b.href}>{b.name}</AppLink>}
+            </li>
+          );
+        })}
+      </ol>
+    </nav>
+  );
 }
 
-function GuideList() {
-  const q = new URLSearchParams(window.location.search).get("category");
-  const cats = GUIDE_CATEGORIES.filter((c) => PUBLISHED_GUIDES.some((g) => g.categoryId === c.id));
-  const current = cats.some((c) => c.id === q) ? q : "all";
-  const list = PUBLISHED_GUIDES.filter((g) => current === "all" || g.categoryId === current);
-  return (<>
-    <Crumbs items={[{ name: "얼마지", href: "/" }, { name: "생활정보" }]} />
-    <div className="container page-head"><h1>생활정보</h1>
-      <p className="page-desc">월급, 세금, 대출, 부동산, 육아·복지까지<br />생활 속에서 헷갈리는 기준을 쉽게 정리했어요.</p></div>
-    <section className="container" aria-label="생활정보 목록">
-      {cats.length > 1 && <ul className="cat-tabs" aria-label="카테고리">
-        <li><AppLink href="/guide" aria-current={current === "all" ? "page" : undefined}>전체<span className="cnt">{PUBLISHED_GUIDES.length}</span></AppLink></li>
-        {cats.map((c) => <li key={c.id}><AppLink href={`/guide?category=${c.id}`} aria-current={current === c.id ? "page" : undefined}>{c.name}<span className="cnt">{PUBLISHED_GUIDES.filter((g) => g.categoryId === c.id).length}</span></AppLink></li>)}</ul>}
-      <ul className="article-grid" style={{ marginTop: cats.length > 1 ? 0 : 24 }}>{list.map((a) => <li key={a.id}><ArticleCard article={a} /></li>)}</ul>
-      <p className="guide-meta">글마다 참고한 공식자료와 확인 날짜를 적고, 관련 계산기로 바로 이어지게 했어요.</p>
+function PageHead() {
+  return (
+    <div className="container page-head">
+      <span className="badge badge-brand">{PAGE.category.name}</span>
+      <h1>{PAGE.title}</h1>
+      <p className="page-desc">월 통상임금과 휴가 정보를 입력하면<br />출산휴가 동안 받을 수 있는 예상 급여를 계산해드려요.</p>
+      <p className="page-meta">
+        <span>{CURRENT_POLICY.policyYear}년 기준</span>
+        <span className="meta-sep" aria-hidden="true"></span>
+        <a href="#basis">최종 업데이트 {PAGE.updatedAt}<Icon name="info" size={16} /><span className="sr-only">, 계산 기준 보기</span></a>
+      </p>
+    </div>
+  );
+}
+
+/* =========================================================
+   11. Form pieces
+   ========================================================= */
+function FieldError({ id, message }) {
+  if (!message) return null;
+  return <p id={id} className="field-error"><Icon name="alert" size={16} />{message}</p>;
+}
+
+function HelpButton({ controls, label, open, onToggle }) {
+  return (
+    <button type="button" className="help-btn" aria-expanded={open} aria-controls={controls}
+      aria-label={`${label} 설명 ${open ? "닫기" : "보기"}`} onClick={onToggle}>
+      <Icon name="help" size={18} />
+    </button>
+  );
+}
+
+function Seg({ name, options, value, onChange, cols }) {
+  return (
+    <div className={"seg" + (cols === 3 ? " cols-3" : "")}>
+      {options.map((o) => (
+        <label className="seg-option" key={o.v}>
+          <input type="radio" name={name} checked={value === o.v} onChange={() => onChange(o.v)} />
+          <span>{o.l}{o.s && <small>{o.s}</small>}</span>
+        </label>
+      ))}
+    </div>
+  );
+}
+
+function PriorityCompanyInfo() {
+  return (
+    <div className="explain-box">
+      <strong>우선지원대상기업이란?</strong>
+      <p>고용보험에서 더 많이 지원하는 중소 규모 회사예요. 업종별로 평소 일하는 사람 수가 아래 기준 이하이거나, 중소기업기본법상 중소기업이면 해당돼요.</p>
+      <ul className="help-list">
+        {CURRENT_POLICY.prioritySupportCompanyRules.map((r) => <li key={r.industry}>{r.industry}: {r.maxWorkers}명 이하</li>)}
+      </ul>
+      <p>정확한 여부는 회사 인사팀에 물어보거나 고용24에서 확인할 수 있어요.</p>
+    </div>
+  );
+}
+
+/* =========================================================
+   12. Leave Timeline
+   ========================================================= */
+function LeaveTimeline({ period }) {
+  const total = period.totalDays;
+  const hasBirth = period.birth && period.prenatalDays > 0 && period.prenatalDays < total;
+  return (
+    <div className="worktime">
+      <h3 className="res-sub-title">얼마나 쉴 수 있나요?</h3>
+      <div className="wt-bar" aria-hidden="true">
+        {hasBirth ? (
+          <>
+            <span className="wt-seg is-day" style={{ width: `${(period.prenatalDays / total) * 100}%` }}></span>
+            <span className="wt-seg is-night" style={{ width: `${(period.postnatalDays / total) * 100}%` }}></span>
+          </>
+        ) : <span className="wt-seg is-night" style={{ width: "100%" }}></span>}
+      </div>
+      <div className="lt-labels" aria-hidden="true">
+        <span>휴가 시작<br />{fmtDate(period.start)}</span>
+        {hasBirth && <span style={{ left: `${(period.prenatalDays / total) * 100}%` }} className="mid">출산일<br />{fmtDate(period.birth)}</span>}
+        <span className="end">휴가 종료<br />{fmtDate(period.end)}</span>
+      </div>
+      <ul className="wt-list">
+        {hasBirth && <li><span className="wt-key is-day" aria-hidden="true"></span><span className="wt-time">출산 전 휴가</span><span className="wt-type">{period.prenatalDays}일</span></li>}
+        {period.birth && <li><span className="wt-key is-night" aria-hidden="true"></span><span className="wt-time">출산 후 휴가 (출산일 포함)</span><span className="wt-type">{period.postnatalDays}일</span></li>}
+        <li><span className="wt-time">전체</span><span className="wt-type">{total}일</span></li>
+      </ul>
+      {period.extendedDays > 0 && (
+        <p className="wt-note">출산 후 {period.rule.minPostnatalDays}일을 확보하려고 {period.extendedDays}일이 늘어났어요. 늘어난 기간은 급여 계산에서 뺐어요.</p>
+      )}
+    </div>
+  );
+}
+
+/* =========================================================
+   13. Payment Source Breakdown
+   ========================================================= */
+function PaymentBlocks({ scenario }) {
+  return (
+    <div className="pay-blocks">
+      <h3 className="res-sub-title">어디에서 얼마를 받나요?</h3>
+      <ol className="block-list">
+        {scenario.blocks.map((b, i) => (
+          <li className="pay-block" key={b.fromDay}>
+            <p className="pb-head">
+              <strong>기간 {i + 1}</strong>
+              <span>{fmtDate(b.startDate)} ~ {fmtDate(b.endDate)} · {b.fromDay}~{b.toDay}일차 ({b.days}일)</span>
+            </p>
+            <dl className="pb-rows">
+              <div><dt><span className="src-tag">회사</span></dt><dd>{won(b.company)}</dd></div>
+              <div><dt><span className="src-tag is-gov">고용보험</span></dt><dd>{won(b.insurance)}</dd></div>
+              <div className="is-sum"><dt>예상 합계</dt><dd>{won(b.total)}</dd></div>
+            </dl>
+          </li>
+        ))}
+      </ol>
+      <p className="why-note">회사 지급분과 고용보험 지급분은 기준에 따라 서로 조정돼요. 위 금액은 중복 지급되지 않도록 계산한 예상 금액이에요.</p>
+    </div>
+  );
+}
+
+function ScenarioCompare({ result }) {
+  const { main, alt } = result;
+  if (!alt) return null;
+  return (
+    <div className="compare">
+      <h3 className="res-sub-title">회사 규모에 따라 이렇게 나뉘어요</h3>
+      <div className="scn-grid">
+        {[{ t: "우선지원대상기업인 경우", s: main }, { t: "그 외 기업인 경우", s: alt }].map((x) => (
+          <dl key={x.t} className="scn">
+            <dt>{x.t}</dt>
+            <dd><span>회사</span><b>{won(x.s.company)}</b></dd>
+            <dd><span>고용보험</span><b>{won(x.s.insurance)}</b></dd>
+          </dl>
+        ))}
+      </div>
+      <p className="compare-note">받는 총액은 {won(main.total)}으로 같고, 누가 주는지만 달라져요.</p>
+    </div>
+  );
+}
+
+/* =========================================================
+   14. Result
+   ========================================================= */
+function ResultEmpty() {
+  return (
+    <div className="result-empty">
+      <span className="big-q" aria-hidden="true">?</span>
+      <h2 className="sr-only">계산 결과</h2>
+      <p>출산휴가 정보를 입력하면<br />예상 급여를 알려드릴게요.</p>
+    </div>
+  );
+}
+
+const SIZE_TEXT = { yes: "우선지원대상기업", no: "우선지원대상기업 아님", unknown: "잘 모르겠어요" };
+const INSURED_TEXT = { yes: "충족해요", no: "충족하지 않아요", unknown: "잘 모르겠어요" };
+
+function Explanation({ result, open, onToggle }) {
+  const { input, period, main, policy, daily } = result;
+  return (
+    <div className="why">
+      <button type="button" className="why-toggle" aria-expanded={open} aria-controls="why-body" onClick={onToggle}>
+        왜 이렇게 계산됐나요?
+        <Icon name="chevron-right" size={20} strokeWidth={2.2} />
+      </button>
+      <div id="why-body" className="why-body" hidden={!open}>
+        <div className="why-block">
+          <p className="why-title">입력한 조건</p>
+          <dl className="cond-list">
+            <div><dt>월 통상임금</dt><dd>{won(input.wage)}</dd></div>
+            <div><dt>휴가 시작일</dt><dd>{fmtDate(period.start)}</dd></div>
+            <div><dt>{input.birthStatus === "born" ? "실제 출산일" : "출산예정일"}</dt><dd>{fmtDate(period.birth)}</dd></div>
+            <div><dt>출산 형태</dt><dd>{period.rule.label}</dd></div>
+            <div><dt>사업장 조건</dt><dd>{SIZE_TEXT[input.size]}</dd></div>
+            <div><dt>고용보험 180일</dt><dd>{INSURED_TEXT[input.insured]}</dd></div>
+          </dl>
+          <p className="why-note">{policy.policyYear}년 기준을 적용했어요. 고용보험 상한은 {policy.benefitUnitDays}일에 {won(policy.governmentBenefitCaps.per30Days)}, 하한은 최저임금 월 환산액 {won(daily.floorMonthly)}이에요.</p>
+        </div>
+        <div className="why-block">
+          <p className="why-title">계산 과정</p>
+          <ol className="steps">
+            {main.blocks.map((b, i) => (
+              <li className="step" key={b.fromDay}>
+                <p className="step-name">기간 {i + 1} · {b.fromDay}~{b.toDay}일차 {b.inPaid ? "(회사 유급기간)" : ""}</p>
+                <dl className="calc-rows">
+                  <div><dt>통상임금 기준 금액</dt><dd>{won(b.ordinary)}</dd></div>
+                  <div><dt>고용보험 상한</dt><dd>{won(b.capAmount)}</dd></div>
+                  <div><dt>회사 지급분</dt><dd>{won(b.company)}</dd></div>
+                  <div><dt>고용보험 지급분</dt><dd>{won(b.insurance)}</dd></div>
+                  <div className="is-final"><dt>예상 지급액</dt><dd>{won(b.total)}</dd></div>
+                </dl>
+              </li>
+            ))}
+          </ol>
+          <p className="why-note">
+            회사 유급기간({period.rule.employerPaidDays}일)에는 통상임금 100%를 받아요.
+            {main.size === "priority" ? " 이 기간 고용보험 급여가 통상임금보다 적으면 회사가 차액을 채워요." : " 이 기간은 회사가 전액을 줘요."}
+            {" "}그 이후는 고용보험 급여만 받아요. 하루치 통상임금은 월 통상임금을 {policy.ordinaryWageRules.monthlyToDailyDivisor}으로 나눠 계산했고, 원 미만은 버렸어요.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ResultView({ result, stale, headingRef, whyOpen, onToggleWhy, onRecalc, onReset }) {
+  const { main, period, policy, policyStatus, input, eligible } = result;
+  const unknownSize = input.size === "unknown";
+  return (
+    <div className={"result-view" + (stale ? " is-stale" : "")}>
+      {stale && (
+        <div className="status is-note res-stale">
+          <Icon name="info" size={20} />
+          <p><strong>입력값을 확인해주세요</strong><span>올바르게 입력하면 결과가 바로 다시 계산돼요.</span></p>
+        </div>
+      )}
+      <div className="res-head">
+        <h2 className="res-label" ref={headingRef} tabIndex={-1}>예상 출산전후휴가 급여</h2>
+        <span className="badge badge-brand">{policy.policyYear}년 기준</span>
+      </div>
+      <p className="res-amount">{won(main.total)}</p>
+      <p className="res-sentence">입력한 조건과 {policy.policyYear}년 적용 기준을 바탕으로 계산했어요. 월평균으로는 약 {won(result.monthlyAverage)}이에요.</p>
+
+      <div className="res-fade">
+        <div className="sum-grid">
+          <div className="sum-item"><span>얼마나 쉴 수 있나요</span><strong>{period.totalDays}일</strong></div>
+          <div className="sum-item"><span>{unknownSize ? "회사에서(예상)" : "회사에서 받는 금액"}</span><strong>{won(main.company)}</strong></div>
+          <div className="sum-item"><span>{unknownSize ? "고용보험에서(예상)" : "고용보험에서 받는 금액"}</span><strong>{won(main.insurance)}</strong></div>
+        </div>
+
+        {policyStatus === "projected" && (
+          <div className="status is-note"><Icon name="info" size={20} />
+            <p><strong>{policy.policyYear}년 기준으로 예상했어요</strong><span>휴가 시작일이 속한 연도의 상한액이 아직 반영되지 않았어요.</span></p></div>
+        )}
+        {unknownSize && (
+          <div className="status is-note"><Icon name="info" size={20} />
+            <p><strong>우선지원대상기업 기준으로 나눠 보여드려요</strong><span>사업장 유형에 따라 누가 주는지가 달라져요. 아래에서 두 경우를 비교해보세요.</span></p></div>
+        )}
+        {!eligible && (
+          <div className="status is-no"><Icon name="info" size={20} />
+            <p><strong>고용보험 급여는 받지 못할 수 있어요</strong><span>가입기간 요건을 채우지 못하면 회사 유급기간({period.rule.employerPaidDays}일)만 회사에서 받아요.</span></p></div>
+        )}
+        {input.insured === "unknown" && (
+          <div className="status is-note"><Icon name="info" size={20} />
+            <p><strong>고용보험 요건을 충족한다고 보고 계산했어요</strong><span>{policy.insuranceEligibilityRules.text}이어야 받을 수 있어요.</span></p></div>
+        )}
+        {main.capHit && (
+          <div className="small-notice is-tip"><Icon name="info" size={18} />
+            <p><strong>상한액이 적용됐어요</strong><span>통상임금을 기준으로 계산한 금액이 고용보험 지급 상한({policy.benefitUnitDays}일 {manwon(policy.governmentBenefitCaps.per30Days)})보다 높아서, 고용보험에서 받는 기간은 상한 기준으로 계산했어요.</span></p></div>
+        )}
+        {main.floorHit && (
+          <div className="small-notice is-tip"><Icon name="info" size={18} />
+            <p><strong>하한 기준이 적용됐어요</strong><span>통상임금이 최저임금 월 환산액보다 낮아서 고용보험 급여는 최저임금 기준으로 계산했어요.</span></p></div>
+        )}
+        {main.reduced > 0 && (
+          <div className="small-notice is-tip"><Icon name="info" size={18} />
+            <p><strong>고용보험 급여가 {won(main.reduced)} 줄었어요</strong><span>회사에서 받은 돈과 합친 금액이 통상임금을 넘지 않도록 조정했어요.</span></p></div>
+        )}
+
+        <LeaveTimeline period={period} />
+        <PaymentBlocks scenario={main} />
+        <ScenarioCompare result={result} />
+      </div>
+
+      <Explanation result={result} open={whyOpen} onToggle={onToggleWhy} />
+
+      <div className="small-notice">
+        <Icon name="info" size={18} />
+        <p><strong>실제 지급액과 다를 수 있어요</strong>
+          <span>출산전후휴가 급여는 통상임금, 사업장 유형, 고용보험 가입기간, 실제 휴가기간, 회사 지급액 등 개인별 조건에 따라 달라질 수 있습니다.</span></p>
+      </div>
+      <div className="res-actions">
+        <button type="button" className="btn-secondary" onClick={onRecalc}><Icon name="refresh" size={18} />다시 계산하기</button>
+        <button type="button" className="btn-text" onClick={onReset}>입력값 초기화</button>
+      </div>
+    </div>
+  );
+}
+
+/* =========================================================
+   15. Calculator Form
+   ========================================================= */
+const QUICK_AMOUNTS = [2000000, 2500000, 3000000, 3500000, 4000000];
+const INITIAL = {
+  wage: "", startDate: "", birthStatus: "before", birthDate: "", birthType: "single",
+  size: "unknown", insured: "yes", premature: false, companyExtra: false, companyExtraMonthly: "",
+};
+function isoAfterDays(n) {
+  const now = new Date(Date.now() + 9 * 3600000);
+  return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + n)).toISOString().slice(0, 10);
+}
+
+function MaternityLeaveCalculator() {
+  const [s, setS] = useState(INITIAL);
+  const [help, setHelp] = useState(null);
+  const [wageInfo, setWageInfo] = useState(false);
+  const [moreOpen, setMoreOpen] = useState(false);
+  const [errors, setErrors] = useState({});
+  const [submitted, setSubmitted] = useState(false);
+  const [whyOpen, setWhyOpen] = useState(false);
+  const [scrollTick, setScrollTick] = useState(0);
+
+  const formRef = useRef(null);
+  const wageRef = useRef(null);
+  const startRef = useRef(null);
+  const birthRef = useRef(null);
+  const extraRef = useRef(null);
+  const resultColRef = useRef(null);
+  const headingRef = useRef(null);
+  const lastResultRef = useRef(null);
+
+  const set = (patch, errKeys = []) => {
+    setS((x) => ({ ...x, ...patch }));
+    if (errKeys.length) setErrors((e) => { const n = { ...e }; errKeys.forEach((k) => delete n[k]); return n; });
+  };
+  const toggleHelp = (k) => setHelp((h) => (h === k ? null : k));
+
+  const values = { ...s, wage: parseNumber(s.wage), companyExtraMonthly: parseNumber(s.companyExtraMonthly) };
+  const liveErrors = validateInputs(values);
+  const result = Object.keys(liveErrors).length === 0 ? calculateMaternityLeave(values) : null;
+  if (submitted && result) lastResultRef.current = result;
+  const shown = submitted ? lastResultRef.current : null;
+  const stale = submitted && !result;
+
+  // 휴가기간 미리보기
+  const start = parseDate(s.startDate);
+  const resolved = start ? resolvePolicy(start) : null;
+  const previewPolicy = resolved && resolved.policy;
+  const preview = previewPolicy && parseDate(s.birthDate) && !liveErrors.start && !liveErrors.birth
+    ? getLeavePeriod(previewPolicy, values) : null;
+
+  useEffect(() => {
+    if (!scrollTick) return;
+    const col = resultColRef.current;
+    if (!col) return;
+    const stacked = window.matchMedia("(max-width: 1023px)").matches;
+    const top = col.getBoundingClientRect().top;
+    const offscreen = top < 64 || top > window.innerHeight * 0.55;
+    if (offscreen) scrollToEl(stacked ? col : document.getElementById("calculator"));
+    const t = afterScroll(() => headingRef.current && headingRef.current.focus({ preventScroll: true }));
+    return () => clearTimeout(t);
+  }, [scrollTick]);
+
+  useEffect(() => {
+    const onPreset = (e) => {
+      setS((x) => {
+        const startDate = x.startDate || isoAfterDays(30);
+        const birthDate = x.birthDate || new Date(parseDate(startDate).getTime() + 44 * DAY).toISOString().slice(0, 10);
+        return { ...x, wage: formatNumber(e.detail.wage), startDate, birthDate };
+      });
+      setErrors({});
+      setSubmitted(true);
+      setScrollTick((n) => n + 1);
+    };
+    window.addEventListener("ulmaji:preset-maternity", onPreset);
+    return () => window.removeEventListener("ulmaji:preset-maternity", onPreset);
+  }, []);
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    const errs = validateInputs(values);
+    setErrors(errs);
+    if (Object.keys(errs).length) {
+      if (errs.wage) wageRef.current && wageRef.current.focus();
+      else if (errs.start) startRef.current && startRef.current.focus();
+      else if (errs.birth) birthRef.current && birthRef.current.focus();
+      else if (errs.companyExtra) { setMoreOpen(true); setTimeout(() => extraRef.current && extraRef.current.focus(), 0); }
+      return;
+    }
+    setSubmitted(true);
+    setScrollTick((n) => n + 1);
+  };
+
+  const onRecalc = () => {
+    scrollToEl(formRef.current);
+    afterScroll(() => { if (wageRef.current) { wageRef.current.focus({ preventScroll: true }); wageRef.current.select(); } });
+  };
+
+  const onReset = () => {
+    setS(INITIAL);
+    setErrors({});
+    setSubmitted(false);
+    setWhyOpen(false);
+    setWageInfo(false);
+    lastResultRef.current = null;
+    scrollToEl(formRef.current);
+    afterScroll(() => wageRef.current && wageRef.current.focus({ preventScroll: true }));
+    toast("입력값을 초기화했어요.");
+  };
+
+  const wageNum = parseNumber(s.wage);
+  const birthLabel = s.birthStatus === "born" ? "실제 출산일" : "출산예정일";
+
+  return (
+    <section className="calc-section" id="calculator" aria-label="출산전후휴가 급여 계산기">
+      <div className="container">
+        <div className="calc-shell">
+          <form className="calc-form" ref={formRef} onSubmit={onSubmit} noValidate aria-labelledby="form-title">
+            <h2 id="form-title" className="form-title">출산휴가 정보를 입력해주세요</h2>
+            <p className="form-desc">몇 가지만 입력하면 예상 급여를 확인할 수 있어요.</p>
+
+            {/* 월 통상임금 */}
+            <div className="field">
+              <div className="label-row">
+                <label className="field-label" htmlFor="wage">월 통상임금<span className="sr-only"> (원)</span></label>
+                <HelpButton controls="help-wage" label="월 통상임금" open={help === "wage"} onToggle={() => toggleHelp("wage")} />
+              </div>
+              <p id="help-wage" className="help-pop" hidden={help !== "wage"}>출산전후휴가 급여를 계산할 때 기준이 되는 임금이에요.</p>
+              <div className={"input-wrap" + (errors.wage ? " is-invalid" : "")}>
+                <input id="wage" ref={wageRef} type="text" inputMode="numeric" autoComplete="off" placeholder="예: 3,000,000"
+                  value={s.wage} onChange={(e) => set({ wage: formatMoneyInput(e.target.value) }, ["wage"])}
+                  aria-invalid={!!errors.wage} aria-describedby={errors.wage ? "wage-error" : undefined} />
+                <span className="input-suffix" aria-hidden="true">원</span>
+              </div>
+              <FieldError id="wage-error" message={errors.wage} />
+              <ul className="quick-amounts" aria-label="금액 빠르게 넣기">
+                {QUICK_AMOUNTS.map((a) => (
+                  <li key={a}><button type="button" className="chip" aria-pressed={wageNum === a} onClick={() => set({ wage: formatNumber(a) }, ["wage"])}>{manwon(a)}</button></li>
+                ))}
+              </ul>
+              <button type="button" className="nested-toggle" aria-expanded={wageInfo} aria-controls="wage-info" onClick={() => setWageInfo((v) => !v)}>
+                통상임금을 잘 모르겠어요
+                <Icon name="chevron-right" size={18} strokeWidth={2.2} />
+              </button>
+              <div id="wage-info" className="explain-box" hidden={!wageInfo}>
+                <strong>통상임금이란?</strong>
+                <p>정해진 근무에 대해 매달 정기적이고 고정적으로 받기로 한 임금이에요. 보통 기본급과 매달 고정으로 받는 수당이 들어가고, 연장근로수당이나 성과에 따라 달라지는 금액은 빠지는 경우가 많아요.</p>
+                <p>어떤 수당이 들어가는지는 회사 임금 규정에 따라 달라질 수 있어요. 급여명세서나 회사 인사팀에 확인해주세요. 통상임금 계산기도 준비하고 있어요.</p>
+              </div>
+            </div>
+
+            {/* 휴가 시작일 */}
+            <div className="field">
+              <label className="field-label" htmlFor="start-date">출산휴가 시작일</label>
+              <div className={"input-wrap date" + (errors.start ? " is-invalid" : "")}>
+                <input id="start-date" ref={startRef} type="date" value={s.startDate} onChange={(e) => set({ startDate: e.target.value }, ["start", "birth"])}
+                  aria-invalid={!!errors.start} aria-describedby={["start-help", errors.start && "start-error"].filter(Boolean).join(" ")} />
+              </div>
+              <FieldError id="start-error" message={errors.start} />
+              <p id="start-help" className="field-help">실제로 출산전후휴가를 시작하는 날짜를 입력해주세요.</p>
+            </div>
+
+            {/* 출산 정보 */}
+            <fieldset className="field">
+              <legend className="field-label">출산 정보</legend>
+              <Seg name="birth-status" value={s.birthStatus} onChange={(v) => set({ birthStatus: v, premature: v === "born" ? s.premature : false }, ["birthStatus", "birth"])}
+                options={[{ v: "before", l: "아직 출산 전이에요" }, { v: "born", l: "이미 출산했어요" }]} />
+              <div className="sub-field">
+                <label className="mini-label" htmlFor="birth-date">{birthLabel}</label>
+                <div className={"input-wrap date" + (errors.birth ? " is-invalid" : "")}>
+                  <input id="birth-date" ref={birthRef} type="date" value={s.birthDate} onChange={(e) => set({ birthDate: e.target.value }, ["birth", "start"])}
+                    aria-invalid={!!errors.birth} aria-describedby={errors.birth ? "birth-error" : undefined} />
+                </div>
+                <FieldError id="birth-error" message={errors.birth} />
+              </div>
+            </fieldset>
+
+            <fieldset className="field">
+              <legend className="field-label">아이를 몇 명 낳나요?</legend>
+              <Seg name="birth-type" value={s.birthType} onChange={(v) => set({ birthType: v }, ["birthType"])}
+                options={[{ v: "single", l: "한 명", s: "단태아" }, { v: "multiple", l: "둘 이상", s: "다태아" }]} />
+            </fieldset>
+
+            <div className="service-box" aria-live="polite">
+              <div className="svc-row"><span>예상 휴가기간</span><strong className={preview ? "is-blue" : ""}>{preview ? `총 ${preview.totalDays}일` : "날짜를 입력하면 계산돼요"}</strong></div>
+              {preview && <div className="svc-row"><span>기간</span><strong>{fmtDate(preview.start)} ~ {fmtDate(preview.end)}</strong></div>}
+            </div>
+
+            {/* 사업장 조건 */}
+            <fieldset className="field company-field">
+              <div className="label-row">
+                <legend className="field-label">회사가 우선지원대상기업에 해당하나요?</legend>
+              </div>
+              <Seg name="size" cols={3} value={s.size} onChange={(v) => set({ size: v })}
+                options={[{ v: "yes", l: "네" }, { v: "no", l: "아니요" }, { v: "unknown", l: "잘 모르겠어요" }]} />
+              <button type="button" className="nested-toggle" aria-expanded={help === "priority"} aria-controls="priority-info" onClick={() => toggleHelp("priority")}>
+                우선지원대상기업이 뭔가요?
+                <Icon name="chevron-right" size={18} strokeWidth={2.2} />
+              </button>
+              <div id="priority-info" hidden={help !== "priority"}><PriorityCompanyInfo /></div>
+              {s.size === "unknown" && <p className="field-help">괜찮아요. 우선 일반적인 기준으로 예상 금액을 보여드리고, 결과에서 차이를 함께 안내할게요.</p>}
+            </fieldset>
+
+            {/* 고용보험 */}
+            <fieldset className="field">
+              <div className="label-row">
+                <legend className="field-label">고용보험 가입기간이 합쳐서 180일 이상인가요?</legend>
+                <HelpButton controls="help-insured" label="고용보험 가입기간" open={help === "insured"} onToggle={() => toggleHelp("insured")} />
+              </div>
+              <p id="help-insured" className="help-pop" hidden={help !== "insured"}>
+                지금 회사와 예전 회사에서 고용보험에 가입했던 기간을 모두 합쳐요. 휴가가 끝나는 날까지 180일 이상이면 돼요. 1년 가까이 한 회사에 다녔다면 대부분 충족해요.
+              </p>
+              <Seg name="insured" cols={3} value={s.insured} onChange={(v) => set({ insured: v })}
+                options={[{ v: "yes", l: "네" }, { v: "no", l: "아니요" }, { v: "unknown", l: "잘 모르겠어요" }]} />
+            </fieldset>
+
+            {/* 추가 조건 */}
+            <div className="more-settings">
+              <button type="button" className="more-toggle" aria-expanded={moreOpen} aria-controls="more-body" onClick={() => setMoreOpen((v) => !v)}>
+                <span><Icon name="sliders" size={20} />추가 조건</span>
+                <small>{s.premature || s.companyExtra ? "변경됨" : "미숙아, 회사 추가 지급"}</small>
+                <Icon name="chevron-right" size={20} strokeWidth={2.2} />
+              </button>
+              <div id="more-body" className="more-body" hidden={!moreOpen}>
+                {s.birthStatus === "born" && s.birthType === "single" && (
+                  <label className="check-row">
+                    <input type="checkbox" checked={s.premature} onChange={(e) => set({ premature: e.target.checked })} />
+                    <span><strong>미숙아를 출산했어요</strong><small>휴가기간이 {CURRENT_POLICY.leaveDurationRules.premature.totalDays}일로 늘어나요.</small></span>
+                  </label>
+                )}
+                <label className="check-row">
+                  <input type="checkbox" checked={s.companyExtra} onChange={(e) => set({ companyExtra: e.target.checked }, ["companyExtra"])} />
+                  <span><strong>휴가 중 회사에서 따로 받는 돈이 있어요</strong><small>회사 유급기간이 끝난 뒤에도 회사에서 받는 금액이 있을 때 선택해주세요.</small></span>
+                </label>
+                {s.companyExtra && (
+                  <div className="field sub-field">
+                    <label className="mini-label" htmlFor="extra">한 달에 회사에서 받는 금액</label>
+                    <div className={"input-wrap sm" + (errors.companyExtra ? " is-invalid" : "")}>
+                      <input id="extra" ref={extraRef} type="text" inputMode="numeric" autoComplete="off" placeholder="0"
+                        value={s.companyExtraMonthly} onChange={(e) => set({ companyExtraMonthly: formatMoneyInput(e.target.value) }, ["companyExtra"])}
+                        aria-invalid={!!errors.companyExtra} aria-describedby={errors.companyExtra ? "extra-error" : "extra-help"} />
+                      <span className="input-suffix" aria-hidden="true">원</span>
+                    </div>
+                    <FieldError id="extra-error" message={errors.companyExtra} />
+                    <p id="extra-help" className="field-help">합친 금액이 통상임금보다 많으면 고용보험 급여가 줄어들 수 있어요.</p>
+                  </div>
+                )}
+              </div>
+            </div>
+
+            <button type="submit" className="btn btn-primary submit-btn">출산휴가 급여 계산하기</button>
+          </form>
+
+          <div className="result-col" ref={resultColRef}>
+            <div className="result-panel">
+              <p className="sr-only" aria-live="polite">
+                {shown && !stale ? `예상 출산전후휴가 급여는 총 ${won(shown.main.total)}, 휴가기간은 ${shown.period.totalDays}일이에요.` : ""}
+              </p>
+              {shown ? (
+                <ResultView result={shown} stale={stale} headingRef={headingRef}
+                  whyOpen={whyOpen} onToggleWhy={() => setWhyOpen((v) => !v)} onRecalc={onRecalc} onReset={onReset} />
+              ) : (
+                <ResultEmpty />
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <AdSlot id="guide-list-bottom" label="목록 하단" />
-    <div style={{ height: 64 }}></div>
-  </>);
+  );
 }
-function App() { return (<><a className="skip-link" href="#main">본문 바로가기</a><Header /><main id="main"><GuideList /></main><Footer /><Toast /></>); }
+
+/* =========================================================
+   16. Below-the-calculator sections
+   ========================================================= */
+function RelatedCard({ calc }) {
+  if (calc.soon) {
+    return (
+      <div className="calc-card is-soon" aria-disabled="true">
+        <span className="icon-box is-muted"><Icon name={calc.icon} /></span>
+        <div className="calc-text"><h3>{calc.name}</h3><p>{calc.desc}</p></div>
+        <span className="badge badge-soon">준비 중</span>
+      </div>
+    );
+  }
+  return <CalculatorCard calc={calc} />;
+}
+
+function RelatedCalculators() {
+  return (
+    <section className="section tight-top" aria-labelledby="related-title">
+      <div className="container">
+        <SectionHead id="related-title" title="이어서 계산해볼까요?" moreHref="/calculators" moreLabel="전체 계산기" />
+        <ul className="calc-grid">
+          {RELATED_CALCULATORS.map((c) => <li key={c.id}><RelatedCard calc={c} /></li>)}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+function exampleInput(w) {
+  return { wage: w, startDate: "2026-10-01", birthStatus: "before", birthDate: "2026-11-14", birthType: "single", size: "yes", insured: "yes", premature: false, companyExtra: false, companyExtraMonthly: NaN };
+}
+
+function GuideSection() {
+  const p = CURRENT_POLICY;
+  const floorMonthly = p.governmentBenefitFloors.hourlyMinimumWage * p.governmentBenefitFloors.monthlyHours;
+  return (
+    <section className="section band" id="guide" aria-label="출산전후휴가 급여 안내">
+      <div className="container">
+        <div className="content-block">
+          <h2>출산전후휴가란?</h2>
+          <div className="prose">
+            <p>아이를 낳기 전후에 몸을 회복하고 아이를 돌볼 수 있도록 법으로 보장된 휴가예요. 흔히 출산휴가라고 불러요.</p>
+            <p>회사는 임신한 근로자가 신청하면 휴가를 줘야 하고, 휴가 기간 중 일부는 급여도 받을 수 있어요. 고용 형태와 관계없이 쓸 수 있어요.</p>
+          </div>
+        </div>
+
+        <div className="content-block">
+          <h2>출산휴가는 며칠 사용할 수 있나요?</h2>
+          <ul className="tier-list">
+            {["single", "multiple", "premature"].map((k) => (
+              <li key={k}>
+                <span className="tier-range">{LD[k].label}</span>
+                <span className="tier-rate">{LD[k].totalDays}일</span>
+                <span className="tier-cap">출산 후 {LD[k].minPostnatalDays}일 이상</span>
+              </li>
+            ))}
+          </ul>
+          <p className="formula-caption tier-caption">출산이 예정보다 늦어지면 출산 후 기간을 채우기 위해 휴가가 늘어날 수 있어요.</p>
+        </div>
+
+        <div className="content-block">
+          <h2>출산휴가 동안 월급은 누가 주나요?</h2>
+          <p className="section-desc">받는 총액은 같고, 회사 규모에 따라 누가 주는지가 달라져요.</p>
+          <div className="cond-grid">
+            <article className="cond-card">
+              <h3>우선지원대상기업이라면</h3>
+              <p className="card-text">전체 기간을 고용보험에서 줘요. 처음 {LD.single.employerPaidDays}일은 고용보험 급여가 통상임금보다 적으면 회사가 차액을 채워줘요.</p>
+            </article>
+            <article className="cond-card">
+              <h3>그 외 기업이라면</h3>
+              <p className="card-text">처음 {LD.single.employerPaidDays}일은 회사가 통상임금 100%를 주고, 나머지 {LD.single.totalDays - LD.single.employerPaidDays}일은 고용보험에서 줘요.</p>
+            </article>
+          </div>
+          <AdSlot id="guide-middle" label="정보 콘텐츠 중간" bare />
+        </div>
+
+        <div className="content-block">
+          <h2>출산전후휴가 급여는 얼마인가요?</h2>
+          <div className="prose">
+            <p>통상임금을 기준으로 받아요. 다만 고용보험에서 주는 부분은 {p.policyYear}년 기준 30일에 {won(p.governmentBenefitCaps.per30Days)}이 상한이고, 최저임금 월 환산액({won(floorMonthly)})보다 적으면 그 금액을 받아요.</p>
+            <p>그래서 통상임금이 상한보다 높다면 회사가 주는 처음 {LD.single.employerPaidDays}일은 통상임금 전액을, 나머지 기간은 상한액을 받아요.</p>
+          </div>
+        </div>
+
+        <div className="content-block">
+          <h2>우선지원대상기업이란?</h2>
+          <div className="prose"><p>고용보험에서 더 많이 지원하는 중소 규모 회사예요. 업종별로 평소 일하는 사람 수가 아래 기준 이하이거나, 중소기업기본법상 중소기업이면 해당돼요. 정확한 여부는 회사 인사팀이나 고용24에서 확인할 수 있어요.</p></div>
+          <ul className="cap-steps priority-list">
+            {p.prioritySupportCompanyRules.map((r) => <li key={r.industry}><span>{r.industry}</span><strong>{r.maxWorkers}명 이하</strong></li>)}
+          </ul>
+        </div>
+
+        <div className="content-block">
+          <h2>통상임금별로 얼마나 받을까요?</h2>
+          <p className="section-desc">아이 한 명, 90일 휴가, 고용보험 요건을 충족한 경우예요.</p>
+          <ul className="example-grid">
+            {EXAMPLES.map((w) => {
+              const r = calculateMaternityLeave(exampleInput(w));
+              return (
+                <li key={w}>
+                  <article className="example-card">
+                    <h3>통상임금 {manwon(w)}이라면?</h3>
+                    <p className="example-meta">{r.main.capHit ? "마지막 30일은 상한 적용" : "전 기간 통상임금 기준"}</p>
+                    <div className="example-result">
+                      <span>예상 출산휴가 급여</span>
+                      <strong>{won(r.main.total)}</strong>
+                      <small>월평균 약 {won(r.monthlyAverage)}</small>
+                    </div>
+                    <div className="example-actions">
+                      <button type="button" className="btn-secondary"
+                        onClick={() => window.dispatchEvent(new CustomEvent("ulmaji:preset-maternity", { detail: { wage: w } }))}>
+                        이 금액으로 계산하기
+                      </button>
+                    </div>
+                  </article>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function FaqSection() {
+  const [open, setOpen] = useState({ [FAQ[0].id]: true });
+  return (
+    <section className="section" id="faq" aria-labelledby="faq-title">
+      <div className="container">
+        <SectionHead id="faq-title" title="자주 묻는 질문" />
+        <ul className="faq-list">
+          {FAQ.map((f) => {
+            const isOpen = !!open[f.id];
+            return (
+              <li className="faq-item" key={f.id}>
+                <h3 className="faq-q">
+                  <button type="button" id={`faq-btn-${f.id}`} className="faq-toggle" aria-expanded={isOpen}
+                    aria-controls={`faq-panel-${f.id}`} onClick={() => setOpen((o) => ({ ...o, [f.id]: !o[f.id] }))}>
+                    {f.q}
+                    <Icon name="chevron-right" size={20} strokeWidth={2.2} />
+                  </button>
+                </h3>
+                <div id={`faq-panel-${f.id}`} role="region" aria-labelledby={`faq-btn-${f.id}`} className="faq-a" hidden={!isOpen}>
+                  <p>{f.a}</p>
+                </div>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+function BasisSection() {
+  const p = CURRENT_POLICY;
+  return (
+    <section className="section band" id="basis" aria-labelledby="basis-title">
+      <div className="container">
+        <div className="trust-grid">
+          <div>
+            <h2 id="basis-title">어떤 기준으로 계산하나요?</h2>
+            <p className="section-desc">얼마지는 근로기준법, 고용보험법과 고용노동부 고시를 기준으로 휴가기간과 상한액을 관리해요. 휴가 시작일에 맞는 연도의 기준을 자동으로 적용해요.</p>
+            <div className="notice-box">
+              <Icon name="info" size={20} />
+              <div>
+                <strong>입력한 정보는 저장하지 않아요</strong>
+                <p>모든 계산은 이 화면 안에서만 이뤄져요. 이름, 주민등록번호, 회사명처럼 계산에 필요 없는 정보는 묻지 않아요.</p>
+              </div>
+            </div>
+          </div>
+          <div className="basis-card">
+            <div className="basis-head">
+              <strong>출산전후휴가 급여 계산 기준</strong>
+              <span className="badge badge-brand">{p.policyYear}년 기준</span>
+            </div>
+            <dl>
+              <div className="basis-row">
+                <dt>적용 기준</dt>
+                <dd><ul className="plain-list">{POLICY_VERSIONS.map((v) => <li key={v.id}>{v.policyYear}년 시작: 고용보험 상한 30일 {won(v.governmentBenefitCaps.per30Days)}</li>)}</ul></dd>
+              </div>
+              <div className="basis-row">
+                <dt>확인 항목</dt>
+                <dd>
+                  <ul className="plain-list">
+                    <li>출산전후휴가 기간: {LD.single.totalDays}일, 다태아 {LD.multiple.totalDays}일</li>
+                    <li>통상임금 기준, 회사 유급기간 {LD.single.employerPaidDays}일(다태아 {LD.multiple.employerPaidDays}일)</li>
+                    <li>고용보험 급여 상한과 하한</li>
+                    <li>사업장 유형별 지급 구조</li>
+                    <li>지급 요건: 고용보험 {p.insuranceEligibilityRules.minInsuredDays}일</li>
+                  </ul>
+                </dd>
+              </div>
+              <div className="basis-row">
+                <dt>공식 출처</dt>
+                <dd>
+                  <ul className="source-list">
+                    {SOURCES.map((x) => (
+                      <li key={x.name}>
+                        <a className="source-link" href={x.url} target="_blank" rel="noopener noreferrer">
+                          <span><span className="src-name">{x.name}</span><span className="src-desc">{x.desc}</span></span>
+                          <Icon name="external" size={18} />
+                          <span className="sr-only">(새 탭에서 열림)</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </dd>
+              </div>
+              <div className="basis-row">
+                <dt>마지막 업데이트</dt>
+                <dd><time dateTime={p.updatedAt.replace(/\./g, "-")}>{p.updatedAt}</time></dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function ApplyGuide() {
+  const a = CURRENT_POLICY.application;
+  return (
+    <section className="section tight-top" aria-labelledby="apply-title">
+      <div className="container">
+        <div className="apply-card">
+          <div>
+            <h2 id="apply-title">실제 급여 신청은 어디에서 하나요?</h2>
+            <p>계산 결과를 확인했다면 공식 사이트에서 신청 방법과 필요한 서류를 확인해보세요. 얼마지는 신청을 대신하지 않아요.</p>
+          </div>
+          <a className="btn-secondary apply-link" href={a.url} target="_blank" rel="noopener noreferrer">
+            공식 신청 페이지 확인하기
+            <Icon name="external" size={18} />
+            <span className="sr-only">(외부 공식 사이트 {a.site}, 새 탭에서 열림)</span>
+          </a>
+          <p className="apply-note">{a.site} 외부 공식 사이트로 이동해요.</p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function RelatedArticles() {
+  if (!RELATED_ARTICLES.length) return null;
+  return (
+    <section className="section" aria-labelledby="articles-title">
+      <div className="container">
+        <SectionHead id="articles-title" title="같이 보면 좋은 생활정보" moreHref="/guide" moreLabel="생활정보 전체보기" />
+        <ul className="article-grid">
+          {RELATED_ARTICLES.map((a) => <li key={a.id}><ArticleCard article={a} /></li>)}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+/* =========================================================
+   17. Structured data
+   ========================================================= */
+function useStructuredData() { /* 구조화 데이터(WebApplication·BreadcrumbList)는 <head>에 정적으로 넣었어요. Google FAQ 리치결과 종료(2026)로 FAQPage는 쓰지 않고, 화면의 FAQ만 유지해요. */ }
+
+/* =========================================================
+   18. App
+   ========================================================= */
+function App() {
+  useStructuredData();
+  return (
+    <>
+      <a className="skip-link" href="#calculator">계산기로 바로가기</a>
+      <Header />
+      <main id="main">
+        <Breadcrumb />
+        <PageHead />
+        <MaternityLeaveCalculator />
+        <RelatedCalculators />
+        <AdSlot id="after-related" label="관련 계산기 이후" />
+        <GuideSection />
+        <FaqSection />
+        <AdSlot id="after-faq" label="FAQ 이후" />
+        <BasisSection />
+        <ApplyGuide />
+        <RelatedArticles />
+      </main>
+      <Footer />
+      <Toast />
+    </>
+  );
+}
+
 ReactDOM.createRoot(document.getElementById("root")).render(<App />);
 
 </script>

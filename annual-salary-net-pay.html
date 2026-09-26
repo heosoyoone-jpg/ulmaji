@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="ko" data-theme="dark">
+<html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>생활정보 | 월급·대출·부동산·세금·육아 기준 쉽게 정리 - 얼마지?</title>
-<meta name="description" content="월급·수당, 대출·적금, 부동산, 세금, 육아·복지까지 생활 속에서 헷갈리는 기준 20가지를 공식자료로 확인해 쉽게 정리하고, 관련 계산기로 바로 연결해드려요.">
-<link rel="canonical" href="https://ulmaji.kr/guide">
+<title>연봉 실수령액 계산기 | 세후 월급·연간 실수령액 - 얼마지?</title>
+<meta name="description" content="연봉을 입력하면 4대보험과 소득세·지방소득세를 반영한 예상 월 실수령액과 연간 실수령액을 계산해요. 월 세전 급여와 공제 내역, 연봉 구간별 비교도 확인할 수 있어요.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://ulmaji.kr/calculators/annual-salary-net-pay">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="얼마지?">
-<meta property="og:title" content="생활정보 | 얼마지?">
-<meta property="og:description" content="월급·수당, 대출·적금, 부동산, 세금, 육아·복지까지 생활 속에서 헷갈리는 기준 20가지를 공식자료로 확인해 쉽게 정리하고, 관련 계산기로 바로 연결해드려요.">
-<meta property="og:url" content="https://ulmaji.kr/guide">
+<meta property="og:title" content="연봉 실수령액 계산기 | 세후 월급·연간 실수령액 - 얼마지?">
+<meta property="og:description" content="연봉을 입력하면 4대보험과 소득세·지방소득세를 반영한 예상 월 실수령액과 연간 실수령액을 계산해요. 월 세전 급여와 공제 내역, 연봉 구간별 비교도 확인할 수 있어요.">
+<meta property="og:url" content="https://ulmaji.kr/calculators/annual-salary-net-pay">
+<meta property="og:locale" content="ko_KR">
 <meta name="theme-color" content="#3366FF">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233366FF'/%3E%3Ctext x='32' y='46' font-family='Arial,sans-serif' font-size='40' font-weight='800' text-anchor='middle' fill='white'%3E%3F%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "얼마지", "item": "https://ulmaji.kr/"}, {"@type": "ListItem", "position": 2, "name": "생활정보", "item": "https://ulmaji.kr/guide"}]}, {"@type": "ItemList", "name": "얼마지 생활정보", "numberOfItems": 20, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://ulmaji.kr/guide/weekly-holiday-pay-15-hours", "name": "주 15시간 일하면 주휴수당은 얼마일까?"}, {"@type": "ListItem", "position": 2, "url": "https://ulmaji.kr/guide/minimum-wage-2027-monthly", "name": "2027 최저임금으로 월급을 계산하면?"}, {"@type": "ListItem", "position": 3, "url": "https://ulmaji.kr/guide/severance-pay-eligibility", "name": "퇴직금은 언제부터 받을 수 있을까?"}, {"@type": "ListItem", "position": 4, "url": "https://ulmaji.kr/guide/night-pay-hours", "name": "야간수당은 몇 시부터 적용될까?"}, {"@type": "ListItem", "position": 5, "url": "https://ulmaji.kr/guide/loan-100m-monthly-interest", "name": "대출 1억 받으면 한 달 이자는 얼마일까?"}, {"@type": "ListItem", "position": 6, "url": "https://ulmaji.kr/guide/loan-repayment-methods", "name": "원리금균등·원금균등, 매달 얼마씩 갚을까?"}, {"@type": "ListItem", "position": 7, "url": "https://ulmaji.kr/guide/monthly-savings-500k", "name": "적금 월 50만원씩 넣으면 만기 얼마일까?"}, {"@type": "ListItem", "position": 8, "url": "https://ulmaji.kr/guide/simple-vs-compound-interest", "name": "단리와 복리, 실제 이자는 얼마나 차이 날까?"}, {"@type": "ListItem", "position": 9, "url": "https://ulmaji.kr/guide/jeonse-to-monthly-rent", "name": "전세를 월세로 바꾸면 얼마가 적당할까?"}, {"@type": "ListItem", "position": 10, "url": "https://ulmaji.kr/guide/real-estate-brokerage-fee", "name": "부동산 중개수수료는 얼마까지 내야 할까?"}, {"@type": "ListItem", "position": 11, "url": "https://ulmaji.kr/guide/84sqm-to-pyeong", "name": "아파트 84㎡는 몇 평일까?"}, {"@type": "ListItem", "position": 12, "url": "https://ulmaji.kr/guide/housing-subscription-score", "name": "내 청약가점은 몇 점일까?"}, {"@type": "ListItem", "position": 13, "url": "https://ulmaji.kr/guide/freelancer-3-3-withholding", "name": "프리랜서 3.3% 떼면 실제 얼마 받을까?"}, {"@type": "ListItem", "position": 14, "url": "https://ulmaji.kr/guide/vat-included-excluded", "name": "부가세 포함·별도 금액은 어떻게 계산할까?"}, {"@type": "ListItem", "position": 15, "url": "https://ulmaji.kr/guide/home-acquisition-tax", "name": "집을 사면 취득세는 얼마나 나올까?"}, {"@type": "ListItem", "position": 16, "url": "https://ulmaji.kr/guide/gift-tax-from-parents", "name": "부모님께 돈을 받으면 증여세는 얼마나 나올까?"}, {"@type": "ListItem", "position": 17, "url": "https://ulmaji.kr/guide/parental-leave-benefit", "name": "육아휴직하면 매달 얼마 받을 수 있을까?"}, {"@type": "ListItem", "position": 18, "url": "https://ulmaji.kr/guide/maternity-leave-benefit", "name": "출산전후휴가 기간에는 얼마를 받을까?"}, {"@type": "ListItem", "position": 19, "url": "https://ulmaji.kr/guide/parent-benefit", "name": "부모급여는 몇 살까지 얼마 받을까?"}, {"@type": "ListItem", "position": 20, "url": "https://ulmaji.kr/guide/unemployment-benefit-duration", "name": "실업급여는 몇 개월 동안 얼마 받을 수 있을까?"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "@id": "https://ulmaji.kr/calculators/annual-salary-net-pay#app", "name": "연봉 실수령액 계산기", "url": "https://ulmaji.kr/calculators/annual-salary-net-pay", "description": "연봉을 입력하면 4대보험과 소득세·지방소득세를 반영한 예상 월 실수령액과 연간 실수령액을 계산해요. 월 세전 급여와 공제 내역, 연봉 구간별 비교도 확인할 수 있어요.", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "inLanguage": "ko-KR", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "KRW"}, "dateModified": "2026-09-24", "publisher": {"@type": "Organization", "name": "얼마지?", "alternateName": "ULMAJI", "url": "https://ulmaji.kr/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "홈", "item": "https://ulmaji.kr/"}, {"@type": "ListItem", "position": 2, "name": "계산기", "item": "https://ulmaji.kr/calculators"}, {"@type": "ListItem", "position": 3, "name": "근로·급여", "item": "https://ulmaji.kr/calculators#cat-work"}, {"@type": "ListItem", "position": 4, "name": "연봉 실수령액 계산기", "item": "https://ulmaji.kr/calculators/annual-salary-net-pay"}]}]}</script>
 <style>
 /* =========================================================
    Design tokens
@@ -1487,165 +1489,6 @@ a.guide-calc:hover { border-color: var(--primary); }
 /* Annual salary page additions */
 .link-btn { padding: 0; border: 0; background: none; font: inherit; font-weight: 800; color: var(--brand-text); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; min-height: 32px; }
 
-/* =========================================================
-   Year-end tax page additions
-   ========================================================= */
-.select { width: 100%; min-height: 48px; padding: 0 40px 0 14px; border: 1.5px solid var(--line-strong); border-radius: 12px; background: var(--card); color: var(--text); font: inherit; font-size: 15.5px; appearance: none; background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%); background-position: calc(100% - 20px) 50%, calc(100% - 14px) 50%; background-size: 6px 6px; background-repeat: no-repeat; }
-.select:focus-visible { outline: none; box-shadow: var(--focus-ring); border-color: var(--primary); }
-.year-row { display: grid; gap: 8px; }
-@media (min-width: 560px) { .year-row { grid-template-columns: minmax(0, 1fr) auto; align-items: center; } }
-.stepbar { height: 6px; margin: 18px 0 10px; border-radius: 999px; background: var(--line); overflow: hidden; }
-.stepbar span { display: block; height: 100%; background: var(--primary); border-radius: inherit; transition: width .25s ease; }
-@media (prefers-reduced-motion: reduce) { .stepbar span { transition: none; } }
-.step-nav { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
-@media (min-width: 560px) { .step-nav { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
-.step-pill { width: 100%; min-height: 44px; padding: 6px 8px; border: 1.5px solid var(--line); border-radius: 12px; background: var(--card); color: var(--muted); font: inherit; font-size: 13.5px; font-weight: 700; cursor: pointer; }
-.step-pill.is-current { border-color: var(--primary); background: var(--secondary); color: var(--brand-text); }
-.step-pill:focus-visible { outline: none; box-shadow: var(--focus-ring); }
-.step-title { display: flex; flex-direction: column; gap: 2px; margin: 18px 0 14px; font-size: 20px; }
-.step-title:focus { outline: none; }
-.step-count { font-size: 13px; font-weight: 700; color: var(--brand-text); }
-.ded-section + .ded-section { margin-top: 8px; }
-.ded-section .more-toggle span { font-weight: 800; }
-.more-body.plain { padding-top: 8px; }
-.fam-self { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; padding: 14px; border-radius: 14px; background: var(--secondary); margin-bottom: 10px; }
-.fam-self strong { font-weight: 800; }
-.fam-self > span { font-size: 13.5px; color: var(--muted); }
-.check-row.inline { margin: 0 0 0 auto; }
-.fam-card { margin: 0 0 10px; padding: 14px; border: 1.5px solid var(--line); border-radius: 14px; background: var(--card); }
-.fam-card legend { padding: 0 6px; font-weight: 800; font-size: 14.5px; }
-.fam-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; margin-bottom: 8px; }
-.fam-status { margin: 8px 0 4px; font-size: 13.5px; font-weight: 600; }
-.fam-status.is-ok { color: var(--success-text, var(--success)); }
-.fam-status.is-no { color: var(--error-text, #C23B3B); }
-.add-fam { width: 100%; }
-.step-actions { display: flex; gap: 8px; margin-top: 22px; }
-.step-actions .btn-secondary { flex: 0 0 auto; min-height: 52px; }
-.step-actions .submit-btn { flex: 1 1 auto; margin-top: 0; }
-.res-amount.is-refund { color: var(--success-text, var(--success)); }
-.res-amount.is-additional { color: var(--error-text, #C23B3B); }
-
-/* Comprehensive income tax additions */
-.flow-steps li.is-final { background: var(--secondary); }
-.flow-steps li.is-final span, .flow-steps li.is-final strong { font-weight: 800; color: var(--brand-text); }
-.cond-card .more-link { margin-top: 10px; }
-
-/* Acquisition tax additions */
-.seg.cols-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-@media (min-width: 480px) { .seg.cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
-.input-wrap.date input { padding-right: 14px; }
-.pb-rows dd { text-align: right; }
-
-/* Capital gains tax additions */
-.method-card.is-disabled { opacity: .55; cursor: not-allowed; }
-.method-card.is-disabled input { cursor: not-allowed; }
-@media (min-width: 560px) { .step-nav.five { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
-.step-nav.five { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.seg.cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.check-list { list-style: none; display: grid; gap: 6px; margin-top: 6px; }
-.check-list li { display: flex; gap: 8px; align-items: flex-start; font-size: 14.5px; line-height: 1.5; }
-.check-list li > span { flex: 0 0 22px; height: 22px; border-radius: 999px; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 800; }
-.check-list li.is-ok > span { background: var(--success-bg, #E7F6EF); color: var(--success-text, var(--success)); }
-.check-list li.is-no > span { background: var(--error-bg, #FFECEC); color: var(--error-text, #C23B3B); }
-.check-list li.is-q > span { background: var(--secondary); color: var(--brand-text); }
-.fam-grid .field { margin: 0; }
-
-.field-help.center { text-align: center; margin-top: 8px; }
-.inline-fix { margin-left: 8px; min-height: 32px; }
-
-.rate-slider { width: 100%; margin-top: 10px; min-height: 44px; accent-color: var(--primary); }
-.field-help.warn { color: var(--error-text, #C23B3B); }
-
-/* Housing subscription score additions */
-.step-nav.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.score-row + .score-row { margin-top: 14px; }
-.score-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-size: 15px; }
-.score-head strong { font-size: 18px; font-weight: 800; font-variant-numeric: tabular-nums; }
-.score-head small { font-size: 13px; color: var(--muted); font-weight: 600; }
-.why-static { padding: 14px 16px 0; font-weight: 800; font-size: 16px; }
-
-/* DSR additions */
-.dsr-bar { position: relative; margin: 12px 0 4px; }
-.dsr-mark { position: absolute; top: -4px; width: 2px; height: 18px; background: var(--text); }
-.dsr-legend { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; color: var(--muted); margin-top: 8px; font-variant-numeric: tabular-nums; flex-wrap: wrap; }
-.dt-sub { display: block; font-size: 12.5px; color: var(--muted); font-weight: 500; margin-top: 2px; }
-.eq-item small { display: block; font-size: 12.5px; color: var(--muted); }
-
-/* Pyeong additions */
-.py-card { max-width: 720px; margin: 0 auto; background: var(--card); border-radius: 20px; padding: 24px 20px; box-shadow: 0 1px 2px rgba(23,35,60,.04); border: 1px solid var(--line, #E5EAF2); }
-.py-narrow { max-width: 760px; }
-.py-row { display: flex; gap: 12px; align-items: flex-end; margin-top: 18px; }
-.py-input { flex: 1; margin: 0; }
-.input-wrap.xl input { font-size: 30px; font-weight: 800; min-height: 64px; font-variant-numeric: tabular-nums; }
-.py-swap { flex: 0 0 52px; height: 52px; margin-bottom: 6px; border-radius: 14px; border: 1px solid var(--line, #E5EAF2); background: var(--secondary); color: var(--primary); font-size: 22px; font-weight: 800; cursor: pointer; }
-.py-swap:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
-.py-result { margin: 18px 0 14px; padding: 18px; border-radius: 16px; background: var(--secondary); position: relative; min-height: 96px; }
-.py-from { font-size: 15px; color: var(--muted); font-weight: 600; font-variant-numeric: tabular-nums; }
-.py-to { font-size: 40px; font-weight: 800; color: var(--primary); line-height: 1.2; margin-top: 4px; font-variant-numeric: tabular-nums; word-break: break-all; padding-right: 88px; }
-.py-to.is-neutral { color: var(--text); }
-.py-copy { position: absolute; right: 14px; bottom: 14px; min-height: 44px; }
-.section-title { font-size: 22px; font-weight: 800; line-height: 1.35; margin-bottom: 10px; }
-.area-stack { list-style: none; display: grid; gap: 8px; margin-top: 16px; }
-.area-stack li { display: grid; gap: 2px; padding: 14px 16px; border-radius: 14px; background: var(--card); border: 1px solid var(--line, #E5EAF2); }
-.area-stack li strong { font-size: 16px; }
-.area-stack li span { font-size: 14px; color: var(--muted); }
-.py-table { width: 100%; border-collapse: collapse; margin-top: 12px; font-variant-numeric: tabular-nums; }
-.py-table th, .py-table td { text-align: right; padding: 12px 14px; border-bottom: 1px solid var(--line, #E5EAF2); }
-.py-table th { font-size: 14px; color: var(--muted); }
-@media (max-width: 480px) { .py-to { font-size: 32px; } }
-
-/* Work hours additions */
-.mode-seg.wide { max-width: 520px; margin: 0 auto 16px; }
-.py-copy-inline { min-height: 40px; padding: 6px 12px; }
-.day-card { padding-bottom: 10px; }
-.day-list { list-style: none; display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; margin: 12px 0; }
-.day-list li { display: grid; gap: 2px; text-align: center; padding: 8px 4px; border-radius: 12px; background: var(--secondary); font-size: 13px; font-variant-numeric: tabular-nums; }
-.day-list li strong { font-size: 13px; }
-@media (max-width: 520px) { .day-list { grid-template-columns: repeat(4, 1fr); } }
-
-/* Loan repayment additions */
-.ex-badge { display: inline-block; margin-bottom: 12px; }
-.lr-table td, .lr-table th { white-space: nowrap; font-size: 14px; }
-.lr-table tr.is-current th, .lr-table tr.is-current td { background: var(--secondary); font-weight: 700; }
-.lr-legend { display: flex; gap: 14px; font-size: 13px; color: var(--muted); margin: 10px 0 6px; }
-.lr-legend .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
-.sw.p, .lr-p { background: var(--primary); }
-.sw.i, .lr-i { background: repeating-linear-gradient(45deg, var(--secondary), var(--secondary) 3px, #A9BEFF 3px, #A9BEFF 6px); }
-.lr-bars { list-style: none; display: grid; gap: 4px; margin-bottom: 12px; }
-.lr-bars li { display: grid; grid-template-columns: 44px 1fr; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.lr-track { display: flex; height: 12px; border-radius: 6px; overflow: hidden; background: var(--bg); }
-.lr-p, .lr-i { height: 100%; }
-
-/* Unemployment additions */
-details.fam-card summary { cursor: pointer; font-weight: 700; min-height: 44px; display: flex; align-items: center; }
-.sum-item small { display: block; margin-top: 4px; font-size: 12.5px; color: var(--muted); }
-
-/* Child allowance additions */
-.res-state { font-size: 24px; font-weight: 800; margin: 2px 0 14px; }
-.sum-grid.three { grid-template-columns: repeat(3, 1fr); }
-@media (max-width: 480px) { .sum-grid.three { grid-template-columns: 1fr 1fr; } }
-.child-row { display: flex; gap: 8px; align-items: center; }
-.child-row .input-wrap { flex: 1; }
-.child-card { border-top: 1px solid var(--line, #E5EAF2); padding-top: 18px; margin-top: 18px; }
-.al-timeline { list-style: none; display: grid; gap: 0; margin: 8px 0; }
-.al-timeline li { position: relative; padding: 8px 0 14px 22px; display: grid; gap: 2px; font-variant-numeric: tabular-nums; }
-.al-timeline li::before { content: ""; position: absolute; left: 5px; top: 13px; width: 10px; height: 10px; border-radius: 50%; background: var(--card); border: 2px solid var(--primary); }
-.al-timeline li:not(:last-child)::after { content: ""; position: absolute; left: 10px; top: 25px; bottom: -8px; width: 2px; background: var(--secondary); }
-.al-timeline li.is-final::before { background: var(--primary); }
-.al-timeline li span { font-size: 14px; color: var(--muted); }
-
-/* Freelancer additions */
-.eyebrow { font-size: 14px; font-weight: 700; color: var(--primary); margin: 8px 0 -4px; }
-.res-unit { font-size: 18px; color: var(--text); font-weight: 700; }
-.tax-amt { font-size: 20px; }
-.split-bar { display: flex; height: 14px; border-radius: 7px; overflow: hidden; margin: 12px 0 6px; background: var(--bg); }
-.sb-net { background: var(--primary); }
-.sb-tax { background: repeating-linear-gradient(45deg, var(--secondary), var(--secondary) 3px, #A9BEFF 3px, #A9BEFF 6px); }
-.split-legend { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.multi-row { display: grid; grid-template-columns: 1fr 1.4fr auto; gap: 8px; align-items: center; margin-top: 8px; }
-.mini-input { min-height: 44px; border: 1px solid var(--line, #E5EAF2); border-radius: 12px; padding: 0 12px; font: inherit; }
-.mini-input:focus-visible { outline: 3px solid var(--primary); outline-offset: 1px; }
-
 /* 좁은 화면에서 입력 폼이 화면 밖으로 밀려나지 않게 (grid 자식 최소 너비 보정) */
 @media (max-width: 1023px) { .calc-shell { grid-template-columns: minmax(0, 1fr); } }
 .calc-shell > *, .calc-form, .result-col, .method-cards > *, .seg > *, .step-nav > * { min-width: 0; }
@@ -1661,72 +1504,6 @@ details.fam-card summary { cursor: pointer; font-weight: 700; min-height: 44px; 
 .rc-row, .pb-rows > div { gap: 8px; }
 .rc-row dd, .pb-rows dd { min-width: 0; overflow-wrap: anywhere; text-align: right; }
 .btn-secondary { max-width: 100%; white-space: normal; height: auto; min-height: 44px; }
-
-/* Guide / content pages */
-.article-wrap { max-width: 780px; }
-.guide-lead { margin-top: 14px; font-size: 18px; line-height: 1.75; font-weight: 500; }
-.guide-body { margin-top: 8px; }
-.guide-body h2 { font-size: 21px; font-weight: 800; letter-spacing: -.02em; margin: 36px 0 10px; }
-.guide-body p { font-size: 16.5px; line-height: 1.8; color: var(--text); margin-top: 10px; }
-.example-box { margin-top: 32px; padding: 20px; border-radius: var(--r-md, 16px); background: var(--secondary); }
-.example-box h2 { margin: 0 0 6px; font-size: 18px; }
-.example-box .ex-lead { font-size: 15px; color: var(--muted); }
-.example-box dl { margin: 12px 0 0; }
-.example-box .ex-row { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); font-size: 15px; font-variant-numeric: tabular-nums; }
-.example-box .ex-row dt { color: var(--muted); flex: none; max-width: 45%; }
-.example-box .ex-row dd { margin: 0; font-weight: 700; text-align: right; overflow-wrap: anywhere; }
-.example-box .ex-note { margin-top: 10px; font-size: 13.5px; color: var(--muted); }
-.note-list { margin-top: 10px; padding-left: 20px; }
-.note-list li { font-size: 16px; line-height: 1.75; margin-top: 6px; }
-.guide-cta { margin-top: 36px; padding: 22px; border-radius: var(--r-md, 16px); border: 1px solid var(--line); background: var(--card); }
-.guide-cta h2 { margin: 0; font-size: 19px; }
-.guide-cta p { margin-top: 4px; font-size: 15px; color: var(--muted); }
-.guide-cta .btn { margin-top: 14px; }
-.guide-cta ul { list-style: none; margin-top: 12px; display: grid; gap: 8px; }
-.guide-cta .more-calc { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 48px; padding: 0 14px; border-radius: 12px; background: var(--bg); text-decoration: none; font-weight: 600; font-size: 15px; }
-.guide-cta .more-calc svg { color: var(--brand-text); flex: none; }
-.guide-meta { margin-top: 28px; font-size: 14px; color: var(--muted); }
-.cat-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 24px; list-style: none; padding: 0; }
-.cat-tabs a { display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--line); text-decoration: none; font-weight: 600; font-size: 15px; color: var(--muted); }
-.cat-tabs a[aria-current="page"] { background: var(--primary); border-color: var(--primary); color: #fff; }
-.about-body h2 { font-size: 20px; font-weight: 800; margin: 32px 0 8px; }
-.about-body p { font-size: 16.5px; line-height: 1.8; margin-top: 8px; }
-.nf { text-align: center; padding: 72px 0 96px; }
-.nf .big { font-size: 64px; font-weight: 800; color: var(--brand-text); line-height: 1; }
-.nf h1 { margin-top: 16px; font-size: 26px; }
-.nf p { margin-top: 8px; color: var(--muted); }
-.nf-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 24px; }
-.btn-ghost { display: inline-flex; align-items: center; justify-content: center; height: 52px; padding: 0 22px; border-radius: 12px; border: 1px solid var(--line-strong, var(--line)); text-decoration: none; font-weight: 700; color: var(--text); }
-
-/* Guide article v2 (생활정보 20개) */
-.guide-cat { text-decoration: none; }
-.page-head h1 { overflow-wrap: anywhere; word-break: keep-all; }
-.guide-dates { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 10px; font-size: 14px; color: var(--muted); }
-.answer-box { margin-top: 4px; padding: 18px 20px; border-radius: var(--r-md, 16px); background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--primary); }
-.answer-box .guide-lead { margin: 0; font-size: 17.5px; }
-.guide-body { word-break: keep-all; overflow-wrap: anywhere; }
-.key-list { margin-top: 10px; padding-left: 20px; }
-.key-list li { font-size: 16.5px; line-height: 1.75; margin-top: 8px; }
-.key-list li::marker { color: var(--brand-text); }
-.ex-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
-.ex-tag { background: var(--card); color: var(--muted); }
-.example-box .ex-row dt { flex: 0 1 45%; max-width: none; min-width: 0; }
-.example-box .ex-row dd { flex: 1 1 55%; min-width: 0; }
-.faq-item h3 { margin-top: 18px; font-size: 17px; font-weight: 700; }
-.faq-item p { margin-top: 6px; }
-.cta-eyebrow { margin: 0 0 6px !important; font-size: 14px !important; font-weight: 700; color: var(--brand-text) !important; }
-.src-box { margin-top: 32px; }
-.src-lead { margin-top: 8px; font-size: 14px; color: var(--muted); line-height: 1.6; }
-.src-box .source-list { margin-top: 12px; list-style: none; padding: 0; }
-.src-box .basis-head { flex-wrap: wrap; }
-.src-box .basis-head strong { white-space: nowrap; }
-.src-text { display: block; min-width: 0; }
-.src-url { display: block; margin-top: 2px; font-size: 12.5px; color: var(--subtle); overflow-wrap: anywhere; }
-.source-link { min-width: 0; }
-.guide-meta { line-height: 1.7; }
-.guide-cta .btn { max-width: 100%; white-space: normal; height: auto; min-height: 52px; padding-top: 12px; padding-bottom: 12px; text-align: center; line-height: 1.4; }
-.cat-tabs .cnt { margin-left: 6px; font-size: 13px; font-weight: 700; opacity: .8; font-variant-numeric: tabular-nums; }
-@media (max-width: 480px) { .example-box .ex-row { flex-direction: column; gap: 2px; } .example-box .ex-row dt, .example-box .ex-row dd { flex: none; text-align: left; } }
 
 /* MEGA_MENU:BEGIN — 헤더 메가메뉴 (기존 토큰만 사용) */
 .header-inner { position: relative; }
@@ -1781,16 +1558,328 @@ details.fam-card summary { cursor: pointer; font-weight: 700; min-height: 44px; 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3938535658741734" crossorigin="anonymous"></script>
 </head>
 <body>
-<div id="root"><!--prerender:start--><a class="skip-link" href="#main">본문 바로가기</a><header class="site-header"><div class="container header-inner"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><nav class="nav-desktop" aria-label="주요 메뉴"><ul><li class="nav-item nav-item-calc"><button type="button" class="nav-link nav-trigger" aria-expanded="false" aria-controls="mega-calc">계산기<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-calc" class="mega mega-calc" hidden=""><div class="mega-grid"><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-work">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="근로·급여 계산기"><li><a href="/calculators/net-salary" class="mega-link">월급 실수령액</a></li><li><a href="/calculators/weekly-holiday-pay" class="mega-link">주휴수당</a></li><li><a href="/calculators/severance-pay" class="mega-link">퇴직금</a></li><li><a href="/calculators/annual-leave" class="mega-link">연차·연차수당</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-finance">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="금융·생활 계산기"><li><a href="/calculators/loan-interest" class="mega-link">대출이자</a></li><li><a href="/calculators/percentage" class="mega-link">퍼센트</a></li><li><a href="/calculators/compound-interest" class="mega-link">단리·복리 이자</a></li><li><a href="/calculators/deposit-interest" class="mega-link">예금이자</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-realestate">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="부동산 계산기"><li><a href="/calculators/dsr" class="mega-link">DSR</a></li><li><a href="/calculators/brokerage-fee" class="mega-link">중개보수</a></li><li><a href="/calculators/housing-subscription-score" class="mega-link">청약가점</a></li><li><a href="/calculators/rent-conversion" class="mega-link">전월세 환산</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-tax">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="세금 계산기"><li><a href="/calculators/freelancer-withholding" class="mega-link">프리랜서 3.3%</a></li><li><a href="/calculators/vat" class="mega-link">VAT</a></li><li><a href="/calculators/year-end-tax" class="mega-link">연말정산</a></li><li><a href="/calculators/comprehensive-income-tax" class="mega-link">종합소득세</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-parenting">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="육아·복지 계산기"><li><a href="/calculators/unemployment-benefit" class="mega-link">실업급여</a></li><li><a href="/calculators/parental-leave" class="mega-link">육아휴직급여</a></li><li><a href="/calculators/maternity-leave-pay" class="mega-link">출산전후휴가 급여</a></li><li><a href="/calculators/parent-benefit" class="mega-link">부모급여</a></li></ul></div></div><div class="mega-foot"><a href="/calculators" class="mega-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li class="nav-item nav-item-guide"><button type="button" class="nav-link nav-trigger is-current" aria-expanded="false" aria-controls="mega-guide">생활정보<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-guide" class="mega mega-guide" hidden=""><ul class="mega-guide-list"><li><a href="/guide?category=work" class="mega-guide-cat">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/weekly-holiday-pay-15-hours" class="mega-guide-pick">주 15시간 일하면 주휴수당은 얼마일까?</a></li><li><a href="/guide?category=finance" class="mega-guide-cat">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/loan-100m-monthly-interest" class="mega-guide-pick">대출 1억 받으면 한 달 이자는 얼마일까?</a></li><li><a href="/guide?category=realestate" class="mega-guide-cat">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/84sqm-to-pyeong" class="mega-guide-pick">아파트 84㎡는 몇 평일까?</a></li><li><a href="/guide?category=tax" class="mega-guide-cat">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/freelancer-3-3-withholding" class="mega-guide-pick">프리랜서 3.3% 떼면 실제 얼마 받을까?</a></li><li><a href="/guide?category=parenting" class="mega-guide-cat">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/parental-leave-benefit" class="mega-guide-pick">육아휴직하면 매달 얼마 받을 수 있을까?</a></li></ul><div class="mega-foot"><a href="/guide" class="mega-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li><a href="/about" class="nav-link">얼마지 소개</a></li></ul></nav><div class="header-actions"><button type="button" class="icon-btn" aria-label="계산기 검색"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7.5"></circle><path d="m20.5 20.5-4.2-4.2"></path></svg></button><a href="/calculators" class="btn btn-primary btn-sm hide-mobile">전체 계산기</a><button type="button" class="icon-btn show-mobile" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button></div></div><div id="mobile-menu" class="mobile-menu" hidden=""><nav aria-label="모바일 메뉴"><ul><li class="m-group"><button type="button" class="m-link m-trigger" aria-expanded="false" aria-controls="m-sub-calc">계산기<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-calc" class="m-sub" hidden="" aria-label="계산기 카테고리"><li><a href="/calculators#cat-work" class="m-sub-link">근로·급여</a></li><li><a href="/calculators#cat-finance" class="m-sub-link">금융·생활</a></li><li><a href="/calculators#cat-realestate" class="m-sub-link">부동산</a></li><li><a href="/calculators#cat-tax" class="m-sub-link">세금</a></li><li><a href="/calculators#cat-parenting" class="m-sub-link">육아·복지</a></li><li><a href="/calculators" class="m-sub-link is-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li class="m-group"><button type="button" class="m-link m-trigger is-current" aria-expanded="false" aria-controls="m-sub-guide">생활정보<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-guide" class="m-sub" hidden="" aria-label="생활정보 카테고리"><li><a href="/guide?category=work" class="m-sub-link">근로·급여</a></li><li><a href="/guide?category=finance" class="m-sub-link">금융·생활</a></li><li><a href="/guide?category=realestate" class="m-sub-link">부동산</a></li><li><a href="/guide?category=tax" class="m-sub-link">세금</a></li><li><a href="/guide?category=parenting" class="m-sub-link">육아·복지</a></li><li><a href="/guide" class="m-sub-link is-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li><a href="/about" class="m-link">얼마지 소개<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></li></ul></nav><a href="/calculators" class="btn btn-primary btn-block">전체 계산기</a></div></header><main id="main"><nav class="container breadcrumb" aria-label="현재 위치"><ol><li><a href="/">얼마지</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><span aria-current="page">생활정보</span></li></ol></nav><div class="container page-head"><h1>생활정보</h1><p class="page-desc">월급, 세금, 대출, 부동산, 육아·복지까지<br>생활 속에서 헷갈리는 기준을 쉽게 정리했어요.</p></div><section class="container" aria-label="생활정보 목록"><ul class="cat-tabs" aria-label="카테고리"><li><a href="/guide" aria-current="page">전체<span class="cnt">20</span></a></li><li><a href="/guide?category=work">근로·급여<span class="cnt">4</span></a></li><li><a href="/guide?category=finance">금융·생활<span class="cnt">4</span></a></li><li><a href="/guide?category=realestate">부동산<span class="cnt">4</span></a></li><li><a href="/guide?category=tax">세금<span class="cnt">4</span></a></li><li><a href="/guide?category=parenting">육아·복지<span class="cnt">4</span></a></li></ul><ul class="article-grid" style="margin-top: 0px;"><li><a href="/guide/weekly-holiday-pay-15-hours" class="article-card"><span class="article-cat">근로·급여</span><h3>주 15시간 일하면 주휴수당은 얼마일까?</h3><p>주휴수당이 생기는 15시간 기준을 어떻게 보는지, 금액은 어떻게 계산하는지 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/minimum-wage-2027-monthly" class="article-card"><span class="article-cat">근로·급여</span><h3>2027 최저임금으로 월급을 계산하면?</h3><p>2027년 최저임금 시급 10,700원을 일급·월급으로 바꾸면 얼마인지, 실수령액과는 무엇이 다른지 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/severance-pay-eligibility" class="article-card"><span class="article-cat">근로·급여</span><h3>퇴직금은 언제부터 받을 수 있을까?</h3><p>1년 이상 근무, 주 15시간 이상 등 퇴직금을 받기 위한 기본 조건과 계산 방법을 쉽게 풀었어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/night-pay-hours" class="article-card"><span class="article-cat">근로·급여</span><h3>야간수당은 몇 시부터 적용될까?</h3><p>밤 10시부터 오전 6시까지 일하면 붙는 50% 가산과, 연장근로와 겹칠 때의 계산을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/loan-100m-monthly-interest" class="article-card"><span class="article-cat">금융·생활</span><h3>대출 1억 받으면 한 달 이자는 얼마일까?</h3><p>1억원을 빌리면 첫 달 이자는 금리 ÷ 12로 어림할 수 있어요. 금리별 월 이자를 비교해봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/loan-repayment-methods" class="article-card"><span class="article-cat">금융·생활</span><h3>원리금균등·원금균등, 매달 얼마씩 갚을까?</h3><p>같은 대출이라도 상환방식에 따라 매달 내는 돈과 총이자가 달라요. 1억원 예시로 비교했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/monthly-savings-500k" class="article-card"><span class="article-cat">금융·생활</span><h3>적금 월 50만원씩 넣으면 만기 얼마일까?</h3><p>월 50만원 1년 적금의 이자와 세금을 계산했어요. 광고 금리보다 이자가 적은 이유도 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/simple-vs-compound-interest" class="article-card"><span class="article-cat">금융·생활</span><h3>단리와 복리, 실제 이자는 얼마나 차이 날까?</h3><p>단리와 복리는 1년까지는 같고 기간이 길수록 차이가 커져요. 1,000만원 예시로 비교했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/jeonse-to-monthly-rent" class="article-card"><span class="article-cat">부동산</span><h3>전세를 월세로 바꾸면 얼마가 적당할까?</h3><p>보증금을 월세로 바꿀 때 법으로 정한 전환율 상한과, 월세 금액을 계산하는 방법을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/real-estate-brokerage-fee" class="article-card"><span class="article-cat">부동산</span><h3>부동산 중개수수료는 얼마까지 내야 할까?</h3><p>매매·전세·월세별 중개보수 상한요율과 한도, 월세 거래금액 계산법을 예시와 함께 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/84sqm-to-pyeong" class="article-card"><span class="article-cat">부동산</span><h3>아파트 84㎡는 몇 평일까?</h3><p>전용 84㎡는 25.41평이에요. 그런데 흔히 34평이라고 부르는 이유와 ㎡·평 환산법을 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/housing-subscription-score" class="article-card"><span class="article-cat">부동산</span><h3>내 청약가점은 몇 점일까?</h3><p>무주택기간·부양가족·청약통장 기간으로 84점 만점 청약가점을 계산하는 방법을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/freelancer-3-3-withholding" class="article-card"><span class="article-cat">세금</span><h3>프리랜서 3.3% 떼면 실제 얼마 받을까?</h3><p>프리랜서 수입에서 3.3%를 떼면 실제로 얼마를 받는지, 떼인 세금은 어떻게 정산되는지 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/vat-included-excluded" class="article-card"><span class="article-cat">세금</span><h3>부가세 포함·별도 금액은 어떻게 계산할까?</h3><p>견적서의 ‘부가세 별도’와 영수증의 ‘부가세 포함’ 금액을 계산하는 방법을 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/home-acquisition-tax" class="article-card"><span class="article-cat">세금</span><h3>집을 사면 취득세는 얼마나 나올까?</h3><p>집값 구간별 취득세율과 지방교육세·농어촌특별세, 생애최초 감면까지 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/gift-tax-from-parents" class="article-card"><span class="article-cat">세금</span><h3>부모님께 돈을 받으면 증여세는 얼마나 나올까?</h3><p>부모님께 받은 돈의 증여세 공제 한도와 세율, 금액별 예상 세금을 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/parental-leave-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>육아휴직하면 매달 얼마 받을 수 있을까?</h3><p>2026년 육아휴직급여를 기간별 지급률과 상한액으로 계산하고, 1년 총액 예시를 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/maternity-leave-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>출산전후휴가 기간에는 얼마를 받을까?</h3><p>출산전후휴가 90일 동안 회사와 고용보험이 각각 얼마를 주는지, 2026년 상한액으로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/parent-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>부모급여는 몇 살까지 얼마 받을까?</h3><p>부모급여는 생후 23개월까지 받아요. 2026년 월 지급액과 어린이집을 다닐 때 받는 금액을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/unemployment-benefit-duration" class="article-card"><span class="article-cat">육아·복지</span><h3>실업급여는 몇 개월 동안 얼마 받을 수 있을까?</h3><p>실업급여를 받는 기간(120~270일)과 2026년 하루 상·하한액으로 받을 금액을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li></ul><p class="guide-meta">글마다 참고한 공식자료와 확인 날짜를 적고, 관련 계산기로 바로 이어지게 했어요.</p></section><div style="height: 64px;"></div></main><footer class="site-footer"><div class="container"><div class="footer-top"><div class="footer-brand"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><span class="en">ULMAJI</span></div><nav class="footer-nav" aria-label="하단 메뉴"><ul><li><a href="/calculators">계산기</a></li><li><a href="/guide">생활정보</a></li><li><a href="/about">얼마지 소개</a></li><li><a href="/terms">이용약관</a></li><li><a href="/privacy">개인정보처리방침</a></li><li><a href="mailto:heosoyoone@gmail.com">문의</a></li></ul></nav></div><p class="footer-disclaimer">계산 결과는 입력한 정보와 적용 기준에 따른 참고용 정보입니다. 실제 지급액 및 적용 여부는 개인의 조건에 따라 달라질 수 있습니다.</p><p class="footer-copy">© 2026 ULMAJI. ulmaji.kr</p></div></footer><div class="toast" role="status" aria-live="polite"></div><!--prerender:end--></div>
+<div id="root"><!--prerender:start--><a class="skip-link" href="#calculator">계산기로 바로가기</a><header class="site-header"><div class="container header-inner"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><nav class="nav-desktop" aria-label="주요 메뉴"><ul><li class="nav-item nav-item-calc"><button type="button" class="nav-link nav-trigger is-current" aria-expanded="false" aria-controls="mega-calc">계산기<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-calc" class="mega mega-calc" hidden=""><div class="mega-grid"><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-work">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="근로·급여 계산기"><li><a href="/calculators/net-salary" class="mega-link">월급 실수령액</a></li><li><a href="/calculators/weekly-holiday-pay" class="mega-link">주휴수당</a></li><li><a href="/calculators/severance-pay" class="mega-link">퇴직금</a></li><li><a href="/calculators/annual-leave" class="mega-link">연차·연차수당</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-finance">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="금융·생활 계산기"><li><a href="/calculators/loan-interest" class="mega-link">대출이자</a></li><li><a href="/calculators/percentage" class="mega-link">퍼센트</a></li><li><a href="/calculators/compound-interest" class="mega-link">단리·복리 이자</a></li><li><a href="/calculators/deposit-interest" class="mega-link">예금이자</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-realestate">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="부동산 계산기"><li><a href="/calculators/dsr" class="mega-link">DSR</a></li><li><a href="/calculators/brokerage-fee" class="mega-link">중개보수</a></li><li><a href="/calculators/housing-subscription-score" class="mega-link">청약가점</a></li><li><a href="/calculators/rent-conversion" class="mega-link">전월세 환산</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-tax">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="세금 계산기"><li><a href="/calculators/freelancer-withholding" class="mega-link">프리랜서 3.3%</a></li><li><a href="/calculators/vat" class="mega-link">VAT</a></li><li><a href="/calculators/year-end-tax" class="mega-link">연말정산</a></li><li><a href="/calculators/comprehensive-income-tax" class="mega-link">종합소득세</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-parenting">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="육아·복지 계산기"><li><a href="/calculators/unemployment-benefit" class="mega-link">실업급여</a></li><li><a href="/calculators/parental-leave" class="mega-link">육아휴직급여</a></li><li><a href="/calculators/maternity-leave-pay" class="mega-link">출산전후휴가 급여</a></li><li><a href="/calculators/parent-benefit" class="mega-link">부모급여</a></li></ul></div></div><div class="mega-foot"><a href="/calculators" class="mega-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li class="nav-item nav-item-guide"><button type="button" class="nav-link nav-trigger" aria-expanded="false" aria-controls="mega-guide">생활정보<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-guide" class="mega mega-guide" hidden=""><ul class="mega-guide-list"><li><a href="/guide?category=work" class="mega-guide-cat">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/weekly-holiday-pay-15-hours" class="mega-guide-pick">주 15시간 일하면 주휴수당은 얼마일까?</a></li><li><a href="/guide?category=finance" class="mega-guide-cat">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/loan-100m-monthly-interest" class="mega-guide-pick">대출 1억 받으면 한 달 이자는 얼마일까?</a></li><li><a href="/guide?category=realestate" class="mega-guide-cat">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/84sqm-to-pyeong" class="mega-guide-pick">아파트 84㎡는 몇 평일까?</a></li><li><a href="/guide?category=tax" class="mega-guide-cat">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/freelancer-3-3-withholding" class="mega-guide-pick">프리랜서 3.3% 떼면 실제 얼마 받을까?</a></li><li><a href="/guide?category=parenting" class="mega-guide-cat">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/parental-leave-benefit" class="mega-guide-pick">육아휴직하면 매달 얼마 받을 수 있을까?</a></li></ul><div class="mega-foot"><a href="/guide" class="mega-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li><a href="/about" class="nav-link">얼마지 소개</a></li></ul></nav><div class="header-actions"><button type="button" class="icon-btn" aria-label="계산기 검색"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7.5"></circle><path d="m20.5 20.5-4.2-4.2"></path></svg></button><a href="/calculators" class="btn btn-primary btn-sm hide-mobile">전체 계산기</a><button type="button" class="icon-btn show-mobile" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button></div></div><div id="mobile-menu" class="mobile-menu" hidden=""><nav aria-label="모바일 메뉴"><ul><li class="m-group"><button type="button" class="m-link m-trigger is-current" aria-expanded="false" aria-controls="m-sub-calc">계산기<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-calc" class="m-sub" hidden="" aria-label="계산기 카테고리"><li><a href="/calculators#cat-work" class="m-sub-link">근로·급여</a></li><li><a href="/calculators#cat-finance" class="m-sub-link">금융·생활</a></li><li><a href="/calculators#cat-realestate" class="m-sub-link">부동산</a></li><li><a href="/calculators#cat-tax" class="m-sub-link">세금</a></li><li><a href="/calculators#cat-parenting" class="m-sub-link">육아·복지</a></li><li><a href="/calculators" class="m-sub-link is-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li class="m-group"><button type="button" class="m-link m-trigger" aria-expanded="false" aria-controls="m-sub-guide">생활정보<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-guide" class="m-sub" hidden="" aria-label="생활정보 카테고리"><li><a href="/guide?category=work" class="m-sub-link">근로·급여</a></li><li><a href="/guide?category=finance" class="m-sub-link">금융·생활</a></li><li><a href="/guide?category=realestate" class="m-sub-link">부동산</a></li><li><a href="/guide?category=tax" class="m-sub-link">세금</a></li><li><a href="/guide?category=parenting" class="m-sub-link">육아·복지</a></li><li><a href="/guide" class="m-sub-link is-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li><a href="/about" class="m-link">얼마지 소개<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></li></ul></nav><a href="/calculators" class="btn btn-primary btn-block">전체 계산기</a></div></header><main id="main"><nav class="container breadcrumb" aria-label="현재 위치"><ol><li><a href="/">홈</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><a href="/calculators">계산기</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><a href="/calculators#cat-work">근로·급여</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><span aria-current="page">연봉 실수령액 계산기</span></li></ol></nav><div class="container page-head"><span class="badge badge-brand">근로·급여</span><h1>연봉 실수령액 계산기</h1><p class="page-desc">연봉을 입력하면 세금과 사회보험 등을 반영한<br>예상 월 실수령액을 계산해드려요.</p><p class="page-meta"><span>2026년 기준</span><span class="meta-sep" aria-hidden="true"></span><a href="#basis">최종 업데이트 2026.09.24<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5.5M12 7.8h.01"></path></svg><span class="sr-only">, 계산 기준 보기</span></a></p></div><section class="calc-section" id="calculator" aria-label="연봉 실수령액 계산기"><div class="container"><div class="calc-shell"><form class="calc-form" novalidate="" aria-labelledby="form-title"><h2 id="form-title" class="form-title">연봉을 입력해주세요</h2><p class="form-desc">세전 연봉만 넣으면 돼요. 나머지는 기본값으로 계산해요.</p><div class="field"><label class="field-label" for="annual">연봉은 얼마인가요?<span class="sr-only"> (원)</span></label><div class="input-wrap"><input id="annual" type="text" inputmode="decimal" autocomplete="off" placeholder="예: 50,000,000" enterkeyhint="done" aria-invalid="false" aria-describedby="annual-help" value=""><span class="input-suffix" aria-hidden="true">원</span></div><p id="annual-help" class="field-help korean-amount" aria-live="polite">세금과 4대보험을 빼기 전 연봉을 입력해주세요.</p><ul class="quick-amounts" aria-label="연봉 빠르게 넣기"><li><button type="button" class="chip" aria-pressed="false">3,000만원</button></li><li><button type="button" class="chip" aria-pressed="false">4,000만원</button></li><li><button type="button" class="chip" aria-pressed="false">5,000만원</button></li><li><button type="button" class="chip" aria-pressed="false">7,000만원</button></li><li><button type="button" class="chip" aria-pressed="false">1억원</button></li></ul></div><fieldset class="field"><legend class="field-label">연봉에 퇴직금이 포함되어 있나요?</legend><div class="method-cards"><label class="method-card"><input type="radio" name="sev" checked=""><span><strong>퇴직금 별도</strong><small>일반적인 연봉 비교를 위해 퇴직금을 제외한 연봉으로 계산해요.</small></span></label><label class="method-card"><input type="radio" name="sev"><span><strong>퇴직금 포함</strong><small>연봉의 1/13을 퇴직금 몫으로 보고 나머지를 12개월로 나눠요.</small></span></label></div></fieldset><div class="more-settings"><button type="button" class="more-toggle" aria-expanded="false" aria-controls="more-body"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"></path><circle cx="15" cy="7" r="2"></circle><circle cx="9" cy="17" r="2"></circle></svg>상세 조건 입력</span><small>비과세 20만원 · 가족 1명</small><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="more-body" class="more-body" hidden=""><div class="field"><label class="field-label" for="nontax">월 비과세액</label><div class="input-wrap"><input id="nontax" type="text" inputmode="decimal" autocomplete="off" aria-invalid="false" aria-describedby="nontax-help" value="200,000"><span class="input-suffix" aria-hidden="true">원</span></div><p id="nontax-help" class="field-help">식대 등 비과세 항목이 있다면 입력해주세요. 실제 인정 여부는 항목과 요건에 따라 달라요.</p><ul class="quick-amounts" aria-label="비과세액 빠르게 넣기"><li><button type="button" class="chip" aria-pressed="false">없음</button></li><li><button type="button" class="chip" aria-pressed="false">10만원</button></li><li><button type="button" class="chip" aria-pressed="true">20만원</button></li></ul></div><div class="field"><span class="field-label" id="family-label">본인을 포함한 부양가족 수</span><div class="stepper" role="group" aria-labelledby="family-label"><button type="button" aria-label="부양가족 수 줄이기" disabled=""><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"></path></svg></button><output aria-live="polite">1명</output><button type="button" aria-label="부양가족 수 늘리기"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"></path></svg></button></div><p class="field-help">소득세 계산에 참고할 가족 수예요.</p></div><div class="field"><span class="field-label" id="children-label">공제대상 자녀 수 (8세 이상 20세 이하)</span><div class="stepper" role="group" aria-labelledby="children-label"><button type="button" aria-label="자녀 수 줄이기" disabled=""><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"></path></svg></button><output aria-live="polite">0명</output><button type="button" aria-label="자녀 수 늘리기" disabled=""><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"></path></svg></button></div></div><fieldset class="field"><legend class="field-label">소득세 원천징수 비율</legend><div class="seg cols-3"><label class="seg-option"><input type="radio" name="ratio"><span>80%</span></label><label class="seg-option"><input type="radio" name="ratio" checked=""><span>100%</span></label><label class="seg-option"><input type="radio" name="ratio"><span>120%</span></label></div><p class="field-help">따로 신청하지 않았다면 100%예요.</p></fieldset></div></div><button type="submit" class="btn btn-primary submit-btn">실수령액 계산하기</button></form><div class="result-col"><div class="result-panel"><p class="sr-only" aria-live="polite"></p><div class="result-empty"><span class="big-q" aria-hidden="true">?</span><h2 class="sr-only">계산 결과</h2><p>연봉을 입력하면<br>한 달에 실제로 얼마 받는지 알려드릴게요.</p></div></div></div></div></div></section><section class="section tight-top" aria-labelledby="related-title"><div class="container"><div class="section-head"><div><h2 id="related-title">이어서 계산해볼까요?</h2></div><a href="/calculators" class="more-link">전체 계산기 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div><ul class="calc-grid"><li><a href="/calculators/net-salary" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M8.5 12.5h7M8.5 16.5h4.5"></path></svg></span><div class="calc-text"><h3>월급 실수령액 계산기</h3><p>월급을 기준으로 실제 받는 금액을 계산해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li><li><a href="/calculators/hourly-monthly-wage" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M8.5 12.5h7M8.5 16.5h4.5"></path></svg></span><div class="calc-text"><h3>시급·월급 변환 계산기</h3><p>월급을 시급으로 바꾸거나 시급을 월급으로 환산해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li><li><a href="/calculators/severance-pay" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"></rect><path d="M8 3v4M16 3v4M3.5 10h17M8 14h2M14 14h2M8 17h2"></path></svg></span><div class="calc-text"><h3>퇴직금 계산기</h3><p>근속기간과 임금을 기준으로 예상 퇴직금을 확인해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li><li><a href="/calculators/weekly-holiday-pay" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="7" width="18" height="13" rx="2.5"></rect><path d="M8.5 7V5.5A1.5 1.5 0 0 1 10 4h4a1.5 1.5 0 0 1 1.5 1.5V7M3 12.5h18M10.5 12.5v1.5h3v-1.5"></path></svg></span><div class="calc-text"><h3>주휴수당 계산기</h3><p>근무시간을 기준으로 예상 주휴수당을 계산해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li></ul></div></section><section class="section band" id="guide" aria-label="연봉 실수령액 안내"><div class="container"><div class="content-block"><h2>연봉별 예상 실수령액</h2><p class="section-desc">기본 조건을 기준으로 계산한 참고값이며 개인별 실제 실수령액은 달라질 수 있습니다. (비과세 20만원, 부양가족 본인 1명, 퇴직금 별도 기준으로 계산)</p><div class="table-scroll resp"><table class="data-table resp-table"><caption class="sr-only">연봉별 월 세전급여, 예상 월 실수령액, 연간 예상 실수령액</caption><thead><tr><th scope="col">연봉</th><th scope="col">월 세전급여</th><th scope="col">예상 월 실수령액</th><th scope="col">연간 예상 실수령액</th></tr></thead><tbody><tr><th scope="row"><button type="button" class="link-btn">3,000만원</button></th><td data-label="월 세전급여">2,500,000원</td><td data-label="예상 월 실수령액">2,244,440원</td><td data-label="연간 예상 실수령액">26,933,280원</td></tr><tr><th scope="row"><button type="button" class="link-btn">4,000만원</button></th><td data-label="월 세전급여">3,333,333원</td><td data-label="예상 월 실수령액">2,935,813원</td><td data-label="연간 예상 실수령액">35,229,756원</td></tr><tr><th scope="row"><button type="button" class="link-btn">5,000만원</button></th><td data-label="월 세전급여">4,166,666원</td><td data-label="예상 월 실수령액">3,571,586원</td><td data-label="연간 예상 실수령액">42,859,032원</td></tr><tr><th scope="row"><button type="button" class="link-btn">6,000만원</button></th><td data-label="월 세전급여">5,000,000원</td><td data-label="예상 월 실수령액">4,195,410원</td><td data-label="연간 예상 실수령액">50,344,920원</td></tr><tr><th scope="row"><button type="button" class="link-btn">7,000만원</button></th><td data-label="월 세전급여">5,833,333원</td><td data-label="예상 월 실수령액">4,821,313원</td><td data-label="연간 예상 실수령액">57,855,756원</td></tr><tr><th scope="row"><button type="button" class="link-btn">8,000만원</button></th><td data-label="월 세전급여">6,666,666원</td><td data-label="예상 월 실수령액">5,367,086원</td><td data-label="연간 예상 실수령액">64,405,032원</td></tr><tr><th scope="row"><button type="button" class="link-btn">1억원</button></th><td data-label="월 세전급여">8,333,333원</td><td data-label="예상 월 실수령액">6,530,923원</td><td data-label="연간 예상 실수령액">78,371,076원</td></tr></tbody></table></div></div><div class="content-block"><h2>연봉 5,000만원이면 월급은 단순히 416만원일까요?</h2><div class="prose"><p>연봉 ÷ 12인 약 약 417만원은 월 세전급여를 단순히 나눈 금액이에요. 실제 통장에는 여기서 국민연금, 건강보험, 장기요양보험, 고용보험, 소득세, 지방소득세가 빠져서 약 약 357만원이 들어와요(기본 조건 기준).</p></div></div><div class="content-block"><h2>연봉 실수령액은 어떻게 계산하나요?</h2><div class="prose"><p>연봉을 12로 나눠 월 세전급여를 구하고, 비과세 금액을 뺀 금액에 4대보험료와 소득세를 계산해 빼요. 남은 금액이 월 실수령액이고, 12를 곱하면 연간 실수령액이에요.</p></div></div><div class="content-block"><h2>연봉에서 어떤 금액이 빠지나요?</h2><ul class="item-grid"><li class="item-card"><h3>사회보험</h3><p>국민연금, 건강보험, 장기요양보험, 고용보험이에요. 월급에 일정 비율을 곱해 계산해요.</p></li><li class="item-card"><h3>소득세</h3><p>근로소득 간이세액표에서 월급과 부양가족 수에 맞는 금액을 매달 미리 떼요.</p></li><li class="item-card"><h3>지방소득세</h3><p>소득세의 10%예요. 소득세와 함께 빠져요.</p></li></ul></div><div class="content-block"><h2>연봉에 퇴직금이 포함되나요?</h2><div class="prose"><p>계약마다 달라요. 대부분은 퇴직금 별도지만, 퇴직금 포함 연봉이라면 연봉의 1/13 정도를 퇴직금 몫으로 두고 나머지를 12개월로 나눠 받는 경우가 많아요. 정확한 퇴직금은 퇴직금 계산기에서 확인해보세요.</p></div></div><div class="content-block"><h2>연봉이 올라도 실수령액이 같은 비율로 오르지 않는 이유는?</h2><div class="prose"><p>보험료는 월급에 비례해서 늘고, 소득세는 월급이 많을수록 더 높은 비율이 적용돼요. 그래서 연봉이 1,000만원 올라도 월 실수령액은 83만원보다 적게 늘어요. 대신 국민연금은 상한이 있어서 아주 높은 연봉에서는 더 늘지 않아요.</p></div></div><div class="content-block"><h2>비과세 금액이 있으면 왜 실수령액이 달라지나요?</h2><div class="prose"><p>식대 같은 비과세 금액에는 세금과 보험료를 매기지 않아서, 같은 연봉이라도 비과세액이 크면 공제가 줄고 실수령액이 늘어요.</p></div></div></div></section><section class="section" id="faq" aria-labelledby="faq-title"><div class="container"><div class="section-head"><div><h2 id="faq-title">자주 묻는 질문</h2></div></div><ul class="faq-list"><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f1" class="faq-toggle" aria-expanded="true" aria-controls="faq-panel-f1">연봉 3,000만원이면 월 실수령액은 얼마인가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f1" role="region" aria-labelledby="faq-btn-f1" class="faq-a"><p>비과세 20만원, 부양가족 본인 1명, 퇴직금 별도 기준으로 월 세전 2,500,000원에서 약 255,560원이 빠져 월 예상 실수령액은 약 2,244,440원이에요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f2" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f2">연봉 4,000만원이면 실수령액은 얼마인가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f2" role="region" aria-labelledby="faq-btn-f2" class="faq-a" hidden=""><p>비과세 20만원, 부양가족 본인 1명, 퇴직금 별도 기준으로 월 세전 3,333,333원에서 약 397,520원이 빠져 월 예상 실수령액은 약 2,935,813원이에요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f3" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f3">연봉 5,000만원이면 한 달에 얼마 받나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f3" role="region" aria-labelledby="faq-btn-f3" class="faq-a" hidden=""><p>비과세 20만원, 부양가족 본인 1명, 퇴직금 별도 기준으로 월 세전 4,166,666원에서 약 595,080원이 빠져 월 예상 실수령액은 약 3,571,586원이에요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f4" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f4">연봉 6,000만원이면 월 실수령액은 얼마인가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f4" role="region" aria-labelledby="faq-btn-f4" class="faq-a" hidden=""><p>비과세 20만원, 부양가족 본인 1명, 퇴직금 별도 기준으로 월 세전 5,000,000원에서 약 804,590원이 빠져 월 예상 실수령액은 약 4,195,410원이에요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f5" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f5">연봉 1억원이면 실제로 얼마 받나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f5" role="region" aria-labelledby="faq-btn-f5" class="faq-a" hidden=""><p>비과세 20만원, 부양가족 본인 1명, 퇴직금 별도 기준으로 월 세전 8,333,333원에서 약 1,802,410원이 빠져 월 예상 실수령액은 약 6,530,923원이에요. 1년이면 약 78,371,076원이에요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f6" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f6">연봉은 세전 금액인가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f6" role="region" aria-labelledby="faq-btn-f6" class="faq-a" hidden=""><p>네. 연봉은 보통 세금과 4대보험을 빼기 전 금액이에요. 그래서 실제로 통장에 들어오는 금액은 연봉 ÷ 12보다 적어요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f7" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f7">연봉에 퇴직금이 포함되나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f7" role="region" aria-labelledby="faq-btn-f7" class="faq-a" hidden=""><p>계약마다 달라요. 퇴직금 포함 연봉이라면 보통 연봉의 1/13을 퇴직금 몫으로 보고 나머지를 12개월로 나눠 받아요. 계산기에서 '퇴직금 포함'을 선택하면 이렇게 계산해요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f8" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f8">비과세액은 무엇인가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f8" role="region" aria-labelledby="faq-btn-f8" class="faq-a" hidden=""><p>식대처럼 세금과 보험료를 매기지 않는 급여 항목이에요. 비과세액이 있으면 그만큼 공제가 줄어서 실수령액이 늘어요. 실제 인정 여부는 항목과 요건에 따라 달라요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f9" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f9">부양가족 수에 따라 실수령액이 달라지나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f9" role="region" aria-labelledby="faq-btn-f9" class="faq-a" hidden=""><p>네. 매달 떼는 소득세가 부양가족 수와 공제대상 자녀 수에 따라 달라져요. 4대보험료는 가족 수와 관계없어요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f10" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f10">성과급도 연봉에 포함해야 하나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f10" role="region" aria-labelledby="faq-btn-f10" class="faq-a" hidden=""><p>이 계산기는 입력한 연봉을 12개월에 똑같이 나눠 받는다고 가정해요. 성과급이 따로 나온다면 기본 연봉만 넣고, 성과급은 별도로 생각하는 게 실제에 더 가까워요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f11" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f11">월급 실수령액 계산기와 무엇이 다른가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f11" role="region" aria-labelledby="faq-btn-f11" class="faq-a" hidden=""><p>입력하는 단위만 달라요. 두 계산기는 같은 공제 계산 방식을 써서, 같은 월 세전급여와 조건이면 결과가 똑같아요. 월급을 알고 있다면 월급 실수령액 계산기가 더 편해요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-f12" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-f12">실제 급여명세서와 계산 결과가 다른 이유는 무엇인가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-f12" role="region" aria-labelledby="faq-btn-f12" class="faq-a" hidden=""><p>회사의 급여 지급방식, 비과세 항목, 원천징수 비율, 보험료 정산, 상여금 지급 여부 등에 따라 달라져요. 연말정산 결과에 따라 실제 세금도 달라질 수 있어요.</p></div></li></ul></div></section><section class="section band" id="basis" aria-labelledby="basis-title"><div class="container"><div class="trust-grid"><div><h2 id="basis-title">어떤 기준으로 계산하나요?</h2><p class="section-desc">월급 실수령액 계산기와 같은 2026년 공제 기준을 그대로 써요. 계산은 이 화면 안에서만 이뤄지고, 이름이나 회사명 같은 정보는 묻지 않아요.</p><div class="notice-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5.5M12 7.8h.01"></path></svg><div><strong>참고용으로 확인해주세요</strong><p>계산 결과는 입력한 연봉과 선택한 조건을 기준으로 계산한 예상 금액입니다. 실제 실수령액은 회사의 급여 지급방식, 비과세 항목, 부양가족, 사회보험 적용 여부, 상여금·성과급, 소득세 원천징수 방식 및 연도별 제도 변경 등에 따라 달라질 수 있습니다.</p></div></div></div><div class="basis-card"><div class="basis-head"><strong>연봉 실수령액 계산 기준</strong><span class="badge badge-brand">2026년 기준</span></div><dl><div class="basis-row"><dt>국민연금</dt><dd>4.75% (기준소득월액 41만원~659만원)</dd></div><div class="basis-row"><dt>건강보험</dt><dd>3.595%</dd></div><div class="basis-row"><dt>장기요양보험</dt><dd>건강보험료의 13.14%</dd></div><div class="basis-row"><dt>고용보험</dt><dd>0.9%</dd></div><div class="basis-row"><dt>소득세</dt><dd>소득세법 시행령 별표2 근로소득 간이세액표 (2024.2.29 개정)</dd></div><div class="basis-row"><dt>지방소득세</dt><dd>소득세의 10%</dd></div><div class="basis-row"><dt>연봉 환산</dt><dd>연봉 ÷ 12 (퇴직금 포함 시 연봉 × 12/13 ÷ 12), 12개월 균등 지급</dd></div><div class="basis-row"><dt>공식 출처</dt><dd><ul class="source-list"><li><a class="source-link" href="https://www.nps.or.kr" target="_blank" rel="noopener noreferrer"><span><span class="src-name">국민연금공단</span><span class="src-desc">보험료율, 기준소득월액 상·하한</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-8.5 8.5"></path><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"></path></svg><span class="sr-only">(새 탭에서 열림)</span></a></li><li><a class="source-link" href="https://www.nhis.or.kr" target="_blank" rel="noopener noreferrer"><span><span class="src-name">국민건강보험공단</span><span class="src-desc">건강보험료율, 장기요양보험료율</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-8.5 8.5"></path><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"></path></svg><span class="sr-only">(새 탭에서 열림)</span></a></li><li><a class="source-link" href="https://www.moel.go.kr" target="_blank" rel="noopener noreferrer"><span><span class="src-name">고용노동부</span><span class="src-desc">고용보험료율</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-8.5 8.5"></path><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"></path></svg><span class="sr-only">(새 탭에서 열림)</span></a></li><li><a class="source-link" href="https://www.nts.go.kr" target="_blank" rel="noopener noreferrer"><span><span class="src-name">국세청</span><span class="src-desc">근로소득 간이세액표</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-8.5 8.5"></path><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"></path></svg><span class="sr-only">(새 탭에서 열림)</span></a></li></ul></dd></div><div class="basis-row"><dt>마지막 업데이트</dt><dd><time datetime="2026-09-24">2026.09.24</time></dd></div></dl></div></div></div></section><section class="section" aria-labelledby="articles-title"><div class="container"><div class="section-head"><div><h2 id="articles-title">같이 보면 좋은 생활정보</h2></div><a href="/guide" class="more-link">생활정보 전체보기 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div><ul class="article-grid"><li><a href="/guide/minimum-wage-2027-monthly" class="article-card"><span class="article-cat">근로·급여</span><h3>2027 최저임금으로 월급을 계산하면?</h3><p>2027년 최저임금 시급 10,700원을 일급·월급으로 바꾸면 얼마인지, 실수령액과는 무엇이 다른지 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li></ul></div></section></main><footer class="site-footer"><div class="container"><div class="footer-top"><div class="footer-brand"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><span class="en">ULMAJI</span></div><nav class="footer-nav" aria-label="하단 메뉴"><ul><li><a href="/calculators">계산기</a></li><li><a href="/guide">생활정보</a></li><li><a href="/about">얼마지 소개</a></li><li><a href="/terms">이용약관</a></li><li><a href="/privacy">개인정보처리방침</a></li><li><a href="mailto:heosoyoone@gmail.com">문의</a></li></ul></nav></div><p class="footer-disclaimer">계산 결과는 입력한 정보와 적용 기준에 따른 참고용 정보입니다. 실제 지급액 및 적용 여부는 개인의 조건에 따라 달라질 수 있습니다.</p><p class="footer-copy">© 2026 ULMAJI. ulmaji.kr</p></div></footer><div class="toast" role="status" aria-live="polite"></div><!--prerender:end--></div>
 <noscript><p style="max-width:720px;margin:16px auto;padding:0 20px;font-family:sans-serif;font-size:15px">계산 기능을 쓰려면 브라우저에서 JavaScript를 켜주세요.</p></noscript>
 <script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.24.7/babel.min.js"></script>
 <script type="text/babel" data-presets="react">
 const { useState, useRef, useEffect, useMemo } = React;
+
+/* =========================================================
+   1. Site / Page config
+   ========================================================= */
 const SITE = { name: "얼마지?", en: "ULMAJI", origin: "https://ulmaji.kr" };
+const PAGE = {
+  path: "/calculators/annual-salary-net-pay",
+  title: "연봉 실수령액 계산기",
+  category: { name: "근로·급여", href: "/calculators#cat-work" },
+  year: 2026,
+  updatedAt: "2026.09.24",
+};
 const SHOW_AD_PLACEHOLDERS = new URLSearchParams(window.location.search).get("ads") === "preview";
-const NAV = [ { label: "계산기", href: "/#popular" }, { label: "생활정보", href: "/guide" }, { label: "얼마지 소개", href: "/about" } ];
+
+/* =========================================================
+   ▼ Shared Net Salary Engine (공통 급여 공제 엔진)
+   ulmaji-net-salary.html의 2~5번 영역을 한 글자도 바꾸지 않고 그대로 가져왔어요.
+   Next.js로 옮길 때는 lib/net-salary-engine.js 한 파일로 두고 두 페이지가 import하면 돼요.
+   ========================================================= */
+/* =========================================================
+   2. Annual Rate Config (4대보험, 근로자 부담분)
+   다음 해 기준이 확정되면 RATES_2027을 추가하고 CONFIG_BY_YEAR에 등록하세요.
+   UI 코드는 수정하지 않아도 됩니다.
+   ========================================================= */
+const RATES_2026 = {
+  year: 2026,
+  effectiveFrom: "2026-01-01",
+  nationalPension: {
+    name: "국민연금",
+    employeeRate: 0.0475,  // 총 9.5% 중 근로자 부담 (2026년 연금개혁 인상분 반영)
+    baseIncomeLimits: [    // 기준소득월액 상·하한 (매년 7월 조정)
+      { from: "2025-07-01", min: 400000, max: 6370000 },
+      { from: "2026-07-01", min: 410000, max: 6590000 },  // 국민연금공단 안내 (2026.7.1~2027.6.30)
+    ],
+    baseTruncateUnit: 1000,   // 기준소득월액 천원 미만 절사
+    premiumTruncateUnit: 10,  // TODO: 공식 2026년 기준 검증 필요 (보험료 원 단위 처리 방식)
+  },
+  healthInsurance: {
+    name: "건강보험",
+    employeeRate: 0.03595, // 총 7.19% 중 근로자 부담
+    truncateUnit: 10,
+    // TODO: 공식 2026년 기준 검증 필요 (보수월액 상·하한 미반영, 일반적인 급여 구간에는 영향 없음)
+  },
+  longTermCare: {
+    name: "장기요양보험",
+    ratioOfHealthPremium: 0.1314, // 건강보험료 대비 13.14%
+    truncateUnit: 10,
+  },
+  employmentInsurance: {
+    name: "고용보험",
+    employeeRate: 0.009,  // 실업급여 보험료 근로자 부담
+    truncateUnit: 10,     // TODO: 공식 2026년 기준 검증 필요 (원 단위 처리 방식)
+  },
+};
+
+/* =========================================================
+   3. Tax Config (근로소득세, 지방소득세)
+   ========================================================= */
+// 근로소득 간이세액표: 소득세법 시행령 별표2 (2024.2.29 개정)
+// 각 행 = [월급여 이상(천원), 미만(천원), 공제대상가족 1명 … 11명 세액(원)]
+// TODO: 공식 2026년 기준 검증 필요 (국세청 홈택스 간이세액표 원본과 대조 후 교체)
+const GANYI_TABLE = [[770,775,0,0,0,0,0,0,0,0,0,0,0],[775,780,0,0,0,0,0,0,0,0,0,0,0],[780,785,0,0,0,0,0,0,0,0,0,0,0],[785,790,0,0,0,0,0,0,0,0,0,0,0],[790,795,0,0,0,0,0,0,0,0,0,0,0],[795,800,0,0,0,0,0,0,0,0,0,0,0],[800,805,0,0,0,0,0,0,0,0,0,0,0],[805,810,0,0,0,0,0,0,0,0,0,0,0],[810,815,0,0,0,0,0,0,0,0,0,0,0],[815,820,0,0,0,0,0,0,0,0,0,0,0],[820,825,0,0,0,0,0,0,0,0,0,0,0],[825,830,0,0,0,0,0,0,0,0,0,0,0],[830,835,0,0,0,0,0,0,0,0,0,0,0],[835,840,0,0,0,0,0,0,0,0,0,0,0],[840,845,0,0,0,0,0,0,0,0,0,0,0],[845,850,0,0,0,0,0,0,0,0,0,0,0],[850,855,0,0,0,0,0,0,0,0,0,0,0],[855,860,0,0,0,0,0,0,0,0,0,0,0],[860,865,0,0,0,0,0,0,0,0,0,0,0],[865,870,0,0,0,0,0,0,0,0,0,0,0],[870,875,0,0,0,0,0,0,0,0,0,0,0],[875,880,0,0,0,0,0,0,0,0,0,0,0],[880,885,0,0,0,0,0,0,0,0,0,0,0],[885,890,0,0,0,0,0,0,0,0,0,0,0],[890,895,0,0,0,0,0,0,0,0,0,0,0],[895,900,0,0,0,0,0,0,0,0,0,0,0],[900,905,0,0,0,0,0,0,0,0,0,0,0],[905,910,0,0,0,0,0,0,0,0,0,0,0],[910,915,0,0,0,0,0,0,0,0,0,0,0],[915,920,0,0,0,0,0,0,0,0,0,0,0],[920,925,0,0,0,0,0,0,0,0,0,0,0],[925,930,0,0,0,0,0,0,0,0,0,0,0],[930,935,0,0,0,0,0,0,0,0,0,0,0],[935,940,0,0,0,0,0,0,0,0,0,0,0],[940,945,0,0,0,0,0,0,0,0,0,0,0],[945,950,0,0,0,0,0,0,0,0,0,0,0],[950,955,0,0,0,0,0,0,0,0,0,0,0],[955,960,0,0,0,0,0,0,0,0,0,0,0],[960,965,0,0,0,0,0,0,0,0,0,0,0],[965,970,0,0,0,0,0,0,0,0,0,0,0],[970,975,0,0,0,0,0,0,0,0,0,0,0],[975,980,0,0,0,0,0,0,0,0,0,0,0],[980,985,0,0,0,0,0,0,0,0,0,0,0],[985,990,0,0,0,0,0,0,0,0,0,0,0],[990,995,0,0,0,0,0,0,0,0,0,0,0],[995,1000,0,0,0,0,0,0,0,0,0,0,0],[1000,1005,0,0,0,0,0,0,0,0,0,0,0],[1005,1010,0,0,0,0,0,0,0,0,0,0,0],[1010,1015,0,0,0,0,0,0,0,0,0,0,0],[1015,1020,0,0,0,0,0,0,0,0,0,0,0],[1020,1025,0,0,0,0,0,0,0,0,0,0,0],[1025,1030,0,0,0,0,0,0,0,0,0,0,0],[1030,1035,0,0,0,0,0,0,0,0,0,0,0],[1035,1040,0,0,0,0,0,0,0,0,0,0,0],[1040,1045,0,0,0,0,0,0,0,0,0,0,0],[1045,1050,0,0,0,0,0,0,0,0,0,0,0],[1050,1055,0,0,0,0,0,0,0,0,0,0,0],[1055,1060,0,0,0,0,0,0,0,0,0,0,0],[1060,1065,1040,0,0,0,0,0,0,0,0,0,0],[1065,1070,1110,0,0,0,0,0,0,0,0,0,0],[1070,1075,1180,0,0,0,0,0,0,0,0,0,0],[1075,1080,1250,0,0,0,0,0,0,0,0,0,0],[1080,1085,1320,0,0,0,0,0,0,0,0,0,0],[1085,1090,1390,0,0,0,0,0,0,0,0,0,0],[1090,1095,1460,0,0,0,0,0,0,0,0,0,0],[1095,1100,1530,0,0,0,0,0,0,0,0,0,0],[1100,1105,1600,0,0,0,0,0,0,0,0,0,0],[1105,1110,1670,0,0,0,0,0,0,0,0,0,0],[1110,1115,1740,0,0,0,0,0,0,0,0,0,0],[1115,1120,1810,0,0,0,0,0,0,0,0,0,0],[1120,1125,1880,0,0,0,0,0,0,0,0,0,0],[1125,1130,1950,0,0,0,0,0,0,0,0,0,0],[1130,1135,2020,0,0,0,0,0,0,0,0,0,0],[1135,1140,2090,0,0,0,0,0,0,0,0,0,0],[1140,1145,2160,0,0,0,0,0,0,0,0,0,0],[1145,1150,2230,0,0,0,0,0,0,0,0,0,0],[1150,1155,2300,0,0,0,0,0,0,0,0,0,0],[1155,1160,2370,0,0,0,0,0,0,0,0,0,0],[1160,1165,2440,0,0,0,0,0,0,0,0,0,0],[1165,1170,2500,0,0,0,0,0,0,0,0,0,0],[1170,1175,2570,0,0,0,0,0,0,0,0,0,0],[1175,1180,2640,0,0,0,0,0,0,0,0,0,0],[1180,1185,2710,0,0,0,0,0,0,0,0,0,0],[1185,1190,2780,0,0,0,0,0,0,0,0,0,0],[1190,1195,2850,0,0,0,0,0,0,0,0,0,0],[1195,1200,2920,0,0,0,0,0,0,0,0,0,0],[1200,1205,2990,0,0,0,0,0,0,0,0,0,0],[1205,1210,3060,0,0,0,0,0,0,0,0,0,0],[1210,1215,3130,0,0,0,0,0,0,0,0,0,0],[1215,1220,3200,0,0,0,0,0,0,0,0,0,0],[1220,1225,3270,0,0,0,0,0,0,0,0,0,0],[1225,1230,3340,0,0,0,0,0,0,0,0,0,0],[1230,1235,3410,0,0,0,0,0,0,0,0,0,0],[1235,1240,3480,0,0,0,0,0,0,0,0,0,0],[1240,1245,3550,0,0,0,0,0,0,0,0,0,0],[1245,1250,3620,0,0,0,0,0,0,0,0,0,0],[1250,1255,3700,0,0,0,0,0,0,0,0,0,0],[1255,1260,3810,0,0,0,0,0,0,0,0,0,0],[1260,1265,3910,0,0,0,0,0,0,0,0,0,0],[1265,1270,4010,0,0,0,0,0,0,0,0,0,0],[1270,1275,4120,0,0,0,0,0,0,0,0,0,0],[1275,1280,4220,0,0,0,0,0,0,0,0,0,0],[1280,1285,4320,0,0,0,0,0,0,0,0,0,0],[1285,1290,4430,0,0,0,0,0,0,0,0,0,0],[1290,1295,4530,0,0,0,0,0,0,0,0,0,0],[1295,1300,4630,0,0,0,0,0,0,0,0,0,0],[1300,1305,4740,0,0,0,0,0,0,0,0,0,0],[1305,1310,4840,0,0,0,0,0,0,0,0,0,0],[1310,1315,4940,0,0,0,0,0,0,0,0,0,0],[1315,1320,5050,0,0,0,0,0,0,0,0,0,0],[1320,1325,5150,0,0,0,0,0,0,0,0,0,0],[1325,1330,5250,0,0,0,0,0,0,0,0,0,0],[1330,1335,5360,0,0,0,0,0,0,0,0,0,0],[1335,1340,5460,0,0,0,0,0,0,0,0,0,0],[1340,1345,5560,1060,0,0,0,0,0,0,0,0,0],[1345,1350,5670,1170,0,0,0,0,0,0,0,0,0],[1350,1355,5770,1270,0,0,0,0,0,0,0,0,0],[1355,1360,5870,1370,0,0,0,0,0,0,0,0,0],[1360,1365,5980,1480,0,0,0,0,0,0,0,0,0],[1365,1370,6080,1580,0,0,0,0,0,0,0,0,0],[1370,1375,6180,1680,0,0,0,0,0,0,0,0,0],[1375,1380,6290,1790,0,0,0,0,0,0,0,0,0],[1380,1385,6390,1890,0,0,0,0,0,0,0,0,0],[1385,1390,6490,1990,0,0,0,0,0,0,0,0,0],[1390,1395,6600,2100,0,0,0,0,0,0,0,0,0],[1395,1400,6700,2200,0,0,0,0,0,0,0,0,0],[1400,1405,6800,2300,0,0,0,0,0,0,0,0,0],[1405,1410,6910,2410,0,0,0,0,0,0,0,0,0],[1410,1415,7010,2510,0,0,0,0,0,0,0,0,0],[1415,1420,7110,2610,0,0,0,0,0,0,0,0,0],[1420,1425,7210,2710,0,0,0,0,0,0,0,0,0],[1425,1430,7320,2820,0,0,0,0,0,0,0,0,0],[1430,1435,7420,2920,0,0,0,0,0,0,0,0,0],[1435,1440,7520,3020,0,0,0,0,0,0,0,0,0],[1440,1445,7630,3130,0,0,0,0,0,0,0,0,0],[1445,1450,7730,3230,0,0,0,0,0,0,0,0,0],[1450,1455,7830,3330,0,0,0,0,0,0,0,0,0],[1455,1460,7940,3440,0,0,0,0,0,0,0,0,0],[1460,1465,8040,3540,0,0,0,0,0,0,0,0,0],[1465,1470,8140,3640,0,0,0,0,0,0,0,0,0],[1470,1475,8250,3750,0,0,0,0,0,0,0,0,0],[1475,1480,8350,3850,0,0,0,0,0,0,0,0,0],[1480,1485,8450,3950,0,0,0,0,0,0,0,0,0],[1485,1490,8560,4060,0,0,0,0,0,0,0,0,0],[1490,1495,8660,4160,0,0,0,0,0,0,0,0,0],[1495,1500,8760,4260,0,0,0,0,0,0,0,0,0],[1500,1510,8920,4420,0,0,0,0,0,0,0,0,0],[1510,1520,9120,4620,0,0,0,0,0,0,0,0,0],[1520,1530,9330,4830,0,0,0,0,0,0,0,0,0],[1530,1540,9540,5040,0,0,0,0,0,0,0,0,0],[1540,1550,9740,5240,0,0,0,0,0,0,0,0,0],[1550,1560,9950,5450,0,0,0,0,0,0,0,0,0],[1560,1570,10160,5660,0,0,0,0,0,0,0,0,0],[1570,1580,10360,5860,0,0,0,0,0,0,0,0,0],[1580,1590,10570,6070,0,0,0,0,0,0,0,0,0],[1590,1600,10780,6280,0,0,0,0,0,0,0,0,0],[1600,1610,10980,6480,0,0,0,0,0,0,0,0,0],[1610,1620,11190,6690,0,0,0,0,0,0,0,0,0],[1620,1630,11400,6900,0,0,0,0,0,0,0,0,0],[1630,1640,11600,7100,0,0,0,0,0,0,0,0,0],[1640,1650,11810,7310,0,0,0,0,0,0,0,0,0],[1650,1660,12020,7520,0,0,0,0,0,0,0,0,0],[1660,1670,12220,7720,0,0,0,0,0,0,0,0,0],[1670,1680,12430,7930,0,0,0,0,0,0,0,0,0],[1680,1690,12640,8140,0,0,0,0,0,0,0,0,0],[1690,1700,12840,8340,0,0,0,0,0,0,0,0,0],[1700,1710,13050,8550,0,0,0,0,0,0,0,0,0],[1710,1720,13260,8760,0,0,0,0,0,0,0,0,0],[1720,1730,13460,8960,1040,0,0,0,0,0,0,0,0],[1730,1740,13670,9170,1240,0,0,0,0,0,0,0,0],[1740,1750,13880,9380,1440,0,0,0,0,0,0,0,0],[1750,1760,14080,9580,1640,0,0,0,0,0,0,0,0],[1760,1770,14290,9790,1830,0,0,0,0,0,0,0,0],[1770,1780,14500,10000,2030,0,0,0,0,0,0,0,0],[1780,1790,14700,10200,2230,0,0,0,0,0,0,0,0],[1790,1800,14910,10410,2430,0,0,0,0,0,0,0,0],[1800,1810,15110,10610,2630,0,0,0,0,0,0,0,0],[1810,1820,15320,10820,2830,0,0,0,0,0,0,0,0],[1820,1830,15530,11030,3020,0,0,0,0,0,0,0,0],[1830,1840,15730,11230,3220,0,0,0,0,0,0,0,0],[1840,1850,15940,11440,3420,0,0,0,0,0,0,0,0],[1850,1860,16150,11650,3620,0,0,0,0,0,0,0,0],[1860,1870,16350,11850,3820,0,0,0,0,0,0,0,0],[1870,1880,16560,12060,4020,0,0,0,0,0,0,0,0],[1880,1890,16770,12270,4220,0,0,0,0,0,0,0,0],[1890,1900,16970,12470,4410,1040,0,0,0,0,0,0,0],[1900,1910,17180,12680,4610,1240,0,0,0,0,0,0,0],[1910,1920,17390,12890,4810,1440,0,0,0,0,0,0,0],[1920,1930,17590,13090,5010,1630,0,0,0,0,0,0,0],[1930,1940,17800,13300,5210,1830,0,0,0,0,0,0,0],[1940,1950,18010,13510,5410,2030,0,0,0,0,0,0,0],[1950,1960,18210,13710,5600,2230,0,0,0,0,0,0,0],[1960,1970,18420,13920,5800,2430,0,0,0,0,0,0,0],[1970,1980,18630,14130,6000,2630,0,0,0,0,0,0,0],[1980,1990,18880,14330,6200,2820,0,0,0,0,0,0,0],[1990,2000,19200,14540,6400,3020,0,0,0,0,0,0,0],[2000,2010,19520,14750,6600,3220,0,0,0,0,0,0,0],[2010,2020,19850,14950,6800,3420,0,0,0,0,0,0,0],[2020,2030,20170,15160,6990,3620,0,0,0,0,0,0,0],[2030,2040,20490,15370,7190,3820,0,0,0,0,0,0,0],[2040,2050,20810,15570,7390,4020,0,0,0,0,0,0,0],[2050,2060,21130,15780,7590,4210,0,0,0,0,0,0,0],[2060,2070,21450,15990,7790,4410,1040,0,0,0,0,0,0],[2070,2080,21770,16190,7990,4610,1240,0,0,0,0,0,0],[2080,2090,22090,16400,8180,4810,1430,0,0,0,0,0,0],[2090,2100,22420,16600,8380,5010,1630,0,0,0,0,0,0],[2100,2110,22740,16810,8580,5210,1830,0,0,0,0,0,0],[2110,2120,23060,17020,8780,5400,2030,0,0,0,0,0,0],[2120,2130,23380,17220,8980,5600,2230,0,0,0,0,0,0],[2130,2140,23700,17430,9180,5800,2430,0,0,0,0,0,0],[2140,2150,24020,17640,9380,6000,2630,0,0,0,0,0,0],[2150,2160,24340,17840,9570,6200,2820,0,0,0,0,0,0],[2160,2170,24660,18050,9770,6400,3020,0,0,0,0,0,0],[2170,2180,24990,18260,9970,6600,3220,0,0,0,0,0,0],[2180,2190,25310,18460,10170,6790,3420,0,0,0,0,0,0],[2190,2200,25630,18670,10370,6990,3620,0,0,0,0,0,0],[2200,2210,25950,18950,10570,7190,3820,0,0,0,0,0,0],[2210,2220,26270,19270,10760,7390,4010,0,0,0,0,0,0],[2220,2230,26590,19590,10960,7590,4210,0,0,0,0,0,0],[2230,2240,26910,19910,11160,7790,4410,1040,0,0,0,0,0],[2240,2250,27240,20240,11360,7980,4610,1230,0,0,0,0,0],[2250,2260,27560,20560,11560,8180,4810,1430,0,0,0,0,0],[2260,2270,27880,20880,11760,8380,5010,1630,0,0,0,0,0],[2270,2280,28200,21200,11960,8580,5210,1830,0,0,0,0,0],[2280,2290,28520,21520,12150,8780,5400,2030,0,0,0,0,0],[2290,2300,28840,21840,12350,8980,5600,2230,0,0,0,0,0],[2300,2310,29160,22160,12550,9180,5800,2430,0,0,0,0,0],[2310,2320,29480,22480,12750,9370,6000,2620,0,0,0,0,0],[2320,2330,29810,22810,12950,9570,6200,2820,0,0,0,0,0],[2330,2340,30130,23130,13150,9770,6400,3020,0,0,0,0,0],[2340,2350,30450,23450,13340,9970,6590,3220,0,0,0,0,0],[2350,2360,30770,23770,13540,10170,6790,3420,0,0,0,0,0],[2360,2370,31090,24090,13740,10370,6990,3620,0,0,0,0,0],[2370,2380,31410,24410,13940,10560,7190,3810,0,0,0,0,0],[2380,2390,31730,24730,14140,10760,7390,4010,0,0,0,0,0],[2390,2400,32050,25050,14340,10960,7590,4210,0,0,0,0,0],[2400,2410,32380,25380,14530,11160,7780,4410,1030,0,0,0,0],[2410,2420,32700,25700,14730,11360,7980,4610,1230,0,0,0,0],[2420,2430,33020,26020,14930,11560,8180,4810,1430,0,0,0,0],[2430,2440,33340,26340,15130,11760,8380,5010,1630,0,0,0,0],[2440,2450,33660,26660,15330,11950,8580,5200,1830,0,0,0,0],[2450,2460,33980,26980,15530,12150,8780,5400,2030,0,0,0,0],[2460,2470,34300,27300,15730,12350,8980,5600,2230,0,0,0,0],[2470,2480,34630,27630,15920,12550,9170,5800,2420,0,0,0,0],[2480,2490,34950,27950,16120,12750,9370,6000,2620,0,0,0,0],[2490,2500,35270,28270,16320,12950,9570,6200,2820,0,0,0,0],[2500,2510,35600,28600,16530,13150,9780,6400,3030,0,0,0,0],[2510,2520,35940,28940,16740,13360,9990,6610,3240,0,0,0,0],[2520,2530,36280,29280,16950,13580,10200,6830,3450,0,0,0,0],[2530,2540,36630,29630,17160,13790,10410,7040,3660,0,0,0,0],[2540,2550,36970,29970,17370,14000,10620,7250,3870,0,0,0,0],[2550,2560,37310,30310,17590,14210,10840,7460,4090,0,0,0,0],[2560,2570,37650,30650,17800,14420,11050,7670,4300,0,0,0,0],[2570,2580,38000,31000,18010,14630,11260,7880,4510,1130,0,0,0],[2580,2590,38340,31340,18220,14850,11470,8100,4720,1350,0,0,0],[2590,2600,38830,31680,18430,15060,11680,8310,4930,1560,0,0,0],[2600,2610,39690,32020,18650,15270,11900,8520,5150,1770,0,0,0],[2610,2620,40540,32360,18920,15480,12110,8730,5360,1980,0,0,0],[2620,2630,41400,32710,19250,15690,12320,8940,5570,2190,0,0,0],[2630,2640,42260,33050,19580,15910,12530,9160,5780,2410,0,0,0],[2640,2650,43110,33390,19910,16120,12740,9370,5990,2620,0,0,0],[2650,2660,43970,33730,20240,16330,12960,9580,6210,2830,0,0,0],[2660,2670,44820,34080,20570,16540,13170,9790,6420,3040,0,0,0],[2670,2680,45680,34420,20900,16750,13380,10000,6630,3250,0,0,0],[2680,2690,46540,34760,21230,16970,13590,10220,6840,3470,0,0,0],[2690,2700,47390,35100,21560,17180,13800,10430,7050,3680,0,0,0],[2700,2710,48250,35450,21890,17390,14020,10640,7270,3890,0,0,0],[2710,2720,49100,35790,22220,17600,14230,10850,7480,4100,0,0,0],[2720,2730,49960,36130,22550,17810,14440,11060,7690,4310,0,0,0],[2730,2740,50810,36470,22880,18030,14650,11280,7900,4530,1150,0,0],[2740,2750,51670,36810,23210,18240,14860,11490,8110,4740,1360,0,0],[2750,2760,52530,37160,23540,18450,15070,11700,8320,4950,1570,0,0],[2760,2770,53380,37500,23870,18660,15290,11910,8540,5160,1790,0,0],[2770,2780,54240,37840,24200,18950,15500,12120,8750,5370,2000,0,0],[2780,2790,55090,38180,24520,19270,15710,12340,8960,5590,2210,0,0],[2790,2800,55950,38530,24850,19600,15920,12550,9170,5800,2420,0,0],[2800,2810,56800,39300,25180,19930,16130,12760,9380,6010,2630,0,0],[2810,2820,57660,40160,25510,20260,16350,12970,9600,6220,2850,0,0],[2820,2830,58520,41020,25840,20590,16560,13180,9810,6430,3060,0,0],[2830,2840,59370,41870,26170,20920,16770,13400,10020,6650,3270,0,0],[2840,2850,60230,42730,26500,21250,16980,13610,10230,6860,3480,0,0],[2850,2860,61080,43580,26830,21580,17190,13820,10440,7070,3690,0,0],[2860,2870,61940,44440,27160,21910,17410,14030,10660,7280,3910,0,0],[2870,2880,62790,45290,27490,22240,17620,14240,10870,7490,4120,0,0],[2880,2890,63650,46150,27820,22570,17830,14460,11080,7710,4330,0,0],[2890,2900,64510,47010,28150,22900,18040,14670,11290,7920,4540,1170,0],[2900,2910,65360,47860,28480,23230,18250,14880,11500,8130,4750,1380,0],[2910,2920,66220,48720,28810,23560,18470,15090,11720,8340,4970,1590,0],[2920,2930,67070,49570,29140,23890,18680,15300,11930,8550,5180,1800,0],[2930,2940,67930,50430,29470,24220,18970,15510,12140,8760,5390,2010,0],[2940,2950,68780,51280,29800,24550,19300,15730,12350,8980,5600,2230,0],[2950,2960,69640,52140,30130,24880,19630,15940,12560,9190,5810,2440,0],[2960,2970,70500,53000,30460,25210,19960,16150,12780,9400,6030,2650,0],[2970,2980,71350,53850,30790,25540,20290,16360,12990,9610,6240,2860,0],[2980,2990,72210,54710,31120,25870,20620,16570,13200,9820,6450,3070,0],[2990,3000,73060,55560,31450,26200,20950,16790,13410,10040,6660,3290,0],[3000,3020,74350,56850,31940,26690,21440,17100,13730,10350,6980,3600,0],[3020,3040,76060,58560,32600,27350,22100,17530,14150,10780,7400,4030,0],[3040,3060,77770,60270,33260,28010,22760,17950,14580,11200,7830,4450,1080],[3060,3080,79480,61980,33920,28670,23420,18380,15000,11630,8250,4880,1500],[3080,3100,81190,63690,34580,29330,24080,18830,15430,12050,8680,5300,1930],[3100,3120,82900,65400,35240,29990,24740,19490,15850,12470,9100,5720,2350],[3120,3140,84620,67120,35900,30650,25400,20150,16270,12900,9520,6150,2770],[3140,3160,86330,68830,36560,31310,26060,20810,16700,13320,9950,6570,3200],[3160,3180,88040,70540,37220,31970,26720,21470,17120,13750,10370,7000,3620],[3180,3200,89750,72250,37880,32630,27380,22130,17540,14170,10790,7420,4040],[3200,3220,91460,73960,38540,33290,28040,22790,17970,14590,11220,7840,4470],[3220,3240,93170,75670,40120,33950,28700,23450,18390,15020,11640,8270,4890],[3240,3260,95430,77380,41770,34610,29360,24110,18860,15440,12070,8690,5320],[3260,3280,97880,79100,43420,35270,30020,24770,19520,15870,12490,9120,5740],[3280,3300,100320,80810,45070,35920,30670,25420,20170,16290,12910,9540,6160],[3300,3320,102770,82520,46720,36580,31330,26080,20830,16710,13340,9960,6590],[3320,3340,105210,84230,48370,37240,31990,26740,21490,17140,13760,10390,7010],[3340,3360,107660,85940,49940,37870,32620,27370,22120,17540,14170,10790,7420],[3360,3380,110100,87650,51510,38500,33250,28000,22750,17950,14570,11200,7820],[3380,3400,112550,89370,53070,39950,33880,28630,23380,18350,14970,11600,8220],[3400,3420,114990,91080,54640,41510,34500,29250,24000,18750,15370,12000,8620],[3420,3440,117440,92790,56200,43080,35130,29880,24630,19380,15780,12400,9030],[3440,3460,119880,94880,57770,44640,35750,30500,25250,20000,16180,12800,9430],[3460,3480,122330,97330,59330,46210,36380,31130,25880,20630,16580,13210,9830],[3480,3500,124770,99770,60900,47770,37010,31760,26510,21260,16980,13610,10230],[3500,3520,127220,102220,62460,49340,37630,32380,27130,21880,17390,14010,10640],[3520,3540,129660,104660,64030,50900,38260,33010,27760,22510,17790,14410,11040],[3540,3560,132110,107110,65590,52460,39340,33630,28380,23130,18190,14820,11440],[3560,3580,134550,109550,67150,54030,40900,34260,29010,23760,18590,15220,11840],[3580,3600,137000,112000,68720,55590,42470,34880,29630,24380,19130,15620,12250],[3600,3620,139440,114440,70280,57160,44030,35510,30260,25010,19760,16020,12650],[3620,3640,141890,116890,71850,58720,45600,36140,30890,25640,20390,16420,13050],[3640,3660,144330,119330,73410,60290,47160,36760,31510,26260,21010,16830,13450],[3660,3680,146780,121780,74980,61850,48730,37390,32140,26890,21640,17230,13850],[3680,3700,149220,124220,76540,63420,50290,38010,32760,27510,22260,17630,14260],[3700,3720,151670,126670,78110,64980,51860,38730,33390,28140,22890,18030,14660],[3720,3740,154110,129110,79670,66550,53420,40300,34020,28770,23520,18440,15060],[3740,3760,156560,131560,81230,68110,54980,41860,34640,29390,24140,18890,15460],[3760,3780,163920,136090,84260,71130,58010,44880,35850,30600,25350,20100,16240],[3780,3800,166590,138740,85970,72850,59720,46600,36540,31290,26040,20790,16680],[3800,3820,169260,141400,87680,74560,61430,48310,37220,31970,26720,21470,17120],[3820,3840,171930,144050,89390,76270,63140,50020,37900,32650,27400,22150,17560],[3840,3860,174600,146710,91100,77980,64850,51730,38600,33340,28090,22840,18000],[3860,3880,177270,149360,92820,79690,66570,53440,40320,34020,28770,23520,18440],[3880,3900,179940,152020,94920,81400,68280,55150,42030,34710,29460,24210,18960],[3900,3920,182610,154670,97370,83110,69990,56860,43740,35390,30140,24890,19640],[3920,3940,185280,157330,99810,84830,71700,58580,45450,36080,30830,25580,20330],[3940,3960,187950,159980,102260,86540,73410,60290,47160,36760,31510,26260,21010],[3960,3980,190620,162640,104700,88250,75120,62000,48870,37450,32200,26950,21700],[3980,4000,193290,165290,107150,89960,76840,63710,50590,38130,32880,27630,22380],[4000,4020,195960,167950,109590,91670,78550,65420,52300,39170,33570,28320,23070],[4020,4040,198630,170600,112040,93380,80260,67130,54010,40880,34250,29000,23750],[4040,4060,201300,173260,114480,95730,81970,68840,55720,42590,34930,29680,24430],[4060,4080,203970,175910,116930,98180,83680,70560,57430,44310,35620,30370,25120],[4080,4100,206640,178570,119370,100620,85390,72270,59140,46020,36300,31050,25800],[4100,4120,209310,181220,121820,103070,87100,73980,60850,47730,36990,31740,26490],[4120,4140,211980,183880,124260,105510,88820,75690,62570,49440,37670,32420,27170],[4140,4160,214650,186530,126710,107960,90530,77400,64280,51150,38360,33110,27860],[4160,4180,217320,189190,129150,110400,92240,79110,65990,52860,39740,33790,28540],[4180,4200,219990,191840,131600,112850,94100,80830,67700,54580,41450,34480,29230],[4200,4220,222660,194500,134040,115290,96540,82540,69410,56290,43160,35160,29910],[4220,4240,225330,197150,136490,117740,98990,84250,71120,58000,44870,35850,30600],[4240,4260,228000,199810,138930,120180,101430,85960,72830,59710,46580,36530,31280],[4260,4280,230670,202460,141380,122630,103880,87670,74550,61420,48300,37220,31970],[4280,4300,233340,205120,143820,125070,106320,89380,76260,63130,50010,37900,32650],[4300,4320,236010,207770,146270,127520,108770,91090,77970,64840,51720,38590,33330],[4320,4340,238680,210430,148710,129960,111210,92810,79680,66560,53430,40310,34020],[4340,4360,241350,213080,151160,132410,113660,94910,81390,68270,55140,42020,34700],[4360,4380,244020,215740,153600,134850,116100,97350,83100,69980,56850,43730,35390],[4380,4400,246690,218390,156050,137300,118550,99800,84820,71690,58570,45440,36070],[4400,4420,249360,221050,158490,139740,120990,102240,86530,73400,60280,47150,36760],[4420,4440,252030,223700,160940,142190,123440,104690,88240,75110,61990,48860,37440],[4440,4460,254700,226360,163380,144630,125880,107130,89950,76820,63700,50570,38130],[4460,4480,257370,229010,165830,147080,128330,109580,91660,78540,65410,52290,39160],[4480,4500,260040,231670,168270,149520,130770,112020,93370,80250,67120,54000,40870],[4500,4520,262840,234460,170850,152100,133350,114600,95850,82050,68930,55800,42680],[4520,4540,265650,237250,173430,154680,135930,117180,98430,83860,70730,57610,44480],[4540,4560,268450,240040,176010,157260,138510,119760,101010,85670,72540,59420,46290],[4560,4580,271260,242830,178590,159840,141090,122340,103590,87470,74350,61220,48100],[4580,4600,276560,248120,183670,164920,146170,127420,108670,89920,76150,63030,49900],[4600,4620,279370,250910,186250,167500,148750,130000,111250,92500,77960,64830,51710],[4620,4640,282170,253700,188830,170080,151330,132580,113830,95080,79760,66640,53510],[4640,4660,284980,256490,191410,172660,153910,135160,116410,97660,81570,68450,55320],[4660,4680,287780,259280,193990,175240,156490,137740,118990,100240,83380,70250,57130],[4680,4700,290590,262070,196570,177820,159070,140320,121570,102820,85180,72060,58930],[4700,4720,293390,264860,199150,180400,161650,142900,124150,105400,86990,73860,60740],[4720,4740,296200,267650,201730,182980,164230,145480,126730,107980,89230,75670,62540],[4740,4760,299000,270440,204310,185560,166810,148060,129310,110560,91810,77480,64350],[4760,4780,301810,273230,206890,188140,169390,150640,131890,113140,94390,79280,66160],[4780,4800,304610,276020,209470,190720,171970,153220,134470,115720,96970,81090,67960],[4800,4820,307420,278810,212050,193300,174550,155800,137050,118300,99550,82890,69770],[4820,4840,310220,281600,214630,195880,177130,158380,139630,120880,102130,84700,71570],[4840,4860,313030,284390,217210,198460,179710,160960,142210,123460,104710,86510,73380],[4860,4880,315830,287180,219790,201040,182290,163540,144790,126040,107290,88540,75190],[4880,4900,318640,289970,222370,203620,184870,166120,147370,128620,109870,91120,76990],[4900,4920,321440,292760,224950,206200,187450,168700,149950,131200,112450,93700,78800],[4920,4940,324250,295550,227530,208780,190030,171280,152530,133780,115030,96280,80600],[4940,4960,327050,298340,230110,211360,192610,173860,155110,136360,117610,98860,82410],[4960,4980,329860,301130,232690,213940,195190,176440,157690,138940,120190,101440,84220],[4980,5000,332660,303920,235270,216520,197770,179020,160270,141520,122770,104020,86020],[5000,5020,335470,306710,237850,219100,200350,181600,162850,144100,125350,106600,87850],[5020,5040,338270,309500,240430,221680,202930,184180,165430,146680,127930,109180,90430],[5040,5060,341080,312290,243010,224260,205510,186760,168010,149260,130510,111760,93010],[5060,5080,343880,315080,245590,226840,208090,189340,170590,151840,133090,114340,95590],[5080,5100,346690,317870,248170,229420,210670,191920,173170,154420,135670,116920,98170],[5100,5120,349490,320660,250750,232000,213250,194500,175750,157000,138250,119500,100750],[5120,5140,352300,323450,253330,234580,215830,197080,178330,159580,140830,122080,103330],[5140,5160,355100,326240,255910,237160,218410,199660,180910,162160,143410,124660,105910],[5160,5180,357910,329030,258490,239740,220990,202240,183490,164740,145990,127240,108490],[5180,5200,360710,331820,261070,242320,223570,204820,186070,167320,148570,129820,111070],[5200,5220,363520,334610,263650,244900,226150,207400,188650,169900,151150,132400,113650],[5220,5240,366320,337400,266230,247480,228730,209980,191230,172480,153730,134980,116230],[5240,5260,369130,340190,268810,250060,231310,212560,193810,175060,156310,137560,118810],[5260,5280,371930,342980,271390,252640,233890,215140,196390,177640,158890,140140,121390],[5280,5300,374740,345770,273970,255220,236470,217720,198970,180220,161470,142720,123970],[5300,5320,377540,348560,276550,257800,239050,220300,201550,182800,164050,145300,126550],[5320,5340,380350,351350,279130,260380,241630,222880,204130,185380,166630,147880,129130],[5340,5360,383150,354140,281710,262960,244210,225460,206710,187960,169210,150460,131710],[5360,5380,385960,356930,284290,265540,246790,228040,209290,190540,171790,153040,134290],[5380,5400,388760,359720,286870,268120,249370,230620,211870,193120,174370,155620,136870],[5400,5420,391570,362510,289450,270700,251950,233200,214450,195700,176950,158200,139450],[5420,5440,394370,365300,292030,273280,254530,235780,217030,198280,179530,160780,142030],[5440,5460,397180,368090,294610,275860,257110,238360,219610,200860,182110,163360,144610],[5460,5480,399980,370880,297190,278440,259690,240940,222190,203440,184690,165940,147190],[5480,5500,402790,373670,299770,281020,262270,243520,224770,206020,187270,168520,149770],[5500,5520,405590,376460,302350,283600,264850,246100,227350,208600,189850,171100,152350],[5520,5540,408400,379250,304930,286180,267430,248680,229930,211180,192430,173680,154930],[5540,5560,411200,382040,307510,288760,270010,251260,232510,213760,195010,176260,157510],[5560,5580,414010,384830,310090,291340,272590,253840,235090,216340,197590,178840,160090],[5580,5600,416810,387620,312670,293920,275170,256420,237670,218920,200170,181420,162670],[5600,5620,419620,390410,315250,296500,277750,259000,240250,221500,202750,184000,165250],[5620,5640,422420,393200,317830,299080,280330,261580,242830,224080,205330,186580,167830],[5640,5660,425230,395990,320410,301660,282910,264160,245410,226660,207910,189160,170410],[5660,5680,428030,398780,322990,304240,285490,266740,247990,229240,210490,191740,172990],[5680,5700,430840,401570,325570,306820,288070,269320,250570,231820,213070,194320,175570],[5700,5720,433640,404360,328150,309400,290650,271900,253150,234400,215650,196900,178150],[5720,5740,436450,407150,330730,311980,293230,274480,255730,236980,218230,199480,180730],[5740,5760,439250,409940,333310,314560,295810,277060,258310,239560,220810,202060,183310],[5760,5780,442060,412730,335890,317140,298390,279640,260890,242140,223390,204640,185890],[5780,5800,444860,415520,338470,319720,300970,282220,263470,244720,225970,207220,188470],[5800,5820,447670,418310,341050,322300,303550,284800,266050,247300,228550,209800,191050],[5820,5840,450470,421100,343630,324880,306130,287380,268630,249880,231130,212380,193630],[5840,5860,470380,441000,372100,353350,334600,315850,297100,278350,259600,240850,222100],[5860,5880,475720,446320,377240,358490,339740,320990,302240,283490,264740,245990,227240],[5880,5900,478690,449140,379880,361130,342380,323630,304880,286130,267380,248630,229880],[5900,5920,483220,451960,382520,363770,345020,326270,307520,288770,270020,251270,232520],[5920,5940,487760,454780,385160,366410,347660,328910,310160,291410,272660,253910,235160],[5940,5960,492300,457600,387800,369050,350300,331550,312800,294050,275300,256550,237800],[5960,5980,496830,460420,390440,371690,352940,334190,315440,296690,277940,259190,240440],[5980,6000,501370,463240,393080,374330,355580,336830,318080,299330,280580,261830,243080],[6000,6020,505900,466060,395720,376970,358220,339470,320720,301970,283220,264470,245720],[6020,6040,510440,468880,398360,379610,360860,342110,323360,304610,285860,267110,248360],[6040,6060,514980,471700,401000,382250,363500,344750,326000,307250,288500,269750,251000],[6060,6080,519510,474520,403640,384890,366140,347390,328640,309890,291140,272390,253640],[6080,6100,524050,477340,406280,387530,368780,350030,331280,312530,293780,275030,256280],[6100,6120,528580,481250,408920,390170,371420,352670,333920,315170,296420,277670,258920],[6120,6140,533120,485760,411560,392810,374060,355310,336560,317810,299060,280310,261560],[6140,6160,537660,490280,414200,395450,376700,357950,339200,320450,301700,282950,264200],[6160,6180,542190,494790,416840,398090,379340,360590,341840,323090,304340,285590,266840],[6180,6200,546730,499300,419480,400730,381980,363230,344480,325730,306980,288230,269480],[6200,6220,551260,503810,422120,403370,384620,365870,347120,328370,309620,290870,272120],[6220,6240,555800,508320,424760,406010,387260,368510,349760,331010,312260,293510,274760],[6240,6260,560340,512840,427400,408650,389900,371150,352400,333650,314900,296150,277400],[6260,6280,564870,517350,430040,411290,392540,373790,355040,336290,317540,298790,280040],[6280,6300,569410,521860,432680,413930,395180,376430,357680,338930,320180,301430,282680],[6300,6320,573940,526370,435320,416570,397820,379070,360320,341570,322820,304070,285320],[6320,6340,578480,530880,437960,419210,400460,381710,362960,344210,325460,306710,287960],[6340,6360,583020,535400,440600,421850,403100,384350,365600,346850,328100,309350,290600],[6360,6380,587550,539910,443240,424490,405740,386990,368240,349490,330740,311990,293240],[6380,6400,592090,544420,445880,427130,408380,389630,370880,352130,333380,314630,295880],[6400,6420,596620,548930,448520,429770,411020,392270,373520,354770,336020,317270,298520],[6420,6440,601160,553440,451160,432410,413660,394910,376160,357410,338660,319910,301160],[6440,6460,605700,557960,453800,435050,416300,397550,378800,360050,341300,322550,303800],[6460,6480,610230,562470,456440,437690,418940,400190,381440,362690,343940,325190,306440],[6480,6500,614770,566980,459080,440330,421580,402830,384080,365330,346580,327830,309080],[6500,6520,619300,571490,461720,442970,424220,405470,386720,367970,349220,330470,311720],[6520,6540,623840,576000,464360,445610,426860,408110,389360,370610,351860,333110,314360],[6540,6560,628380,580520,467000,448250,429500,410750,392000,373250,354500,335750,317000],[6560,6580,632910,585030,469640,450890,432140,413390,394640,375890,357140,338390,319640],[6580,6600,637450,589540,472280,453530,434780,416030,397280,378530,359780,341030,322280],[6600,6620,641980,594050,474920,456170,437420,418670,399920,381170,362420,343670,324920],[6620,6640,646520,598560,477560,458810,440060,421310,402560,383810,365060,346310,327560],[6640,6660,651060,603080,481320,461450,442700,423950,405200,386450,367700,348950,330200],[6660,6680,655590,607590,485540,464090,445340,426590,407840,389090,370340,351590,332840],[6680,6700,660130,612100,489760,466730,447980,429230,410480,391730,372980,354230,335480],[6700,6720,664660,616610,493990,469370,450620,431870,413120,394370,375620,356870,338120],[6720,6740,669200,621120,498210,472010,453260,434510,415760,397010,378260,359510,340760],[6740,6760,673740,625640,502440,474650,455900,437150,418400,399650,380900,362150,343400],[6760,6780,678270,630150,506660,477290,458540,439790,421040,402290,383540,364790,346040],[6780,6800,682810,634660,510880,480880,461180,442430,423680,404930,386180,367430,348680],[6800,6820,687340,639170,515110,485110,463820,445070,426320,407570,388820,370070,351320],[6820,6840,691880,643680,519330,489330,466460,447710,428960,410210,391460,372710,353960],[6840,6860,696420,648200,523560,493560,469100,450350,431600,412850,394100,375350,356600],[6860,6880,700950,652710,527780,497780,471740,452990,434240,415490,396740,377990,359240],[6880,6900,705490,657220,532000,502000,474380,455630,436880,418130,399380,380630,361880],[6900,6920,710020,661730,536230,506230,477020,458270,439520,420770,402020,383270,364520],[6920,6940,714560,666240,540450,510450,480450,460910,442160,423410,404660,385910,367160],[6940,6960,719100,670760,544680,514680,484680,463550,444800,426050,407300,388550,369800],[6960,6980,723630,675270,548900,518900,488900,466190,447440,428690,409940,391190,372440],[6980,7000,728170,679780,553120,523120,493120,468830,450080,431330,412580,393830,375080],[7000,7020,732700,684290,557350,527350,497350,471470,452720,433970,415220,396470,377720],[7020,7040,737240,688800,561570,531570,501570,474110,455360,436610,417860,399110,380360],[7040,7060,741780,693320,565800,535800,505800,476750,458000,439250,420500,401750,383000],[7060,7080,746310,697830,570020,540020,510020,480020,460640,441890,423140,404390,385640],[7080,7100,750850,702340,574240,544240,514240,484240,463280,444530,425780,407030,388280],[7100,7120,755380,706850,578470,548470,518470,488470,465920,447170,428420,409670,390920],[7120,7140,759920,711360,582690,552690,522690,492690,468560,449810,431060,412310,393560],[7140,7160,764460,715880,586920,556920,526920,496920,471200,452450,433700,414950,396200],[7160,7180,768990,720390,591140,561140,531140,501140,473840,455090,436340,417590,398840],[7180,7200,773530,724900,595360,565360,535360,505360,476480,457730,438980,420230,401480],[7200,7220,778060,729410,599590,569590,539590,509590,479590,460370,441620,422870,404120],[7220,7240,782600,733920,603810,573810,543810,513810,483810,463010,444260,425510,406760],[7240,7260,787140,738440,608040,578040,548040,518040,488040,465650,446900,428150,409400],[7260,7280,791670,742950,612260,582260,552260,522260,492260,468290,449540,430790,412040],[7280,7300,796210,747460,616480,586480,556480,526480,496480,470930,452180,433430,414680],[7300,7320,800740,751970,620710,590710,560710,530710,500710,473570,454820,436070,417320],[7320,7340,805280,756480,624930,594930,564930,534930,504930,476210,457460,438710,419960],[7340,7360,809820,761000,629160,599160,569160,539160,509160,479160,460100,441350,422600],[7360,7380,814350,765510,633380,603380,573380,543380,513380,483380,462740,443990,425240],[7380,7400,818890,770020,637600,607600,577600,547600,517600,487600,465380,446630,427880],[7400,7420,823420,774530,641830,611830,581830,551830,521830,491830,468020,449270,430520],[7420,7440,827960,779040,646050,616050,586050,556050,526050,496050,470660,451910,433160],[7440,7460,832500,783560,650280,620280,590280,560280,530280,500280,473300,454550,435800],[7460,7480,837030,788070,654500,624500,594500,564500,534500,504500,475940,457190,438440],[7480,7500,841570,792580,658720,628720,598720,568720,538720,508720,478720,459830,441080],[7500,7520,846100,797090,662950,632950,602950,572950,542950,512950,482950,462470,443720],[7520,7540,850640,801600,667170,637170,607170,577170,547170,517170,487170,465110,446360],[7540,7560,855180,806120,671400,641400,611400,581400,551400,521400,491400,467750,449000],[7560,7580,859710,810630,675620,645620,615620,585620,555620,525620,495620,470390,451640],[7580,7600,864250,815140,679840,649840,619840,589840,559840,529840,499840,473030,454280],[7600,7620,868780,819650,684070,654070,624070,594070,564070,534070,504070,475670,456920],[7620,7640,873320,824160,688290,658290,628290,598290,568290,538290,508290,478310,459560],[7640,7660,877860,828680,692520,662520,632520,602520,572520,542520,512520,482520,462200],[7660,7680,882390,833190,696740,666740,636740,606740,576740,546740,516740,486740,464840],[7680,7700,886930,837700,700960,670960,640960,610960,580960,550960,520960,490960,467480],[7700,7720,891460,842210,705190,675190,645190,615190,585190,555190,525190,495190,470120],[7720,7740,896000,846720,709410,679410,649410,619410,589410,559410,529410,499410,472760],[7740,7760,900540,851240,713640,683640,653640,623640,593640,563640,533640,503640,475400],[7760,7780,905070,855750,717860,687860,657860,627860,597860,567860,537860,507860,478040],[7780,7800,909610,860260,722080,692080,662080,632080,602080,572080,542080,512080,482080],[7800,7820,914140,864770,726310,696310,666310,636310,606310,576310,546310,516310,486310],[7820,7840,918680,869280,730530,700530,670530,640530,610530,580530,550530,520530,490530],[7840,7860,923220,873800,734760,704760,674760,644760,614760,584760,554760,524760,494760],[7860,7880,927750,878310,738980,708980,678980,648980,618980,588980,558980,528980,498980],[7880,7900,932290,882820,743200,713200,683200,653200,623200,593200,563200,533200,503200],[7900,7920,936820,887330,747430,717430,687430,657430,627430,597430,567430,537430,507430],[7920,7940,941360,891840,751650,721650,691650,661650,631650,601650,571650,541650,511650],[7940,7960,945900,896360,755880,725880,695880,665880,635880,605880,575880,545880,515880],[7960,7980,950430,900870,760100,730100,700100,670100,640100,610100,580100,550100,520100],[7980,8000,954970,905380,764320,734320,704320,674320,644320,614320,584320,554320,524320],[8000,8020,959500,909890,768550,738550,708550,678550,648550,618550,588550,558550,528550],[8020,8040,964040,914400,772770,742770,712770,682770,652770,622770,592770,562770,532770],[8040,8060,968580,918920,777000,747000,717000,687000,657000,627000,597000,567000,537000],[8060,8080,973110,923430,781220,751220,721220,691220,661220,631220,601220,571220,541220],[8080,8100,977650,927940,785440,755440,725440,695440,665440,635440,605440,575440,545440],[8100,8120,982180,932450,789670,759670,729670,699670,669670,639670,609670,579670,549670],[8120,8140,986720,936960,793890,763890,733890,703890,673890,643890,613890,583890,553890],[8140,8160,991260,941480,798120,768120,738120,708120,678120,648120,618120,588120,558120],[8160,8180,995790,945990,802340,772340,742340,712340,682340,652340,622340,592340,562340],[8180,8200,1000330,950500,806560,776560,746560,716560,686560,656560,626560,596560,566560],[8200,8220,1004860,955010,810790,780790,750790,720790,690790,660790,630790,600790,570790],[8220,8240,1009400,959520,815010,785010,755010,725010,695010,665010,635010,605010,575010],[8240,8260,1013940,964040,819240,789240,759240,729240,699240,669240,639240,609240,579240],[8260,8280,1018470,968550,823460,793460,763460,733460,703460,673460,643460,613460,583460],[8280,8300,1023010,973060,827680,797680,767680,737680,707680,677680,647680,617680,587680],[8300,8320,1027540,977570,831910,801910,771910,741910,711910,681910,651910,621910,591910],[8320,8340,1032080,982080,836130,806130,776130,746130,716130,686130,656130,626130,596130],[8340,8360,1036740,986720,840480,810480,780480,750480,720480,690480,660480,630480,600480],[8360,8380,1041420,991370,844840,814840,784840,754840,724840,694840,664840,634840,604840],[8380,8400,1046100,996030,849210,819210,789210,759210,729210,699210,669210,639210,609210],[8400,8420,1050780,1000680,853580,823580,793580,763580,733580,703580,673580,643580,613580],[8420,8440,1055460,1005340,857950,827950,797950,767950,737950,707950,677950,647950,617950],[8440,8460,1060140,1010000,862320,832320,802320,772320,742320,712320,682320,652320,622320],[8460,8480,1064820,1014650,866680,836680,806680,776680,746680,716680,686680,656680,626680],[8480,8500,1069500,1019310,871050,841050,811050,781050,751050,721050,691050,661050,631050],[8500,8520,1074180,1023960,875420,845420,815420,785420,755420,725420,695420,665420,635420],[8520,8540,1078860,1028620,879790,849790,819790,789790,759790,729790,699790,669790,639790],[8540,8560,1083540,1033280,884160,854160,824160,794160,764160,734160,704160,674160,644160],[8560,8580,1088220,1037930,888520,858520,828520,798520,768520,738520,708520,678520,648520],[8580,8600,1092900,1042590,892890,862890,832890,802890,772890,742890,712890,682890,652890],[8600,8620,1097580,1047240,897260,867260,837260,807260,777260,747260,717260,687260,657260],[8620,8640,1102260,1051900,901630,871630,841630,811630,781630,751630,721630,691630,661630],[8640,8660,1106940,1056560,906000,876000,846000,816000,786000,756000,726000,696000,666000],[8660,8680,1111620,1061210,910360,880360,850360,820360,790360,760360,730360,700360,670360],[8680,8700,1116300,1065870,914730,884730,854730,824730,794730,764730,734730,704730,674730],[8700,8720,1120980,1070520,919100,889100,859100,829100,799100,769100,739100,709100,679100],[8720,8740,1125660,1075180,923470,893470,863470,833470,803470,773470,743470,713470,683470],[8740,8760,1130340,1079840,927840,897840,867840,837840,807840,777840,747840,717840,687840],[8760,8780,1135020,1084490,932200,902200,872200,842200,812200,782200,752200,722200,692200],[8780,8800,1139700,1089150,936570,906570,876570,846570,816570,786570,756570,726570,696570],[8800,8820,1144380,1093800,940940,910940,880940,850940,820940,790940,760940,730940,700940],[8820,8840,1149060,1098460,945310,915310,885310,855310,825310,795310,765310,735310,705310],[8840,8860,1153740,1103120,949680,919680,889680,859680,829680,799680,769680,739680,709680],[8860,8880,1158420,1107770,954040,924040,894040,864040,834040,804040,774040,744040,714040],[8880,8900,1163100,1112430,958410,928410,898410,868410,838410,808410,778410,748410,718410],[8900,8920,1167780,1117080,962780,932780,902780,872780,842780,812780,782780,752780,722780],[8920,8940,1172460,1121740,967150,937150,907150,877150,847150,817150,787150,757150,727150],[8940,8960,1177140,1126400,971520,941520,911520,881520,851520,821520,791520,761520,731520],[8960,8980,1181820,1131050,975880,945880,915880,885880,855880,825880,795880,765880,735880],[8980,9000,1186500,1135710,980250,950250,920250,890250,860250,830250,800250,770250,740250],[9000,9020,1191180,1140360,984620,954620,924620,894620,864620,834620,804620,774620,744620],[9020,9040,1195860,1145020,988990,958990,928990,898990,868990,838990,808990,778990,748990],[9040,9060,1200540,1149680,993360,963360,933360,903360,873360,843360,813360,783360,753360],[9060,9080,1205220,1154330,997720,967720,937720,907720,877720,847720,817720,787720,757720],[9080,9100,1209900,1158990,1002090,972090,942090,912090,882090,852090,822090,792090,762090],[9100,9120,1214580,1163640,1006460,976460,946460,916460,886460,856460,826460,796460,766460],[9120,9140,1219260,1168300,1010830,980830,950830,920830,890830,860830,830830,800830,770830],[9140,9160,1223940,1172960,1015200,985200,955200,925200,895200,865200,835200,805200,775200],[9160,9180,1228620,1177610,1019560,989560,959560,929560,899560,869560,839560,809560,779560],[9180,9200,1233300,1182270,1023930,993930,963930,933930,903930,873930,843930,813930,783930],[9200,9220,1237980,1186920,1028300,998300,968300,938300,908300,878300,848300,818300,788300],[9220,9240,1244640,1191580,1032670,1002670,972670,942670,912670,882670,852670,822670,792670],[9240,9260,1251470,1196240,1037040,1007040,977040,947040,917040,887040,857040,827040,797040],[9260,9280,1258290,1200890,1041400,1011400,981400,951400,921400,891400,861400,831400,801400],[9280,9300,1265120,1205550,1045770,1015770,985770,955770,925770,895770,865770,835770,805770],[9300,9320,1271940,1210200,1050140,1020140,990140,960140,930140,900140,870140,840140,810140],[9320,9340,1278770,1214860,1054510,1024510,994510,964510,934510,904510,874510,844510,814510],[9340,9360,1285590,1219520,1058880,1028880,998880,968880,938880,908880,878880,848880,818880],[9360,9380,1292420,1224170,1063240,1033240,1003240,973240,943240,913240,883240,853240,823240],[9380,9400,1299240,1228830,1067610,1037610,1007610,977610,947610,917610,887610,857610,827610],[9400,9420,1306070,1233480,1071980,1041980,1011980,981980,951980,921980,891980,861980,831980],[9420,9440,1312890,1238140,1076350,1046350,1016350,986350,956350,926350,896350,866350,836350],[9440,9460,1319720,1244840,1080720,1050720,1020720,990720,960720,930720,900720,870720,840720],[9460,9480,1326540,1251630,1085080,1055080,1025080,995080,965080,935080,905080,875080,845080],[9480,9500,1333370,1258420,1089450,1059450,1029450,999450,969450,939450,909450,879450,849450],[9500,9520,1340190,1265210,1093820,1063820,1033820,1003820,973820,943820,913820,883820,853820],[9520,9540,1347020,1272000,1098190,1068190,1038190,1008190,978190,948190,918190,888190,858190],[9540,9560,1353840,1278790,1102560,1072560,1042560,1012560,982560,952560,922560,892560,862560],[9560,9580,1360670,1285580,1106920,1076920,1046920,1016920,986920,956920,926920,896920,866920],[9580,9600,1367490,1292370,1111290,1081290,1051290,1021290,991290,961290,931290,901290,871290],[9600,9620,1374320,1299160,1115660,1085660,1055660,1025660,995660,965660,935660,905660,875660],[9620,9640,1381140,1305950,1120030,1090030,1060030,1030030,1000030,970030,940030,910030,880030],[9640,9660,1387970,1312740,1124400,1094400,1064400,1034400,1004400,974400,944400,914400,884400],[9660,9680,1394790,1319530,1128760,1098760,1068760,1038760,1008760,978760,948760,918760,888760],[9680,9700,1401620,1326320,1133130,1103130,1073130,1043130,1013130,983130,953130,923130,893130],[9700,9720,1408440,1333110,1137500,1107500,1077500,1047500,1017500,987500,957500,927500,897500],[9720,9740,1415270,1339900,1141870,1111870,1081870,1051870,1021870,991870,961870,931870,901870],[9740,9760,1422090,1346690,1146240,1116240,1086240,1056240,1026240,996240,966240,936240,906240],[9760,9780,1428920,1353480,1150600,1120600,1090600,1060600,1030600,1000600,970600,940600,910600],[9780,9800,1435740,1360270,1154970,1124970,1094970,1064970,1034970,1004970,974970,944970,914970],[9800,9820,1442570,1367060,1159340,1129340,1099340,1069340,1039340,1009340,979340,949340,919340],[9820,9840,1449390,1373850,1163710,1133710,1103710,1073710,1043710,1013710,983710,953710,923710],[9840,9860,1456220,1380640,1168080,1138080,1108080,1078080,1048080,1018080,988080,958080,928080],[9860,9880,1463040,1387430,1172440,1142440,1112440,1082440,1052440,1022440,992440,962440,932440],[9880,9900,1469870,1394220,1176810,1146810,1116810,1086810,1056810,1026810,996810,966810,936810],[9900,9920,1476690,1401010,1181180,1151180,1121180,1091180,1061180,1031180,1001180,971180,941180],[9920,9940,1483520,1407800,1185550,1155550,1125550,1095550,1065550,1035550,1005550,975550,945550],[9940,9960,1490340,1414590,1189920,1159920,1129920,1099920,1069920,1039920,1009920,979920,949920],[9960,9980,1497170,1421380,1194280,1164280,1134280,1104280,1074280,1044280,1014280,984280,954280],[9980,10000,1503990,1428170,1198650,1168650,1138650,1108650,1078650,1048650,1018650,988650,958650]];
+
+const TAX_CONFIG_2026 = {
+  year: 2026,
+  table: GANYI_TABLE,
+  tableSource: "소득세법 시행령 별표2 근로소득 간이세액표 (2024.2.29 개정)",
+  unit: 1000,
+  minTaxable: 770000,     // 월 77만원 미만은 소득세 0원
+  tableMax: 10000000,     // 표로 정해진 최대 구간 (월 1,000만원)
+  maxFamily: 11,
+  // 월 1,000만원 초과분 계산식 (별표2 비고)
+  // TODO: 공식 2026년 기준 검증 필요 (1,000만원 구간 기준세액은 표의 마지막 행 값으로 근사)
+  over10M: [
+    { from: 10000000, upTo: 14000000, fixed: 25000,    rate: 0.98 * 0.35 },
+    { from: 14000000, upTo: 28000000, fixed: 1397000,  rate: 0.98 * 0.38 },
+    { from: 28000000, upTo: 30000000, fixed: 6610600,  rate: 0.98 * 0.40 },
+    { from: 30000000, upTo: 45000000, fixed: 7394600,  rate: 0.40 },
+    { from: 45000000, upTo: 87000000, fixed: 13394600, rate: 0.42 },
+    { from: 87000000, upTo: Infinity, fixed: 31034600, rate: 0.45 },
+  ],
+  // 8세 이상 20세 이하 자녀 수별 공제액
+  childCredit: [
+    { from: "2024-03-01", one: 12500, two: 29160, extraPerChild: 25000 },
+    // TODO: 공식 2026년 기준 검증 필요 (2026.3.1 이후 지급분, 개정 시행령 원문 대조)
+    { from: "2026-03-01", one: 20830, two: 45830, extraPerChild: 33330 },
+  ],
+  withholdingRatios: [0.8, 1, 1.2],
+  taxTruncateUnit: 10,
+  localTaxRate: 0.1,
+  localTruncateUnit: 10,
+};
+
+const CONFIG_BY_YEAR = { 2026: { rates: RATES_2026, tax: TAX_CONFIG_2026 } };
+const ACTIVE = CONFIG_BY_YEAR[PAGE.year];
+
+const SOURCES = [
+  { name: "국민연금공단", desc: "보험료율, 기준소득월액 상·하한", url: "https://www.nps.or.kr" },
+  { name: "국민건강보험공단", desc: "건강보험료율, 장기요양보험료율", url: "https://www.nhis.or.kr" },
+  { name: "고용노동부", desc: "고용보험료율", url: "https://www.moel.go.kr" },
+  { name: "국세청", desc: "근로소득 간이세액표", url: "https://www.nts.go.kr" },
+];
+
+/* =========================================================
+   4. Utils
+   ========================================================= */
+const kstDate = (iso) => new Date(iso + "T00:00:00+09:00");
+const pickByDate = (list, date = new Date()) =>
+  [...list].sort((a, b) => (a.from < b.from ? -1 : 1)).filter((x) => kstDate(x.from) <= date).pop() || list[0];
+// 부동소수점 오차(예: 2,800,000 × 0.9% = 25,199.999…)를 먼저 보정한 뒤 절사
+const truncate = (n, unit) => Math.floor(Math.round(n * 1e6) / 1e6 / unit) * unit;
+const formatNumber = (n) => Number(n).toLocaleString("ko-KR");
+const won = (n) => formatNumber(n) + "원";
+const manwon = (n) => formatNumber(n / 10000) + "만원";
+const pct = (r) => (Math.round(r * 100000) / 1000).toLocaleString("ko-KR", { maximumFractionDigits: 3 }) + "%";
+const parseNumber = (s) => { const d = String(s).replace(/[^\d]/g, ""); return d ? Number(d) : NaN; };
+const formatMoneyInput = (v, maxDigits = 10) => {
+  const d = v.replace(/[^\d]/g, "").replace(/^0+(?=\d)/, "").slice(0, maxDigits);
+  return d ? formatNumber(Number(d)) : "";
+};
+
+/* =========================================================
+   5. Calculator logic (UI와 분리된 순수 함수)
+   ========================================================= */
+const LIMITS = { maxSalary: 1000000000, minFamily: 1, maxFamily: 11 };
+
+function validateInputs({ monthlySalary, nonTaxable }) {
+  const e = {};
+  if (!Number.isFinite(monthlySalary)) e.salary = "세전 월급을 입력해주세요.";
+  else if (monthlySalary <= 0) e.salary = "세전 월급은 1원 이상으로 입력해주세요.";
+  else if (monthlySalary > LIMITS.maxSalary) e.salary = "월급을 다시 확인해주세요.";
+  if (!Number.isFinite(nonTaxable)) e.nonTaxable = "비과세액을 입력해주세요. 없다면 0을 입력해요.";
+  else if (Number.isFinite(monthlySalary) && nonTaxable > monthlySalary) e.nonTaxable = "비과세액은 월급보다 클 수 없어요.";
+  return e;
+}
+
+function calcNationalPension(taxable, cfg, date) {
+  const limits = pickByDate(cfg.baseIncomeLimits, date);
+  const raw = truncate(taxable, cfg.baseTruncateUnit);
+  const base = Math.min(Math.max(raw, limits.min), limits.max);
+  return { amount: truncate(base * cfg.employeeRate, cfg.premiumTruncateUnit), base, limits, capped: base !== raw };
+}
+
+function lookupTableTax(taxable, family, tax) {
+  if (taxable < tax.minTaxable) return { amount: 0, method: "below" };
+  const col = Math.min(Math.max(family, 1), tax.maxFamily) + 1;
+  const k = taxable / tax.unit;
+  if (taxable <= tax.tableMax) {
+    const row = tax.table.find((r) => r[0] <= k && k < r[1]) || tax.table[tax.table.length - 1];
+    return { amount: row[col], method: "table" };
+  }
+  const base = tax.table[tax.table.length - 1][col];
+  const seg = tax.over10M.find((s) => taxable <= s.upTo);
+  return { amount: truncate(base + seg.fixed + (taxable - seg.from) * seg.rate, tax.taxTruncateUnit), method: "formula" };
+}
+
+function childCreditAmount(children, tax, date) {
+  if (children <= 0) return 0;
+  const c = pickByDate(tax.childCredit, date);
+  if (children === 1) return c.one;
+  if (children === 2) return c.two;
+  return c.two + (children - 2) * c.extraPerChild;
+}
+
+function calculateNetSalary(input, config = ACTIVE, date = new Date()) {
+  const { monthlySalary, nonTaxable, family, children, withholdingRatio } = input;
+  const { rates, tax } = config;
+  const taxable = monthlySalary - nonTaxable;
+
+  const pension = calcNationalPension(taxable, rates.nationalPension, date);
+  const health = truncate(taxable * rates.healthInsurance.employeeRate, rates.healthInsurance.truncateUnit);
+  const ltc = truncate(health * rates.longTermCare.ratioOfHealthPremium, rates.longTermCare.truncateUnit);
+  const employment = truncate(taxable * rates.employmentInsurance.employeeRate, rates.employmentInsurance.truncateUnit);
+
+  const tableTax = lookupTableTax(taxable, family, tax);
+  const childCredit = childCreditAmount(children, tax, date);
+  const afterChild = Math.max(0, tableTax.amount - childCredit);
+  const incomeTax = truncate(afterChild * withholdingRatio, tax.taxTruncateUnit);
+  const localTax = truncate(incomeTax * tax.localTaxRate, tax.localTruncateUnit);
+
+  const items = [
+    { key: "pension", name: rates.nationalPension.name, amount: pension.amount },
+    { key: "health", name: rates.healthInsurance.name, amount: health },
+    { key: "ltc", name: rates.longTermCare.name, amount: ltc },
+    { key: "employment", name: rates.employmentInsurance.name, amount: employment },
+    { key: "incomeTax", name: "소득세", amount: incomeTax },
+    { key: "localTax", name: "지방소득세", amount: localTax },
+  ];
+  const totalDeduction = items.reduce((s, it) => s + it.amount, 0);
+  const net = monthlySalary - totalDeduction;
+  return {
+    year: rates.year,
+    input,
+    taxable,
+    pension,
+    tableTax,
+    childCredit,
+    items,
+    totalDeduction,
+    net,
+    netRatio: monthlySalary > 0 ? net / monthlySalary : 0,
+  };
+}
+
+/* ▲ Shared Net Salary Engine 끝 */
+
+
+/* =========================================================
+   6. Annual Salary Layer (연봉 → 월 세전급여 → 공통 엔진)
+   ========================================================= */
+const ANNUAL_SALARY_CONFIG = {
+  monthsPerYear: 12,
+  // 퇴직금 포함 연봉은 1/13을 퇴직금 몫으로 보고 12/13만 월급으로 나눠 받는다고 가정 (계약마다 다를 수 있음)
+  severanceIncludedDivisor: 13,
+  monthlyGrossRounding: "floor",       // 월 세전급여 원 미만 절사
+  defaultNonTaxable: 200000,           // 월급 실수령액 계산기와 같은 기본값
+  quickAnnual: [30000000, 40000000, 50000000, 70000000, 100000000],
+  tableAnnual: [30000000, 40000000, 50000000, 60000000, 70000000, 80000000, 100000000],
+  scenarioSteps: [5000000, 10000000],
+  raiseRates: [0.03, 0.05, 0.1],
+  maxAnnual: LIMITS.maxSalary * 12,
+};
+const AC = ANNUAL_SALARY_CONFIG;
+
+const parseCurrencyInput = (s) => parseNumber(s);
+const formatCurrency = (n) => won(Math.round(Number.isFinite(n) ? n : 0) || 0);
+function formatKoreanCurrency(n) {
+  n = Math.round(Number.isFinite(n) ? n : 0);
+  if (n <= 0) return "0원";
+  const units = [{ v: 1e12, l: "조" }, { v: 1e8, l: "억" }, { v: 1e4, l: "만" }];
+  let rest = n; const parts = [];
+  units.forEach((u) => { const q = Math.floor(rest / u.v); if (q > 0) { parts.push(`${q.toLocaleString("ko-KR")}${u.l}`); rest -= q * u.v; } });
+  if (rest > 0) parts.push(rest.toLocaleString("ko-KR"));
+  return parts.join(" ") + "원";
+}
+const approxMan = (n) => `약 ${Math.round(n / 10000).toLocaleString("ko-KR")}만원`;
+const signedMan = (n) => `${n >= 0 ? "+" : "−"}${Math.round(Math.abs(n) / 10000).toLocaleString("ko-KR")}만원`;
+
+function calculateAnnualSalaryBase(annual, severanceIncluded) {
+  return severanceIncluded ? (annual * AC.monthsPerYear) / AC.severanceIncludedDivisor : annual;
+}
+function calculateMonthlyGrossFromAnnualSalary(annual, severanceIncluded) {
+  return Math.floor(calculateAnnualSalaryBase(annual, severanceIncluded) / AC.monthsPerYear);
+}
+
+// 공통 엔진(calculateNetSalary)에 월 세전급여를 넘겨 공제액을 계산
+function calculateAnnualNetPay(v) {
+  const monthlyGross = calculateMonthlyGrossFromAnnualSalary(v.annual, v.severanceIncluded);
+  const nonTaxable = Math.min(v.nonTaxable, monthlyGross);
+  const monthly = calculateNetSalary({ monthlySalary: monthlyGross, nonTaxable, family: v.family, children: v.children, withholdingRatio: v.ratio });
+  const annualGrossPaid = monthlyGross * AC.monthsPerYear;
+  const annualDeduction = monthly.totalDeduction * AC.monthsPerYear;
+  const annualNet = monthly.net * AC.monthsPerYear;
+  return {
+    input: v, monthlyGross, nonTaxableApplied: nonTaxable, monthly,
+    annualGrossPaid, annualDeduction, annualNet,
+    severancePortion: v.severanceIncluded ? v.annual - annualGrossPaid : 0,
+    netRatio: calculateNetPayRatio(annualNet, annualGrossPaid),
+  };
+}
+function calculateNetPayRatio(annualNet, annualGross) { return annualGross > 0 ? annualNet / annualGross : 0; }
+
+function calculateSalaryScenario(v, newAnnual) {
+  const base = calculateAnnualNetPay(v);
+  const next = calculateAnnualNetPay({ ...v, annual: newAnnual });
+  return { annual: newAnnual, monthlyNet: next.monthly.net, diffMonthly: next.monthly.net - base.monthly.net, diffAnnualGross: newAnnual - v.annual };
+}
+function generateAnnualSalaryTable(conditions, list = AC.tableAnnual) {
+  return list.map((annual) => {
+    const r = calculateAnnualNetPay({ ...conditions, annual });
+    return { annual, monthlyGross: r.monthlyGross, deduction: r.monthly.totalDeduction, monthlyNet: r.monthly.net, annualNet: r.annualNet };
+  });
+}
+
+function validateAnnualInputs(v) {
+  const e = {};
+  if (!Number.isFinite(v.annual)) e.annual = "연봉을 입력해주세요.";
+  else if (v.annual <= 0) e.annual = "0원보다 큰 연봉을 입력해주세요.";
+  else if (v.annual > AC.maxAnnual) e.annual = "연봉을 다시 확인해주세요.";
+  if (!Number.isFinite(v.nonTaxable) || v.nonTaxable < 0) e.nonTaxable = "비과세액을 다시 확인해주세요. 없다면 0을 입력해요.";
+  else if (!e.annual && v.nonTaxable > calculateMonthlyGrossFromAnnualSalary(v.annual, v.severanceIncluded)) e.nonTaxable = "비과세액은 월 세전급여보다 클 수 없어요.";
+  return e;
+}
+
+/* =========================================================
+   7. Content data
+   ========================================================= */
+const DEFAULT_CONDITIONS = { severanceIncluded: false, nonTaxable: AC.defaultNonTaxable, family: 1, children: 0, ratio: 1 };
+const DEFAULT_TABLE = generateAnnualSalaryTable(DEFAULT_CONDITIONS);
+const rowOf = (a) => DEFAULT_TABLE.find((r) => r.annual === a) || generateAnnualSalaryTable(DEFAULT_CONDITIONS, [a])[0];
+const DEFAULT_TEXT = `비과세 ${manwon(AC.defaultNonTaxable)}, 부양가족 본인 1명, 퇴직금 별도 기준으로`;
+const faqAmount = (a) => `${DEFAULT_TEXT} 월 세전 ${won(rowOf(a).monthlyGross)}에서 약 ${won(rowOf(a).deduction)}이 빠져 월 예상 실수령액은 약 ${won(rowOf(a).monthlyNet)}이에요.`;
+
+const FAQ = [
+  { id: "f1", q: "연봉 3,000만원이면 월 실수령액은 얼마인가요?", a: faqAmount(30000000) },
+  { id: "f2", q: "연봉 4,000만원이면 실수령액은 얼마인가요?", a: faqAmount(40000000) },
+  { id: "f3", q: "연봉 5,000만원이면 한 달에 얼마 받나요?", a: faqAmount(50000000) },
+  { id: "f4", q: "연봉 6,000만원이면 월 실수령액은 얼마인가요?", a: faqAmount(60000000) },
+  { id: "f5", q: "연봉 1억원이면 실제로 얼마 받나요?", a: `${faqAmount(100000000)} 1년이면 약 ${won(rowOf(100000000).annualNet)}이에요.` },
+  { id: "f6", q: "연봉은 세전 금액인가요?", a: "네. 연봉은 보통 세금과 4대보험을 빼기 전 금액이에요. 그래서 실제로 통장에 들어오는 금액은 연봉 ÷ 12보다 적어요." },
+  { id: "f7", q: "연봉에 퇴직금이 포함되나요?", a: "계약마다 달라요. 퇴직금 포함 연봉이라면 보통 연봉의 1/13을 퇴직금 몫으로 보고 나머지를 12개월로 나눠 받아요. 계산기에서 '퇴직금 포함'을 선택하면 이렇게 계산해요." },
+  { id: "f8", q: "비과세액은 무엇인가요?", a: "식대처럼 세금과 보험료를 매기지 않는 급여 항목이에요. 비과세액이 있으면 그만큼 공제가 줄어서 실수령액이 늘어요. 실제 인정 여부는 항목과 요건에 따라 달라요." },
+  { id: "f9", q: "부양가족 수에 따라 실수령액이 달라지나요?", a: "네. 매달 떼는 소득세가 부양가족 수와 공제대상 자녀 수에 따라 달라져요. 4대보험료는 가족 수와 관계없어요." },
+  { id: "f10", q: "성과급도 연봉에 포함해야 하나요?", a: "이 계산기는 입력한 연봉을 12개월에 똑같이 나눠 받는다고 가정해요. 성과급이 따로 나온다면 기본 연봉만 넣고, 성과급은 별도로 생각하는 게 실제에 더 가까워요." },
+  { id: "f11", q: "월급 실수령액 계산기와 무엇이 다른가요?", a: "입력하는 단위만 달라요. 두 계산기는 같은 공제 계산 방식을 써서, 같은 월 세전급여와 조건이면 결과가 똑같아요. 월급을 알고 있다면 월급 실수령액 계산기가 더 편해요." },
+  { id: "f12", q: "실제 급여명세서와 계산 결과가 다른 이유는 무엇인가요?", a: "회사의 급여 지급방식, 비과세 항목, 원천징수 비율, 보험료 정산, 상여금 지급 여부 등에 따라 달라져요. 연말정산 결과에 따라 실제 세금도 달라질 수 있어요." },
+];
+
+const RELATED_CALCULATORS = [
+  { id: "net-salary", name: "월급 실수령액 계산기", desc: "월급을 기준으로 실제 받는 금액을 계산해보세요.", icon: "payslip", href: "/calculators/net-salary" },
+  { id: "hourly-monthly-wage", name: "시급·월급 변환 계산기", desc: "월급을 시급으로 바꾸거나 시급을 월급으로 환산해보세요.", icon: "payslip", href: "/calculators/hourly-monthly-wage" },
+  { id: "severance-pay", name: "퇴직금 계산기", desc: "근속기간과 임금을 기준으로 예상 퇴직금을 확인해보세요.", icon: "calendar", href: "/calculators/severance-pay" },
+  { id: "weekly-holiday-pay", name: "주휴수당 계산기", desc: "근무시간을 기준으로 예상 주휴수당을 계산해보세요.", icon: "briefcase", href: "/calculators/weekly-holiday-pay" },
+];
+
 /* =========================================================
    GUIDES — 생활정보 레지스트리 (모든 페이지 공통, 한 곳에서만 수정)
    publishedAt / updatedAt: 실제 작성·수정한 날짜만 적어요.
@@ -1910,7 +1999,7 @@ const NAV_CALCULATORS = [
 ];
 const NAV_FEATURED_IDS = ["freelancer-withholding", "unemployment-benefit", "net-salary", "weekly-holiday-pay", "severance-pay", "loan-interest", "dsr", "annual-leave"];
 const navFeaturedIds = () => NAV_FEATURED_IDS;
-const NAV_SECTION = "guide"; // 헤더에서 현재 위치로 표시할 메뉴
+const NAV_SECTION = "calc"; // 헤더에서 현재 위치로 표시할 메뉴
 const NAV_MENU_OF = { "계산기": "calc", "생활정보": "guide" }; // 헤더에서 메가메뉴를 여는 항목
 const NAV_PER_CATEGORY = 4; // 카테고리마다 메뉴에 보여줄 계산기 수
 const NAV_CALC_INDEX_HREF = "/calculators"; // 전체 계산기 목록 페이지
@@ -1929,8 +2018,16 @@ function navGuidePick(catId) {
   return list.find((g) => FEATURED_GUIDE_IDS.includes(g.id)) || list[0] || null;
 }
 /* NAV_MENU:END */
+const RELATED_ARTICLES = guidesForCalculator("/calculators/annual-salary-net-pay");
 
-const PAGE = { path: "/guide", title: "생활정보", category: { name: "생활정보", href: "/guide" }, updatedAt: "2026.09.25" };
+const NAV = [
+  { label: "계산기", href: "/#popular" },
+  { label: "생활정보", href: "/guide" },
+  { label: "얼마지 소개", href: "/about" },
+];
+
+const BREADCRUMB = [ { name: "홈", href: "/" }, { name: "계산기", href: "/calculators" }, { name: PAGE.category.name, href: PAGE.category.href }, { name: PAGE.title, href: PAGE.path } ];
+
 /* =========================================================
    Routing
    - 실서비스(ulmaji.kr): 실제 경로로 이동
@@ -2351,48 +2448,632 @@ function Toast() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-ICONS.copy = '<rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/>';
-
-function Crumbs({ items }) {
-  return (<nav className="container breadcrumb" aria-label="현재 위치"><ol>{items.map((b, i) => { const last = i === items.length - 1; return (
-    <li key={b.name}>{i > 0 && <Icon name="chevron-right" size={14} />}{last || !b.href ? <span aria-current={last ? "page" : undefined}>{b.name}</span> : <AppLink href={b.href}>{b.name}</AppLink>}</li>); })}</ol></nav>);
+/* =========================================================
+   10. Page top
+   ========================================================= */
+function Breadcrumb() {
+  return (
+    <nav className="container breadcrumb" aria-label="현재 위치">
+      <ol>
+        {BREADCRUMB.map((b, i) => {
+          const last = i === BREADCRUMB.length - 1;
+          return (
+            <li key={b.href}>
+              {i > 0 && <Icon name="chevron-right" size={14} />}
+              {last ? <span aria-current="page">{b.name}</span> : <AppLink href={b.href}>{b.name}</AppLink>}
+            </li>
+          );
+        })}
+      </ol>
+    </nav>
+  );
 }
-function SourceList({ sources }) {
-  return (<ul className="source-list">{sources.map((x) => (
-    <li key={x.url}><a className="source-link" href={x.url} target="_blank" rel="noopener noreferrer"><span><span className="src-name">{x.name}</span><span className="src-desc">{x.desc}</span></span><Icon name="external" size={18} /><span className="sr-only">(새 탭에서 열림)</span></a></li>))}</ul>);
+
+function PageHead() {
+  return (
+    <div className="container page-head">
+      <span className="badge badge-brand">{PAGE.category.name}</span>
+      <h1>{PAGE.title}</h1>
+      <p className="page-desc">연봉을 입력하면 세금과 사회보험 등을 반영한<br />예상 월 실수령액을 계산해드려요.</p>
+      <p className="page-meta">
+        <span>{PAGE.year}년 기준</span>
+        <span className="meta-sep" aria-hidden="true"></span>
+        <a href="#basis">최종 업데이트 {PAGE.updatedAt}<Icon name="info" size={16} /><span className="sr-only">, 계산 기준 보기</span></a>
+      </p>
+    </div>
+  );
 }
 
-function GuideList() {
-  const q = new URLSearchParams(window.location.search).get("category");
-  const cats = GUIDE_CATEGORIES.filter((c) => PUBLISHED_GUIDES.some((g) => g.categoryId === c.id));
-  const current = cats.some((c) => c.id === q) ? q : "all";
-  const list = PUBLISHED_GUIDES.filter((g) => current === "all" || g.categoryId === current);
-  return (<>
-    <Crumbs items={[{ name: "얼마지", href: "/" }, { name: "생활정보" }]} />
-    <div className="container page-head"><h1>생활정보</h1>
-      <p className="page-desc">월급, 세금, 대출, 부동산, 육아·복지까지<br />생활 속에서 헷갈리는 기준을 쉽게 정리했어요.</p></div>
-    <section className="container" aria-label="생활정보 목록">
-      {cats.length > 1 && <ul className="cat-tabs" aria-label="카테고리">
-        <li><AppLink href="/guide" aria-current={current === "all" ? "page" : undefined}>전체<span className="cnt">{PUBLISHED_GUIDES.length}</span></AppLink></li>
-        {cats.map((c) => <li key={c.id}><AppLink href={`/guide?category=${c.id}`} aria-current={current === c.id ? "page" : undefined}>{c.name}<span className="cnt">{PUBLISHED_GUIDES.filter((g) => g.categoryId === c.id).length}</span></AppLink></li>)}</ul>}
-      <ul className="article-grid" style={{ marginTop: cats.length > 1 ? 0 : 24 }}>{list.map((a) => <li key={a.id}><ArticleCard article={a} /></li>)}</ul>
-      <p className="guide-meta">글마다 참고한 공식자료와 확인 날짜를 적고, 관련 계산기로 바로 이어지게 했어요.</p>
+function FieldError({ id, message }) {
+  if (!message) return null;
+  return <p id={id} className="field-error"><Icon name="alert" size={16} />{message}</p>;
+}
+
+function Stepper({ name, labelId, value, min, max, unit, onChange }) {
+  return (
+    <div className="stepper" role="group" aria-labelledby={labelId}>
+      <button type="button" aria-label={`${name} 줄이기`} onClick={() => onChange(value - 1)} disabled={value <= min}><Icon name="minus" size={20} strokeWidth={2.2} /></button>
+      <output aria-live="polite">{value}{unit}</output>
+      <button type="button" aria-label={`${name} 늘리기`} onClick={() => onChange(value + 1)} disabled={value >= max}><Icon name="plus" size={20} strokeWidth={2.2} /></button>
+    </div>
+  );
+}
+
+const annualChip = (a) => (a >= 1e8 ? `${a / 1e8}억원` : `${(a / 1e4).toLocaleString("ko-KR")}만원`);
+
+/* =========================================================
+   11. Result pieces
+   ========================================================= */
+function ResultEmpty() {
+  return (
+    <div className="result-empty">
+      <span className="big-q" aria-hidden="true">?</span>
+      <h2 className="sr-only">계산 결과</h2>
+      <p>연봉을 입력하면<br />한 달에 실제로 얼마 받는지 알려드릴게요.</p>
+    </div>
+  );
+}
+
+function DeductionBreakdownList({ r }) {
+  return (
+    <div className="pay-blocks">
+      <h3 className="res-sub-title">어디에서 얼마가 빠지나요?</h3>
+      <dl className="pb-rows">
+        <div className="is-sum top"><dt>월 세전급여</dt><dd>{won(r.monthlyGross)}</dd></div>
+        {r.monthly.items.map((it) => (
+          <div key={it.key}><dt>− {it.name}</dt><dd>{won(it.amount)}</dd></div>
+        ))}
+        <div><dt>= 예상 공제액 합계</dt><dd>{won(r.monthly.totalDeduction)}</dd></div>
+        <div className="is-sum"><dt>예상 실수령액</dt><dd>{won(r.monthly.net)}</dd></div>
+      </dl>
+    </div>
+  );
+}
+
+function RatioBlock({ r }) {
+  const pctNum = Math.round(r.netRatio * 1000) / 10;
+  return (
+    <div className="ratio">
+      <p>연봉 중 실제로 받는 금액은?</p>
+      <div className="ratio-bar" role="img" aria-label={`실수령 ${pctNum}%, 공제 ${Math.round((100 - pctNum) * 10) / 10}%`}>
+        <span style={{ width: `${pctNum}%` }}></span>
+      </div>
+      <div className="ratio-legend">
+        <span><i className="dot is-net" aria-hidden="true"></i>실수령 {won(r.annualNet)} ({pctNum}%)</span>
+        <span><i className="dot is-ded" aria-hidden="true"></i>공제 {won(r.annualDeduction)}</span>
+      </div>
+      <p className="ratio-foot">1년 동안 받는 세전 급여 {won(r.annualGrossPaid)} 기준{r.input.severanceIncluded ? `이에요. 퇴직금 몫 ${won(r.severancePortion)}은 빼고 계산했어요.` : "이에요."}</p>
+    </div>
+  );
+}
+
+function WhyBox({ r }) {
+  const [open, setOpen] = useState(false);
+  const soc = r.monthly.items.filter((i) => ["pension", "health", "ltc", "employment"].includes(i.key));
+  const tax = r.monthly.items.filter((i) => ["incomeTax", "localTax"].includes(i.key));
+  const sum = (l) => l.reduce((s, i) => s + i.amount, 0);
+  return (
+    <div className="why">
+      <button type="button" className="why-toggle" aria-expanded={open} aria-controls="why-body" onClick={() => setOpen((v) => !v)}>
+        왜 이 금액이 나오나요?
+        <Icon name="chevron-right" size={20} strokeWidth={2.2} />
+      </button>
+      <div id="why-body" className="why-body" hidden={!open}>
+        <div className="why-block">
+          <ol className="steps">
+            <li className="step"><p className="step-name">① 연봉을 월급으로 바꿨어요</p>
+              <p className="step-formula">{r.input.severanceIncluded ? `${won(r.input.annual)} × 12/13 ÷ 12` : `${won(r.input.annual)} ÷ 12`} = <b>{won(r.monthlyGross)}</b></p></li>
+            <li className="step"><p className="step-name">② 비과세 금액을 반영했어요</p>
+              <p className="step-formula">과세 대상 {won(r.monthlyGross)} − 비과세 {won(r.nonTaxableApplied)} = <b>{won(r.monthly.taxable)}</b></p></li>
+            <li className="step"><p className="step-name">③ 사회보험을 계산했어요</p>
+              <p className="step-formula">{soc.map((i) => `${i.name} ${won(i.amount)}`).join(" + ")} = <b>{won(sum(soc))}</b></p></li>
+            <li className="step"><p className="step-name">④ 세금을 계산했어요</p>
+              <p className="step-formula">{tax.map((i) => `${i.name} ${won(i.amount)}`).join(" + ")} = <b>{won(sum(tax))}</b></p>
+              <p className="step-desc">소득세는 근로소득 간이세액표에서 부양가족 {r.input.family}명{r.input.children ? `, 공제대상 자녀 ${r.input.children}명` : ""} 기준으로 찾았어요.</p></li>
+            <li className="step"><p className="step-name">⑤ 공제액을 빼서 실수령액을 구했어요</p>
+              <p className="step-formula">{won(r.monthlyGross)} − {won(r.monthly.totalDeduction)} = <b>{won(r.monthly.net)}</b></p></li>
+          </ol>
+          <p className="why-note">공제 계산은 월급 실수령액 계산기와 같은 엔진을 써요. 같은 월 세전급여와 조건이면 두 계산기 결과가 똑같아요.</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ResultView({ r, stale, headingRef, onRecalc, onReset }) {
+  return (
+    <div className={"result-view" + (stale ? " is-stale" : "")}>
+      {stale && (
+        <div className="status is-note res-stale"><Icon name="info" size={20} />
+          <p><strong>입력값을 확인해주세요</strong><span>올바르게 입력하면 결과가 바로 다시 계산돼요.</span></p></div>
+      )}
+      <div className="res-head">
+        <h2 className="res-label" ref={headingRef} tabIndex={-1}>연봉 {formatKoreanCurrency(r.input.annual)}이라면 한 달 예상 실수령액</h2>
+        <span className="badge badge-brand">{r.monthly.year}년 기준</span>
+      </div>
+      <p className="res-amount">{won(r.monthly.net)}</p>
+      <p className="res-sentence">세금과 사회보험 등을 제외하면 매달 약 이 정도를 받을 것으로 예상돼요.</p>
+      <div className="res-fade">
+        <div className="sum-grid four">
+          <div className="sum-item"><span>월 세전급여</span><strong>{won(r.monthlyGross)}</strong></div>
+          <div className="sum-item"><span>월 예상 공제액</span><strong>− {won(r.monthly.totalDeduction)}</strong></div>
+          <div className="sum-item"><span>월 예상 실수령액</span><strong>{won(r.monthly.net)}</strong></div>
+          <div className="sum-item"><span>연간 예상 실수령액</span><strong>{won(r.annualNet)}</strong></div>
+        </div>
+        <DeductionBreakdownList r={r} />
+        <RatioBlock r={r} />
+      </div>
+      <WhyBox r={r} />
+      <div className="small-notice"><Icon name="info" size={18} />
+        <p><strong>12개월 균등 지급 기준이에요</strong><span>성과급·상여금이 별도로 지급되거나 월별 급여가 다르면 실제 실수령액과 차이가 날 수 있어요.{r.input.severanceIncluded && " 퇴직금 포함 연봉의 실제 구조와 법적 퇴직금 산정은 다를 수 있어요."}</span></p></div>
+      <div className="res-actions">
+        <button type="button" className="btn-secondary" onClick={onRecalc}><Icon name="refresh" size={18} />다시 계산하기</button>
+        <button type="button" className="btn-text" onClick={onReset}>입력값 초기화</button>
+      </div>
+    </div>
+  );
+}
+
+/* =========================================================
+   12. Calculator
+   ========================================================= */
+const INITIAL = { annual: "", severanceIncluded: false, nonTaxable: formatNumber(AC.defaultNonTaxable), family: 1, children: 0, ratio: 1 };
+
+function AnnualNetPayCalculator() {
+  const [s, setS] = useState(INITIAL);
+  const [moreOpen, setMoreOpen] = useState(false);
+  const [errors, setErrors] = useState({});
+  const [submitted, setSubmitted] = useState(false);
+  const [scrollTick, setScrollTick] = useState(0);
+
+  const formRef = useRef(null);
+  const annualRef = useRef(null);
+  const ntRef = useRef(null);
+  const resultColRef = useRef(null);
+  const headingRef = useRef(null);
+  const lastResultRef = useRef(null);
+
+  const set = (patch, errKeys = []) => {
+    setS((x) => ({ ...x, ...patch }));
+    if (errKeys.length) setErrors((e) => { const n = { ...e }; errKeys.forEach((k) => delete n[k]); return n; });
+  };
+
+  const values = { annual: parseCurrencyInput(s.annual), severanceIncluded: s.severanceIncluded, nonTaxable: s.nonTaxable === "" ? 0 : parseCurrencyInput(s.nonTaxable), family: s.family, children: s.children, ratio: s.ratio };
+  const liveErrors = validateAnnualInputs(values);
+  const key = JSON.stringify(values);
+  const result = useMemo(() => {
+    if (Object.keys(liveErrors).length) return null;
+    const main = calculateAnnualNetPay(values);
+    return {
+      main,
+      scenarios: AC.scenarioSteps.map((d) => calculateSalaryScenario(values, values.annual + d)),
+      raises: AC.raiseRates.map((p) => ({ rate: p, ...calculateSalaryScenario(values, Math.round(values.annual * (1 + p))) })),
+      table: generateAnnualSalaryTable(values),
+    };
+  }, [key]);
+  if (submitted && result) lastResultRef.current = result;
+  const shown = submitted ? lastResultRef.current : null;
+  const stale = submitted && !result;
+
+  useEffect(() => {
+    if (!scrollTick) return;
+    const col = resultColRef.current;
+    if (!col) return;
+    const stacked = window.matchMedia("(max-width: 1023px)").matches;
+    const top = col.getBoundingClientRect().top;
+    const offscreen = top < 64 || top > window.innerHeight * 0.55;
+    if (offscreen) scrollToEl(stacked ? col : document.getElementById("calculator"));
+    const t = afterScroll(() => headingRef.current && headingRef.current.focus({ preventScroll: true }));
+    return () => clearTimeout(t);
+  }, [scrollTick]);
+
+  useEffect(() => {
+    const onPreset = (e) => {
+      setS((x) => ({ ...x, annual: formatNumber(e.detail) }));
+      setErrors({}); setSubmitted(true); setScrollTick((n) => n + 1);
+    };
+    window.addEventListener("ulmaji:preset-annual", onPreset);
+    return () => window.removeEventListener("ulmaji:preset-annual", onPreset);
+  }, []);
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    const errs = validateAnnualInputs(values);
+    setErrors(errs);
+    if (Object.keys(errs).length) {
+      if (errs.annual) annualRef.current && annualRef.current.focus();
+      else if (errs.nonTaxable) { setMoreOpen(true); setTimeout(() => ntRef.current && ntRef.current.focus(), 0); }
+      return;
+    }
+    setSubmitted(true); setScrollTick((n) => n + 1);
+  };
+  const onRecalc = () => {
+    scrollToEl(formRef.current);
+    afterScroll(() => { if (annualRef.current) { annualRef.current.focus({ preventScroll: true }); annualRef.current.select(); } });
+  };
+  const onReset = () => {
+    setS(INITIAL); setErrors({}); setSubmitted(false); lastResultRef.current = null;
+    scrollToEl(formRef.current);
+    afterScroll(() => annualRef.current && annualRef.current.focus({ preventScroll: true }));
+    toast("입력값을 초기화했어요.");
+  };
+
+  const annualNum = parseCurrencyInput(s.annual);
+  const ntNum = parseCurrencyInput(s.nonTaxable);
+  const monthlyPreview = Number.isFinite(annualNum) && annualNum > 0 ? calculateMonthlyGrossFromAnnualSalary(annualNum, s.severanceIncluded) : null;
+
+  return (
+    <section className="calc-section" id="calculator" aria-label="연봉 실수령액 계산기">
+      <div className="container">
+        <div className="calc-shell">
+          <form className="calc-form" ref={formRef} onSubmit={onSubmit} noValidate aria-labelledby="form-title">
+            <h2 id="form-title" className="form-title">연봉을 입력해주세요</h2>
+            <p className="form-desc">세전 연봉만 넣으면 돼요. 나머지는 기본값으로 계산해요.</p>
+
+            <div className="field">
+              <label className="field-label" htmlFor="annual">연봉은 얼마인가요?<span className="sr-only"> (원)</span></label>
+              <div className={"input-wrap" + (errors.annual ? " is-invalid" : "")}>
+                <input id="annual" ref={annualRef} type="text" inputMode="decimal" autoComplete="off" placeholder="예: 50,000,000" enterKeyHint="done"
+                  value={s.annual} onChange={(e) => set({ annual: formatMoneyInput(e.target.value, 12) }, ["annual", "nonTaxable"])}
+                  aria-invalid={!!errors.annual} aria-describedby={["annual-help", errors.annual && "annual-error"].filter(Boolean).join(" ")} />
+                <span className="input-suffix" aria-hidden="true">원</span>
+              </div>
+              <FieldError id="annual-error" message={errors.annual} />
+              <p id="annual-help" className="field-help korean-amount" aria-live="polite">
+                {monthlyPreview != null ? `${formatKoreanCurrency(annualNum)} · 월 세전 약 ${formatKoreanCurrency(monthlyPreview)}` : "세금과 4대보험을 빼기 전 연봉을 입력해주세요."}
+              </p>
+              <ul className="quick-amounts" aria-label="연봉 빠르게 넣기">
+                {AC.quickAnnual.map((a) => (
+                  <li key={a}><button type="button" className="chip" aria-pressed={annualNum === a} onClick={() => set({ annual: formatNumber(a) }, ["annual", "nonTaxable"])}>{annualChip(a)}</button></li>
+                ))}
+              </ul>
+            </div>
+
+            <fieldset className="field">
+              <legend className="field-label">연봉에 퇴직금이 포함되어 있나요?</legend>
+              <div className="method-cards">
+                <label className="method-card"><input type="radio" name="sev" checked={!s.severanceIncluded} onChange={() => set({ severanceIncluded: false }, ["nonTaxable"])} />
+                  <span><strong>퇴직금 별도</strong><small>일반적인 연봉 비교를 위해 퇴직금을 제외한 연봉으로 계산해요.</small></span></label>
+                <label className="method-card"><input type="radio" name="sev" checked={s.severanceIncluded} onChange={() => set({ severanceIncluded: true }, ["nonTaxable"])} />
+                  <span><strong>퇴직금 포함</strong><small>연봉의 1/13을 퇴직금 몫으로 보고 나머지를 12개월로 나눠요.</small></span></label>
+              </div>
+            </fieldset>
+
+            <div className="more-settings">
+              <button type="button" className="more-toggle" aria-expanded={moreOpen} aria-controls="more-body" onClick={() => setMoreOpen((v) => !v)}>
+                <span><Icon name="sliders" size={20} />상세 조건 입력</span>
+                <small>비과세 {Number.isFinite(ntNum) ? manwon(ntNum) : "0만원"} · 가족 {s.family}명{s.children ? ` · 자녀 ${s.children}명` : ""}</small>
+                <Icon name="chevron-right" size={20} strokeWidth={2.2} />
+              </button>
+              <div id="more-body" className="more-body" hidden={!moreOpen}>
+                <div className="field">
+                  <label className="field-label" htmlFor="nontax">월 비과세액</label>
+                  <div className={"input-wrap" + (errors.nonTaxable ? " is-invalid" : "")}>
+                    <input id="nontax" ref={ntRef} type="text" inputMode="decimal" autoComplete="off" value={s.nonTaxable}
+                      onChange={(e) => set({ nonTaxable: formatMoneyInput(e.target.value) }, ["nonTaxable"])}
+                      aria-invalid={!!errors.nonTaxable} aria-describedby={["nontax-help", errors.nonTaxable && "nontax-error"].filter(Boolean).join(" ")} />
+                    <span className="input-suffix" aria-hidden="true">원</span>
+                  </div>
+                  <FieldError id="nontax-error" message={errors.nonTaxable} />
+                  <p id="nontax-help" className="field-help">식대 등 비과세 항목이 있다면 입력해주세요. 실제 인정 여부는 항목과 요건에 따라 달라요.</p>
+                  <ul className="quick-amounts" aria-label="비과세액 빠르게 넣기">
+                    {[0, 100000, 200000].map((a) => (
+                      <li key={a}><button type="button" className="chip" aria-pressed={ntNum === a} onClick={() => set({ nonTaxable: formatNumber(a) }, ["nonTaxable"])}>{a ? manwon(a) : "없음"}</button></li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="field">
+                  <span className="field-label" id="family-label">본인을 포함한 부양가족 수</span>
+                  <Stepper name="부양가족 수" labelId="family-label" value={s.family} min={LIMITS.minFamily} max={LIMITS.maxFamily} unit="명"
+                    onChange={(n) => set({ family: n, children: Math.min(s.children, n - 1) })} />
+                  <p className="field-help">소득세 계산에 참고할 가족 수예요.</p>
+                </div>
+                <div className="field">
+                  <span className="field-label" id="children-label">공제대상 자녀 수 (8세 이상 20세 이하)</span>
+                  <Stepper name="자녀 수" labelId="children-label" value={s.children} min={0} max={Math.max(0, s.family - 1)} unit="명" onChange={(n) => set({ children: n })} />
+                </div>
+                <fieldset className="field">
+                  <legend className="field-label">소득세 원천징수 비율</legend>
+                  <div className="seg cols-3">
+                    {ACTIVE.tax.withholdingRatios.map((r) => (
+                      <label className="seg-option" key={r}>
+                        <input type="radio" name="ratio" checked={s.ratio === r} onChange={() => set({ ratio: r })} />
+                        <span>{Math.round(r * 100)}%</span>
+                      </label>
+                    ))}
+                  </div>
+                  <p className="field-help">따로 신청하지 않았다면 100%예요.</p>
+                </fieldset>
+              </div>
+            </div>
+
+            <button type="submit" className="btn btn-primary submit-btn">실수령액 계산하기</button>
+          </form>
+
+          <div className="result-col" ref={resultColRef}>
+            <div className="result-panel">
+              <p className="sr-only" aria-live="polite">
+                {shown && !stale ? `한 달 예상 실수령액은 ${won(shown.main.monthly.net)}, 연간 예상 실수령액은 ${won(shown.main.annualNet)}이에요.` : ""}
+              </p>
+              {shown ? <ResultView r={shown.main} stale={stale} headingRef={headingRef} onRecalc={onRecalc} onReset={onReset} /> : <ResultEmpty />}
+            </div>
+          </div>
+        </div>
+
+        {shown && (
+          <div className={"detail-stack" + (stale ? " is-stale" : "")}>
+            <div className="detail-card">
+              <h2 className="detail-title">연봉이 달라지면?</h2>
+              <ul className="rate-cards">
+                <li className="is-current">
+                  <p className="rc-rate">현재 {annualChip(shown.main.input.annual)}<span className="badge badge-brand cur-badge">입력</span></p>
+                  <dl><div><dt>월 예상 실수령액</dt><dd>{won(shown.main.monthly.net)}</dd></div></dl>
+                </li>
+                {shown.scenarios.map((x) => (
+                  <li key={x.annual}>
+                    <p className="rc-rate">+{annualChip(x.diffAnnualGross)} · {annualChip(x.annual)}</p>
+                    <dl>
+                      <div><dt>월 예상 실수령액</dt><dd>{won(x.monthlyNet)}</dd></div>
+                      <div><dt>월 실수령액 차이</dt><dd>{signedMan(x.diffMonthly)}</dd></div>
+                    </dl>
+                  </li>
+                ))}
+              </ul>
+              <h3 className="res-sub-title sub-gap">연봉이 오른다면?</h3>
+              <div className="table-scroll resp">
+                <table className="data-table resp-table">
+                  <caption className="sr-only">인상률별 변경 연봉, 월 예상 실수령액, 월 차이</caption>
+                  <thead><tr><th scope="col">인상률</th><th scope="col">변경 연봉</th><th scope="col">월 예상 실수령액</th><th scope="col">월 차이</th></tr></thead>
+                  <tbody>
+                    {shown.raises.map((x) => (
+                      <tr key={x.rate}>
+                        <th scope="row">{Math.round(x.rate * 100)}% 인상</th>
+                        <td data-label="변경 연봉">{won(x.annual)}</td>
+                        <td data-label="월 예상 실수령액">{won(x.monthlyNet)}</td>
+                        <td data-label="월 차이">{won(x.diffMonthly)} 늘어요</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p className="compare-note">연봉이 바뀌면 세금과 보험료도 다시 계산해요. 그래서 인상액 ÷ 12보다 월 실수령액은 덜 늘어요.</p>
+            </div>
+            <div className="detail-card">
+              <h2 className="detail-title">다른 연봉은 얼마나 받을까요?</h2>
+              <p className="section-desc">지금 입력한 조건(비과세, 가족 수, 퇴직금 포함 여부)을 그대로 적용했어요.</p>
+              <div className="table-scroll resp">
+                <table className="data-table resp-table">
+                  <caption className="sr-only">연봉별 월 세전급여와 예상 월 실수령액</caption>
+                  <thead><tr><th scope="col">연봉</th><th scope="col">월 세전급여</th><th scope="col">예상 월 실수령액</th></tr></thead>
+                  <tbody>
+                    {shown.table.map((t) => (
+                      <tr key={t.annual} className={t.annual === shown.main.input.annual ? "is-current" : ""}>
+                        <th scope="row">{annualChip(t.annual)}</th>
+                        <td data-label="월 세전급여">{won(t.monthlyGross)}</td>
+                        <td data-label="예상 월 실수령액">{won(t.monthlyNet)}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div className="detail-card">
+              <h2 className="detail-title">이어서 확인해보세요</h2>
+              <ul className="guide-calcs">
+                <li><AppLink className="guide-calc" href="/calculators/net-salary"><strong>월급으로 계약되어 있다면?</strong><span>월 세전급여를 알고 있다면 월급 실수령액 계산기를 이용해보세요.</span><Icon name="chevron-right" size={18} /></AppLink></li>
+                <li><AppLink className="guide-calc" href="/calculators/hourly-monthly-wage"><strong>내 월급을 시급으로 바꾸면?</strong><span>근무시간을 기준으로 월급을 예상 시급으로 바꿔보세요.</span><Icon name="chevron-right" size={18} /></AppLink></li>
+                <li><AppLink className="guide-calc" href="/calculators/severance-pay"><strong>이 연봉으로 퇴직금은 얼마일까요?</strong><span>근속기간과 임금으로 예상 퇴직금을 계산해요.</span><Icon name="chevron-right" size={18} /></AppLink></li>
+              </ul>
+            </div>
+          </div>
+        )}
+      </div>
     </section>
-    <AdSlot id="guide-list-bottom" label="목록 하단" />
-    <div style={{ height: 64 }}></div>
-  </>);
+  );
 }
-function App() { return (<><a className="skip-link" href="#main">본문 바로가기</a><Header /><main id="main"><GuideList /></main><Footer /><Toast /></>); }
+
+/* =========================================================
+   13. Below-the-calculator sections
+   ========================================================= */
+function RelatedCalculators() {
+  return (
+    <section className="section tight-top" aria-labelledby="related-title">
+      <div className="container">
+        <SectionHead id="related-title" title="이어서 계산해볼까요?" moreHref="/calculators" moreLabel="전체 계산기" />
+        <ul className="calc-grid">
+          {RELATED_CALCULATORS.map((c) => <li key={c.id}><CalculatorCard calc={c} /></li>)}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+function GuideSection() {
+  const r50 = rowOf(50000000);
+  return (
+    <section className="section band" id="guide" aria-label="연봉 실수령액 안내">
+      <div className="container">
+        <div className="content-block">
+          <h2>연봉별 예상 실수령액</h2>
+          <p className="section-desc">기본 조건을 기준으로 계산한 참고값이며 개인별 실제 실수령액은 달라질 수 있습니다. ({DEFAULT_TEXT} 계산)</p>
+          <div className="table-scroll resp">
+            <table className="data-table resp-table">
+              <caption className="sr-only">연봉별 월 세전급여, 예상 월 실수령액, 연간 예상 실수령액</caption>
+              <thead><tr><th scope="col">연봉</th><th scope="col">월 세전급여</th><th scope="col">예상 월 실수령액</th><th scope="col">연간 예상 실수령액</th></tr></thead>
+              <tbody>
+                {DEFAULT_TABLE.map((t) => (
+                  <tr key={t.annual}>
+                    <th scope="row"><button type="button" className="link-btn" onClick={() => window.dispatchEvent(new CustomEvent("ulmaji:preset-annual", { detail: t.annual }))}>{annualChip(t.annual)}</button></th>
+                    <td data-label="월 세전급여">{won(t.monthlyGross)}</td>
+                    <td data-label="예상 월 실수령액">{won(t.monthlyNet)}</td>
+                    <td data-label="연간 예상 실수령액">{won(t.annualNet)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div className="content-block">
+          <h2>연봉 5,000만원이면 월급은 단순히 416만원일까요?</h2>
+          <div className="prose">
+            <p>연봉 ÷ 12인 약 {approxMan(r50.monthlyGross)}은 월 세전급여를 단순히 나눈 금액이에요. 실제 통장에는 여기서 국민연금, 건강보험, 장기요양보험, 고용보험, 소득세, 지방소득세가 빠져서 약 {approxMan(r50.monthlyNet)}이 들어와요(기본 조건 기준).</p>
+          </div>
+        </div>
+        <div className="content-block">
+          <h2>연봉 실수령액은 어떻게 계산하나요?</h2>
+          <div className="prose"><p>연봉을 12로 나눠 월 세전급여를 구하고, 비과세 금액을 뺀 금액에 4대보험료와 소득세를 계산해 빼요. 남은 금액이 월 실수령액이고, 12를 곱하면 연간 실수령액이에요.</p></div>
+          <AdSlot id="guide-middle" label="정보 콘텐츠 중간" bare />
+        </div>
+        <div className="content-block">
+          <h2>연봉에서 어떤 금액이 빠지나요?</h2>
+          <ul className="item-grid">
+            <li className="item-card"><h3>사회보험</h3><p>국민연금, 건강보험, 장기요양보험, 고용보험이에요. 월급에 일정 비율을 곱해 계산해요.</p></li>
+            <li className="item-card"><h3>소득세</h3><p>근로소득 간이세액표에서 월급과 부양가족 수에 맞는 금액을 매달 미리 떼요.</p></li>
+            <li className="item-card"><h3>지방소득세</h3><p>소득세의 10%예요. 소득세와 함께 빠져요.</p></li>
+          </ul>
+        </div>
+        <div className="content-block">
+          <h2>연봉에 퇴직금이 포함되나요?</h2>
+          <div className="prose"><p>계약마다 달라요. 대부분은 퇴직금 별도지만, 퇴직금 포함 연봉이라면 연봉의 1/13 정도를 퇴직금 몫으로 두고 나머지를 12개월로 나눠 받는 경우가 많아요. 정확한 퇴직금은 퇴직금 계산기에서 확인해보세요.</p></div>
+        </div>
+        <div className="content-block">
+          <h2>연봉이 올라도 실수령액이 같은 비율로 오르지 않는 이유는?</h2>
+          <div className="prose"><p>보험료는 월급에 비례해서 늘고, 소득세는 월급이 많을수록 더 높은 비율이 적용돼요. 그래서 연봉이 1,000만원 올라도 월 실수령액은 83만원보다 적게 늘어요. 대신 국민연금은 상한이 있어서 아주 높은 연봉에서는 더 늘지 않아요.</p></div>
+        </div>
+        <div className="content-block">
+          <h2>비과세 금액이 있으면 왜 실수령액이 달라지나요?</h2>
+          <div className="prose"><p>식대 같은 비과세 금액에는 세금과 보험료를 매기지 않아서, 같은 연봉이라도 비과세액이 크면 공제가 줄고 실수령액이 늘어요.</p></div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function FaqSection() {
+  const [open, setOpen] = useState({ [FAQ[0].id]: true });
+  return (
+    <section className="section" id="faq" aria-labelledby="faq-title">
+      <div className="container">
+        <SectionHead id="faq-title" title="자주 묻는 질문" />
+        <ul className="faq-list">
+          {FAQ.map((q) => {
+            const isOpen = !!open[q.id];
+            return (
+              <li className="faq-item" key={q.id}>
+                <h3 className="faq-q">
+                  <button type="button" id={`faq-btn-${q.id}`} className="faq-toggle" aria-expanded={isOpen}
+                    aria-controls={`faq-panel-${q.id}`} onClick={() => setOpen((o) => ({ ...o, [q.id]: !o[q.id] }))}>
+                    {q.q}
+                    <Icon name="chevron-right" size={20} strokeWidth={2.2} />
+                  </button>
+                </h3>
+                <div id={`faq-panel-${q.id}`} role="region" aria-labelledby={`faq-btn-${q.id}`} className="faq-a" hidden={!isOpen}>
+                  <p>{q.a}</p>
+                </div>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+function BasisSection() {
+  const R = ACTIVE.rates;
+  const pl = pickByDate(R.nationalPension.baseIncomeLimits);
+  return (
+    <section className="section band" id="basis" aria-labelledby="basis-title">
+      <div className="container">
+        <div className="trust-grid">
+          <div>
+            <h2 id="basis-title">어떤 기준으로 계산하나요?</h2>
+            <p className="section-desc">월급 실수령액 계산기와 같은 {R.year}년 공제 기준을 그대로 써요. 계산은 이 화면 안에서만 이뤄지고, 이름이나 회사명 같은 정보는 묻지 않아요.</p>
+            <div className="notice-box">
+              <Icon name="info" size={20} />
+              <div>
+                <strong>참고용으로 확인해주세요</strong>
+                <p>계산 결과는 입력한 연봉과 선택한 조건을 기준으로 계산한 예상 금액입니다. 실제 실수령액은 회사의 급여 지급방식, 비과세 항목, 부양가족, 사회보험 적용 여부, 상여금·성과급, 소득세 원천징수 방식 및 연도별 제도 변경 등에 따라 달라질 수 있습니다.</p>
+              </div>
+            </div>
+          </div>
+          <div className="basis-card">
+            <div className="basis-head"><strong>연봉 실수령액 계산 기준</strong><span className="badge badge-brand">{R.year}년 기준</span></div>
+            <dl>
+              <div className="basis-row"><dt>국민연금</dt><dd>{pct(R.nationalPension.employeeRate)} (기준소득월액 {manwon(pl.min)}~{manwon(pl.max)})</dd></div>
+              <div className="basis-row"><dt>건강보험</dt><dd>{pct(R.healthInsurance.employeeRate)}</dd></div>
+              <div className="basis-row"><dt>장기요양보험</dt><dd>건강보험료의 {pct(R.longTermCare.ratioOfHealthPremium)}</dd></div>
+              <div className="basis-row"><dt>고용보험</dt><dd>{pct(R.employmentInsurance.employeeRate)}</dd></div>
+              <div className="basis-row"><dt>소득세</dt><dd>{ACTIVE.tax.tableSource}</dd></div>
+              <div className="basis-row"><dt>지방소득세</dt><dd>소득세의 {pct(ACTIVE.tax.localTaxRate)}</dd></div>
+              <div className="basis-row"><dt>연봉 환산</dt><dd>연봉 ÷ 12 (퇴직금 포함 시 연봉 × 12/13 ÷ 12), 12개월 균등 지급</dd></div>
+              <div className="basis-row">
+                <dt>공식 출처</dt>
+                <dd>
+                  <ul className="source-list">
+                    {SOURCES.map((x) => (
+                      <li key={x.name}>
+                        <a className="source-link" href={x.url} target="_blank" rel="noopener noreferrer">
+                          <span><span className="src-name">{x.name}</span><span className="src-desc">{x.desc}</span></span>
+                          <Icon name="external" size={18} /><span className="sr-only">(새 탭에서 열림)</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </dd>
+              </div>
+              <div className="basis-row"><dt>마지막 업데이트</dt><dd><time dateTime={PAGE.updatedAt.replace(/\./g, "-")}>{PAGE.updatedAt}</time></dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function RelatedArticles() {
+  if (!RELATED_ARTICLES.length) return null;
+  return (
+    <section className="section" aria-labelledby="articles-title">
+      <div className="container">
+        <SectionHead id="articles-title" title="같이 보면 좋은 생활정보" moreHref="/guide" moreLabel="생활정보 전체보기" />
+        <ul className="article-grid">
+          {RELATED_ARTICLES.map((a) => <li key={a.id}><ArticleCard article={a} /></li>)}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+/* =========================================================
+   14. Structured data + App
+   ========================================================= */
+function useStructuredData() { /* 구조화 데이터(WebApplication·BreadcrumbList)는 <head>에 정적으로 넣었어요. Google FAQ 리치결과 종료(2026)로 FAQPage는 쓰지 않고, 화면의 FAQ만 유지해요. */ }
+
+function App() {
+  useStructuredData();
+  return (
+    <>
+      <a className="skip-link" href="#calculator">계산기로 바로가기</a>
+      <Header />
+      <main id="main">
+        <Breadcrumb />
+        <PageHead />
+        <AnnualNetPayCalculator />
+        <AdSlot id="after-result" label="결과·설명 이후" />
+        <RelatedCalculators />
+        <GuideSection />
+        <FaqSection />
+        <AdSlot id="after-faq" label="FAQ 이후" />
+        <BasisSection />
+        <RelatedArticles />
+      </main>
+      <Footer />
+      <Toast />
+    </>
+  );
+}
+
 ReactDOM.createRoot(document.getElementById("root")).render(<App />);
 
 </script>

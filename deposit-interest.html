@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="ko" data-theme="dark">
+<html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>생활정보 | 월급·대출·부동산·세금·육아 기준 쉽게 정리 - 얼마지?</title>
-<meta name="description" content="월급·수당, 대출·적금, 부동산, 세금, 육아·복지까지 생활 속에서 헷갈리는 기준 20가지를 공식자료로 확인해 쉽게 정리하고, 관련 계산기로 바로 연결해드려요.">
-<link rel="canonical" href="https://ulmaji.kr/guide">
+<title>예금이자 계산기 | 세전·세후 이자와 만기 수령액 - 얼마지?</title>
+<meta name="description" content="예치금액과 예금 금리, 기간을 입력하면 세전 이자와 이자소득세 15.4%를 뺀 세후 이자, 만기 수령액을 계산해요. 단리·복리, 비과세 여부에 따른 차이도 비교할 수 있어요.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://ulmaji.kr/calculators/deposit-interest">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="얼마지?">
-<meta property="og:title" content="생활정보 | 얼마지?">
-<meta property="og:description" content="월급·수당, 대출·적금, 부동산, 세금, 육아·복지까지 생활 속에서 헷갈리는 기준 20가지를 공식자료로 확인해 쉽게 정리하고, 관련 계산기로 바로 연결해드려요.">
-<meta property="og:url" content="https://ulmaji.kr/guide">
+<meta property="og:title" content="예금이자 계산기 | 세전·세후 이자와 만기 수령액 - 얼마지?">
+<meta property="og:description" content="예치금액과 예금 금리, 기간을 입력하면 세전 이자와 이자소득세 15.4%를 뺀 세후 이자, 만기 수령액을 계산해요. 단리·복리, 비과세 여부에 따른 차이도 비교할 수 있어요.">
+<meta property="og:url" content="https://ulmaji.kr/calculators/deposit-interest">
+<meta property="og:locale" content="ko_KR">
 <meta name="theme-color" content="#3366FF">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233366FF'/%3E%3Ctext x='32' y='46' font-family='Arial,sans-serif' font-size='40' font-weight='800' text-anchor='middle' fill='white'%3E%3F%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "얼마지", "item": "https://ulmaji.kr/"}, {"@type": "ListItem", "position": 2, "name": "생활정보", "item": "https://ulmaji.kr/guide"}]}, {"@type": "ItemList", "name": "얼마지 생활정보", "numberOfItems": 20, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://ulmaji.kr/guide/weekly-holiday-pay-15-hours", "name": "주 15시간 일하면 주휴수당은 얼마일까?"}, {"@type": "ListItem", "position": 2, "url": "https://ulmaji.kr/guide/minimum-wage-2027-monthly", "name": "2027 최저임금으로 월급을 계산하면?"}, {"@type": "ListItem", "position": 3, "url": "https://ulmaji.kr/guide/severance-pay-eligibility", "name": "퇴직금은 언제부터 받을 수 있을까?"}, {"@type": "ListItem", "position": 4, "url": "https://ulmaji.kr/guide/night-pay-hours", "name": "야간수당은 몇 시부터 적용될까?"}, {"@type": "ListItem", "position": 5, "url": "https://ulmaji.kr/guide/loan-100m-monthly-interest", "name": "대출 1억 받으면 한 달 이자는 얼마일까?"}, {"@type": "ListItem", "position": 6, "url": "https://ulmaji.kr/guide/loan-repayment-methods", "name": "원리금균등·원금균등, 매달 얼마씩 갚을까?"}, {"@type": "ListItem", "position": 7, "url": "https://ulmaji.kr/guide/monthly-savings-500k", "name": "적금 월 50만원씩 넣으면 만기 얼마일까?"}, {"@type": "ListItem", "position": 8, "url": "https://ulmaji.kr/guide/simple-vs-compound-interest", "name": "단리와 복리, 실제 이자는 얼마나 차이 날까?"}, {"@type": "ListItem", "position": 9, "url": "https://ulmaji.kr/guide/jeonse-to-monthly-rent", "name": "전세를 월세로 바꾸면 얼마가 적당할까?"}, {"@type": "ListItem", "position": 10, "url": "https://ulmaji.kr/guide/real-estate-brokerage-fee", "name": "부동산 중개수수료는 얼마까지 내야 할까?"}, {"@type": "ListItem", "position": 11, "url": "https://ulmaji.kr/guide/84sqm-to-pyeong", "name": "아파트 84㎡는 몇 평일까?"}, {"@type": "ListItem", "position": 12, "url": "https://ulmaji.kr/guide/housing-subscription-score", "name": "내 청약가점은 몇 점일까?"}, {"@type": "ListItem", "position": 13, "url": "https://ulmaji.kr/guide/freelancer-3-3-withholding", "name": "프리랜서 3.3% 떼면 실제 얼마 받을까?"}, {"@type": "ListItem", "position": 14, "url": "https://ulmaji.kr/guide/vat-included-excluded", "name": "부가세 포함·별도 금액은 어떻게 계산할까?"}, {"@type": "ListItem", "position": 15, "url": "https://ulmaji.kr/guide/home-acquisition-tax", "name": "집을 사면 취득세는 얼마나 나올까?"}, {"@type": "ListItem", "position": 16, "url": "https://ulmaji.kr/guide/gift-tax-from-parents", "name": "부모님께 돈을 받으면 증여세는 얼마나 나올까?"}, {"@type": "ListItem", "position": 17, "url": "https://ulmaji.kr/guide/parental-leave-benefit", "name": "육아휴직하면 매달 얼마 받을 수 있을까?"}, {"@type": "ListItem", "position": 18, "url": "https://ulmaji.kr/guide/maternity-leave-benefit", "name": "출산전후휴가 기간에는 얼마를 받을까?"}, {"@type": "ListItem", "position": 19, "url": "https://ulmaji.kr/guide/parent-benefit", "name": "부모급여는 몇 살까지 얼마 받을까?"}, {"@type": "ListItem", "position": 20, "url": "https://ulmaji.kr/guide/unemployment-benefit-duration", "name": "실업급여는 몇 개월 동안 얼마 받을 수 있을까?"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "@id": "https://ulmaji.kr/calculators/deposit-interest#app", "name": "예금이자 계산기", "url": "https://ulmaji.kr/calculators/deposit-interest", "description": "예치금액과 예금 금리, 기간을 입력하면 세전 이자와 이자소득세 15.4%를 뺀 세후 이자, 만기 수령액을 계산해요. 단리·복리, 비과세 여부에 따른 차이도 비교할 수 있어요.", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "inLanguage": "ko-KR", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "KRW"}, "dateModified": "2026-09-24", "publisher": {"@type": "Organization", "name": "얼마지?", "alternateName": "ULMAJI", "url": "https://ulmaji.kr/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "홈", "item": "https://ulmaji.kr/"}, {"@type": "ListItem", "position": 2, "name": "계산기", "item": "https://ulmaji.kr/calculators"}, {"@type": "ListItem", "position": 3, "name": "금융·생활", "item": "https://ulmaji.kr/calculators#cat-finance"}, {"@type": "ListItem", "position": 4, "name": "예금이자 계산기", "item": "https://ulmaji.kr/calculators/deposit-interest"}]}]}</script>
 <style>
 /* =========================================================
    Design tokens
@@ -1394,258 +1396,6 @@ input:focus-visible,
 .deposit-link small { font-size: 13px; color: var(--muted); }
 .money-steps li:first-child { color: var(--muted); font-size: 13.5px; }
 
-/* =========================================================
-   Compound interest page additions
-   ========================================================= */
-.dual { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 14px; }
-.dual-card { min-width: 0; padding: 16px; border-radius: 16px; background: var(--card); border: 1.5px solid var(--line); }
-.dual-card.is-compound { border-color: var(--primary); }
-.dual-title { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 700; color: var(--muted); }
-.dual-amount { margin-top: 6px; font-size: clamp(19px, 5vw, 24px); font-weight: 800; letter-spacing: -.03em; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
-.dual-card.is-compound .dual-amount { color: var(--brand-text); }
-.dual-sub { margin-top: 4px; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.line-key { display: inline-block; flex: none; width: 22px; height: 0; border-top: 3px solid var(--primary); }
-.line-key.is-simple { border-top: 3px dashed var(--subtle); }
-.diff-card { margin-top: 10px; padding: 18px; border-radius: 16px; background: var(--secondary); }
-.diff-title { font-size: 15px; font-weight: 700; }
-.diff-amount { margin-top: 4px; font-size: clamp(28px, 7vw, 36px); font-weight: 800; letter-spacing: -.035em; color: var(--brand-text); font-variant-numeric: tabular-nums; }
-.diff-desc { margin-top: 6px; font-size: 14px; line-height: 1.6; color: var(--text); }
-.diff-desc + .diff-desc { color: var(--muted); }
-
-.chart { margin: 14px 0 0; }
-.chart svg { display: block; width: 100%; height: 240px; }
-.chart .axis { stroke: var(--line-strong); stroke-width: 1; }
-.chart .grid { stroke: var(--line); stroke-width: 1; stroke-dasharray: 2 4; }
-.chart .ln-simple { stroke: var(--subtle); stroke-width: 2.5; stroke-dasharray: 7 6; vector-effect: non-scaling-stroke; }
-.chart .ln-compound { stroke: var(--primary); stroke-width: 3; vector-effect: non-scaling-stroke; }
-.chart .tick { font-size: 12px; fill: var(--muted); font-family: inherit; }
-.chart-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-bottom: 8px; font-size: 13.5px; font-weight: 600; }
-.chart-legend span { display: inline-flex; align-items: center; gap: 8px; }
-.chart-scale { display: flex; justify-content: space-between; margin-top: 4px; font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.chart-alt { margin-top: 10px; font-size: 14px; line-height: 1.65; color: var(--muted); }
-
-.guide-calcs { list-style: none; display: grid; gap: 8px; margin-top: 14px; }
-@media (min-width: 768px) { .guide-calcs { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-.guide-calc { position: relative; display: flex; flex-direction: column; gap: 4px; height: 100%; padding: 16px 44px 16px 16px; border-radius: 14px; background: var(--bg); border: 1.5px solid var(--line); text-decoration: none; color: inherit; transition: border-color .15s ease; }
-a.guide-calc:hover { border-color: var(--primary); }
-.guide-calc strong { font-size: 15.5px; font-weight: 800; }
-.guide-calc span { font-size: 14px; color: var(--muted); line-height: 1.55; }
-.guide-calc > svg { position: absolute; right: 14px; top: 50%; transform: translateY(-50%); color: var(--brand-text); }
-.guide-calc.is-current { background: var(--secondary); border-color: transparent; padding-right: 16px; }
-
-/* =========================================================
-   Percentage page additions
-   ========================================================= */
-.type-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
-.type-card { position: relative; cursor: pointer; }
-.type-card input { position: absolute; opacity: 0; width: 1px; height: 1px; pointer-events: none; }
-.type-card span { display: flex; flex-direction: column; gap: 2px; height: 100%; min-height: 64px; padding: 12px 14px; border: 1.5px solid var(--line-strong); border-radius: 14px; background: var(--card); transition: border-color .15s ease, background-color .15s ease; }
-.type-card strong { font-size: 15.5px; font-weight: 800; }
-.type-card small { font-size: 13px; color: var(--muted); }
-.type-card:hover span { border-color: var(--primary); }
-.type-card input:checked + span { border-color: var(--primary); background: var(--secondary); }
-.type-card input:checked + span strong { color: var(--brand-text); }
-.type-card input:focus-visible + span { box-shadow: var(--focus-ring); }
-.type-form { margin-top: 6px; padding-top: 18px; border-top: 1px solid var(--line); }
-.type-form .form-title { margin-bottom: 12px; font-size: 19px; }
-.sentence { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; font-size: 17px; font-weight: 700; line-height: 1.4; }
-.sent-input { width: 130px; }
-.sent-input.is-wide { width: 190px; }
-.sent-input .input-wrap { height: 52px; }
-.sent-input .input-wrap input { font-size: 18px; }
-.live-note { margin-top: 18px; }
-.empty-ex { margin-top: 6px !important; font-size: 14px !important; color: var(--brand-text) !important; font-weight: 600; }
-.quick-grid { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 14px; }
-@media (min-width: 768px) { .quick-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-@media (min-width: 1024px) { .quick-grid.use-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
-.quick-card { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; width: 100%; height: 100%; min-height: 64px; padding: 14px; border: 1.5px solid var(--line); border-radius: 14px; background: var(--bg); text-align: left; cursor: pointer; transition: border-color .15s ease; }
-.quick-card:hover { border-color: var(--primary); }
-.quick-card strong { font-size: 15px; font-weight: 800; line-height: 1.4; }
-.quick-card > span:not(.badge) { font-size: 13px; color: var(--muted); }
-
-/* =========================================================
-   VAT page additions
-   ========================================================= */
-.vat-q { font-size: 19px !important; font-weight: 800 !important; margin-bottom: 12px !important; }
-@media (min-width: 1024px) { .quick-grid.use-four { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
-.pb-rows .is-sum.top { margin-top: 0; padding-top: 0; padding-bottom: 9px; border-top: 0; border-bottom: 1px solid var(--line); }
-.cond-card .pb-rows { margin-top: 10px; }
-
-.basis-line { margin-top: 10px; font-size: 13.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.basis-line b { color: var(--text); font-weight: 700; }
-.pay-blocks .more-link { margin-top: 8px; }
-
-/* Savings goal page additions */
-.res-amount.is-success { color: var(--success-text, var(--success)); font-size: clamp(26px, 6vw, 34px); }
-.progress-card { margin-top: 12px; padding: 16px; border-radius: 16px; background: var(--card); border: 1px solid var(--line); }
-.goal-bar { height: 12px; margin-top: 10px; border-radius: 999px; background: var(--line); overflow: hidden; }
-.goal-bar span { display: block; height: 100%; border-radius: inherit; background: var(--primary); }
-.progress-text { margin-top: 8px; font-size: 14.5px; font-variant-numeric: tabular-nums; }
-.progress-text b { font-weight: 800; }
-.detail-stack > .deposit-link { margin-top: 0; }
-
-/* Annual salary page additions */
-.link-btn { padding: 0; border: 0; background: none; font: inherit; font-weight: 800; color: var(--brand-text); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; min-height: 32px; }
-
-/* =========================================================
-   Year-end tax page additions
-   ========================================================= */
-.select { width: 100%; min-height: 48px; padding: 0 40px 0 14px; border: 1.5px solid var(--line-strong); border-radius: 12px; background: var(--card); color: var(--text); font: inherit; font-size: 15.5px; appearance: none; background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%); background-position: calc(100% - 20px) 50%, calc(100% - 14px) 50%; background-size: 6px 6px; background-repeat: no-repeat; }
-.select:focus-visible { outline: none; box-shadow: var(--focus-ring); border-color: var(--primary); }
-.year-row { display: grid; gap: 8px; }
-@media (min-width: 560px) { .year-row { grid-template-columns: minmax(0, 1fr) auto; align-items: center; } }
-.stepbar { height: 6px; margin: 18px 0 10px; border-radius: 999px; background: var(--line); overflow: hidden; }
-.stepbar span { display: block; height: 100%; background: var(--primary); border-radius: inherit; transition: width .25s ease; }
-@media (prefers-reduced-motion: reduce) { .stepbar span { transition: none; } }
-.step-nav { list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
-@media (min-width: 560px) { .step-nav { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
-.step-pill { width: 100%; min-height: 44px; padding: 6px 8px; border: 1.5px solid var(--line); border-radius: 12px; background: var(--card); color: var(--muted); font: inherit; font-size: 13.5px; font-weight: 700; cursor: pointer; }
-.step-pill.is-current { border-color: var(--primary); background: var(--secondary); color: var(--brand-text); }
-.step-pill:focus-visible { outline: none; box-shadow: var(--focus-ring); }
-.step-title { display: flex; flex-direction: column; gap: 2px; margin: 18px 0 14px; font-size: 20px; }
-.step-title:focus { outline: none; }
-.step-count { font-size: 13px; font-weight: 700; color: var(--brand-text); }
-.ded-section + .ded-section { margin-top: 8px; }
-.ded-section .more-toggle span { font-weight: 800; }
-.more-body.plain { padding-top: 8px; }
-.fam-self { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; padding: 14px; border-radius: 14px; background: var(--secondary); margin-bottom: 10px; }
-.fam-self strong { font-weight: 800; }
-.fam-self > span { font-size: 13.5px; color: var(--muted); }
-.check-row.inline { margin: 0 0 0 auto; }
-.fam-card { margin: 0 0 10px; padding: 14px; border: 1.5px solid var(--line); border-radius: 14px; background: var(--card); }
-.fam-card legend { padding: 0 6px; font-weight: 800; font-size: 14.5px; }
-.fam-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; margin-bottom: 8px; }
-.fam-status { margin: 8px 0 4px; font-size: 13.5px; font-weight: 600; }
-.fam-status.is-ok { color: var(--success-text, var(--success)); }
-.fam-status.is-no { color: var(--error-text, #C23B3B); }
-.add-fam { width: 100%; }
-.step-actions { display: flex; gap: 8px; margin-top: 22px; }
-.step-actions .btn-secondary { flex: 0 0 auto; min-height: 52px; }
-.step-actions .submit-btn { flex: 1 1 auto; margin-top: 0; }
-.res-amount.is-refund { color: var(--success-text, var(--success)); }
-.res-amount.is-additional { color: var(--error-text, #C23B3B); }
-
-/* Comprehensive income tax additions */
-.flow-steps li.is-final { background: var(--secondary); }
-.flow-steps li.is-final span, .flow-steps li.is-final strong { font-weight: 800; color: var(--brand-text); }
-.cond-card .more-link { margin-top: 10px; }
-
-/* Acquisition tax additions */
-.seg.cols-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-@media (min-width: 480px) { .seg.cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
-.input-wrap.date input { padding-right: 14px; }
-.pb-rows dd { text-align: right; }
-
-/* Capital gains tax additions */
-.method-card.is-disabled { opacity: .55; cursor: not-allowed; }
-.method-card.is-disabled input { cursor: not-allowed; }
-@media (min-width: 560px) { .step-nav.five { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
-.step-nav.five { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.seg.cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.check-list { list-style: none; display: grid; gap: 6px; margin-top: 6px; }
-.check-list li { display: flex; gap: 8px; align-items: flex-start; font-size: 14.5px; line-height: 1.5; }
-.check-list li > span { flex: 0 0 22px; height: 22px; border-radius: 999px; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 800; }
-.check-list li.is-ok > span { background: var(--success-bg, #E7F6EF); color: var(--success-text, var(--success)); }
-.check-list li.is-no > span { background: var(--error-bg, #FFECEC); color: var(--error-text, #C23B3B); }
-.check-list li.is-q > span { background: var(--secondary); color: var(--brand-text); }
-.fam-grid .field { margin: 0; }
-
-.field-help.center { text-align: center; margin-top: 8px; }
-.inline-fix { margin-left: 8px; min-height: 32px; }
-
-.rate-slider { width: 100%; margin-top: 10px; min-height: 44px; accent-color: var(--primary); }
-.field-help.warn { color: var(--error-text, #C23B3B); }
-
-/* Housing subscription score additions */
-.step-nav.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.score-row + .score-row { margin-top: 14px; }
-.score-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-size: 15px; }
-.score-head strong { font-size: 18px; font-weight: 800; font-variant-numeric: tabular-nums; }
-.score-head small { font-size: 13px; color: var(--muted); font-weight: 600; }
-.why-static { padding: 14px 16px 0; font-weight: 800; font-size: 16px; }
-
-/* DSR additions */
-.dsr-bar { position: relative; margin: 12px 0 4px; }
-.dsr-mark { position: absolute; top: -4px; width: 2px; height: 18px; background: var(--text); }
-.dsr-legend { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; color: var(--muted); margin-top: 8px; font-variant-numeric: tabular-nums; flex-wrap: wrap; }
-.dt-sub { display: block; font-size: 12.5px; color: var(--muted); font-weight: 500; margin-top: 2px; }
-.eq-item small { display: block; font-size: 12.5px; color: var(--muted); }
-
-/* Pyeong additions */
-.py-card { max-width: 720px; margin: 0 auto; background: var(--card); border-radius: 20px; padding: 24px 20px; box-shadow: 0 1px 2px rgba(23,35,60,.04); border: 1px solid var(--line, #E5EAF2); }
-.py-narrow { max-width: 760px; }
-.py-row { display: flex; gap: 12px; align-items: flex-end; margin-top: 18px; }
-.py-input { flex: 1; margin: 0; }
-.input-wrap.xl input { font-size: 30px; font-weight: 800; min-height: 64px; font-variant-numeric: tabular-nums; }
-.py-swap { flex: 0 0 52px; height: 52px; margin-bottom: 6px; border-radius: 14px; border: 1px solid var(--line, #E5EAF2); background: var(--secondary); color: var(--primary); font-size: 22px; font-weight: 800; cursor: pointer; }
-.py-swap:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
-.py-result { margin: 18px 0 14px; padding: 18px; border-radius: 16px; background: var(--secondary); position: relative; min-height: 96px; }
-.py-from { font-size: 15px; color: var(--muted); font-weight: 600; font-variant-numeric: tabular-nums; }
-.py-to { font-size: 40px; font-weight: 800; color: var(--primary); line-height: 1.2; margin-top: 4px; font-variant-numeric: tabular-nums; word-break: break-all; padding-right: 88px; }
-.py-to.is-neutral { color: var(--text); }
-.py-copy { position: absolute; right: 14px; bottom: 14px; min-height: 44px; }
-.section-title { font-size: 22px; font-weight: 800; line-height: 1.35; margin-bottom: 10px; }
-.area-stack { list-style: none; display: grid; gap: 8px; margin-top: 16px; }
-.area-stack li { display: grid; gap: 2px; padding: 14px 16px; border-radius: 14px; background: var(--card); border: 1px solid var(--line, #E5EAF2); }
-.area-stack li strong { font-size: 16px; }
-.area-stack li span { font-size: 14px; color: var(--muted); }
-.py-table { width: 100%; border-collapse: collapse; margin-top: 12px; font-variant-numeric: tabular-nums; }
-.py-table th, .py-table td { text-align: right; padding: 12px 14px; border-bottom: 1px solid var(--line, #E5EAF2); }
-.py-table th { font-size: 14px; color: var(--muted); }
-@media (max-width: 480px) { .py-to { font-size: 32px; } }
-
-/* Work hours additions */
-.mode-seg.wide { max-width: 520px; margin: 0 auto 16px; }
-.py-copy-inline { min-height: 40px; padding: 6px 12px; }
-.day-card { padding-bottom: 10px; }
-.day-list { list-style: none; display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; margin: 12px 0; }
-.day-list li { display: grid; gap: 2px; text-align: center; padding: 8px 4px; border-radius: 12px; background: var(--secondary); font-size: 13px; font-variant-numeric: tabular-nums; }
-.day-list li strong { font-size: 13px; }
-@media (max-width: 520px) { .day-list { grid-template-columns: repeat(4, 1fr); } }
-
-/* Loan repayment additions */
-.ex-badge { display: inline-block; margin-bottom: 12px; }
-.lr-table td, .lr-table th { white-space: nowrap; font-size: 14px; }
-.lr-table tr.is-current th, .lr-table tr.is-current td { background: var(--secondary); font-weight: 700; }
-.lr-legend { display: flex; gap: 14px; font-size: 13px; color: var(--muted); margin: 10px 0 6px; }
-.lr-legend .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
-.sw.p, .lr-p { background: var(--primary); }
-.sw.i, .lr-i { background: repeating-linear-gradient(45deg, var(--secondary), var(--secondary) 3px, #A9BEFF 3px, #A9BEFF 6px); }
-.lr-bars { list-style: none; display: grid; gap: 4px; margin-bottom: 12px; }
-.lr-bars li { display: grid; grid-template-columns: 44px 1fr; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.lr-track { display: flex; height: 12px; border-radius: 6px; overflow: hidden; background: var(--bg); }
-.lr-p, .lr-i { height: 100%; }
-
-/* Unemployment additions */
-details.fam-card summary { cursor: pointer; font-weight: 700; min-height: 44px; display: flex; align-items: center; }
-.sum-item small { display: block; margin-top: 4px; font-size: 12.5px; color: var(--muted); }
-
-/* Child allowance additions */
-.res-state { font-size: 24px; font-weight: 800; margin: 2px 0 14px; }
-.sum-grid.three { grid-template-columns: repeat(3, 1fr); }
-@media (max-width: 480px) { .sum-grid.three { grid-template-columns: 1fr 1fr; } }
-.child-row { display: flex; gap: 8px; align-items: center; }
-.child-row .input-wrap { flex: 1; }
-.child-card { border-top: 1px solid var(--line, #E5EAF2); padding-top: 18px; margin-top: 18px; }
-.al-timeline { list-style: none; display: grid; gap: 0; margin: 8px 0; }
-.al-timeline li { position: relative; padding: 8px 0 14px 22px; display: grid; gap: 2px; font-variant-numeric: tabular-nums; }
-.al-timeline li::before { content: ""; position: absolute; left: 5px; top: 13px; width: 10px; height: 10px; border-radius: 50%; background: var(--card); border: 2px solid var(--primary); }
-.al-timeline li:not(:last-child)::after { content: ""; position: absolute; left: 10px; top: 25px; bottom: -8px; width: 2px; background: var(--secondary); }
-.al-timeline li.is-final::before { background: var(--primary); }
-.al-timeline li span { font-size: 14px; color: var(--muted); }
-
-/* Freelancer additions */
-.eyebrow { font-size: 14px; font-weight: 700; color: var(--primary); margin: 8px 0 -4px; }
-.res-unit { font-size: 18px; color: var(--text); font-weight: 700; }
-.tax-amt { font-size: 20px; }
-.split-bar { display: flex; height: 14px; border-radius: 7px; overflow: hidden; margin: 12px 0 6px; background: var(--bg); }
-.sb-net { background: var(--primary); }
-.sb-tax { background: repeating-linear-gradient(45deg, var(--secondary), var(--secondary) 3px, #A9BEFF 3px, #A9BEFF 6px); }
-.split-legend { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.multi-row { display: grid; grid-template-columns: 1fr 1.4fr auto; gap: 8px; align-items: center; margin-top: 8px; }
-.mini-input { min-height: 44px; border: 1px solid var(--line, #E5EAF2); border-radius: 12px; padding: 0 12px; font: inherit; }
-.mini-input:focus-visible { outline: 3px solid var(--primary); outline-offset: 1px; }
-
 /* 좁은 화면에서 입력 폼이 화면 밖으로 밀려나지 않게 (grid 자식 최소 너비 보정) */
 @media (max-width: 1023px) { .calc-shell { grid-template-columns: minmax(0, 1fr); } }
 .calc-shell > *, .calc-form, .result-col, .method-cards > *, .seg > *, .step-nav > * { min-width: 0; }
@@ -1661,72 +1411,6 @@ details.fam-card summary { cursor: pointer; font-weight: 700; min-height: 44px; 
 .rc-row, .pb-rows > div { gap: 8px; }
 .rc-row dd, .pb-rows dd { min-width: 0; overflow-wrap: anywhere; text-align: right; }
 .btn-secondary { max-width: 100%; white-space: normal; height: auto; min-height: 44px; }
-
-/* Guide / content pages */
-.article-wrap { max-width: 780px; }
-.guide-lead { margin-top: 14px; font-size: 18px; line-height: 1.75; font-weight: 500; }
-.guide-body { margin-top: 8px; }
-.guide-body h2 { font-size: 21px; font-weight: 800; letter-spacing: -.02em; margin: 36px 0 10px; }
-.guide-body p { font-size: 16.5px; line-height: 1.8; color: var(--text); margin-top: 10px; }
-.example-box { margin-top: 32px; padding: 20px; border-radius: var(--r-md, 16px); background: var(--secondary); }
-.example-box h2 { margin: 0 0 6px; font-size: 18px; }
-.example-box .ex-lead { font-size: 15px; color: var(--muted); }
-.example-box dl { margin: 12px 0 0; }
-.example-box .ex-row { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); font-size: 15px; font-variant-numeric: tabular-nums; }
-.example-box .ex-row dt { color: var(--muted); flex: none; max-width: 45%; }
-.example-box .ex-row dd { margin: 0; font-weight: 700; text-align: right; overflow-wrap: anywhere; }
-.example-box .ex-note { margin-top: 10px; font-size: 13.5px; color: var(--muted); }
-.note-list { margin-top: 10px; padding-left: 20px; }
-.note-list li { font-size: 16px; line-height: 1.75; margin-top: 6px; }
-.guide-cta { margin-top: 36px; padding: 22px; border-radius: var(--r-md, 16px); border: 1px solid var(--line); background: var(--card); }
-.guide-cta h2 { margin: 0; font-size: 19px; }
-.guide-cta p { margin-top: 4px; font-size: 15px; color: var(--muted); }
-.guide-cta .btn { margin-top: 14px; }
-.guide-cta ul { list-style: none; margin-top: 12px; display: grid; gap: 8px; }
-.guide-cta .more-calc { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 48px; padding: 0 14px; border-radius: 12px; background: var(--bg); text-decoration: none; font-weight: 600; font-size: 15px; }
-.guide-cta .more-calc svg { color: var(--brand-text); flex: none; }
-.guide-meta { margin-top: 28px; font-size: 14px; color: var(--muted); }
-.cat-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 24px; list-style: none; padding: 0; }
-.cat-tabs a { display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--line); text-decoration: none; font-weight: 600; font-size: 15px; color: var(--muted); }
-.cat-tabs a[aria-current="page"] { background: var(--primary); border-color: var(--primary); color: #fff; }
-.about-body h2 { font-size: 20px; font-weight: 800; margin: 32px 0 8px; }
-.about-body p { font-size: 16.5px; line-height: 1.8; margin-top: 8px; }
-.nf { text-align: center; padding: 72px 0 96px; }
-.nf .big { font-size: 64px; font-weight: 800; color: var(--brand-text); line-height: 1; }
-.nf h1 { margin-top: 16px; font-size: 26px; }
-.nf p { margin-top: 8px; color: var(--muted); }
-.nf-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 24px; }
-.btn-ghost { display: inline-flex; align-items: center; justify-content: center; height: 52px; padding: 0 22px; border-radius: 12px; border: 1px solid var(--line-strong, var(--line)); text-decoration: none; font-weight: 700; color: var(--text); }
-
-/* Guide article v2 (생활정보 20개) */
-.guide-cat { text-decoration: none; }
-.page-head h1 { overflow-wrap: anywhere; word-break: keep-all; }
-.guide-dates { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 10px; font-size: 14px; color: var(--muted); }
-.answer-box { margin-top: 4px; padding: 18px 20px; border-radius: var(--r-md, 16px); background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--primary); }
-.answer-box .guide-lead { margin: 0; font-size: 17.5px; }
-.guide-body { word-break: keep-all; overflow-wrap: anywhere; }
-.key-list { margin-top: 10px; padding-left: 20px; }
-.key-list li { font-size: 16.5px; line-height: 1.75; margin-top: 8px; }
-.key-list li::marker { color: var(--brand-text); }
-.ex-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
-.ex-tag { background: var(--card); color: var(--muted); }
-.example-box .ex-row dt { flex: 0 1 45%; max-width: none; min-width: 0; }
-.example-box .ex-row dd { flex: 1 1 55%; min-width: 0; }
-.faq-item h3 { margin-top: 18px; font-size: 17px; font-weight: 700; }
-.faq-item p { margin-top: 6px; }
-.cta-eyebrow { margin: 0 0 6px !important; font-size: 14px !important; font-weight: 700; color: var(--brand-text) !important; }
-.src-box { margin-top: 32px; }
-.src-lead { margin-top: 8px; font-size: 14px; color: var(--muted); line-height: 1.6; }
-.src-box .source-list { margin-top: 12px; list-style: none; padding: 0; }
-.src-box .basis-head { flex-wrap: wrap; }
-.src-box .basis-head strong { white-space: nowrap; }
-.src-text { display: block; min-width: 0; }
-.src-url { display: block; margin-top: 2px; font-size: 12.5px; color: var(--subtle); overflow-wrap: anywhere; }
-.source-link { min-width: 0; }
-.guide-meta { line-height: 1.7; }
-.guide-cta .btn { max-width: 100%; white-space: normal; height: auto; min-height: 52px; padding-top: 12px; padding-bottom: 12px; text-align: center; line-height: 1.4; }
-.cat-tabs .cnt { margin-left: 6px; font-size: 13px; font-weight: 700; opacity: .8; font-variant-numeric: tabular-nums; }
-@media (max-width: 480px) { .example-box .ex-row { flex-direction: column; gap: 2px; } .example-box .ex-row dt, .example-box .ex-row dd { flex: none; text-align: left; } }
 
 /* MEGA_MENU:BEGIN — 헤더 메가메뉴 (기존 토큰만 사용) */
 .header-inner { position: relative; }
@@ -1781,16 +1465,299 @@ details.fam-card summary { cursor: pointer; font-weight: 700; min-height: 44px; 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3938535658741734" crossorigin="anonymous"></script>
 </head>
 <body>
-<div id="root"><!--prerender:start--><a class="skip-link" href="#main">본문 바로가기</a><header class="site-header"><div class="container header-inner"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><nav class="nav-desktop" aria-label="주요 메뉴"><ul><li class="nav-item nav-item-calc"><button type="button" class="nav-link nav-trigger" aria-expanded="false" aria-controls="mega-calc">계산기<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-calc" class="mega mega-calc" hidden=""><div class="mega-grid"><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-work">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="근로·급여 계산기"><li><a href="/calculators/net-salary" class="mega-link">월급 실수령액</a></li><li><a href="/calculators/weekly-holiday-pay" class="mega-link">주휴수당</a></li><li><a href="/calculators/severance-pay" class="mega-link">퇴직금</a></li><li><a href="/calculators/annual-leave" class="mega-link">연차·연차수당</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-finance">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="금융·생활 계산기"><li><a href="/calculators/loan-interest" class="mega-link">대출이자</a></li><li><a href="/calculators/percentage" class="mega-link">퍼센트</a></li><li><a href="/calculators/compound-interest" class="mega-link">단리·복리 이자</a></li><li><a href="/calculators/deposit-interest" class="mega-link">예금이자</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-realestate">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="부동산 계산기"><li><a href="/calculators/dsr" class="mega-link">DSR</a></li><li><a href="/calculators/brokerage-fee" class="mega-link">중개보수</a></li><li><a href="/calculators/housing-subscription-score" class="mega-link">청약가점</a></li><li><a href="/calculators/rent-conversion" class="mega-link">전월세 환산</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-tax">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="세금 계산기"><li><a href="/calculators/freelancer-withholding" class="mega-link">프리랜서 3.3%</a></li><li><a href="/calculators/vat" class="mega-link">VAT</a></li><li><a href="/calculators/year-end-tax" class="mega-link">연말정산</a></li><li><a href="/calculators/comprehensive-income-tax" class="mega-link">종합소득세</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-parenting">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="육아·복지 계산기"><li><a href="/calculators/unemployment-benefit" class="mega-link">실업급여</a></li><li><a href="/calculators/parental-leave" class="mega-link">육아휴직급여</a></li><li><a href="/calculators/maternity-leave-pay" class="mega-link">출산전후휴가 급여</a></li><li><a href="/calculators/parent-benefit" class="mega-link">부모급여</a></li></ul></div></div><div class="mega-foot"><a href="/calculators" class="mega-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li class="nav-item nav-item-guide"><button type="button" class="nav-link nav-trigger is-current" aria-expanded="false" aria-controls="mega-guide">생활정보<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-guide" class="mega mega-guide" hidden=""><ul class="mega-guide-list"><li><a href="/guide?category=work" class="mega-guide-cat">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/weekly-holiday-pay-15-hours" class="mega-guide-pick">주 15시간 일하면 주휴수당은 얼마일까?</a></li><li><a href="/guide?category=finance" class="mega-guide-cat">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/loan-100m-monthly-interest" class="mega-guide-pick">대출 1억 받으면 한 달 이자는 얼마일까?</a></li><li><a href="/guide?category=realestate" class="mega-guide-cat">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/84sqm-to-pyeong" class="mega-guide-pick">아파트 84㎡는 몇 평일까?</a></li><li><a href="/guide?category=tax" class="mega-guide-cat">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/freelancer-3-3-withholding" class="mega-guide-pick">프리랜서 3.3% 떼면 실제 얼마 받을까?</a></li><li><a href="/guide?category=parenting" class="mega-guide-cat">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/parental-leave-benefit" class="mega-guide-pick">육아휴직하면 매달 얼마 받을 수 있을까?</a></li></ul><div class="mega-foot"><a href="/guide" class="mega-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li><a href="/about" class="nav-link">얼마지 소개</a></li></ul></nav><div class="header-actions"><button type="button" class="icon-btn" aria-label="계산기 검색"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7.5"></circle><path d="m20.5 20.5-4.2-4.2"></path></svg></button><a href="/calculators" class="btn btn-primary btn-sm hide-mobile">전체 계산기</a><button type="button" class="icon-btn show-mobile" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button></div></div><div id="mobile-menu" class="mobile-menu" hidden=""><nav aria-label="모바일 메뉴"><ul><li class="m-group"><button type="button" class="m-link m-trigger" aria-expanded="false" aria-controls="m-sub-calc">계산기<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-calc" class="m-sub" hidden="" aria-label="계산기 카테고리"><li><a href="/calculators#cat-work" class="m-sub-link">근로·급여</a></li><li><a href="/calculators#cat-finance" class="m-sub-link">금융·생활</a></li><li><a href="/calculators#cat-realestate" class="m-sub-link">부동산</a></li><li><a href="/calculators#cat-tax" class="m-sub-link">세금</a></li><li><a href="/calculators#cat-parenting" class="m-sub-link">육아·복지</a></li><li><a href="/calculators" class="m-sub-link is-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li class="m-group"><button type="button" class="m-link m-trigger is-current" aria-expanded="false" aria-controls="m-sub-guide">생활정보<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-guide" class="m-sub" hidden="" aria-label="생활정보 카테고리"><li><a href="/guide?category=work" class="m-sub-link">근로·급여</a></li><li><a href="/guide?category=finance" class="m-sub-link">금융·생활</a></li><li><a href="/guide?category=realestate" class="m-sub-link">부동산</a></li><li><a href="/guide?category=tax" class="m-sub-link">세금</a></li><li><a href="/guide?category=parenting" class="m-sub-link">육아·복지</a></li><li><a href="/guide" class="m-sub-link is-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li><a href="/about" class="m-link">얼마지 소개<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></li></ul></nav><a href="/calculators" class="btn btn-primary btn-block">전체 계산기</a></div></header><main id="main"><nav class="container breadcrumb" aria-label="현재 위치"><ol><li><a href="/">얼마지</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><span aria-current="page">생활정보</span></li></ol></nav><div class="container page-head"><h1>생활정보</h1><p class="page-desc">월급, 세금, 대출, 부동산, 육아·복지까지<br>생활 속에서 헷갈리는 기준을 쉽게 정리했어요.</p></div><section class="container" aria-label="생활정보 목록"><ul class="cat-tabs" aria-label="카테고리"><li><a href="/guide" aria-current="page">전체<span class="cnt">20</span></a></li><li><a href="/guide?category=work">근로·급여<span class="cnt">4</span></a></li><li><a href="/guide?category=finance">금융·생활<span class="cnt">4</span></a></li><li><a href="/guide?category=realestate">부동산<span class="cnt">4</span></a></li><li><a href="/guide?category=tax">세금<span class="cnt">4</span></a></li><li><a href="/guide?category=parenting">육아·복지<span class="cnt">4</span></a></li></ul><ul class="article-grid" style="margin-top: 0px;"><li><a href="/guide/weekly-holiday-pay-15-hours" class="article-card"><span class="article-cat">근로·급여</span><h3>주 15시간 일하면 주휴수당은 얼마일까?</h3><p>주휴수당이 생기는 15시간 기준을 어떻게 보는지, 금액은 어떻게 계산하는지 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/minimum-wage-2027-monthly" class="article-card"><span class="article-cat">근로·급여</span><h3>2027 최저임금으로 월급을 계산하면?</h3><p>2027년 최저임금 시급 10,700원을 일급·월급으로 바꾸면 얼마인지, 실수령액과는 무엇이 다른지 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/severance-pay-eligibility" class="article-card"><span class="article-cat">근로·급여</span><h3>퇴직금은 언제부터 받을 수 있을까?</h3><p>1년 이상 근무, 주 15시간 이상 등 퇴직금을 받기 위한 기본 조건과 계산 방법을 쉽게 풀었어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/night-pay-hours" class="article-card"><span class="article-cat">근로·급여</span><h3>야간수당은 몇 시부터 적용될까?</h3><p>밤 10시부터 오전 6시까지 일하면 붙는 50% 가산과, 연장근로와 겹칠 때의 계산을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/loan-100m-monthly-interest" class="article-card"><span class="article-cat">금융·생활</span><h3>대출 1억 받으면 한 달 이자는 얼마일까?</h3><p>1억원을 빌리면 첫 달 이자는 금리 ÷ 12로 어림할 수 있어요. 금리별 월 이자를 비교해봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/loan-repayment-methods" class="article-card"><span class="article-cat">금융·생활</span><h3>원리금균등·원금균등, 매달 얼마씩 갚을까?</h3><p>같은 대출이라도 상환방식에 따라 매달 내는 돈과 총이자가 달라요. 1억원 예시로 비교했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/monthly-savings-500k" class="article-card"><span class="article-cat">금융·생활</span><h3>적금 월 50만원씩 넣으면 만기 얼마일까?</h3><p>월 50만원 1년 적금의 이자와 세금을 계산했어요. 광고 금리보다 이자가 적은 이유도 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/simple-vs-compound-interest" class="article-card"><span class="article-cat">금융·생활</span><h3>단리와 복리, 실제 이자는 얼마나 차이 날까?</h3><p>단리와 복리는 1년까지는 같고 기간이 길수록 차이가 커져요. 1,000만원 예시로 비교했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/jeonse-to-monthly-rent" class="article-card"><span class="article-cat">부동산</span><h3>전세를 월세로 바꾸면 얼마가 적당할까?</h3><p>보증금을 월세로 바꿀 때 법으로 정한 전환율 상한과, 월세 금액을 계산하는 방법을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/real-estate-brokerage-fee" class="article-card"><span class="article-cat">부동산</span><h3>부동산 중개수수료는 얼마까지 내야 할까?</h3><p>매매·전세·월세별 중개보수 상한요율과 한도, 월세 거래금액 계산법을 예시와 함께 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/84sqm-to-pyeong" class="article-card"><span class="article-cat">부동산</span><h3>아파트 84㎡는 몇 평일까?</h3><p>전용 84㎡는 25.41평이에요. 그런데 흔히 34평이라고 부르는 이유와 ㎡·평 환산법을 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/housing-subscription-score" class="article-card"><span class="article-cat">부동산</span><h3>내 청약가점은 몇 점일까?</h3><p>무주택기간·부양가족·청약통장 기간으로 84점 만점 청약가점을 계산하는 방법을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/freelancer-3-3-withholding" class="article-card"><span class="article-cat">세금</span><h3>프리랜서 3.3% 떼면 실제 얼마 받을까?</h3><p>프리랜서 수입에서 3.3%를 떼면 실제로 얼마를 받는지, 떼인 세금은 어떻게 정산되는지 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/vat-included-excluded" class="article-card"><span class="article-cat">세금</span><h3>부가세 포함·별도 금액은 어떻게 계산할까?</h3><p>견적서의 ‘부가세 별도’와 영수증의 ‘부가세 포함’ 금액을 계산하는 방법을 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/home-acquisition-tax" class="article-card"><span class="article-cat">세금</span><h3>집을 사면 취득세는 얼마나 나올까?</h3><p>집값 구간별 취득세율과 지방교육세·농어촌특별세, 생애최초 감면까지 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/gift-tax-from-parents" class="article-card"><span class="article-cat">세금</span><h3>부모님께 돈을 받으면 증여세는 얼마나 나올까?</h3><p>부모님께 받은 돈의 증여세 공제 한도와 세율, 금액별 예상 세금을 예시로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/parental-leave-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>육아휴직하면 매달 얼마 받을 수 있을까?</h3><p>2026년 육아휴직급여를 기간별 지급률과 상한액으로 계산하고, 1년 총액 예시를 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/maternity-leave-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>출산전후휴가 기간에는 얼마를 받을까?</h3><p>출산전후휴가 90일 동안 회사와 고용보험이 각각 얼마를 주는지, 2026년 상한액으로 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/parent-benefit" class="article-card"><span class="article-cat">육아·복지</span><h3>부모급여는 몇 살까지 얼마 받을까?</h3><p>부모급여는 생후 23개월까지 받아요. 2026년 월 지급액과 어린이집을 다닐 때 받는 금액을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/unemployment-benefit-duration" class="article-card"><span class="article-cat">육아·복지</span><h3>실업급여는 몇 개월 동안 얼마 받을 수 있을까?</h3><p>실업급여를 받는 기간(120~270일)과 2026년 하루 상·하한액으로 받을 금액을 정리했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li></ul><p class="guide-meta">글마다 참고한 공식자료와 확인 날짜를 적고, 관련 계산기로 바로 이어지게 했어요.</p></section><div style="height: 64px;"></div></main><footer class="site-footer"><div class="container"><div class="footer-top"><div class="footer-brand"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><span class="en">ULMAJI</span></div><nav class="footer-nav" aria-label="하단 메뉴"><ul><li><a href="/calculators">계산기</a></li><li><a href="/guide">생활정보</a></li><li><a href="/about">얼마지 소개</a></li><li><a href="/terms">이용약관</a></li><li><a href="/privacy">개인정보처리방침</a></li><li><a href="mailto:heosoyoone@gmail.com">문의</a></li></ul></nav></div><p class="footer-disclaimer">계산 결과는 입력한 정보와 적용 기준에 따른 참고용 정보입니다. 실제 지급액 및 적용 여부는 개인의 조건에 따라 달라질 수 있습니다.</p><p class="footer-copy">© 2026 ULMAJI. ulmaji.kr</p></div></footer><div class="toast" role="status" aria-live="polite"></div><!--prerender:end--></div>
+<div id="root"><!--prerender:start--><a class="skip-link" href="#calculator">계산기로 바로가기</a><header class="site-header"><div class="container header-inner"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><nav class="nav-desktop" aria-label="주요 메뉴"><ul><li class="nav-item nav-item-calc"><button type="button" class="nav-link nav-trigger is-current" aria-expanded="false" aria-controls="mega-calc">계산기<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-calc" class="mega mega-calc" hidden=""><div class="mega-grid"><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-work">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="근로·급여 계산기"><li><a href="/calculators/net-salary" class="mega-link">월급 실수령액</a></li><li><a href="/calculators/weekly-holiday-pay" class="mega-link">주휴수당</a></li><li><a href="/calculators/severance-pay" class="mega-link">퇴직금</a></li><li><a href="/calculators/annual-leave" class="mega-link">연차·연차수당</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-finance">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="금융·생활 계산기"><li><a href="/calculators/loan-interest" class="mega-link">대출이자</a></li><li><a href="/calculators/percentage" class="mega-link">퍼센트</a></li><li><a href="/calculators/compound-interest" class="mega-link">단리·복리 이자</a></li><li><a href="/calculators/deposit-interest" class="mega-link">예금이자</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-realestate">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="부동산 계산기"><li><a href="/calculators/dsr" class="mega-link">DSR</a></li><li><a href="/calculators/brokerage-fee" class="mega-link">중개보수</a></li><li><a href="/calculators/housing-subscription-score" class="mega-link">청약가점</a></li><li><a href="/calculators/rent-conversion" class="mega-link">전월세 환산</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-tax">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="세금 계산기"><li><a href="/calculators/freelancer-withholding" class="mega-link">프리랜서 3.3%</a></li><li><a href="/calculators/vat" class="mega-link">VAT</a></li><li><a href="/calculators/year-end-tax" class="mega-link">연말정산</a></li><li><a href="/calculators/comprehensive-income-tax" class="mega-link">종합소득세</a></li></ul></div><div class="mega-col"><p class="mega-cat"><a href="/calculators#cat-parenting">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></p><ul aria-label="육아·복지 계산기"><li><a href="/calculators/unemployment-benefit" class="mega-link">실업급여</a></li><li><a href="/calculators/parental-leave" class="mega-link">육아휴직급여</a></li><li><a href="/calculators/maternity-leave-pay" class="mega-link">출산전후휴가 급여</a></li><li><a href="/calculators/parent-benefit" class="mega-link">부모급여</a></li></ul></div></div><div class="mega-foot"><a href="/calculators" class="mega-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li class="nav-item nav-item-guide"><button type="button" class="nav-link nav-trigger" aria-expanded="false" aria-controls="mega-guide">생활정보<svg class="nav-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="mega-guide" class="mega mega-guide" hidden=""><ul class="mega-guide-list"><li><a href="/guide?category=work" class="mega-guide-cat">근로·급여<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/weekly-holiday-pay-15-hours" class="mega-guide-pick">주 15시간 일하면 주휴수당은 얼마일까?</a></li><li><a href="/guide?category=finance" class="mega-guide-cat">금융·생활<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/loan-100m-monthly-interest" class="mega-guide-pick">대출 1억 받으면 한 달 이자는 얼마일까?</a></li><li><a href="/guide?category=realestate" class="mega-guide-cat">부동산<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/84sqm-to-pyeong" class="mega-guide-pick">아파트 84㎡는 몇 평일까?</a></li><li><a href="/guide?category=tax" class="mega-guide-cat">세금<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/freelancer-3-3-withholding" class="mega-guide-pick">프리랜서 3.3% 떼면 실제 얼마 받을까?</a></li><li><a href="/guide?category=parenting" class="mega-guide-cat">육아·복지<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a><a href="/guide/parental-leave-benefit" class="mega-guide-pick">육아휴직하면 매달 얼마 받을 수 있을까?</a></li></ul><div class="mega-foot"><a href="/guide" class="mega-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div></div></li><li><a href="/about" class="nav-link">얼마지 소개</a></li></ul></nav><div class="header-actions"><button type="button" class="icon-btn" aria-label="계산기 검색"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7.5"></circle><path d="m20.5 20.5-4.2-4.2"></path></svg></button><a href="/calculators" class="btn btn-primary btn-sm hide-mobile">전체 계산기</a><button type="button" class="icon-btn show-mobile" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button></div></div><div id="mobile-menu" class="mobile-menu" hidden=""><nav aria-label="모바일 메뉴"><ul><li class="m-group"><button type="button" class="m-link m-trigger is-current" aria-expanded="false" aria-controls="m-sub-calc">계산기<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-calc" class="m-sub" hidden="" aria-label="계산기 카테고리"><li><a href="/calculators#cat-work" class="m-sub-link">근로·급여</a></li><li><a href="/calculators#cat-finance" class="m-sub-link">금융·생활</a></li><li><a href="/calculators#cat-realestate" class="m-sub-link">부동산</a></li><li><a href="/calculators#cat-tax" class="m-sub-link">세금</a></li><li><a href="/calculators#cat-parenting" class="m-sub-link">육아·복지</a></li><li><a href="/calculators" class="m-sub-link is-all">전체 계산기 보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li class="m-group"><button type="button" class="m-link m-trigger" aria-expanded="false" aria-controls="m-sub-guide">생활정보<svg class="m-chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><ul id="m-sub-guide" class="m-sub" hidden="" aria-label="생활정보 카테고리"><li><a href="/guide?category=work" class="m-sub-link">근로·급여</a></li><li><a href="/guide?category=finance" class="m-sub-link">금융·생활</a></li><li><a href="/guide?category=realestate" class="m-sub-link">부동산</a></li><li><a href="/guide?category=tax" class="m-sub-link">세금</a></li><li><a href="/guide?category=parenting" class="m-sub-link">육아·복지</a></li><li><a href="/guide" class="m-sub-link is-all">생활정보 전체보기<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></li></ul></li><li><a href="/about" class="m-link">얼마지 소개<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></a></li></ul></nav><a href="/calculators" class="btn btn-primary btn-block">전체 계산기</a></div></header><main id="main"><nav class="container breadcrumb" aria-label="현재 위치"><ol><li><a href="/">홈</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><a href="/calculators">계산기</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><a href="/calculators#cat-finance">금융·생활</a></li><li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg><span aria-current="page">예금이자 계산기</span></li></ol></nav><div class="container page-head"><span class="badge badge-brand">금융·생활</span><h1>예금이자 계산기</h1><p class="page-desc">예치금액과 금리, 기간을 입력하면<br>세금까지 반영한 예상 이자와 만기금액을 계산해드려요.</p><p class="page-meta"><span>세전·세후 이자와 실제 예상 수령액을 한 번에 확인하세요</span><span class="meta-sep" aria-hidden="true"></span><a href="#basis">최종 업데이트 2026.09.24<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5.5M12 7.8h.01"></path></svg><span class="sr-only">, 계산 기준 보기</span></a></p></div><section class="calc-section" id="calculator" aria-label="예금이자 계산기"><div class="container"><div class="calc-shell"><form class="calc-form" novalidate="" aria-labelledby="form-title"><h2 id="form-title" class="form-title">예금 조건을 입력해주세요</h2><div class="seg mode-seg" role="radiogroup" aria-label="계산 방식"><label class="seg-option"><input type="radio" name="mode" checked=""><span>만기금액 계산</span></label><label class="seg-option"><input type="radio" name="mode"><span>목표이자 맞추기</span></label></div><div class="field"><label class="field-label" for="amount">얼마를 예금할까요?<span class="sr-only"> (원)</span></label><div class="input-wrap"><input id="amount" type="text" inputmode="numeric" autocomplete="off" placeholder="예: 10,000,000" aria-invalid="false" aria-describedby="amount-help" value=""><span class="input-suffix" aria-hidden="true">원</span></div><p id="amount-help" class="field-help korean-amount" aria-live="polite">금액을 입력하면 한글로 읽어드려요.</p><ul class="quick-amounts" aria-label="금액 빠르게 넣기"><li><button type="button" class="chip" aria-pressed="false">100만원</button></li><li><button type="button" class="chip" aria-pressed="false">500만원</button></li><li><button type="button" class="chip" aria-pressed="false">1천만원</button></li><li><button type="button" class="chip" aria-pressed="false">3천만원</button></li><li><button type="button" class="chip" aria-pressed="false">5천만원</button></li><li><button type="button" class="chip" aria-pressed="false">1억원</button></li></ul></div><div class="field"><label class="field-label" for="rate">예금 금리는 몇 %인가요?</label><div class="input-wrap"><input id="rate" type="text" inputmode="decimal" autocomplete="off" placeholder="예: 4.00" aria-invalid="false" aria-describedby="rate-help" value=""><span class="input-suffix" aria-hidden="true">%</span></div><p id="rate-help" class="field-help">예금 상품에 표시된 연 금리를 입력해주세요. 우대금리가 적용된다면 우대금리까지 포함한 예상 금리를 입력해주세요.</p></div><div class="field"><label class="field-label" for="period">얼마 동안 맡길까요?</label><div class="period-row"><div class="input-wrap"><input id="period" type="text" inputmode="numeric" autocomplete="off" placeholder="12" aria-invalid="false" value="12"></div><div class="seg cols-3 unit-seg" role="radiogroup" aria-label="기간 단위"><label class="seg-option"><input type="radio" name="unit"><span>일</span></label><label class="seg-option"><input type="radio" name="unit" checked=""><span>개월</span></label><label class="seg-option"><input type="radio" name="unit"><span>년</span></label></div></div><ul class="quick-amounts" aria-label="기간 빠르게 선택"><li><button type="button" class="chip" aria-pressed="false">1개월</button></li><li><button type="button" class="chip" aria-pressed="false">3개월</button></li><li><button type="button" class="chip" aria-pressed="false">6개월</button></li><li><button type="button" class="chip" aria-pressed="true">12개월</button></li><li><button type="button" class="chip" aria-pressed="false">24개월</button></li><li><button type="button" class="chip" aria-pressed="false">36개월</button></li></ul></div><fieldset class="field"><legend class="field-label">이자는 어떻게 계산할까요?</legend><div class="method-cards"><label class="method-card"><input type="radio" name="method" checked=""><span><strong>단리</strong><small>처음 맡긴 원금에 이자가 붙어요.</small></span></label><label class="method-card"><input type="radio" name="method"><span><strong>복리</strong><small>붙은 이자에도 다시 이자가 붙어요.</small></span></label></div></fieldset><fieldset class="field"><legend class="field-label">이자 세금은 어떻게 계산할까요?</legend><div class="method-cards three"><label class="method-card"><input type="radio" name="tax" checked=""><span><strong>일반과세</strong><small>일반적인 이자 과세 기준으로 계산해요. (15.40%)</small></span></label><label class="method-card"><input type="radio" name="tax"><span><strong>비과세</strong><small>이자에 세금을 적용하지 않고 계산해요.</small></span></label><label class="method-card"><input type="radio" name="tax"><span><strong>직접 입력</strong><small>적용할 세율을 직접 입력해요.</small></span></label></div></fieldset><div class="more-settings"><button type="button" class="more-toggle" aria-expanded="false" aria-controls="more-body"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"></path><circle cx="15" cy="7" r="2"></circle><circle cx="9" cy="17" r="2"></circle></svg>추가 설정</span><small>일 단위 계산 기준</small><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button><div id="more-body" class="more-body" hidden=""><div class="explain-box"><strong>일 단위 계산 기준</strong><p>기간을 '일'로 입력하면 1년 = 365일 (윤년·실제 경과일수 미반영)으로 계산해요. 실제 금융기관은 366일이나 실제 경과일수를 쓰기도 해서 차이가 있을 수 있어요.</p><strong>기본 가정</strong><p>만기까지 정상적으로 유지하고, 추가 입금이나 중도해지는 없다고 가정해요.</p></div></div></div><button type="submit" class="btn btn-primary submit-btn">예금이자 계산하기</button></form><div class="result-col"><div class="result-panel"><p class="sr-only" aria-live="polite"></p><div class="result-empty"><span class="big-q" aria-hidden="true">?</span><h2 class="sr-only">계산 결과</h2><p>예금 조건을 입력하면<br>만기에 얼마를 받을 수 있는지 알려드릴게요.</p></div></div></div></div></div></section><section class="section tight-top" aria-labelledby="related-title"><div class="container"><div class="section-head"><div><h2 id="related-title">이어서 계산해볼까요?</h2></div><a href="/calculators" class="more-link">전체 계산기 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div><ul class="calc-grid"><li><a href="/calculators/savings-interest" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18.5 5.5 5.5 18.5"></path><circle cx="7" cy="7" r="2.5"></circle><circle cx="17" cy="17" r="2.5"></circle></svg></span><div class="calc-text"><h3>적금이자 계산기</h3><p>매달 저축하면 만기에 얼마를 받을 수 있는지 계산해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li><li><a href="/calculators/compound-interest" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18.5 5.5 5.5 18.5"></path><circle cx="7" cy="7" r="2.5"></circle><circle cx="17" cy="17" r="2.5"></circle></svg></span><div class="calc-text"><h3>단리·복리 이자 계산기</h3><p>같은 돈이 단리와 복리로 얼마나 달라지는지 계산해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li><li><a href="/calculators/loan-interest" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18.5 5.5 5.5 18.5"></path><circle cx="7" cy="7" r="2.5"></circle><circle cx="17" cy="17" r="2.5"></circle></svg></span><div class="calc-text"><h3>대출이자 계산기</h3><p>돈을 빌렸을 때 월 상환액과 총 이자를 계산해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li><li><a href="/calculators/percentage" class="calc-card"><span class="icon-box"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18.5 5.5 5.5 18.5"></path><circle cx="7" cy="7" r="2.5"></circle><circle cx="17" cy="17" r="2.5"></circle></svg></span><div class="calc-text"><h3>퍼센트 계산기</h3><p>금액의 몇 %인지, 몇 %가 얼마인지 간단하게 계산해보세요.</p></div><span class="card-arrow" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a></li></ul></div></section><section class="section band" id="guide" aria-label="예금이자 안내"><div class="container"><div class="content-block"><h2>예금이자는 어떻게 계산하나요?</h2><div class="prose"><p>예금은 목돈을 한 번에 맡기기 때문에 예치한 원금 전체를 기준으로 이자가 계산돼요.</p><p>단리라면 원금 × 연 금리 × 맡긴 기간이에요. 1,000만원을 연 4%로 1년 맡기면 세전 이자는 400,000원이고, 세금을 떼면 338,400원을 받아요.</p></div></div><div class="content-block"><h2>예금 금리가 4%면 실제로 얼마를 받을까요?</h2><div class="prose"><p>금리는 1년 기준이라, 맡긴 기간이 짧으면 그만큼 줄어요. 1,000만원을 연 4%로 6개월 맡기면 세전 이자는 1년의 절반인 200,000원이에요.</p><p>여기서 일반과세라면 15.40%를 떼고 169,200원을 받아요. 그래서 '금리 몇 %'보다 '실제로 얼마'를 보는 게 중요해요.</p></div></div><div class="content-block"><h2>예금과 적금은 뭐가 다른가요?</h2><div class="cond-grid"><article class="cond-card"><h3>예금</h3><p class="card-text">목돈을 한 번에 맡기는 방식이에요. 맡긴 돈 전체가 처음부터 만기까지 이자를 받아요.</p></article><article class="cond-card"><h3>적금</h3><p class="card-text">매달 일정 금액을 나눠 넣는 방식이에요. 넣는 시점마다 이자를 받는 기간이 달라요.</p></article></div></div><div class="content-block"><h2>세전 이자와 세후 이자는 뭐가 다른가요?</h2><div class="prose"><p>이자에는 세금이 붙어서, 은행은 세금을 먼저 떼고 이자를 줘요. 일반과세라면 이자소득세 14%와 지방소득세 1.4%, 합계 15.40%를 떼요. 비과세 상품은 세금 없이 받아요.</p></div></div><div class="content-block"><h2>단리와 복리는 뭐가 다른가요?</h2><div class="cond-grid"><article class="cond-card"><h3>단리</h3><p class="card-text">처음 맡긴 원금에만 이자가 붙어요. 기간이 같으면 매년 같은 이자가 계산돼요.</p></article><article class="cond-card"><h3>복리</h3><p class="card-text">붙은 이자가 원금에 더해져 다음 이자 계산에 포함돼요. 기간이 길수록 차이가 커져요.</p></article></div></div><div class="content-block"><h2>예시로 바로 계산해보세요</h2><p class="section-desc">연 4% 단리, 일반과세 기준이에요. 예시 금리는 계산을 위한 가정이며 현재 은행 금리를 뜻하지 않아요.</p><ul class="example-grid cols-4"><li><article class="example-card"><h3>1,000만원을 1년 예금하면?</h3><p class="example-meta">세후 이자 338,400원</p><div class="example-result"><span>예상 만기 수령액</span><strong>10,338,400원</strong><small>세전 이자 400,000원</small></div><div class="example-actions"><button type="button" class="btn-secondary">이 조건으로 계산하기</button></div></article></li><li><article class="example-card"><h3>3,000만원을 2년 예금하면?</h3><p class="example-meta">세후 이자 2,030,400원</p><div class="example-result"><span>예상 만기 수령액</span><strong>32,030,400원</strong><small>세전 이자 2,400,000원</small></div><div class="example-actions"><button type="button" class="btn-secondary">이 조건으로 계산하기</button></div></article></li><li><article class="example-card"><h3>5,000만원을 1년 예금하면?</h3><p class="example-meta">세후 이자 1,692,000원</p><div class="example-result"><span>예상 만기 수령액</span><strong>51,692,000원</strong><small>세전 이자 2,000,000원</small></div><div class="example-actions"><button type="button" class="btn-secondary">이 조건으로 계산하기</button></div></article></li><li><article class="example-card"><h3>1억원을 1년 예금하면?</h3><p class="example-meta">세후 이자 3,384,000원</p><div class="example-result"><span>예상 만기 수령액</span><strong>103,384,000원</strong><small>세전 이자 4,000,000원</small></div><div class="example-actions"><button type="button" class="btn-secondary">이 조건으로 계산하기</button></div></article></li></ul></div></div></section><section class="section" id="faq" aria-labelledby="faq-title"><div class="container"><div class="section-head"><div><h2 id="faq-title">자주 묻는 질문</h2></div></div><ul class="faq-list"><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q1" class="faq-toggle" aria-expanded="true" aria-controls="faq-panel-q1">예금이자는 어떻게 계산하나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q1" role="region" aria-labelledby="faq-btn-q1" class="faq-a"><p>예금은 목돈을 한 번에 맡기기 때문에 맡긴 원금 전체에 연 금리를 적용하고, 맡긴 기간만큼 비례해서 계산해요. 단리라면 원금 × 연 금리 × 기간(년)이에요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q2" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q2">예금 금리가 4%면 실제로 4%를 받나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q2" role="region" aria-labelledby="faq-btn-q2" class="faq-a" hidden=""><p>1년 동안 맡기면 세전 기준으로 원금의 4%를 받아요. 다만 세금을 떼면 줄어들어요. 1,000만원을 연 4%로 1년 맡기면 세전 이자 400,000원, 일반과세 기준 세후 이자는 338,400원이에요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q3" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q3">예금과 적금은 뭐가 다른가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q3" role="region" aria-labelledby="faq-btn-q3" class="faq-a" hidden=""><p>예금은 목돈을 한 번에 맡기고, 적금은 매달 일정 금액을 나눠 넣어요. 예금은 맡긴 돈 전체가 처음부터 이자를 받지만, 적금은 넣는 시점마다 이자를 받는 기간이 달라요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q4" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q4">세전 이자와 세후 이자는 왜 다른가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q4" role="region" aria-labelledby="faq-btn-q4" class="faq-a" hidden=""><p>이자에 세금이 붙기 때문이에요. 은행이 이자를 줄 때 세금을 먼저 떼고 주므로 실제로 받는 돈은 세후 이자예요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q5" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q5">예금 이자에도 세금이 붙나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q5" role="region" aria-labelledby="faq-btn-q5" class="faq-a" hidden=""><p>네. 일반과세라면 이자소득세 14%와 지방소득세 1.4%, 합계 15.40%가 원천징수돼요. 비과세나 세금우대 상품은 세율이 다를 수 있어요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q6" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q6">비과세를 선택하면 어떻게 계산되나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q6" role="region" aria-labelledby="faq-btn-q6" class="faq-a" hidden=""><p>세금 없이 계산해서 세전 이자와 세후 이자가 같아져요. 가입한 상품이 실제로 비과세 요건을 충족하는지는 금융회사에 확인해주세요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q7" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q7">단리와 복리는 뭐가 다른가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q7" role="region" aria-labelledby="faq-btn-q7" class="faq-a" hidden=""><p>단리는 처음 맡긴 원금에만 이자가 붙어요. 복리는 붙은 이자가 원금에 더해져 다음 이자 계산에 포함돼요. 기간이 짧으면 차이가 작고, 길수록 커져요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q8" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q8">예금기간이 6개월이면 연 금리는 어떻게 계산하나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q8" role="region" aria-labelledby="faq-btn-q8" class="faq-a" hidden=""><p>연 금리를 기간만큼 나눠 적용해요. 6개월이면 연 금리의 절반이에요. 1,000만원을 연 4%로 6개월 맡기면 세전 이자는 200,000원이에요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q9" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q9">우대금리는 어떻게 입력하나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q9" role="region" aria-labelledby="faq-btn-q9" class="faq-a" hidden=""><p>우대금리가 적용된다면 우대금리까지 포함한 예상 금리를 입력해주세요. 얼마지는 은행별 우대 조건을 자동으로 판단하지 않아요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q10" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q10">중도해지하면 이자는 어떻게 되나요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q10" role="region" aria-labelledby="faq-btn-q10" class="faq-a" hidden=""><p>대부분 약정 금리보다 낮은 중도해지 금리가 적용돼요. 상품마다 기준이 크게 달라서 이 계산기는 만기까지 유지하는 경우만 계산해요.</p></div></li><li class="faq-item"><h3 class="faq-q"><button type="button" id="faq-btn-q11" class="faq-toggle" aria-expanded="false" aria-controls="faq-panel-q11">예금이자 계산기 결과와 은행 예상금액이 다른 이유는 무엇인가요?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"></path></svg></button></h3><div id="faq-panel-q11" role="region" aria-labelledby="faq-btn-q11" class="faq-a" hidden=""><p>은행은 실제 예치일과 만기일, 일수 계산, 윤년, 이자 지급방식, 우대금리, 세금 처리 등을 반영해요. 이 계산기는 입력한 조건으로 계산한 예상값이에요.</p></div></li></ul></div></section><section class="section band" id="basis" aria-labelledby="basis-title"><div class="container"><div class="trust-grid"><div><h2 id="basis-title">어떤 기준으로 계산하나요?</h2><p class="section-desc">얼마지 예금이자 계산기는 특정 은행이나 예금상품을 추천하지 않는 계산 도구예요. 입력한 조건으로 계산한 객관적인 결과와 차이만 보여드려요.</p><div class="notice-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5.5M12 7.8h.01"></path></svg><div><strong>계산 결과를 확인해주세요</strong><p>실제 결과는 예치일과 만기일, 일수 계산, 윤년, 이자 지급방식, 우대금리, 세금, 비과세 요건, 원 단위 처리, 중도해지 등에 따라 달라질 수 있습니다.</p></div></div></div><div class="basis-card"><div class="basis-head"><strong>예금이자 계산 기준</strong><span class="badge badge-brand">기본 계산 가정</span></div><dl><div class="basis-row"><dt>예치 방식</dt><dd>목돈 일시 예치</dd></div><div class="basis-row"><dt>금리</dt><dd>사용자가 입력한 연 이자율</dd></div><div class="basis-row"><dt>기간</dt><dd>일 / 개월 / 년 (1년 = 365일 (윤년·실제 경과일수 미반영))</dd></div><div class="basis-row"><dt>이자 방식</dt><dd>단리 / 복리 (매년·매월·매일)</dd></div><div class="basis-row"><dt>과세조건</dt><dd>사용자가 선택한 기준 (일반과세 15.40%, 비과세, 직접 입력)</dd></div><div class="basis-row"><dt>기본 가정</dt><dd><ul class="plain-list"><li>입력 금리가 만기까지 동일</li><li>중도해지 없음, 추가 입금 없음</li><li>상품별 특별조건 미반영</li><li>세전 이자는 원 미만, 세금은 10원 미만 절사</li></ul></dd></div><div class="basis-row"><dt>세율 출처</dt><dd><ul class="source-list"><li><a class="source-link" href="https://www.nts.go.kr" target="_blank" rel="noopener noreferrer"><span><span class="src-name">국세청</span><span class="src-desc">이자소득 원천징수 안내</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-8.5 8.5"></path><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"></path></svg><span class="sr-only">(새 탭에서 열림)</span></a></li><li><a class="source-link" href="https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95" target="_blank" rel="noopener noreferrer"><span><span class="src-name">국가법령정보센터</span><span class="src-desc">소득세법 제129조 (원천징수세율)</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-8.5 8.5"></path><path d="M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"></path></svg><span class="sr-only">(새 탭에서 열림)</span></a></li></ul></dd></div><div class="basis-row"><dt>마지막 업데이트</dt><dd><time datetime="2026-09-24">2026.09.24</time></dd></div></dl></div></div></div></section><section class="section" aria-labelledby="articles-title"><div class="container"><div class="section-head"><div><h2 id="articles-title">같이 보면 좋은 생활정보</h2></div><a href="/guide" class="more-link">생활정보 전체보기 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div><ul class="article-grid"><li><a href="/guide/monthly-savings-500k" class="article-card"><span class="article-cat">금융·생활</span><h3>적금 월 50만원씩 넣으면 만기 얼마일까?</h3><p>월 50만원 1년 적금의 이자와 세금을 계산했어요. 광고 금리보다 이자가 적은 이유도 알아봐요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li><li><a href="/guide/simple-vs-compound-interest" class="article-card"><span class="article-cat">금융·생활</span><h3>단리와 복리, 실제 이자는 얼마나 차이 날까?</h3><p>단리와 복리는 1년까지는 같고 기간이 길수록 차이가 커져요. 1,000만원 예시로 비교했어요.</p><time class="article-date" datetime="2026-09-25">2026.09.25 업데이트</time></a></li></ul></div></section></main><footer class="site-footer"><div class="container"><div class="footer-top"><div class="footer-brand"><a href="/" class="logo" aria-label="얼마지 홈">얼마지<span class="q">?</span></a><span class="en">ULMAJI</span></div><nav class="footer-nav" aria-label="하단 메뉴"><ul><li><a href="/calculators">계산기</a></li><li><a href="/guide">생활정보</a></li><li><a href="/about">얼마지 소개</a></li><li><a href="/terms">이용약관</a></li><li><a href="/privacy">개인정보처리방침</a></li><li><a href="mailto:heosoyoone@gmail.com">문의</a></li></ul></nav></div><p class="footer-disclaimer">계산 결과는 입력한 정보와 적용 기준에 따른 참고용 정보입니다. 실제 지급액 및 적용 여부는 개인의 조건에 따라 달라질 수 있습니다.</p><p class="footer-copy">© 2026 ULMAJI. ulmaji.kr</p></div></footer><div class="toast" role="status" aria-live="polite"></div><!--prerender:end--></div>
 <noscript><p style="max-width:720px;margin:16px auto;padding:0 20px;font-family:sans-serif;font-size:15px">계산 기능을 쓰려면 브라우저에서 JavaScript를 켜주세요.</p></noscript>
 <script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.24.7/babel.min.js"></script>
 <script type="text/babel" data-presets="react">
 const { useState, useRef, useEffect, useMemo } = React;
+
+/* =========================================================
+   1. Site / Page config
+   ========================================================= */
 const SITE = { name: "얼마지?", en: "ULMAJI", origin: "https://ulmaji.kr" };
+const PAGE = {
+  path: "/calculators/deposit-interest",
+  title: "예금이자 계산기",
+  category: { name: "금융·생활", href: "/calculators#cat-finance" },
+  updatedAt: "2026.09.24",
+};
 const SHOW_AD_PLACEHOLDERS = new URLSearchParams(window.location.search).get("ads") === "preview";
-const NAV = [ { label: "계산기", href: "/#popular" }, { label: "생활정보", href: "/guide" }, { label: "얼마지 소개", href: "/about" } ];
+
+/* =========================================================
+   2. Interest Tax Config
+   ========================================================= */
+const INTEREST_TAX_CONFIG = {
+  effectiveFrom: "2026-01-01",
+  effectiveTo: null,
+  // 일반과세: 이자소득세 14% (소득세법 제129조) + 지방소득세(소득세의 10%) = 15.4%
+  standardTaxRate: 0.154,
+  taxComponents: [
+    { name: "이자소득세", rate: 0.14, base: "interest" },
+    { name: "지방소득세", rate: 0.1, base: "previous" },
+  ],
+  taxExemptOption: { label: "비과세", rate: 0 },
+  // TODO: 현재 이자소득 과세 기준 공식 검증 필요 (금융회사별 원천징수 원 단위 처리)
+  roundingRule: { unit: 10, method: "floor" },
+  officialSources: [
+    { name: "국세청", desc: "이자소득 원천징수 안내", url: "https://www.nts.go.kr" },
+    { name: "국가법령정보센터", desc: "소득세법 제129조 (원천징수세율)", url: "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95" },
+  ],
+  updatedAt: "2026.09.24",
+};
+
+/* =========================================================
+   3. Deposit Interest Config
+   ========================================================= */
+const DEPOSIT_INTEREST_CONFIG = {
+  defaultInterestMethod: "simple",
+  supportedInterestMethods: {
+    simple: { label: "단리", desc: "처음 맡긴 원금에 이자가 붙어요." },
+    compound: { label: "복리", desc: "붙은 이자에도 다시 이자가 붙어요." },
+  },
+  compoundingPeriods: {
+    year: { label: "매년", n: 1 },
+    month: { label: "매월", n: 12 },
+    day: { label: "매일", n: 365 },
+  },
+  defaultCompounding: "month",
+  dayCountConvention: { daysInYear: 365, text: "1년 = 365일 (윤년·실제 경과일수 미반영)" },
+  periodConversionRules: {
+    day: { label: "일", perYear: 365, max: 3650 },
+    month: { label: "개월", perYear: 12, max: 120 },
+    year: { label: "년", perYear: 1, max: 10 },
+  },
+  // 복리 기간이 주기로 나누어떨어지지 않으면 남은 기간은 단리로 계산
+  fractionalCompounding: "simpleForRemainder",
+  // 세전 이자는 원 미만 절사, 세금은 10원 미만 절사
+  roundingRule: { interest: "floor" },
+  limits: { maxPrincipal: 1e13, maxRate: 100, maxTarget: 1e12 },
+  taxConfig: INTEREST_TAX_CONFIG,
+  updatedAt: "2026.09.24",
+};
+
+/* =========================================================
+   4. Input Parser / Currency Formatter / Period Converter
+   ========================================================= */
+const safeNum = (v) => (Number.isFinite(v) ? v : 0);
+const roundWon = (v) => { const r = Math.round(safeNum(v)); return Object.is(r, -0) ? 0 : r; };
+const floorWon = (v) => { const r = Math.floor(safeNum(v) + 1e-7); return Object.is(r, -0) ? 0 : r; };
+const formatNumber = (n) => roundWon(n).toLocaleString("ko-KR");
+const won = (n) => formatNumber(n) + "원";
+const parseNumber = (s) => { const d = String(s).replace(/[^\d]/g, ""); return d ? Number(d) : NaN; };
+const parseDecimal = (s) => { if (s == null || String(s).trim() === "" || s === ".") return NaN; const n = Number(s); return Number.isFinite(n) ? n : NaN; };
+const formatMoneyInput = (v, maxDigits = 14) => {
+  const d = v.replace(/[^\d]/g, "").replace(/^0+(?=\d)/, "").slice(0, maxDigits);
+  return d ? Number(d).toLocaleString("ko-KR") : "";
+};
+function sanitizeRate(v) {
+  let s = v.replace(/[^\d.]/g, "");
+  const i = s.indexOf(".");
+  if (i !== -1) s = s.slice(0, i + 1) + s.slice(i + 1).replace(/\./g, "");
+  const [a, b] = s.split(".");
+  return b !== undefined ? a.slice(0, 3) + "." + b.slice(0, 3) : a.slice(0, 3);
+}
+const rateText = (r) => `${Number(r.toFixed(3)).toLocaleString("ko-KR", { minimumFractionDigits: 2, maximumFractionDigits: 3 })}%`;
+function toKoreanAmount(n) {
+  n = roundWon(n);
+  if (n === 0) return "0원";
+  const units = [{ v: 1e12, l: "조" }, { v: 1e8, l: "억" }, { v: 1e4, l: "만" }];
+  let rest = n; const parts = [];
+  units.forEach((u) => { const q = Math.floor(rest / u.v); if (q > 0) { parts.push(`${q.toLocaleString("ko-KR")}${u.l}`); rest -= q * u.v; } });
+  if (rest > 0) parts.push(rest.toLocaleString("ko-KR"));
+  return parts.join(" ") + "원";
+}
+const toYears = (value, unit, cfg = DEPOSIT_INTEREST_CONFIG) => value / cfg.periodConversionRules[unit].perYear;
+const periodText = (value, unit, cfg = DEPOSIT_INTEREST_CONFIG) => `${Number(value).toLocaleString("ko-KR")}${cfg.periodConversionRules[unit].label}`;
+
+/* =========================================================
+   5. Simple / Compound Interest Calculator
+   ========================================================= */
+function calculateSimpleDepositInterest(principal, annualRate, years) {
+  return principal * (annualRate / 100) * years;
+}
+
+function calculateCompoundDepositInterest(principal, annualRate, years, frequency, cfg = DEPOSIT_INTEREST_CONFIG) {
+  const n = cfg.compoundingPeriods[frequency].n;
+  const i = annualRate / 100 / n;
+  const periods = years * n;
+  const whole = Math.floor(periods + 1e-9);
+  const remainder = Math.max(0, periods - whole);
+  const total = principal * Math.pow(1 + i, whole) * (1 + i * remainder);
+  return total - principal;
+}
+
+/* =========================================================
+   6. Tax Calculator
+   ========================================================= */
+function calculateDepositTax(interest, taxMode, customRate, cfg = INTEREST_TAX_CONFIG) {
+  const { unit } = cfg.roundingRule;
+  const down = (v) => Math.max(0, Math.floor(safeNum(v) / unit) * unit);
+  if (taxMode === "exempt") return { tax: 0, components: [], label: cfg.taxExemptOption.label, rate: 0 };
+  if (taxMode === "custom") {
+    const amount = down(interest * (customRate / 100));
+    return { tax: amount, components: [{ name: "직접 입력한 세율", rate: customRate / 100, amount }], label: `직접 입력 ${rateText(customRate)}`, rate: customRate / 100 };
+  }
+  let prev = interest;
+  const components = cfg.taxComponents.map((c) => {
+    const base = c.base === "interest" ? interest : prev;
+    const amount = down(base * c.rate);
+    prev = amount;
+    return { name: c.name, rate: c.rate, amount };
+  });
+  return { tax: components.reduce((s, c) => s + c.amount, 0), components, label: `일반과세 ${rateText(cfg.standardTaxRate * 100)}`, rate: cfg.standardTaxRate };
+}
+const calculateAfterTaxInterest = (interest, tax) => interest - tax.tax;
+
+/* =========================================================
+   7. Maturity Amount Calculator
+   ========================================================= */
+function calculateMaturityAmount({ principal, rate, periodValue, periodUnit, method, frequency, taxMode, customTaxRate }) {
+  const years = toYears(periodValue, periodUnit);
+  const raw = method === "compound"
+    ? calculateCompoundDepositInterest(principal, rate, years, frequency)
+    : calculateSimpleDepositInterest(principal, rate, years);
+  const interest = floorWon(raw);
+  const tax = calculateDepositTax(interest, taxMode, customTaxRate);
+  const afterTax = calculateAfterTaxInterest(interest, tax);
+  return { years, interest, tax, afterTax, maturityBeforeTax: principal + interest, maturity: principal + afterTax };
+}
+
+/* =========================================================
+   8. Comparisons / Scenarios
+   ========================================================= */
+function compareInterestMethods(v) {
+  const freq = v.method === "compound" ? v.frequency : DEPOSIT_INTEREST_CONFIG.defaultCompounding;
+  const simple = calculateMaturityAmount({ ...v, method: "simple" });
+  const compound = calculateMaturityAmount({ ...v, method: "compound", frequency: freq });
+  const diff = compound.maturity - simple.maturity;
+  const small = diff < 1000 || diff <= Math.max(1, simple.afterTax) * 0.01;
+  return { simple, compound, diff, freq, note: small ? "small" : simple.years >= 3 ? "grows" : "neutral" };
+}
+function calculateRateScenarios(v) {
+  return [v.rate - 1, v.rate, v.rate + 1].filter((r) => r >= 0).map((r) => {
+    const x = calculateMaturityAmount({ ...v, rate: r });
+    return { rate: r, current: r === v.rate, afterTax: x.afterTax, maturity: x.maturity };
+  });
+}
+function calculatePeriodScenarios(v) {
+  return [3, 6, 12, 24, 36].map((m) => {
+    const x = calculateMaturityAmount({ ...v, periodValue: m, periodUnit: "month" });
+    const current = toYears(v.periodValue, v.periodUnit) === m / 12;
+    return { months: m, current, interest: x.interest, afterTax: x.afterTax, maturity: x.maturity };
+  });
+}
+
+/* =========================================================
+   9. Target Interest Reverse Calculator
+   목표 세후 이자 이상이 되는 가장 작은 예치금액을 찾아요 (세금 절사 때문에 이분 탐색 후 보정).
+   ========================================================= */
+function calculateRequiredPrincipalForTargetInterest(v) {
+  const afterTaxOf = (p) => calculateMaturityAmount({ ...v, principal: p }).afterTax;
+  const unit = afterTaxOf(1e8) / 1e8;
+  if (!(unit > 0)) return null;
+  let hi = Math.ceil((v.target / unit) * 1.02) + 1000;
+  let lo = 0;
+  while (afterTaxOf(hi) < v.target) hi *= 2;
+  while (hi - lo > 1) {
+    const mid = Math.floor((lo + hi) / 2);
+    if (afterTaxOf(mid) >= v.target) hi = mid; else lo = mid;
+  }
+  return hi;
+}
+
+/* =========================================================
+   10. Validation + main
+   ========================================================= */
+function validateInputs(v, cfg = DEPOSIT_INTEREST_CONFIG) {
+  const e = {};
+  const L = cfg.limits;
+  if (v.mode === "target") {
+    if (!Number.isFinite(v.target)) e.amount = "목표 세후 이자를 입력해주세요.";
+    else if (v.target <= 0) e.amount = "목표 이자는 0원보다 커야 해요.";
+    else if (v.target > L.maxTarget) e.amount = "목표 이자를 다시 확인해주세요.";
+  } else {
+    if (!Number.isFinite(v.principal)) e.amount = "예치금액을 입력해주세요.";
+    else if (v.principal <= 0) e.amount = "예치금액은 0원보다 커야 해요.";
+    else if (v.principal > L.maxPrincipal) e.amount = "예치금액을 다시 확인해주세요.";
+  }
+  if (!Number.isFinite(v.rate)) e.rate = "예금 금리를 입력해주세요.";
+  else if (v.rate < 0 || v.rate > L.maxRate) e.rate = "금리를 다시 확인해주세요.";
+  else if (v.mode === "target" && v.rate === 0) e.rate = "금리가 0%면 이자가 생기지 않아요. 금리를 다시 확인해주세요.";
+  const unit = cfg.periodConversionRules[v.periodUnit];
+  if (!Number.isFinite(v.periodValue)) e.period = "예치기간을 입력해주세요.";
+  else if (v.periodValue <= 0 || v.periodValue > unit.max) e.period = "예치기간을 다시 확인해주세요.";
+  if (!e.amount && !e.rate && !e.period && v.mode !== "target") {
+    // 비교 시나리오(금리 +1%p, 최대 36개월)까지 포함한 결과의 상한을 미리 확인
+    const years = Math.max(toYears(v.periodValue, v.periodUnit), 3);
+    const bound = v.principal * Math.exp(((v.rate + 1) / 100) * years);
+    if (!Number.isFinite(bound) || bound > 1e16) e.amount = "계산 결과가 너무 커져요. 금액이나 금리를 줄여서 다시 입력해주세요.";
+  }
+  if (v.taxMode === "custom" && (!Number.isFinite(v.customTaxRate) || v.customTaxRate < 0 || v.customTaxRate > 100)) e.tax = "세율은 0~100% 사이로 입력해주세요.";
+  else if (v.mode === "target" && v.taxMode === "custom" && v.customTaxRate === 100) e.tax = "세율이 100%면 세후 이자가 생기지 않아요.";
+  return e;
+}
+
+function calculateDeposit(v) {
+  const principal = v.mode === "target" ? calculateRequiredPrincipalForTargetInterest(v) : v.principal;
+  const input = { ...v, principal };
+  return {
+    input,
+    main: calculateMaturityAmount(input),
+    methods: compareInterestMethods(input),
+    rates: calculateRateScenarios(input),
+    periods: calculatePeriodScenarios(input),
+  };
+}
+
+/* =========================================================
+   11. Content data
+   ========================================================= */
+const TAX_PCT = rateText(INTEREST_TAX_CONFIG.standardTaxRate * 100);
+const baseEx = { rate: 4, periodUnit: "month", method: "simple", frequency: "month", taxMode: "general", customTaxRate: 0 };
+const s1y = calculateMaturityAmount({ ...baseEx, principal: 10000000, periodValue: 12 });
+const s6m = calculateMaturityAmount({ ...baseEx, principal: 10000000, periodValue: 6 });
+
+const EXAMPLES = [
+  { id: "ex1", title: "1,000만원을 1년 예금하면?", input: { principal: 10000000, periodValue: 12, rate: 4 } },
+  { id: "ex2", title: "3,000만원을 2년 예금하면?", input: { principal: 30000000, periodValue: 24, rate: 4 } },
+  { id: "ex3", title: "5,000만원을 1년 예금하면?", input: { principal: 50000000, periodValue: 12, rate: 4 } },
+  { id: "ex4", title: "1억원을 1년 예금하면?", input: { principal: 100000000, periodValue: 12, rate: 4 } },
+];
+
+const FAQ = [
+  { id: "q1", q: "예금이자는 어떻게 계산하나요?",
+    a: "예금은 목돈을 한 번에 맡기기 때문에 맡긴 원금 전체에 연 금리를 적용하고, 맡긴 기간만큼 비례해서 계산해요. 단리라면 원금 × 연 금리 × 기간(년)이에요." },
+  { id: "q2", q: "예금 금리가 4%면 실제로 4%를 받나요?",
+    a: `1년 동안 맡기면 세전 기준으로 원금의 4%를 받아요. 다만 세금을 떼면 줄어들어요. 1,000만원을 연 4%로 1년 맡기면 세전 이자 ${won(s1y.interest)}, 일반과세 기준 세후 이자는 ${won(s1y.afterTax)}이에요.` },
+  { id: "q3", q: "예금과 적금은 뭐가 다른가요?",
+    a: "예금은 목돈을 한 번에 맡기고, 적금은 매달 일정 금액을 나눠 넣어요. 예금은 맡긴 돈 전체가 처음부터 이자를 받지만, 적금은 넣는 시점마다 이자를 받는 기간이 달라요." },
+  { id: "q4", q: "세전 이자와 세후 이자는 왜 다른가요?",
+    a: "이자에 세금이 붙기 때문이에요. 은행이 이자를 줄 때 세금을 먼저 떼고 주므로 실제로 받는 돈은 세후 이자예요." },
+  { id: "q5", q: "예금 이자에도 세금이 붙나요?",
+    a: `네. 일반과세라면 이자소득세 14%와 지방소득세 1.4%, 합계 ${TAX_PCT}가 원천징수돼요. 비과세나 세금우대 상품은 세율이 다를 수 있어요.` },
+  { id: "q6", q: "비과세를 선택하면 어떻게 계산되나요?",
+    a: "세금 없이 계산해서 세전 이자와 세후 이자가 같아져요. 가입한 상품이 실제로 비과세 요건을 충족하는지는 금융회사에 확인해주세요." },
+  { id: "q7", q: "단리와 복리는 뭐가 다른가요?",
+    a: "단리는 처음 맡긴 원금에만 이자가 붙어요. 복리는 붙은 이자가 원금에 더해져 다음 이자 계산에 포함돼요. 기간이 짧으면 차이가 작고, 길수록 커져요." },
+  { id: "q8", q: "예금기간이 6개월이면 연 금리는 어떻게 계산하나요?",
+    a: `연 금리를 기간만큼 나눠 적용해요. 6개월이면 연 금리의 절반이에요. 1,000만원을 연 4%로 6개월 맡기면 세전 이자는 ${won(s6m.interest)}이에요.` },
+  { id: "q9", q: "우대금리는 어떻게 입력하나요?",
+    a: "우대금리가 적용된다면 우대금리까지 포함한 예상 금리를 입력해주세요. 얼마지는 은행별 우대 조건을 자동으로 판단하지 않아요." },
+  { id: "q10", q: "중도해지하면 이자는 어떻게 되나요?",
+    a: "대부분 약정 금리보다 낮은 중도해지 금리가 적용돼요. 상품마다 기준이 크게 달라서 이 계산기는 만기까지 유지하는 경우만 계산해요." },
+  { id: "q11", q: "예금이자 계산기 결과와 은행 예상금액이 다른 이유는 무엇인가요?",
+    a: "은행은 실제 예치일과 만기일, 일수 계산, 윤년, 이자 지급방식, 우대금리, 세금 처리 등을 반영해요. 이 계산기는 입력한 조건으로 계산한 예상값이에요." },
+];
+
+const RELATED_CALCULATORS = [
+  { id: "savings-interest", name: "적금이자 계산기", desc: "매달 저축하면 만기에 얼마를 받을 수 있는지 계산해보세요.", icon: "percent", href: "/calculators/savings-interest" },
+  { id: "interest", name: "단리·복리 이자 계산기", desc: "같은 돈이 단리와 복리로 얼마나 달라지는지 계산해보세요.", icon: "percent", href: "/calculators/compound-interest" },
+  { id: "loan-interest", name: "대출이자 계산기", desc: "돈을 빌렸을 때 월 상환액과 총 이자를 계산해보세요.", icon: "percent", href: "/calculators/loan-interest" },
+  { id: "percent", name: "퍼센트 계산기", desc: "금액의 몇 %인지, 몇 %가 얼마인지 간단하게 계산해보세요.", icon: "percent", href: "/calculators/percentage" },
+];
+
 /* =========================================================
    GUIDES — 생활정보 레지스트리 (모든 페이지 공통, 한 곳에서만 수정)
    publishedAt / updatedAt: 실제 작성·수정한 날짜만 적어요.
@@ -1910,7 +1877,7 @@ const NAV_CALCULATORS = [
 ];
 const NAV_FEATURED_IDS = ["freelancer-withholding", "unemployment-benefit", "net-salary", "weekly-holiday-pay", "severance-pay", "loan-interest", "dsr", "annual-leave"];
 const navFeaturedIds = () => NAV_FEATURED_IDS;
-const NAV_SECTION = "guide"; // 헤더에서 현재 위치로 표시할 메뉴
+const NAV_SECTION = "calc"; // 헤더에서 현재 위치로 표시할 메뉴
 const NAV_MENU_OF = { "계산기": "calc", "생활정보": "guide" }; // 헤더에서 메가메뉴를 여는 항목
 const NAV_PER_CATEGORY = 4; // 카테고리마다 메뉴에 보여줄 계산기 수
 const NAV_CALC_INDEX_HREF = "/calculators"; // 전체 계산기 목록 페이지
@@ -1929,8 +1896,16 @@ function navGuidePick(catId) {
   return list.find((g) => FEATURED_GUIDE_IDS.includes(g.id)) || list[0] || null;
 }
 /* NAV_MENU:END */
+const RELATED_ARTICLES = guidesForCalculator("/calculators/deposit-interest");
 
-const PAGE = { path: "/guide", title: "생활정보", category: { name: "생활정보", href: "/guide" }, updatedAt: "2026.09.25" };
+const NAV = [
+  { label: "계산기", href: "/#popular" },
+  { label: "생활정보", href: "/guide" },
+  { label: "얼마지 소개", href: "/about" },
+];
+
+const BREADCRUMB = [ { name: "홈", href: "/" }, { name: "계산기", href: "/calculators" }, { name: PAGE.category.name, href: PAGE.category.href }, { name: PAGE.title, href: PAGE.path } ];
+
 /* =========================================================
    Routing
    - 실서비스(ulmaji.kr): 실제 경로로 이동
@@ -2090,7 +2065,6 @@ async function shareCalculator() {
    8. Icon (메인페이지와 동일한 아웃라인 세트)
    ========================================================= */
 const ICONS = {
-  receipt: '<path d="M6 3h12v18l-2-1.4-2 1.4-2-1.4-2 1.4-2-1.4L6 21z"/><path d="M9 8h6M9 12h6M9 16h3"/>',
   percent: '<path d="M18.5 5.5 5.5 18.5"/><circle cx="7" cy="7" r="2.5"/><circle cx="17" cy="17" r="2.5"/>',
   clock: '<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>',
   baby: '<circle cx="12" cy="13" r="7.5"/><path d="M12 5.5c0-1.5 1-2.5 2.5-2.5M9.5 12.5h.01M14.5 12.5h.01M10 16c1.2.9 2.8.9 4 0"/>',
@@ -2345,54 +2319,834 @@ function Toast() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ICONS.copy = '<rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/>';
-
-function Crumbs({ items }) {
-  return (<nav className="container breadcrumb" aria-label="현재 위치"><ol>{items.map((b, i) => { const last = i === items.length - 1; return (
-    <li key={b.name}>{i > 0 && <Icon name="chevron-right" size={14} />}{last || !b.href ? <span aria-current={last ? "page" : undefined}>{b.name}</span> : <AppLink href={b.href}>{b.name}</AppLink>}</li>); })}</ol></nav>);
-}
-function SourceList({ sources }) {
-  return (<ul className="source-list">{sources.map((x) => (
-    <li key={x.url}><a className="source-link" href={x.url} target="_blank" rel="noopener noreferrer"><span><span className="src-name">{x.name}</span><span className="src-desc">{x.desc}</span></span><Icon name="external" size={18} /><span className="sr-only">(새 탭에서 열림)</span></a></li>))}</ul>);
+/* =========================================================
+   12. Page top
+   ========================================================= */
+function Breadcrumb() {
+  return (
+    <nav className="container breadcrumb" aria-label="현재 위치">
+      <ol>
+        {BREADCRUMB.map((b, i) => {
+          const last = i === BREADCRUMB.length - 1;
+          return (
+            <li key={b.href}>
+              {i > 0 && <Icon name="chevron-right" size={14} />}
+              {last ? <span aria-current="page">{b.name}</span> : <AppLink href={b.href}>{b.name}</AppLink>}
+            </li>
+          );
+        })}
+      </ol>
+    </nav>
+  );
 }
 
-function GuideList() {
-  const q = new URLSearchParams(window.location.search).get("category");
-  const cats = GUIDE_CATEGORIES.filter((c) => PUBLISHED_GUIDES.some((g) => g.categoryId === c.id));
-  const current = cats.some((c) => c.id === q) ? q : "all";
-  const list = PUBLISHED_GUIDES.filter((g) => current === "all" || g.categoryId === current);
-  return (<>
-    <Crumbs items={[{ name: "얼마지", href: "/" }, { name: "생활정보" }]} />
-    <div className="container page-head"><h1>생활정보</h1>
-      <p className="page-desc">월급, 세금, 대출, 부동산, 육아·복지까지<br />생활 속에서 헷갈리는 기준을 쉽게 정리했어요.</p></div>
-    <section className="container" aria-label="생활정보 목록">
-      {cats.length > 1 && <ul className="cat-tabs" aria-label="카테고리">
-        <li><AppLink href="/guide" aria-current={current === "all" ? "page" : undefined}>전체<span className="cnt">{PUBLISHED_GUIDES.length}</span></AppLink></li>
-        {cats.map((c) => <li key={c.id}><AppLink href={`/guide?category=${c.id}`} aria-current={current === c.id ? "page" : undefined}>{c.name}<span className="cnt">{PUBLISHED_GUIDES.filter((g) => g.categoryId === c.id).length}</span></AppLink></li>)}</ul>}
-      <ul className="article-grid" style={{ marginTop: cats.length > 1 ? 0 : 24 }}>{list.map((a) => <li key={a.id}><ArticleCard article={a} /></li>)}</ul>
-      <p className="guide-meta">글마다 참고한 공식자료와 확인 날짜를 적고, 관련 계산기로 바로 이어지게 했어요.</p>
+function PageHead() {
+  return (
+    <div className="container page-head">
+      <span className="badge badge-brand">{PAGE.category.name}</span>
+      <h1>{PAGE.title}</h1>
+      <p className="page-desc">예치금액과 금리, 기간을 입력하면<br />세금까지 반영한 예상 이자와 만기금액을 계산해드려요.</p>
+      <p className="page-meta">
+        <span>세전·세후 이자와 실제 예상 수령액을 한 번에 확인하세요</span>
+        <span className="meta-sep" aria-hidden="true"></span>
+        <a href="#basis">최종 업데이트 {PAGE.updatedAt}<Icon name="info" size={16} /><span className="sr-only">, 계산 기준 보기</span></a>
+      </p>
+    </div>
+  );
+}
+
+/* =========================================================
+   13. Form pieces
+   ========================================================= */
+function FieldError({ id, message }) {
+  if (!message) return null;
+  return <p id={id} className="field-error"><Icon name="alert" size={16} />{message}</p>;
+}
+const QUICK_PRINCIPAL = [1000000, 5000000, 10000000, 30000000, 50000000, 100000000];
+const QUICK_TARGET = [500000, 1000000, 2000000, 5000000];
+const QUICK_PERIODS = [1, 3, 6, 12, 24, 36];
+const chipLabel = (a) => (a >= 1e8 ? `${a / 1e8}억원` : a >= 1e7 ? `${a / 1e7}천만원` : `${a / 1e4}만원`);
+const TAX_OPTIONS = [
+  { v: "general", l: "일반과세", d: "일반적인 이자 과세 기준으로 계산해요." },
+  { v: "exempt", l: "비과세", d: "이자에 세금을 적용하지 않고 계산해요." },
+  { v: "custom", l: "직접 입력", d: "적용할 세율을 직접 입력해요." },
+];
+const methodLabel = (input) => input.method === "compound"
+  ? `복리 · ${DEPOSIT_INTEREST_CONFIG.compoundingPeriods[input.frequency].label}` : "단리";
+
+/* =========================================================
+   14. Result pieces
+   ========================================================= */
+function ResultEmpty() {
+  return (
+    <div className="result-empty">
+      <span className="big-q" aria-hidden="true">?</span>
+      <h2 className="sr-only">계산 결과</h2>
+      <p>예금 조건을 입력하면<br />만기에 얼마를 받을 수 있는지 알려드릴게요.</p>
+    </div>
+  );
+}
+
+function PrimaryResult({ result, headingRef }) {
+  const { input, main } = result;
+  const period = periodText(input.periodValue, input.periodUnit);
+  if (input.mode === "target") {
+    return (
+      <>
+        <div className="res-head">
+          <h2 className="res-label" ref={headingRef} tabIndex={-1}>이 정도를 예치해야 해요</h2>
+          <span className="badge badge-brand">목표이자 맞추기</span>
+        </div>
+        <p className="res-amount">약 {won(input.principal)}</p>
+        <p className="res-sentence">{period} 동안 맡기면 세금 떼고 이자 {toKoreanAmount(input.target)} 이상을 받을 수 있는 예상 금액이에요.</p>
+      </>
+    );
+  }
+  return (
+    <>
+      <div className="res-head">
+        <h2 className="res-label" ref={headingRef} tabIndex={-1}>예상 만기 수령액</h2>
+        <span className="badge badge-brand">{input.taxMode === "exempt" ? "비과세" : "세후 기준"}</span>
+      </div>
+      <p className="res-amount">{won(main.maturity)}</p>
+      <p className="res-sentence">{toKoreanAmount(input.principal)}을 {period} 동안 맡겼을 때의 예상 금액이에요.</p>
+    </>
+  );
+}
+
+function SummaryGrid({ result }) {
+  const { input, main } = result;
+  return (
+    <div className="sum-grid four">
+      <div className="sum-item"><span>내가 맡긴 돈</span><strong>{won(input.principal)}</strong></div>
+      <div className="sum-item"><span>세전 이자</span><strong>{won(main.interest)}</strong></div>
+      <div className="sum-item"><span>예상 세금</span><strong>{won(main.tax.tax)}</strong></div>
+      <div className="sum-item"><span>세금 떼고 남는 이자</span><strong>{won(main.afterTax)}</strong></div>
+      {input.mode === "target" && <div className="sum-item wide"><span>그래서 만기에 얼마?</span><strong>{won(main.maturity)}</strong></div>}
+    </div>
+  );
+}
+
+function GrowthBlock({ result }) {
+  const { input, main } = result;
+  const ratio = main.maturity > 0 ? (input.principal / main.maturity) * 100 : 100;
+  return (
+    <div className="eq">
+      <h3 className="res-sub-title">내 돈에서 얼마나 늘어날까요?</h3>
+      <div className="eq-row">
+        <div className="eq-item"><span>내가 맡긴 돈</span><strong>{won(input.principal)}</strong></div>
+        <span className="eq-op" aria-hidden="true">+</span>
+        <div className="eq-item"><span>세후 예상 이자</span><strong className="is-blue">{won(main.afterTax)}</strong></div>
+        <span className="eq-op" aria-hidden="true">=</span>
+        <div className="eq-item is-total"><span>만기 예상 수령액</span><strong>{won(main.maturity)}</strong></div>
+      </div>
+      <div className="ratio-bar slim" role="img" aria-label={`원금 ${Math.round(ratio)}%, 세후 이자 ${100 - Math.round(ratio)}%`}>
+        <span style={{ width: `${ratio}%` }}></span>
+      </div>
+    </div>
+  );
+}
+
+function TaxFlow({ result }) {
+  const { main } = result;
+  return (
+    <div className="pay-blocks">
+      <h3 className="res-sub-title">세금을 떼면 얼마가 남을까요?</h3>
+      <ol className="tax-flow">
+        <li><span className="src-tag">세전</span><dl><div><dt>예상 이자</dt><dd>{won(main.interest)}</dd></div><div><dt>만기금액</dt><dd>{won(main.maturityBeforeTax)}</dd></div></dl></li>
+        <li className="tax-mid"><span>예상 세금 ({main.tax.label})</span><b>− {won(main.tax.tax)}</b>
+          {main.tax.components.length > 1 && <small>{main.tax.components.map((c) => `${c.name} ${won(c.amount)}`).join(" + ")}</small>}</li>
+        <li><span className="src-tag is-gov">세후</span><dl><div><dt>예상 이자</dt><dd>{won(main.afterTax)}</dd></div><div><dt>만기 예상 수령액</dt><dd>{won(main.maturity)}</dd></div></dl></li>
+      </ol>
+    </div>
+  );
+}
+
+function RateToMoney({ result }) {
+  const { input, main } = result;
+  return (
+    <div className="compare">
+      <h3 className="res-sub-title">연 {rateText(input.rate)}면 실제 이자는 얼마일까요?</h3>
+      <ol className="grow-steps money-steps">
+        <li><span>예치금액 {won(input.principal)} · 연 {rateText(input.rate)} · {periodText(input.periodValue, input.periodUnit)}</span></li>
+        <li><span>세전 예상 이자</span><strong>{won(main.interest)}</strong></li>
+        <li><span>세후 예상 이자</span><strong>{won(main.afterTax)}</strong></li>
+      </ol>
+    </div>
+  );
+}
+
+function Explanation({ result, open, onToggle, formulaOpen, onToggleFormula }) {
+  const { input, main } = result;
+  const simple = input.method === "simple";
+  const cp = DEPOSIT_INTEREST_CONFIG.compoundingPeriods[input.frequency];
+  const period = periodText(input.periodValue, input.periodUnit);
+  return (
+    <div className="why">
+      <button type="button" className="why-toggle" aria-expanded={open} aria-controls="why-body" onClick={onToggle}>
+        왜 이렇게 계산됐나요?
+        <Icon name="chevron-right" size={20} strokeWidth={2.2} />
+      </button>
+      <div id="why-body" className="why-body" hidden={!open}>
+        <div className="why-block">
+          <p className="why-title">입력한 조건</p>
+          <dl className="cond-list">
+            {input.mode === "target" && <div><dt>목표 세후 이자</dt><dd>{won(input.target)}</dd></div>}
+            <div><dt>예치금액</dt><dd>{won(input.principal)}</dd></div>
+            <div><dt>연 이자율</dt><dd>{rateText(input.rate)}</dd></div>
+            <div><dt>예치기간</dt><dd>{period}</dd></div>
+            <div><dt>이자방식</dt><dd>{methodLabel(input)}</dd></div>
+            <div><dt>과세조건</dt><dd>{main.tax.label}</dd></div>
+          </dl>
+        </div>
+        <div className="why-block">
+          <p className="why-title">계산 과정</p>
+          {simple ? (
+            <ol className="steps">
+              <li className="step"><p className="step-name">① 맡긴 돈에 금리를 적용했어요</p>
+                <p className="step-formula">{won(input.principal)} × 연 {rateText(input.rate)} = 1년에 {won(input.principal * input.rate / 100)}</p></li>
+              <li className="step"><p className="step-name">② 맡긴 기간을 반영했어요</p>
+                <p className="step-formula">{period} = {Number(main.years.toFixed(4))}년</p></li>
+              <li className="step"><p className="step-name">③ 세전 이자를 계산했어요</p>
+                <p className="step-formula">세전 이자 <b>{won(main.interest)}</b></p></li>
+              <li className="step"><p className="step-name">④ 예상 세금을 뺐어요</p>
+                <p className="step-formula">{main.tax.label} → <b>{won(main.tax.tax)}</b></p></li>
+              <li className="step"><p className="step-name">⑤ 원금과 세후 이자를 더했어요</p>
+                <p className="step-formula">예상 만기 수령액 <b>{won(main.maturity)}</b></p></li>
+            </ol>
+          ) : (
+            <ol className="steps">
+              <li className="step"><p className="step-name">① 첫 기간의 이자를 계산해요</p>
+                <p className="step-formula">{cp.label} 이자율 {rateText(input.rate / cp.n)} → {won(input.principal * input.rate / 100 / cp.n)}</p></li>
+              <li className="step"><p className="step-name">② 발생한 이자를 원금에 더해요</p></li>
+              <li className="step"><p className="step-name">③ 다음 기간에는 늘어난 금액에 다시 이자가 붙어요</p></li>
+              <li className="step"><p className="step-name">④ 전체 기간 계산 후 세금을 반영해요</p>
+                <p className="step-formula">세전 이자 {won(main.interest)} − 세금 {won(main.tax.tax)}</p></li>
+              <li className="step"><p className="step-name">⑤ 예상 만기 수령액을 계산해요</p>
+                <p className="step-formula"><b>{won(main.maturity)}</b></p></li>
+            </ol>
+          )}
+          <p className="why-note">
+            세전 이자는 원 미만을, 세금은 10원 미만을 버렸어요.
+            {input.periodUnit === "day" && ` 일 단위 계산은 ${DEPOSIT_INTEREST_CONFIG.dayCountConvention.text} 기준에 따른 예상값이에요. 실제 금융기관 계산과 차이가 있을 수 있습니다.`}
+            {!simple && " 기간이 복리 주기로 딱 나누어떨어지지 않으면 남은 기간은 단리로 계산했어요."}
+          </p>
+        </div>
+        <div className="why-block">
+          <button type="button" className="nested-toggle" aria-expanded={formulaOpen} aria-controls="formula-detail" onClick={onToggleFormula}>
+            계산 공식 보기
+            <Icon name="chevron-right" size={18} strokeWidth={2.2} />
+          </button>
+          <div id="formula-detail" className="formula-detail" hidden={!formulaOpen}>
+            <p className="formula-line">단리: 세전 이자 = 원금 × 연 이자율 × 예치기간(년)</p>
+            <p className="formula-line">복리: 만기금액 = 원금 × (1 + 연 이자율 ÷ 주기)^(주기 × 예치기간(년))</p>
+            <p className="formula-line">세후 이자 = 세전 이자 − 예상 세금</p>
+            <p className="formula-line">예상 만기금액 = 원금 + 세후 이자</p>
+            <ul className="detail-list"><li>개월은 12로, 일은 365로 나눠 '년'으로 바꿔 계산해요.</li><li>매년은 1번, 매월은 12번, 매일은 365번 이자가 붙는다고 봐요.</li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* =========================================================
+   15. Full-width comparison blocks
+   ========================================================= */
+function MethodCompare({ result }) {
+  const { methods, input } = result;
+  const freqLabel = DEPOSIT_INTEREST_CONFIG.compoundingPeriods[methods.freq].label;
+  const note = methods.note === "small" ? "이 기간에서는 단리와 복리의 차이가 크지 않아요."
+    : methods.note === "grows" ? "기간이 길어지면서 계산 방식에 따른 차이가 커졌어요."
+    : `같은 조건에서 복리로 계산하면 만기금액이 ${won(methods.diff)} 더 많아요.`;
+  return (
+    <div className="detail-card">
+      <h2 className="detail-title">단리와 복리면 얼마나 달라질까요?</h2>
+      <div className="scn-grid">
+        <dl className="scn">
+          <dt>단리{input.method === "simple" ? " (선택)" : ""}</dt>
+          <dd><span>예상 세후 이자</span><b>{won(methods.simple.afterTax)}</b></dd>
+          <dd><span>예상 만기금액</span><b>{won(methods.simple.maturity)}</b></dd>
+        </dl>
+        <dl className="scn">
+          <dt>복리 · {freqLabel}{input.method === "compound" ? " (선택)" : ""}</dt>
+          <dd><span>예상 세후 이자</span><b>{won(methods.compound.afterTax)}</b></dd>
+          <dd><span>예상 만기금액</span><b>{won(methods.compound.maturity)}</b></dd>
+        </dl>
+      </div>
+      <p className="diff-line">만기금액 차이 <b>{won(methods.diff)}</b></p>
+      <p className="compare-note">{note} 어떤 방식이 적용되는지는 가입한 상품 조건을 확인해주세요.</p>
+    </div>
+  );
+}
+
+function Scenarios({ result }) {
+  const { rates, periods } = result;
+  return (
+    <div className="detail-card">
+      <h2 className="detail-title">금리가 달라지면 얼마나 차이 날까요?</h2>
+      <ul className="rate-cards">
+        {rates.map((r) => (
+          <li key={r.rate} className={r.current ? "is-current" : ""}>
+            <p className="rc-rate">연 {rateText(r.rate)}{r.current && <span className="badge badge-brand cur-badge">입력한 금리</span>}</p>
+            <dl>
+              <div><dt>세후 예상 이자</dt><dd>{won(r.afterTax)}</dd></div>
+              <div><dt>만기 예상금액</dt><dd>{won(r.maturity)}</dd></div>
+            </dl>
+          </li>
+        ))}
+      </ul>
+      <p className="compare-note">금리가 달라졌을 때 결과가 얼마나 변하는지 보여주는 단순 비교예요.</p>
+      <h3 className="res-sub-title sub-gap">기간이 달라지면 얼마를 받을까요?</h3>
+      <div className="table-scroll resp">
+        <table className="data-table resp-table">
+          <caption className="sr-only">예치기간별 세전 이자, 세후 이자, 만기금액</caption>
+          <thead><tr><th scope="col">기간</th><th scope="col">세전 이자</th><th scope="col">세후 이자</th><th scope="col">만기금액</th></tr></thead>
+          <tbody>
+            {periods.map((p) => (
+              <tr key={p.months} className={p.current ? "is-current" : ""}>
+                <th scope="row">{p.months}개월{p.current && <span className="badge badge-brand cur-badge">입력</span>}</th>
+                <td data-label="세전 이자">{won(p.interest)}</td>
+                <td data-label="세후 이자">{won(p.afterTax)}</td>
+                <td data-label="만기금액">{won(p.maturity)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
+/* =========================================================
+   16. Calculator Form
+   ========================================================= */
+const INITIAL = {
+  mode: "maturity", principal: "", target: "", rate: "", periodValue: "12", periodUnit: "month",
+  method: DEPOSIT_INTEREST_CONFIG.defaultInterestMethod, frequency: DEPOSIT_INTEREST_CONFIG.defaultCompounding,
+  taxMode: "general", customTaxRate: "",
+};
+
+function DepositCalculator() {
+  const [s, setS] = useState(INITIAL);
+  const [moreOpen, setMoreOpen] = useState(false);
+  const [errors, setErrors] = useState({});
+  const [submitted, setSubmitted] = useState(false);
+  const [whyOpen, setWhyOpen] = useState(false);
+  const [formulaOpen, setFormulaOpen] = useState(false);
+  const [scrollTick, setScrollTick] = useState(0);
+
+  const formRef = useRef(null);
+  const amountRef = useRef(null);
+  const rateRef = useRef(null);
+  const periodRef = useRef(null);
+  const taxRef = useRef(null);
+  const resultColRef = useRef(null);
+  const headingRef = useRef(null);
+  const lastResultRef = useRef(null);
+
+  const set = (patch, errKeys = []) => {
+    setS((x) => ({ ...x, ...patch }));
+    if (errKeys.length) setErrors((e) => { const n = { ...e }; errKeys.forEach((k) => delete n[k]); return n; });
+  };
+
+  const values = {
+    mode: s.mode,
+    principal: parseNumber(s.principal),
+    target: parseNumber(s.target),
+    rate: parseDecimal(s.rate),
+    periodValue: parseNumber(s.periodValue),
+    periodUnit: s.periodUnit,
+    method: s.method,
+    frequency: s.frequency,
+    taxMode: s.taxMode,
+    customTaxRate: parseDecimal(s.customTaxRate),
+  };
+  const liveErrors = validateInputs(values);
+  const key = JSON.stringify(values);
+  const result = useMemo(() => (Object.keys(liveErrors).length === 0 ? calculateDeposit(values) : null), [key]);
+  if (submitted && result) lastResultRef.current = result;
+  const shown = submitted ? lastResultRef.current : null;
+  const stale = submitted && !result;
+
+  useEffect(() => {
+    if (!scrollTick) return;
+    const col = resultColRef.current;
+    if (!col) return;
+    const stacked = window.matchMedia("(max-width: 1023px)").matches;
+    const top = col.getBoundingClientRect().top;
+    const offscreen = top < 64 || top > window.innerHeight * 0.55;
+    if (offscreen) scrollToEl(stacked ? col : document.getElementById("calculator"));
+    const t = afterScroll(() => headingRef.current && headingRef.current.focus({ preventScroll: true }));
+    return () => clearTimeout(t);
+  }, [scrollTick]);
+
+  useEffect(() => {
+    const onPreset = (e) => {
+      const d = e.detail;
+      setS((x) => ({ ...x, mode: "maturity", principal: d.principal.toLocaleString("ko-KR"), periodValue: String(d.periodValue), periodUnit: "month", rate: String(d.rate) }));
+      setErrors({});
+      setSubmitted(true);
+      setScrollTick((n) => n + 1);
+    };
+    window.addEventListener("ulmaji:preset-deposit", onPreset);
+    return () => window.removeEventListener("ulmaji:preset-deposit", onPreset);
+  }, []);
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    const errs = validateInputs(values);
+    setErrors(errs);
+    if (Object.keys(errs).length) {
+      if (errs.amount) amountRef.current && amountRef.current.focus();
+      else if (errs.rate) rateRef.current && rateRef.current.focus();
+      else if (errs.period) periodRef.current && periodRef.current.focus();
+      else if (errs.tax) taxRef.current && taxRef.current.focus();
+      return;
+    }
+    setSubmitted(true);
+    setScrollTick((n) => n + 1);
+  };
+
+  const onRecalc = () => {
+    scrollToEl(formRef.current);
+    afterScroll(() => { if (amountRef.current) { amountRef.current.focus({ preventScroll: true }); amountRef.current.select(); } });
+  };
+
+  const onReset = () => {
+    setS(INITIAL);
+    setErrors({});
+    setSubmitted(false);
+    setWhyOpen(false);
+    setFormulaOpen(false);
+    lastResultRef.current = null;
+    scrollToEl(formRef.current);
+    afterScroll(() => amountRef.current && amountRef.current.focus({ preventScroll: true }));
+    toast("입력값을 초기화했어요.");
+  };
+
+  const targetMode = s.mode === "target";
+  const amountStr = targetMode ? s.target : s.principal;
+  const amountNum = parseNumber(amountStr);
+  const quick = targetMode ? QUICK_TARGET : QUICK_PRINCIPAL;
+  const monthsNow = s.periodUnit === "month" ? parseNumber(s.periodValue) : s.periodUnit === "year" ? parseNumber(s.periodValue) * 12 : NaN;
+
+  return (
+    <section className="calc-section" id="calculator" aria-label="예금이자 계산기">
+      <div className="container">
+        <div className="calc-shell">
+          <form className="calc-form" ref={formRef} onSubmit={onSubmit} noValidate aria-labelledby="form-title">
+            <h2 id="form-title" className="form-title">예금 조건을 입력해주세요</h2>
+            <div className="seg mode-seg" role="radiogroup" aria-label="계산 방식">
+              {[{ v: "maturity", l: "만기금액 계산" }, { v: "target", l: "목표이자 맞추기" }].map((o) => (
+                <label className="seg-option" key={o.v}>
+                  <input type="radio" name="mode" checked={s.mode === o.v} onChange={() => { set({ mode: o.v }, ["amount", "rate"]); setSubmitted(false); lastResultRef.current = null; }} />
+                  <span>{o.l}</span>
+                </label>
+              ))}
+            </div>
+
+            <div className="field">
+              <label className="field-label" htmlFor="amount">{targetMode ? "세금 떼고 이자를 얼마 받고 싶나요?" : "얼마를 예금할까요?"}<span className="sr-only"> (원)</span></label>
+              <div className={"input-wrap" + (errors.amount ? " is-invalid" : "")}>
+                <input id="amount" ref={amountRef} type="text" inputMode="numeric" autoComplete="off" placeholder={targetMode ? "예: 1,000,000" : "예: 10,000,000"}
+                  value={amountStr} onChange={(e) => set(targetMode ? { target: formatMoneyInput(e.target.value) } : { principal: formatMoneyInput(e.target.value) }, ["amount"])}
+                  aria-invalid={!!errors.amount} aria-describedby={["amount-help", errors.amount && "amount-error"].filter(Boolean).join(" ")} />
+                <span className="input-suffix" aria-hidden="true">원</span>
+              </div>
+              <FieldError id="amount-error" message={errors.amount} />
+              <p id="amount-help" className="field-help korean-amount" aria-live="polite">{Number.isFinite(amountNum) ? toKoreanAmount(amountNum) : "금액을 입력하면 한글로 읽어드려요."}</p>
+              <ul className="quick-amounts" aria-label="금액 빠르게 넣기">
+                {quick.map((a) => (
+                  <li key={a}><button type="button" className="chip" aria-pressed={amountNum === a}
+                    onClick={() => set(targetMode ? { target: a.toLocaleString("ko-KR") } : { principal: a.toLocaleString("ko-KR") }, ["amount"])}>{chipLabel(a)}</button></li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="field">
+              <label className="field-label" htmlFor="rate">예금 금리는 몇 %인가요?</label>
+              <div className={"input-wrap" + (errors.rate ? " is-invalid" : "")}>
+                <input id="rate" ref={rateRef} type="text" inputMode="decimal" autoComplete="off" placeholder="예: 4.00"
+                  value={s.rate} onChange={(e) => set({ rate: sanitizeRate(e.target.value) }, ["rate"])}
+                  aria-invalid={!!errors.rate} aria-describedby={["rate-help", errors.rate && "rate-error"].filter(Boolean).join(" ")} />
+                <span className="input-suffix" aria-hidden="true">%</span>
+              </div>
+              <FieldError id="rate-error" message={errors.rate} />
+              <p id="rate-help" className="field-help">예금 상품에 표시된 연 금리를 입력해주세요. 우대금리가 적용된다면 우대금리까지 포함한 예상 금리를 입력해주세요.</p>
+            </div>
+
+            <div className="field">
+              <label className="field-label" htmlFor="period">얼마 동안 맡길까요?</label>
+              <div className="period-row">
+                <div className={"input-wrap" + (errors.period ? " is-invalid" : "")}>
+                  <input id="period" ref={periodRef} type="text" inputMode="numeric" autoComplete="off" placeholder="12"
+                    value={s.periodValue} onChange={(e) => set({ periodValue: e.target.value.replace(/[^\d]/g, "").slice(0, 4) }, ["period"])}
+                    aria-invalid={!!errors.period} aria-describedby={errors.period ? "period-error" : undefined} />
+                </div>
+                <div className="seg cols-3 unit-seg" role="radiogroup" aria-label="기간 단위">
+                  {Object.entries(DEPOSIT_INTEREST_CONFIG.periodConversionRules).map(([k, u]) => (
+                    <label className="seg-option" key={k}>
+                      <input type="radio" name="unit" checked={s.periodUnit === k} onChange={() => set({ periodUnit: k }, ["period"])} />
+                      <span>{u.label}</span>
+                    </label>
+                  ))}
+                </div>
+              </div>
+              <FieldError id="period-error" message={errors.period} />
+              <ul className="quick-amounts" aria-label="기간 빠르게 선택">
+                {QUICK_PERIODS.map((m) => (
+                  <li key={m}><button type="button" className="chip" aria-pressed={monthsNow === m}
+                    onClick={() => set({ periodValue: String(m), periodUnit: "month" }, ["period"])}>{m}개월</button></li>
+                ))}
+              </ul>
+            </div>
+
+            <fieldset className="field">
+              <legend className="field-label">이자는 어떻게 계산할까요?</legend>
+              <div className="method-cards">
+                {Object.entries(DEPOSIT_INTEREST_CONFIG.supportedInterestMethods).map(([k, m]) => (
+                  <label className="method-card" key={k}>
+                    <input type="radio" name="method" checked={s.method === k} onChange={() => set({ method: k })} />
+                    <span><strong>{m.label}</strong><small>{m.desc}</small></span>
+                  </label>
+                ))}
+              </div>
+            </fieldset>
+
+            {s.method === "compound" && (
+              <fieldset className="field">
+                <legend className="field-label">이자는 얼마나 자주 붙나요?</legend>
+                <div className="seg cols-3">
+                  {Object.entries(DEPOSIT_INTEREST_CONFIG.compoundingPeriods).map(([k, c]) => (
+                    <label className="seg-option" key={k}>
+                      <input type="radio" name="freq" checked={s.frequency === k} onChange={() => set({ frequency: k })} />
+                      <span>{c.label}</span>
+                    </label>
+                  ))}
+                </div>
+                <p className="field-help">가입한 상품 조건에 맞게 선택해주세요. 실제 상품의 이자 지급 방식과 다를 수 있어요.</p>
+              </fieldset>
+            )}
+
+            <fieldset className="field">
+              <legend className="field-label">이자 세금은 어떻게 계산할까요?</legend>
+              <div className="method-cards three">
+                {TAX_OPTIONS.map((o) => (
+                  <label className="method-card" key={o.v}>
+                    <input type="radio" name="tax" checked={s.taxMode === o.v} onChange={() => set({ taxMode: o.v }, ["tax"])} />
+                    <span><strong>{o.l}</strong><small>{o.v === "general" ? `${o.d} (${TAX_PCT})` : o.d}</small></span>
+                  </label>
+                ))}
+              </div>
+              {s.taxMode === "custom" && (
+                <div className="sub-field">
+                  <label className="mini-label" htmlFor="tax-rate">적용 세율</label>
+                  <div className={"input-wrap sm" + (errors.tax ? " is-invalid" : "")}>
+                    <input id="tax-rate" ref={taxRef} type="text" inputMode="decimal" autoComplete="off" placeholder="예: 9.5"
+                      value={s.customTaxRate} onChange={(e) => set({ customTaxRate: sanitizeRate(e.target.value) }, ["tax"])}
+                      aria-invalid={!!errors.tax} aria-describedby={errors.tax ? "tax-error" : "tax-help"} />
+                    <span className="input-suffix" aria-hidden="true">%</span>
+                  </div>
+                  <FieldError id="tax-error" message={errors.tax} />
+                  <p id="tax-help" className="field-help">가입한 상품의 과세 조건에 맞는 세율을 0~100% 사이로 입력해주세요.</p>
+                </div>
+              )}
+            </fieldset>
+
+            <div className="more-settings">
+              <button type="button" className="more-toggle" aria-expanded={moreOpen} aria-controls="more-body" onClick={() => setMoreOpen((v) => !v)}>
+                <span><Icon name="sliders" size={20} />추가 설정</span>
+                <small>일 단위 계산 기준</small>
+                <Icon name="chevron-right" size={20} strokeWidth={2.2} />
+              </button>
+              <div id="more-body" className="more-body" hidden={!moreOpen}>
+                <div className="explain-box">
+                  <strong>일 단위 계산 기준</strong>
+                  <p>기간을 '일'로 입력하면 {DEPOSIT_INTEREST_CONFIG.dayCountConvention.text}으로 계산해요. 실제 금융기관은 366일이나 실제 경과일수를 쓰기도 해서 차이가 있을 수 있어요.</p>
+                  <strong>기본 가정</strong>
+                  <p>만기까지 정상적으로 유지하고, 추가 입금이나 중도해지는 없다고 가정해요.</p>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" className="btn btn-primary submit-btn">{targetMode ? "필요한 예치금액 계산하기" : "예금이자 계산하기"}</button>
+          </form>
+
+          <div className="result-col" ref={resultColRef}>
+            <div className="result-panel">
+              <p className="sr-only" aria-live="polite">
+                {shown && !stale ? (shown.input.mode === "target"
+                  ? `약 ${won(shown.input.principal)}을 예치하면 세후 이자 ${won(shown.main.afterTax)}을 받을 수 있어요.`
+                  : `예상 만기 수령액은 ${won(shown.main.maturity)}, 세금 떼고 남는 이자는 ${won(shown.main.afterTax)}이에요.`) : ""}
+              </p>
+              {shown ? (
+                <div className={"result-view" + (stale ? " is-stale" : "")}>
+                  {stale && (
+                    <div className="status is-note res-stale"><Icon name="info" size={20} />
+                      <p><strong>입력값을 확인해주세요</strong><span>올바르게 입력하면 결과가 바로 다시 계산돼요.</span></p></div>
+                  )}
+                  <PrimaryResult result={shown} headingRef={headingRef} />
+                  <div className="res-fade">
+                    <SummaryGrid result={shown} />
+                    <GrowthBlock result={shown} />
+                    {shown.input.taxMode !== "exempt" && <TaxFlow result={shown} />}
+                    <RateToMoney result={shown} />
+                  </div>
+                  <div className="deposit-link">
+                    <span><strong>매달 나눠서 저축할 예정인가요?</strong><br /><small>예금은 목돈을 한 번에 맡기는 방식이에요.</small></span>
+                    <AppLink href="/calculators/savings-interest" className="more-link">적금이자 계산하기 <Icon name="arrow-right" size={16} strokeWidth={2.2} /></AppLink>
+                  </div>
+                  <Explanation result={shown} open={whyOpen} onToggle={() => setWhyOpen((v) => !v)} formulaOpen={formulaOpen} onToggleFormula={() => setFormulaOpen((v) => !v)} />
+                  <div className="small-notice"><Icon name="info" size={18} />
+                    <p><strong>실제 만기금액과 다를 수 있어요</strong>
+                      <span>이 계산 결과는 입력한 예치금액, 금리, 기간과 과세조건을 기준으로 계산한 예상값입니다. 실제 이자는 금융기관의 이자 계산 방식, 우대금리, 세금 및 상품조건 등에 따라 달라질 수 있습니다. 중도해지 금리는 반영하지 않았어요.</span></p></div>
+                  <div className="res-actions">
+                    <button type="button" className="btn-secondary" onClick={onRecalc}><Icon name="refresh" size={18} />다시 계산하기</button>
+                    <button type="button" className="btn-text" onClick={onReset}>입력값 초기화</button>
+                  </div>
+                </div>
+              ) : (
+                <ResultEmpty />
+              )}
+            </div>
+          </div>
+        </div>
+
+        {shown && (
+          <div className={"detail-stack" + (stale ? " is-stale" : "")}>
+            <MethodCompare result={shown} />
+            <Scenarios result={shown} />
+          </div>
+        )}
+      </div>
     </section>
-    <AdSlot id="guide-list-bottom" label="목록 하단" />
-    <div style={{ height: 64 }}></div>
-  </>);
+  );
 }
-function App() { return (<><a className="skip-link" href="#main">본문 바로가기</a><Header /><main id="main"><GuideList /></main><Footer /><Toast /></>); }
+
+/* =========================================================
+   17. Below-the-calculator sections
+   ========================================================= */
+function RelatedCard({ calc }) {
+  if (calc.soon) {
+    return (
+      <div className="calc-card is-soon" aria-disabled="true">
+        <span className="icon-box is-muted"><Icon name={calc.icon} /></span>
+        <div className="calc-text"><h3>{calc.name}</h3><p>{calc.desc}</p></div>
+        <span className="badge badge-soon">준비 중</span>
+      </div>
+    );
+  }
+  return <CalculatorCard calc={calc} />;
+}
+
+function RelatedCalculators() {
+  return (
+    <section className="section tight-top" aria-labelledby="related-title">
+      <div className="container">
+        <SectionHead id="related-title" title="이어서 계산해볼까요?" moreHref="/calculators" moreLabel="전체 계산기" />
+        <ul className="calc-grid">
+          {RELATED_CALCULATORS.map((c) => <li key={c.id}><RelatedCard calc={c} /></li>)}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+function GuideSection() {
+  return (
+    <section className="section band" id="guide" aria-label="예금이자 안내">
+      <div className="container">
+        <div className="content-block">
+          <h2>예금이자는 어떻게 계산하나요?</h2>
+          <div className="prose">
+            <p>예금은 목돈을 한 번에 맡기기 때문에 예치한 원금 전체를 기준으로 이자가 계산돼요.</p>
+            <p>단리라면 원금 × 연 금리 × 맡긴 기간이에요. 1,000만원을 연 4%로 1년 맡기면 세전 이자는 {won(s1y.interest)}이고, 세금을 떼면 {won(s1y.afterTax)}을 받아요.</p>
+          </div>
+        </div>
+        <div className="content-block">
+          <h2>예금 금리가 4%면 실제로 얼마를 받을까요?</h2>
+          <div className="prose">
+            <p>금리는 1년 기준이라, 맡긴 기간이 짧으면 그만큼 줄어요. 1,000만원을 연 4%로 6개월 맡기면 세전 이자는 1년의 절반인 {won(s6m.interest)}이에요.</p>
+            <p>여기서 일반과세라면 {TAX_PCT}를 떼고 {won(s6m.afterTax)}을 받아요. 그래서 '금리 몇 %'보다 '실제로 얼마'를 보는 게 중요해요.</p>
+          </div>
+          <AdSlot id="guide-middle" label="정보 콘텐츠 중간" bare />
+        </div>
+        <div className="content-block">
+          <h2>예금과 적금은 뭐가 다른가요?</h2>
+          <div className="cond-grid">
+            <article className="cond-card"><h3>예금</h3><p className="card-text">목돈을 한 번에 맡기는 방식이에요. 맡긴 돈 전체가 처음부터 만기까지 이자를 받아요.</p></article>
+            <article className="cond-card"><h3>적금</h3><p className="card-text">매달 일정 금액을 나눠 넣는 방식이에요. 넣는 시점마다 이자를 받는 기간이 달라요.</p></article>
+          </div>
+        </div>
+        <div className="content-block">
+          <h2>세전 이자와 세후 이자는 뭐가 다른가요?</h2>
+          <div className="prose"><p>이자에는 세금이 붙어서, 은행은 세금을 먼저 떼고 이자를 줘요. 일반과세라면 이자소득세 14%와 지방소득세 1.4%, 합계 {TAX_PCT}를 떼요. 비과세 상품은 세금 없이 받아요.</p></div>
+        </div>
+        <div className="content-block">
+          <h2>단리와 복리는 뭐가 다른가요?</h2>
+          <div className="cond-grid">
+            <article className="cond-card"><h3>단리</h3><p className="card-text">처음 맡긴 원금에만 이자가 붙어요. 기간이 같으면 매년 같은 이자가 계산돼요.</p></article>
+            <article className="cond-card"><h3>복리</h3><p className="card-text">붙은 이자가 원금에 더해져 다음 이자 계산에 포함돼요. 기간이 길수록 차이가 커져요.</p></article>
+          </div>
+        </div>
+        <div className="content-block">
+          <h2>예시로 바로 계산해보세요</h2>
+          <p className="section-desc">연 4% 단리, 일반과세 기준이에요. 예시 금리는 계산을 위한 가정이며 현재 은행 금리를 뜻하지 않아요.</p>
+          <ul className="example-grid cols-4">
+            {EXAMPLES.map((ex) => {
+              const r = calculateMaturityAmount({ ...baseEx, principal: ex.input.principal, periodValue: ex.input.periodValue, rate: ex.input.rate });
+              return (
+                <li key={ex.id}>
+                  <article className="example-card">
+                    <h3>{ex.title}</h3>
+                    <p className="example-meta">세후 이자 {won(r.afterTax)}</p>
+                    <div className="example-result">
+                      <span>예상 만기 수령액</span>
+                      <strong>{won(r.maturity)}</strong>
+                      <small>세전 이자 {won(r.interest)}</small>
+                    </div>
+                    <div className="example-actions">
+                      <button type="button" className="btn-secondary"
+                        onClick={() => window.dispatchEvent(new CustomEvent("ulmaji:preset-deposit", { detail: ex.input }))}>
+                        이 조건으로 계산하기
+                      </button>
+                    </div>
+                  </article>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function FaqSection() {
+  const [open, setOpen] = useState({ [FAQ[0].id]: true });
+  return (
+    <section className="section" id="faq" aria-labelledby="faq-title">
+      <div className="container">
+        <SectionHead id="faq-title" title="자주 묻는 질문" />
+        <ul className="faq-list">
+          {FAQ.map((f) => {
+            const isOpen = !!open[f.id];
+            return (
+              <li className="faq-item" key={f.id}>
+                <h3 className="faq-q">
+                  <button type="button" id={`faq-btn-${f.id}`} className="faq-toggle" aria-expanded={isOpen}
+                    aria-controls={`faq-panel-${f.id}`} onClick={() => setOpen((o) => ({ ...o, [f.id]: !o[f.id] }))}>
+                    {f.q}
+                    <Icon name="chevron-right" size={20} strokeWidth={2.2} />
+                  </button>
+                </h3>
+                <div id={`faq-panel-${f.id}`} role="region" aria-labelledby={`faq-btn-${f.id}`} className="faq-a" hidden={!isOpen}>
+                  <p>{f.a}</p>
+                </div>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+function BasisSection() {
+  return (
+    <section className="section band" id="basis" aria-labelledby="basis-title">
+      <div className="container">
+        <div className="trust-grid">
+          <div>
+            <h2 id="basis-title">어떤 기준으로 계산하나요?</h2>
+            <p className="section-desc">얼마지 예금이자 계산기는 특정 은행이나 예금상품을 추천하지 않는 계산 도구예요. 입력한 조건으로 계산한 객관적인 결과와 차이만 보여드려요.</p>
+            <div className="notice-box">
+              <Icon name="info" size={20} />
+              <div>
+                <strong>계산 결과를 확인해주세요</strong>
+                <p>실제 결과는 예치일과 만기일, 일수 계산, 윤년, 이자 지급방식, 우대금리, 세금, 비과세 요건, 원 단위 처리, 중도해지 등에 따라 달라질 수 있습니다.</p>
+              </div>
+            </div>
+          </div>
+          <div className="basis-card">
+            <div className="basis-head"><strong>예금이자 계산 기준</strong><span className="badge badge-brand">기본 계산 가정</span></div>
+            <dl>
+              <div className="basis-row"><dt>예치 방식</dt><dd>목돈 일시 예치</dd></div>
+              <div className="basis-row"><dt>금리</dt><dd>사용자가 입력한 연 이자율</dd></div>
+              <div className="basis-row"><dt>기간</dt><dd>일 / 개월 / 년 ({DEPOSIT_INTEREST_CONFIG.dayCountConvention.text})</dd></div>
+              <div className="basis-row"><dt>이자 방식</dt><dd>단리 / 복리 (매년·매월·매일)</dd></div>
+              <div className="basis-row"><dt>과세조건</dt><dd>사용자가 선택한 기준 (일반과세 {TAX_PCT}, 비과세, 직접 입력)</dd></div>
+              <div className="basis-row"><dt>기본 가정</dt><dd>
+                <ul className="plain-list"><li>입력 금리가 만기까지 동일</li><li>중도해지 없음, 추가 입금 없음</li><li>상품별 특별조건 미반영</li><li>세전 이자는 원 미만, 세금은 10원 미만 절사</li></ul>
+              </dd></div>
+              <div className="basis-row">
+                <dt>세율 출처</dt>
+                <dd>
+                  <ul className="source-list">
+                    {INTEREST_TAX_CONFIG.officialSources.map((x) => (
+                      <li key={x.name}>
+                        <a className="source-link" href={x.url} target="_blank" rel="noopener noreferrer">
+                          <span><span className="src-name">{x.name}</span><span className="src-desc">{x.desc}</span></span>
+                          <Icon name="external" size={18} /><span className="sr-only">(새 탭에서 열림)</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </dd>
+              </div>
+              <div className="basis-row"><dt>마지막 업데이트</dt><dd><time dateTime={PAGE.updatedAt.replace(/\./g, "-")}>{PAGE.updatedAt}</time></dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function RelatedArticles() {
+  if (!RELATED_ARTICLES.length) return null;
+  return (
+    <section className="section" aria-labelledby="articles-title">
+      <div className="container">
+        <SectionHead id="articles-title" title="같이 보면 좋은 생활정보" moreHref="/guide" moreLabel="생활정보 전체보기" />
+        <ul className="article-grid">
+          {RELATED_ARTICLES.map((a) => <li key={a.id}><ArticleCard article={a} /></li>)}
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+/* =========================================================
+   18. Structured data + App
+   ========================================================= */
+function useStructuredData() { /* 구조화 데이터(WebApplication·BreadcrumbList)는 <head>에 정적으로 넣었어요. Google FAQ 리치결과 종료(2026)로 FAQPage는 쓰지 않고, 화면의 FAQ만 유지해요. */ }
+
+function App() {
+  useStructuredData();
+  return (
+    <>
+      <a className="skip-link" href="#calculator">계산기로 바로가기</a>
+      <Header />
+      <main id="main">
+        <Breadcrumb />
+        <PageHead />
+        <DepositCalculator />
+        <AdSlot id="after-result" label="계산 결과·비교 이후" />
+        <RelatedCalculators />
+        <GuideSection />
+        <FaqSection />
+        <AdSlot id="after-faq" label="FAQ 이후" />
+        <BasisSection />
+        <RelatedArticles />
+      </main>
+      <Footer />
+      <Toast />
+    </>
+  );
+}
+
 ReactDOM.createRoot(document.getElementById("root")).render(<App />);
 
 </script>
