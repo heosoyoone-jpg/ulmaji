@@ -1,0 +1,8 @@
+# 예전 주소 → 정식 주소 (301)
+/calculators/annual-net-salary  /calculators/annual-salary-net-pay  301
+/calculators/interest  /calculators/compound-interest  301
+/index.html  /  301
+
+# www → non-www 는 호스팅의 도메인 설정에서 301로 지정하세요.
+# (Netlify에서는 아래 줄의 # 를 지우면 적용돼요. Cloudflare Pages는 _redirects에서 도메인 단위 규칙을 지원하지 않아요.)
+# https://www.ulmaji.kr/*  https://ulmaji.kr/:splat  301!
