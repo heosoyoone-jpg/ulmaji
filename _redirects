@@ -3,6 +3,60 @@
 /calculators/interest  /calculators/compound-interest  301
 /index.html  /  301
 
+# 2026-09-27 업로드 때 루트에 잘못 올라간 중복 페이지 → 정식 주소 (301)
+/84sqm-to-pyeong  /guide/84sqm-to-pyeong  301
+/acquisition-tax  /calculators/acquisition-tax  301
+/annual-leave  /calculators/annual-leave  301
+/annual-salary-net-pay  /calculators/annual-salary-net-pay  301
+/brokerage-fee  /calculators/brokerage-fee  301
+/capital-gains-tax  /calculators/capital-gains-tax  301
+/child-allowance  /calculators/child-allowance  301
+/compound-interest  /calculators/compound-interest  301
+/comprehensive-income-tax  /calculators/comprehensive-income-tax  301
+/deposit-interest  /calculators/deposit-interest  301
+/dsr  /calculators/dsr  301
+/freelancer-3-3-withholding  /guide/freelancer-3-3-withholding  301
+/freelancer-withholding  /calculators/freelancer-withholding  301
+/gift-tax  /calculators/gift-tax  301
+/gift-tax-from-parents  /guide/gift-tax-from-parents  301
+/home-acquisition-tax  /guide/home-acquisition-tax  301
+/hourly-monthly-wage  /calculators/hourly-monthly-wage  301
+/housing-subscription-score  /guide/housing-subscription-score  301
+/inheritance-tax  /calculators/inheritance-tax  301
+/jeonse-to-monthly-rent  /guide/jeonse-to-monthly-rent  301
+/loan-100m-monthly-interest  /guide/loan-100m-monthly-interest  301
+/loan-interest  /calculators/loan-interest  301
+/loan-repayment  /calculators/loan-repayment  301
+/loan-repayment-methods  /guide/loan-repayment-methods  301
+/ltv  /calculators/ltv  301
+/maternity-leave-benefit  /guide/maternity-leave-benefit  301
+/maternity-leave-pay  /calculators/maternity-leave-pay  301
+/minimum-wage-2027-monthly  /guide/minimum-wage-2027-monthly  301
+/monthly-savings-500k  /guide/monthly-savings-500k  301
+/net-salary  /calculators/net-salary  301
+/night-pay-hours  /guide/night-pay-hours  301
+/night-work-pay  /calculators/night-work-pay  301
+/parental-leave  /calculators/parental-leave  301
+/parental-leave-benefit  /guide/parental-leave-benefit  301
+/parent-benefit  /guide/parent-benefit  301
+/percentage  /calculators/percentage  301
+/pyeong  /calculators/pyeong  301
+/real-estate-brokerage-fee  /guide/real-estate-brokerage-fee  301
+/rent-conversion  /calculators/rent-conversion  301
+/savings-goal  /calculators/savings-goal  301
+/savings-interest  /calculators/savings-interest  301
+/severance-pay  /calculators/severance-pay  301
+/severance-pay-eligibility  /guide/severance-pay-eligibility  301
+/simple-vs-compound-interest  /guide/simple-vs-compound-interest  301
+/unemployment-benefit  /calculators/unemployment-benefit  301
+/unemployment-benefit-duration  /guide/unemployment-benefit-duration  301
+/vat  /calculators/vat  301
+/vat-included-excluded  /guide/vat-included-excluded  301
+/weekly-holiday-pay  /calculators/weekly-holiday-pay  301
+/weekly-holiday-pay-15-hours  /guide/weekly-holiday-pay-15-hours  301
+/work-hours  /calculators/work-hours  301
+/year-end-tax  /calculators/year-end-tax  301
+
 # www → non-www 는 호스팅의 도메인 설정에서 301로 지정하세요.
 # (Netlify에서는 아래 줄의 # 를 지우면 적용돼요. Cloudflare Pages는 _redirects에서 도메인 단위 규칙을 지원하지 않아요.)
 # https://www.ulmaji.kr/*  https://ulmaji.kr/:splat  301!
