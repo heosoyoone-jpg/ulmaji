@@ -12,7 +12,7 @@ const stripTags = (value) => value.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').
 const decodeEntities = (value) => value.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'");
 const meta = (html, name) => html.match(new RegExp("<meta\\s+name=[\\\"']" + name + "[\\\"']\\s+content=[\\\"']([^\\\"']*)[\\\"']", 'i'))?.[1] ?? '';
 const canonical = (html) => html.match(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']/i)?.[1] ?? '';
-const title = (html) => decodeEntities(stripTags(html.match(/<title>([\s\S]*?)<\/title>/i)?.[1] ?? '')).replace(/\s*-\s*얼마지\?\s*$/, '').trim();
+const title = (html) => decodeEntities(stripTags(html.match(/<title>([\s\S]*?)<\/title>/i)?.[1] ?? '')).replace(/\s*[-|]\s*얼마지(?:\s+생활계산기)?\?*\s*$/, '').trim();
 const sitemapText = await readFile(SITEMAP, 'utf8');
 const dates = new Map([...sitemapText.matchAll(/<url>[\s\S]*?<loc>([^<]+)<\/loc>[\s\S]*?(?:<lastmod>([^<]+)<\/lastmod>)?[\s\S]*?<\/url>/g)].map((match) => [match[1], match[2] || '']));
 const sitemapOrder = [...dates.keys()];
@@ -40,6 +40,6 @@ const items = sitemapOrder.filter((url) => byCanonical.has(url)).map((url) => {
 });
 const home = await readFile(path.join(ROOT, 'index.html'), 'utf8');
 const channelDescription = decodeEntities(meta(home, 'description'));
-const xml = ['<?xml version="1.0" encoding="UTF-8"?>', '<rss version="2.0">', '  <channel>', '    <title>얼마지?</title>', '    <link>' + SITE + '/</link>', '    <description>' + escapeXml(channelDescription) + '</description>', '    <language>ko</language>', ...items, '  </channel>', '</rss>', ''].join('\n');
+const xml = ['<?xml version="1.0" encoding="UTF-8"?>', '<rss version="2.0">', '  <channel>', '    <title>얼마지 생활계산기</title>', '    <link>' + SITE + '/</link>', '    <description>' + escapeXml(channelDescription) + '</description>', '    <language>ko</language>', ...items, '  </channel>', '</rss>', ''].join('\n');
 await writeFile(OUT, xml);
 console.log('Wrote ' + items.length + ' RSS items to ' + OUT);
