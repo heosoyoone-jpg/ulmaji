@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>얼마지?</title>
+    <title>얼마지 생활계산기</title>
     <link>https://ulmaji.kr/</link>
     <description>월급, 수당, 세금, 대출, 부동산, 육아·복지까지 생활에 필요한 계산을 간편하게 확인하세요. 계산 기준과 공식 출처도 함께 확인할 수 있습니다.</description>
     <language>ko</language>
@@ -195,7 +195,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>프리랜서 3.3% 계산기 | 원천징수·실수령액 계산</title>
+      <title>3.3 계산기 | 프리랜서 원천징수·실수령액 계산</title>
       <link>https://ulmaji.kr/calculators/freelancer-withholding</link>
       <guid isPermaLink="true">https://ulmaji.kr/calculators/freelancer-withholding</guid>
       <description>프리랜서 3.3% 원천징수 후 실제 받는 금액을 계산해요. 지급액을 넣으면 소득세 3%·지방소득세 0.3%와 실수령액을, 받은 금액을 넣으면 공제 전 금액을 거꾸로 알려드려요.</description>
@@ -244,140 +244,140 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>주 15시간 일하면 주휴수당은 얼마일까? | 얼마지?</title>
+      <title>주 15시간 일하면 주휴수당은 얼마일까?</title>
       <link>https://ulmaji.kr/guide/weekly-holiday-pay-15-hours</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/weekly-holiday-pay-15-hours</guid>
       <description>1주 소정근로시간이 15시간 이상이면 주휴수당이 생겨요. 15시간 기준을 어떻게 세는지, 시급과 근무시간으로 주휴수당을 계산하는 방법을 예시로 정리했어요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>2027 최저임금으로 월급을 계산하면? | 얼마지?</title>
+      <title>2027 최저임금으로 월급을 계산하면?</title>
       <link>https://ulmaji.kr/guide/minimum-wage-2027-monthly</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/minimum-wage-2027-monthly</guid>
       <description>2027년 최저임금 시급 10,700원을 주 40시간 기준 월 209시간으로 환산하면 월 2,236,300원이에요. 일급·월급 환산법과 세전·실수령액의 차이를 정리했어요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>퇴직금은 언제부터 받을 수 있을까? | 얼마지?</title>
+      <title>퇴직금은 언제부터 받을 수 있을까?</title>
       <link>https://ulmaji.kr/guide/severance-pay-eligibility</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/severance-pay-eligibility</guid>
       <description>계속근로기간 1년 이상, 4주 평균 주 15시간 이상이면 퇴직금을 받을 수 있어요. 퇴직금 조건을 따지는 방법과 평균임금으로 퇴직금을 계산하는 방식을 정리했어요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>야간수당은 몇 시부터 적용될까? | 얼마지?</title>
+      <title>야간수당은 몇 시부터 적용될까?</title>
       <link>https://ulmaji.kr/guide/night-pay-hours</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/night-pay-hours</guid>
       <description>야간근로는 밤 10시부터 다음 날 오전 6시까지 일한 시간이에요. 통상임금 50% 가산이 붙는 기준과 연장근로와 겹칠 때의 계산, 5인 미만 사업장 예외를 정리했어요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>대출 1억 받으면 한 달 이자는 얼마일까? | 얼마지?</title>
+      <title>대출 1억 받으면 한 달 이자는 얼마일까?</title>
       <link>https://ulmaji.kr/guide/loan-100m-monthly-interest</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/loan-100m-monthly-interest</guid>
       <description>대출 1억원의 첫 달 이자는 1억원 × 연 금리 ÷ 12로 계산해요. 연 3%·4%·5%일 때 월 이자와 30년 원리금균등 상환 예시, 실제 이자가 달라지는 이유를 정리했어요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>원리금균등·원금균등, 매달 얼마씩 갚을까? | 얼마지?</title>
+      <title>원리금균등·원금균등, 매달 얼마씩 갚을까?</title>
       <link>https://ulmaji.kr/guide/loan-repayment-methods</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/loan-repayment-methods</guid>
       <description>원리금균등은 매달 같은 금액을, 원금균등은 매달 같은 원금을 갚아요. 1억원·연 4%·10년 예시로 월 납입액과 총이자 차이, 나에게 맞는 상환방식 고르는 법을 정리했어요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>적금 월 50만원씩 넣으면 만기 얼마일까? | 얼마지?</title>
+      <title>적금 월 50만원씩 넣으면 만기 얼마일까?</title>
       <link>https://ulmaji.kr/guide/monthly-savings-500k</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/monthly-savings-500k</guid>
       <description>월 50만원씩 연 3.5% 1년 적금에 넣으면 원금 600만원에 세전 이자 113,750원, 이자소득세 15.4%를 떼면 만기 수령액은 6,096,240원이에요. 적금 이자 계산법을 정리했어요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>단리와 복리, 실제 이자는 얼마나 차이 날까? | 얼마지?</title>
+      <title>단리와 복리, 실제 이자는 얼마나 차이 날까?</title>
       <link>https://ulmaji.kr/guide/simple-vs-compound-interest</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/simple-vs-compound-interest</guid>
       <description>단리는 원금에만, 복리는 이자에도 다시 이자가 붙어요. 1,000만원을 연 4%로 5년·10년·20년 두었을 때 단리와 복리 차이, 복리 주기에 따른 차이를 정리했어요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>전세를 월세로 바꾸면 얼마가 적당할까? | 얼마지?</title>
+      <title>전세를 월세로 바꾸면 얼마가 적당할까?</title>
       <link>https://ulmaji.kr/guide/jeonse-to-monthly-rent</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/jeonse-to-monthly-rent</guid>
       <description>계약 중이나 갱신 때 전세보증금을 월세로 바꾸면 전환율 상한은 연 10%와 기준금리+2% 중 낮은 쪽이에요. 2026년 9월 기준 상한 연 5.0%로 월세를 계산하는 방법을 정리했어요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>부동산 중개수수료는 얼마까지 내야 할까? | 얼마지?</title>
+      <title>부동산 중개수수료는 얼마까지 내야 할까?</title>
       <link>https://ulmaji.kr/guide/real-estate-brokerage-fee</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/real-estate-brokerage-fee</guid>
       <description>주택 중개수수료(중개보수)는 거래금액 × 상한요율 안에서 협의해 정해요. 매매·전세·월세별 상한요율과 한도액, 월세 거래금액 계산법과 부가세를 예시로 정리했어요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>아파트 84㎡는 몇 평일까? | 얼마지?</title>
+      <title>아파트 84㎡는 몇 평일까?</title>
       <link>https://ulmaji.kr/guide/84sqm-to-pyeong</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/84sqm-to-pyeong</guid>
       <description>아파트 전용면적 84㎡는 25.41평이에요. 흔히 34평형이라 부르는 이유(공급면적 기준), ㎡를 평으로 바꾸는 정확한 계산법과 어림셈의 차이를 정리했어요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>내 청약가점은 몇 점일까? | 얼마지?</title>
+      <title>내 청약가점은 몇 점일까?</title>
       <link>https://ulmaji.kr/guide/housing-subscription-score</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/housing-subscription-score</guid>
       <description>청약가점은 무주택기간 32점, 부양가족 35점, 청약통장 가입기간 17점을 더한 84점 만점이에요. 항목별 점수표와 계산 예시, 배우자 통장기간 합산 기준을 정리했어요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>프리랜서 3.3% 떼면 실제 얼마 받을까? | 얼마지?</title>
+      <title>프리랜서 3.3% 떼면 실제 얼마 받을까?</title>
       <link>https://ulmaji.kr/guide/freelancer-3-3-withholding</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/freelancer-3-3-withholding</guid>
       <description>프리랜서(인적용역 사업소득)는 지급액에서 소득세 3%와 지방소득세 0.3%를 뗀 금액을 받아요. 100만원이면 967,000원이에요. 실수령액 계산법과 5월 종합소득세 정산을 정리했어요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>부가세 포함·별도 금액은 어떻게 계산할까? | 얼마지?</title>
+      <title>부가세 포함·별도 금액은 어떻게 계산할까?</title>
       <link>https://ulmaji.kr/guide/vat-included-excluded</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/vat-included-excluded</guid>
       <description>부가세 별도 금액은 1.1을 곱하고, 부가세 포함 금액은 1.1로 나누면 공급가액이 나와요. 부가세만 구할 때 ÷11을 쓰는 이유와 원 단위 처리, 자주 하는 실수를 정리했어요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>집을 사면 취득세는 얼마나 나올까? | 얼마지?</title>
+      <title>집을 사면 취득세는 얼마나 나올까?</title>
       <link>https://ulmaji.kr/guide/home-acquisition-tax</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/home-acquisition-tax</guid>
       <description>집을 사면 취득세는 6억원 이하 1%, 9억원 초과 3%, 그 사이는 가격에 따라 올라가요. 지방교육세·농어촌특별세, 다주택 중과, 생애최초 감면 기준을 예시로 정리했어요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>부모님께 돈을 받으면 증여세는 얼마나 나올까? | 얼마지?</title>
+      <title>부모님께 돈을 받으면 증여세는 얼마나 나올까?</title>
       <link>https://ulmaji.kr/guide/gift-tax-from-parents</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/gift-tax-from-parents</guid>
       <description>성인 자녀는 부모님께 10년간 5천만원까지 증여세 없이 받을 수 있어요(미성년 2천만원). 증여재산공제와 세율표, 혼인·출산 공제, 금액별 예상 증여세를 정리했어요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>육아휴직하면 매달 얼마 받을 수 있을까? | 얼마지?</title>
+      <title>육아휴직하면 매달 얼마 받을 수 있을까?</title>
       <link>https://ulmaji.kr/guide/parental-leave-benefit</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/parental-leave-benefit</guid>
       <description>2026년 육아휴직급여는 1~3개월 월 최대 250만원, 4~6개월 200만원, 7개월부터 160만원이에요. 통상임금별 월 급여와 1년 총액, 6+6 부모육아휴직제와 신청 조건을 정리했어요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>출산전후휴가 기간에는 얼마를 받을까? | 얼마지?</title>
+      <title>출산전후휴가 기간에는 얼마를 받을까?</title>
       <link>https://ulmaji.kr/guide/maternity-leave-benefit</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/maternity-leave-benefit</guid>
       <description>출산전후휴가는 90일(다태아 120일)이고, 2026년 고용보험 급여 상한은 30일 기준 220만원이에요. 대기업과 우선지원대상기업의 지급 방식 차이와 통상임금별 예시를 정리했어요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>부모급여는 몇 살까지 얼마 받을까? | 얼마지?</title>
+      <title>부모급여는 몇 살까지 얼마 받을까?</title>
       <link>https://ulmaji.kr/guide/parent-benefit</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/parent-benefit</guid>
       <description>부모급여는 태어난 달부터 생후 23개월까지 받아요. 2026년 기준 0세 월 100만원, 1세 월 50만원이고, 어린이집을 이용하면 보육료를 뺀 차액을 현금으로 받아요.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>실업급여는 몇 개월 동안 얼마 받을 수 있을까? | 얼마지?</title>
+      <title>실업급여는 몇 개월 동안 얼마 받을 수 있을까?</title>
       <link>https://ulmaji.kr/guide/unemployment-benefit-duration</link>
       <guid isPermaLink="true">https://ulmaji.kr/guide/unemployment-benefit-duration</guid>
       <description>실업급여(구직급여)는 가입기간과 나이에 따라 120~270일 받아요. 2026년 이직자 기준 하루 상한 68,100원, 하한 66,048원(8시간 기준)으로 받을 금액을 계산하는 법을 정리했어요.</description>
